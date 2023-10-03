@@ -65,8 +65,8 @@
   (pad "2" smd rect (at 2.95 1.35) (size 2.1 1.7) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 84bb4d6c-382a-4711-8a52-d1ca54c15e33))
   (pad "3" smd rect (at 2.95 -1.35) (size 2.1 1.7) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 680daf4e-3fc1-4432-b836-4a6def67e70e))
   (pad "4" smd rect (at -2.95 -1.35) (size 2.1 1.7) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 713cbf39-921e-48ad-b4c9-c306c9d0f9d7))
-  (model "../Libraries/STEP/./Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering.wrl"
-    (offset (xyz 2 2 2))
+  (model "../Libraries/STEP/Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering.step"
+    (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
