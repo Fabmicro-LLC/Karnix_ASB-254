@@ -1637,7 +1637,7 @@
   (symbol (lib_id "Fabmicro:Resistor") (at 202.565 123.317 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 10b2a212-8e81-4f0f-8b16-95e3dd3c4d87)
-    (property "Reference" "R102" (at 198.755 120.777 0)
+    (property "Reference" "R181" (at 198.755 120.777 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22R/1%" (at 205.105 120.777 0)
@@ -1658,11 +1658,6 @@
     (pin "1" (uuid dd97872c-ca73-471a-91b7-8cca6e97dbb3))
     (pin "2" (uuid 0b4b6de4-b3fc-45ec-b784-e178ff1d3adc))
     (instances
-      (project "SIP_HomePhone"
-        (path "/1f1efc58-1a2e-4658-b2ac-cf03134c8a7b/00000000-0000-0000-0000-00005ddd7833"
-          (reference "R102") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/af986742-b82e-4f48-bf7e-cdfbb60b3231"
           (reference "R181") (unit 1)
@@ -1674,7 +1669,7 @@
   (symbol (lib_id "power:GND") (at 174.625 156.337 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 13a90aee-8798-4b44-bc5a-1283b27ea4c2)
-    (property "Reference" "#PWR0209" (at 174.625 162.687 0)
+    (property "Reference" "#PWR0249" (at 174.625 162.687 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 174.625 160.147 0)
@@ -1688,11 +1683,6 @@
     )
     (pin "1" (uuid 5d397f85-0bd5-4aa6-9eb2-cc9a2506269f))
     (instances
-      (project "SIP_HomePhone"
-        (path "/1f1efc58-1a2e-4658-b2ac-cf03134c8a7b/00000000-0000-0000-0000-00005ddd7833"
-          (reference "#PWR0209") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/af986742-b82e-4f48-bf7e-cdfbb60b3231"
           (reference "#PWR0249") (unit 1)
@@ -1704,7 +1694,7 @@
   (symbol (lib_id "Fabmicro:Crystal") (at 182.245 146.177 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 24f9a04b-979d-4d41-aa62-9c25859ec9fa)
-    (property "Reference" "Q4" (at 182.245 142.367 0)
+    (property "Reference" "Y1" (at 182.245 142.367 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "6MHz" (at 182.245 149.987 0)
@@ -1724,11 +1714,6 @@
     (pin "3" (uuid d44ff9d2-f021-4005-a20f-b13008e89249))
     (pin "4" (uuid c2189f96-0e41-4f1e-8f27-0bc639ca1054))
     (instances
-      (project "SIP_HomePhone"
-        (path "/1f1efc58-1a2e-4658-b2ac-cf03134c8a7b/00000000-0000-0000-0000-00005ddd7833"
-          (reference "Q4") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/af986742-b82e-4f48-bf7e-cdfbb60b3231"
           (reference "Y1") (unit 1)
@@ -1740,7 +1725,7 @@
   (symbol (lib_id "Fabmicro:Resistor") (at 296.037 126.238 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 260e69a2-7dfb-40a9-8483-e286e64f19b8)
-    (property "Reference" "R108" (at 292.227 123.698 0)
+    (property "Reference" "R171" (at 292.227 123.698 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K/1%" (at 298.577 123.698 0)
@@ -1761,11 +1746,6 @@
     (pin "1" (uuid 69167348-de9d-4112-a2a5-d8c4c9690fce))
     (pin "2" (uuid 6379cd1b-c1e8-48b2-acb9-1021b4f7be39))
     (instances
-      (project "SIP_HomePhone"
-        (path "/1f1efc58-1a2e-4658-b2ac-cf03134c8a7b/00000000-0000-0000-0000-00005ddd7833"
-          (reference "R108") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/af986742-b82e-4f48-bf7e-cdfbb60b3231"
           (reference "R171") (unit 1)
@@ -1805,7 +1785,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 179.705 82.677 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2bcacdd6-3ed9-4545-a866-5f22d2559dc2)
-    (property "Reference" "#FLG017" (at 179.705 80.772 0)
+    (property "Reference" "#FLG09" (at 179.705 80.772 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 179.705 78.2828 0)
@@ -1819,11 +1799,6 @@
     )
     (pin "1" (uuid a99bf0f2-11b7-45b1-a40b-5d9d488b7210))
     (instances
-      (project "SIP_HomePhone"
-        (path "/1f1efc58-1a2e-4658-b2ac-cf03134c8a7b/00000000-0000-0000-0000-00005ddd7833"
-          (reference "#FLG017") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/af986742-b82e-4f48-bf7e-cdfbb60b3231"
           (reference "#FLG09") (unit 1)
@@ -1835,7 +1810,7 @@
   (symbol (lib_id "Fabmicro:Resistor") (at 207.645 80.137 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 34a1a43e-ee77-45ab-b25a-616d8ded06be)
-    (property "Reference" "R103" (at 206.375 77.597 0)
+    (property "Reference" "R178" (at 206.375 77.597 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "510R/1%" (at 206.375 82.677 0)
@@ -1856,11 +1831,6 @@
     (pin "1" (uuid b80c0341-73ff-4ad9-b733-fb63077cdf2d))
     (pin "2" (uuid d5fd7b20-0fae-4d87-a104-e7772b930109))
     (instances
-      (project "SIP_HomePhone"
-        (path "/1f1efc58-1a2e-4658-b2ac-cf03134c8a7b/00000000-0000-0000-0000-00005ddd7833"
-          (reference "R103") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/af986742-b82e-4f48-bf7e-cdfbb60b3231"
           (reference "R178") (unit 1)
@@ -1872,7 +1842,7 @@
   (symbol (lib_id "Fabmicro:Resistor") (at 202.565 118.237 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3f21e5b2-a5ba-4ddd-9351-cc08c087c235)
-    (property "Reference" "R101" (at 198.755 115.697 0)
+    (property "Reference" "R180" (at 198.755 115.697 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22R/1%" (at 205.105 115.697 0)
@@ -1893,11 +1863,6 @@
     (pin "1" (uuid 871e7ce0-6ee9-40d7-9499-f973c9861b2f))
     (pin "2" (uuid 3af55c6a-db39-45e7-a669-5663d56c3330))
     (instances
-      (project "SIP_HomePhone"
-        (path "/1f1efc58-1a2e-4658-b2ac-cf03134c8a7b/00000000-0000-0000-0000-00005ddd7833"
-          (reference "R101") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/af986742-b82e-4f48-bf7e-cdfbb60b3231"
           (reference "R180") (unit 1)
@@ -1909,7 +1874,7 @@
   (symbol (lib_id "Connector:USB_C_Receptacle_USB2.0") (at 89.7729 121.8579 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5620cf70-bc95-44eb-9e86-d7689c8fe2b3)
-    (property "Reference" "J3" (at 92.4907 99.8361 0)
+    (property "Reference" "J1" (at 92.4907 99.8361 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "USB_C_Receptacle_USB2.0" (at 92.4907 102.1475 0)
@@ -1945,11 +1910,6 @@
     (pin "B9" (uuid 078cbcd1-d586-46d4-889f-97d1b86c1df5))
     (pin "S1" (uuid c320c94b-f8ce-4b05-add5-d32141b0f854))
     (instances
-      (project "OrangeCrab"
-        (path "/5eda1521-676f-4b92-8088-5ae4a9871c7e/00000000-0000-0000-0000-00005abc9a87"
-          (reference "J3") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/af986742-b82e-4f48-bf7e-cdfbb60b3231"
           (reference "J1") (unit 1)
@@ -1961,7 +1921,7 @@
   (symbol (lib_id "Fabmicro:CapacitorUnpolarized") (at 189.865 151.257 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 583d1b73-427e-498b-8319-336c7b15ed4e)
-    (property "Reference" "C123" (at 192.786 150.0886 90)
+    (property "Reference" "C102" (at 192.786 150.0886 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "27pF/50V" (at 192.786 152.4 90)
@@ -1982,11 +1942,6 @@
     (pin "1" (uuid c6fc7167-5487-4cba-a081-4cbb85231cfa))
     (pin "2" (uuid 8c71a5b6-fe21-4763-9b21-700d369616b7))
     (instances
-      (project "SIP_HomePhone"
-        (path "/1f1efc58-1a2e-4658-b2ac-cf03134c8a7b/00000000-0000-0000-0000-00005ddd7833"
-          (reference "C123") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/af986742-b82e-4f48-bf7e-cdfbb60b3231"
           (reference "C102") (unit 1)
@@ -1998,7 +1953,7 @@
   (symbol (lib_id "Fabmicro:CapacitorUnpolarized") (at 200.025 92.837 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5e3bea89-830a-4235-ba98-3c2f8f327749)
-    (property "Reference" "C124" (at 201.295 90.297 90)
+    (property "Reference" "C96" (at 201.295 90.297 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF/50V" (at 201.295 95.377 90)
@@ -2019,11 +1974,6 @@
     (pin "1" (uuid 6794a464-0707-4a18-9c33-ffddc3a47587))
     (pin "2" (uuid d43ecca9-6228-4fcd-9091-6d8288679279))
     (instances
-      (project "SIP_HomePhone"
-        (path "/1f1efc58-1a2e-4658-b2ac-cf03134c8a7b/00000000-0000-0000-0000-00005ddd7833"
-          (reference "C124") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/af986742-b82e-4f48-bf7e-cdfbb60b3231"
           (reference "C96") (unit 1)
@@ -2066,7 +2016,7 @@
   (symbol (lib_id "power:GND") (at 240.665 171.577 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 67aeddd5-e5ef-4861-b4e1-ff311b82825e)
-    (property "Reference" "#PWR0218" (at 240.665 177.927 0)
+    (property "Reference" "#PWR0251" (at 240.665 177.927 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 240.665 175.387 0)
@@ -2080,11 +2030,6 @@
     )
     (pin "1" (uuid 2bfa8573-1261-4761-87c1-e954b2cd88aa))
     (instances
-      (project "SIP_HomePhone"
-        (path "/1f1efc58-1a2e-4658-b2ac-cf03134c8a7b/00000000-0000-0000-0000-00005ddd7833"
-          (reference "#PWR0218") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/af986742-b82e-4f48-bf7e-cdfbb60b3231"
           (reference "#PWR0251") (unit 1)
@@ -2096,7 +2041,7 @@
   (symbol (lib_id "power:GND") (at 189.865 97.917 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 69214c60-16ac-41e3-8c28-ccf768484493)
-    (property "Reference" "#PWR0211" (at 189.865 104.267 0)
+    (property "Reference" "#PWR0242" (at 189.865 104.267 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 189.865 101.727 0)
@@ -2110,11 +2055,6 @@
     )
     (pin "1" (uuid 69703458-fdee-4d73-af06-41a2110153ab))
     (instances
-      (project "SIP_HomePhone"
-        (path "/1f1efc58-1a2e-4658-b2ac-cf03134c8a7b/00000000-0000-0000-0000-00005ddd7833"
-          (reference "#PWR0211") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/af986742-b82e-4f48-bf7e-cdfbb60b3231"
           (reference "#PWR0242") (unit 1)
@@ -2126,7 +2066,7 @@
   (symbol (lib_id "Fabmicro:CapacitorUnpolarized") (at 210.185 92.837 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6e38f636-6b5c-40cf-ba6b-a66049b12ee0)
-    (property "Reference" "C125" (at 211.455 90.297 90)
+    (property "Reference" "C97" (at 211.455 90.297 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF/50V" (at 211.455 95.377 90)
@@ -2147,11 +2087,6 @@
     (pin "1" (uuid 16b31f03-3ebf-445d-87da-0aabca3d2ba5))
     (pin "2" (uuid cc0ae2f5-1729-43ad-a7b2-1997d574a65c))
     (instances
-      (project "SIP_HomePhone"
-        (path "/1f1efc58-1a2e-4658-b2ac-cf03134c8a7b/00000000-0000-0000-0000-00005ddd7833"
-          (reference "C125") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/af986742-b82e-4f48-bf7e-cdfbb60b3231"
           (reference "C97") (unit 1)
@@ -2163,7 +2098,7 @@
   (symbol (lib_id "Fabmicro:CapacitorUnpolarized") (at 179.705 92.837 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6eef7cc1-37bf-46de-9333-3c9f7b250979)
-    (property "Reference" "C121" (at 180.975 90.297 90)
+    (property "Reference" "C94" (at 180.975 90.297 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF/50V" (at 180.975 95.377 90)
@@ -2184,11 +2119,6 @@
     (pin "1" (uuid c3c3bfb7-1ec4-4d70-9026-b04274a0e1d4))
     (pin "2" (uuid a2b598ab-a577-4e6a-9b33-4f18171bb8d9))
     (instances
-      (project "SIP_HomePhone"
-        (path "/1f1efc58-1a2e-4658-b2ac-cf03134c8a7b/00000000-0000-0000-0000-00005ddd7833"
-          (reference "C121") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/af986742-b82e-4f48-bf7e-cdfbb60b3231"
           (reference "C94") (unit 1)
@@ -2241,7 +2171,7 @@
   (symbol (lib_id "power:GND") (at 189.865 156.337 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8361ebce-ce5f-47cb-8748-cd07caf336ae)
-    (property "Reference" "#PWR0212" (at 189.865 162.687 0)
+    (property "Reference" "#PWR0250" (at 189.865 162.687 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 189.865 160.147 0)
@@ -2255,11 +2185,6 @@
     )
     (pin "1" (uuid 2265348e-6e7b-4ade-b45d-9e55ee6b1843))
     (instances
-      (project "SIP_HomePhone"
-        (path "/1f1efc58-1a2e-4658-b2ac-cf03134c8a7b/00000000-0000-0000-0000-00005ddd7833"
-          (reference "#PWR0212") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/af986742-b82e-4f48-bf7e-cdfbb60b3231"
           (reference "#PWR0250") (unit 1)
@@ -2299,7 +2224,7 @@
   (symbol (lib_id "Fabmicro:Resistor") (at 286.385 113.157 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 93b0a080-2103-4a62-9866-ecdb3b293974)
-    (property "Reference" "R107" (at 282.575 110.617 0)
+    (property "Reference" "R179" (at 282.575 110.617 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K/1%" (at 288.925 110.617 0)
@@ -2320,11 +2245,6 @@
     (pin "1" (uuid 041c60c3-695f-4b53-8594-3e24060ee9b3))
     (pin "2" (uuid a23bb17b-1c65-4948-a7dc-ad420146608a))
     (instances
-      (project "SIP_HomePhone"
-        (path "/1f1efc58-1a2e-4658-b2ac-cf03134c8a7b/00000000-0000-0000-0000-00005ddd7833"
-          (reference "R107") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/af986742-b82e-4f48-bf7e-cdfbb60b3231"
           (reference "R179") (unit 1)
@@ -2336,7 +2256,7 @@
   (symbol (lib_id "power:GND") (at 210.185 97.917 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9c40b592-f4c1-4aef-a927-12c0e062ed29)
-    (property "Reference" "#PWR0214" (at 210.185 104.267 0)
+    (property "Reference" "#PWR0244" (at 210.185 104.267 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 210.185 101.727 0)
@@ -2350,11 +2270,6 @@
     )
     (pin "1" (uuid 31a2843e-be67-4a76-bd91-7fd53f596319))
     (instances
-      (project "SIP_HomePhone"
-        (path "/1f1efc58-1a2e-4658-b2ac-cf03134c8a7b/00000000-0000-0000-0000-00005ddd7833"
-          (reference "#PWR0214") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/af986742-b82e-4f48-bf7e-cdfbb60b3231"
           (reference "#PWR0244") (unit 1)
@@ -2366,7 +2281,7 @@
   (symbol (lib_id "Fabmicro:CapacitorUnpolarized") (at 189.865 92.837 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a4ee9ae8-00c4-4412-b19f-de044c655f5d)
-    (property "Reference" "C122" (at 191.135 90.297 90)
+    (property "Reference" "C95" (at 191.135 90.297 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF/50V" (at 191.135 95.377 90)
@@ -2387,11 +2302,6 @@
     (pin "1" (uuid 391162ed-9df1-49b8-b806-11a6659b6d8a))
     (pin "2" (uuid 17ee4dfc-d363-4084-ac94-502ffdbec135))
     (instances
-      (project "SIP_HomePhone"
-        (path "/1f1efc58-1a2e-4658-b2ac-cf03134c8a7b/00000000-0000-0000-0000-00005ddd7833"
-          (reference "C122") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/af986742-b82e-4f48-bf7e-cdfbb60b3231"
           (reference "C95") (unit 1)
@@ -2403,7 +2313,7 @@
   (symbol (lib_id "Fabmicro:CapacitorUnpolarized") (at 220.345 92.837 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a80420c4-a4e0-4d53-ba3b-1ec578c89070)
-    (property "Reference" "C126" (at 221.615 90.297 90)
+    (property "Reference" "C98" (at 221.615 90.297 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF/50V" (at 221.615 95.377 90)
@@ -2424,11 +2334,6 @@
     (pin "1" (uuid dddf6ec3-fbcf-45a2-82ba-920b365758ec))
     (pin "2" (uuid ed86b320-475b-4eb3-a703-9aaf1dda0acf))
     (instances
-      (project "SIP_HomePhone"
-        (path "/1f1efc58-1a2e-4658-b2ac-cf03134c8a7b/00000000-0000-0000-0000-00005ddd7833"
-          (reference "C126") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/af986742-b82e-4f48-bf7e-cdfbb60b3231"
           (reference "C98") (unit 1)
@@ -2440,7 +2345,7 @@
   (symbol (lib_id "power:GND") (at 220.345 97.917 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ab976ff0-938f-458a-b3b4-fe4fb252ef8d)
-    (property "Reference" "#PWR0216" (at 220.345 104.267 0)
+    (property "Reference" "#PWR0245" (at 220.345 104.267 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 220.345 101.727 0)
@@ -2454,11 +2359,6 @@
     )
     (pin "1" (uuid fc7989a7-c621-4ba9-8cfd-b98c67e2f551))
     (instances
-      (project "SIP_HomePhone"
-        (path "/1f1efc58-1a2e-4658-b2ac-cf03134c8a7b/00000000-0000-0000-0000-00005ddd7833"
-          (reference "#PWR0216") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/af986742-b82e-4f48-bf7e-cdfbb60b3231"
           (reference "#PWR0245") (unit 1)
@@ -2470,7 +2370,7 @@
   (symbol (lib_id "power:GND") (at 200.025 97.917 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b075da7f-495b-4059-bf57-b28193635d63)
-    (property "Reference" "#PWR0213" (at 200.025 104.267 0)
+    (property "Reference" "#PWR0243" (at 200.025 104.267 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 200.025 101.727 0)
@@ -2484,11 +2384,6 @@
     )
     (pin "1" (uuid 3540d488-000a-4ee6-898b-efc01dbab1e3))
     (instances
-      (project "SIP_HomePhone"
-        (path "/1f1efc58-1a2e-4658-b2ac-cf03134c8a7b/00000000-0000-0000-0000-00005ddd7833"
-          (reference "#PWR0213") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/af986742-b82e-4f48-bf7e-cdfbb60b3231"
           (reference "#PWR0243") (unit 1)
@@ -2500,7 +2395,7 @@
   (symbol (lib_id "power:GND") (at 179.705 97.917 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bbbffd5b-6771-4678-8c84-833df7190431)
-    (property "Reference" "#PWR0210" (at 179.705 104.267 0)
+    (property "Reference" "#PWR0241" (at 179.705 104.267 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 179.705 101.727 0)
@@ -2514,11 +2409,6 @@
     )
     (pin "1" (uuid 0b7741f3-4805-4676-8acf-7d17f8b77e1d))
     (instances
-      (project "SIP_HomePhone"
-        (path "/1f1efc58-1a2e-4658-b2ac-cf03134c8a7b/00000000-0000-0000-0000-00005ddd7833"
-          (reference "#PWR0210") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/af986742-b82e-4f48-bf7e-cdfbb60b3231"
           (reference "#PWR0241") (unit 1)
@@ -2530,7 +2420,7 @@
   (symbol (lib_id "Fabmicro:Ferrite_Beads") (at 172.085 85.217 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c91110b3-f986-4cf3-8afb-a1fa762d0544)
-    (property "Reference" "L24" (at 172.085 82.042 0)
+    (property "Reference" "L23" (at 172.085 82.042 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "330R/1.2A" (at 170.18 87.757 0)
@@ -2554,11 +2444,6 @@
     (pin "1" (uuid 60ccb49b-f50f-41ce-8dd1-b5a704722c09))
     (pin "2" (uuid 8f9abb5b-444f-40d6-9757-03fe46a6216b))
     (instances
-      (project "SIP_HomePhone"
-        (path "/1f1efc58-1a2e-4658-b2ac-cf03134c8a7b/00000000-0000-0000-0000-00005ddd7833"
-          (reference "L24") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/af986742-b82e-4f48-bf7e-cdfbb60b3231"
           (reference "L23") (unit 1)
@@ -2570,7 +2455,7 @@
   (symbol (lib_id "Fabmicro:Resistor") (at 295.9861 131.262 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c9a2878d-fb94-4373-89b4-b839f9bfe6a4)
-    (property "Reference" "R108" (at 292.1761 128.722 0)
+    (property "Reference" "R172" (at 292.1761 128.722 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K/1%" (at 298.5261 128.722 0)
@@ -2591,11 +2476,6 @@
     (pin "1" (uuid db37f639-2dbf-4ca2-b121-e510231075ae))
     (pin "2" (uuid 6dede1ca-373d-4e25-a31a-a7c6b266fbb7))
     (instances
-      (project "SIP_HomePhone"
-        (path "/1f1efc58-1a2e-4658-b2ac-cf03134c8a7b/00000000-0000-0000-0000-00005ddd7833"
-          (reference "R108") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/af986742-b82e-4f48-bf7e-cdfbb60b3231"
           (reference "R172") (unit 1)
@@ -2607,7 +2487,7 @@
   (symbol (lib_id "Fabmicro:CapacitorUnpolarized") (at 174.625 151.257 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cbf810c9-55bc-4480-8973-a452d36d0ac7)
-    (property "Reference" "C120" (at 171.704 150.0886 90)
+    (property "Reference" "C101" (at 171.704 150.0886 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "27pF/50V" (at 171.704 152.4 90)
@@ -2628,11 +2508,6 @@
     (pin "1" (uuid 8e6bd220-230d-4bb9-a372-1b048a996d2d))
     (pin "2" (uuid 6abaafac-76bd-406d-bec8-2fb0e08a83a8))
     (instances
-      (project "SIP_HomePhone"
-        (path "/1f1efc58-1a2e-4658-b2ac-cf03134c8a7b/00000000-0000-0000-0000-00005ddd7833"
-          (reference "C120") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/af986742-b82e-4f48-bf7e-cdfbb60b3231"
           (reference "C101") (unit 1)
@@ -2679,7 +2554,7 @@
   (symbol (lib_id "power:GND") (at 235.585 113.157 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d31a0d8e-5443-49e9-a659-ca60b63e6896)
-    (property "Reference" "#PWR0217" (at 235.585 119.507 0)
+    (property "Reference" "#PWR0248" (at 235.585 119.507 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 235.585 116.967 0)
@@ -2693,11 +2568,6 @@
     )
     (pin "1" (uuid ff9d1aa5-f95f-4630-b509-aaf802535a22))
     (instances
-      (project "SIP_HomePhone"
-        (path "/1f1efc58-1a2e-4658-b2ac-cf03134c8a7b/00000000-0000-0000-0000-00005ddd7833"
-          (reference "#PWR0217") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/af986742-b82e-4f48-bf7e-cdfbb60b3231"
           (reference "#PWR0248") (unit 1)
@@ -2709,7 +2579,7 @@
   (symbol (lib_id "Fabmicro:FT2232D") (at 248.285 77.597 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dc65b866-69ae-4ff3-b9d0-5887fc42cb25)
-    (property "Reference" "U23" (at 260.985 73.3552 0)
+    (property "Reference" "U20" (at 260.985 73.3552 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "FT2232D" (at 260.985 75.6666 0)
@@ -2788,11 +2658,6 @@
     (pin "6" (uuid 8bf16f95-001f-4fdb-aac7-f08132c43fbd))
     (pin "8" (uuid 5054b5fe-da2d-4d1f-9a27-9f3e44622d2a))
     (instances
-      (project "SIP_HomePhone"
-        (path "/1f1efc58-1a2e-4658-b2ac-cf03134c8a7b/00000000-0000-0000-0000-00005ddd7833"
-          (reference "U23") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/af986742-b82e-4f48-bf7e-cdfbb60b3231"
           (reference "U20") (unit 1)
@@ -2873,7 +2738,7 @@
   (symbol (lib_id "Fabmicro:Resistor") (at 286.385 151.257 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e3897d59-6940-4104-b4b7-56cc2fe3de85)
-    (property "Reference" "R108" (at 282.575 148.717 0)
+    (property "Reference" "R183" (at 282.575 148.717 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K/1%" (at 288.925 148.717 0)
@@ -2894,11 +2759,6 @@
     (pin "1" (uuid 616ef73e-37a6-452b-902e-4e6db9ca0c4c))
     (pin "2" (uuid 98890bd9-606e-4c16-b135-b412d7f8facf))
     (instances
-      (project "SIP_HomePhone"
-        (path "/1f1efc58-1a2e-4658-b2ac-cf03134c8a7b/00000000-0000-0000-0000-00005ddd7833"
-          (reference "R108") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/af986742-b82e-4f48-bf7e-cdfbb60b3231"
           (reference "R183") (unit 1)
@@ -2910,7 +2770,7 @@
   (symbol (lib_id "Fabmicro:CapacitorUnpolarized") (at 235.585 102.997 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e517c821-848e-49e1-a25d-3cf28b359be7)
-    (property "Reference" "C127" (at 234.315 100.457 90)
+    (property "Reference" "C99" (at 234.315 100.457 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF/50V" (at 234.315 105.537 90)
@@ -2931,11 +2791,6 @@
     (pin "1" (uuid 59612060-6da3-4502-a875-5f155c181366))
     (pin "2" (uuid e4eb6c4d-ac2f-4bd3-a3aa-1f824550db3e))
     (instances
-      (project "SIP_HomePhone"
-        (path "/1f1efc58-1a2e-4658-b2ac-cf03134c8a7b/00000000-0000-0000-0000-00005ddd7833"
-          (reference "C127") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/af986742-b82e-4f48-bf7e-cdfbb60b3231"
           (reference "C99") (unit 1)
@@ -2947,7 +2802,7 @@
   (symbol (lib_id "power:+5V") (at 164.465 82.677 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e646e075-5931-43b7-8e99-c6161b174fa7)
-    (property "Reference" "#PWR031" (at 164.465 86.487 0)
+    (property "Reference" "#PWR039" (at 164.465 86.487 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 164.465 79.1099 0)
@@ -2961,16 +2816,6 @@
     )
     (pin "1" (uuid 9a8db0c2-14f3-42e8-aeeb-ef72328deb03))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR031") (unit 1)
-        )
-      )
-      (project "Power"
-        (path "/ecd93358-d394-4c7e-b496-f2c7d3a08d3b"
-          (reference "#PWR031") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/00000000-0000-0000-0000-0000602e0fd3"
           (reference "#PWR039") (unit 1)
@@ -2985,7 +2830,7 @@
   (symbol (lib_id "Fabmicro:Resistor") (at 217.805 128.397 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e6c16761-c459-4754-a8c6-1dfc6a700f94)
-    (property "Reference" "R105" (at 213.995 125.857 0)
+    (property "Reference" "R182" (at 213.995 125.857 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1.5K/1%" (at 220.345 125.857 0)
@@ -3006,11 +2851,6 @@
     (pin "1" (uuid 5f546e9c-f396-4c12-b651-1c0814c7ba7e))
     (pin "2" (uuid f641d66b-4e36-470f-ae36-63795dce5cd9))
     (instances
-      (project "SIP_HomePhone"
-        (path "/1f1efc58-1a2e-4658-b2ac-cf03134c8a7b/00000000-0000-0000-0000-00005ddd7833"
-          (reference "R105") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/af986742-b82e-4f48-bf7e-cdfbb60b3231"
           (reference "R182") (unit 1)
@@ -3022,7 +2862,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 220.345 77.597 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e93bb039-b8dc-4ef8-8ed6-fcb2aa79f013)
-    (property "Reference" "#FLG018" (at 220.345 75.692 0)
+    (property "Reference" "#FLG08" (at 220.345 75.692 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 220.345 73.2028 0)
@@ -3036,11 +2876,6 @@
     )
     (pin "1" (uuid 0411cda5-87b3-4bdf-adf6-68cb629751b9))
     (instances
-      (project "SIP_HomePhone"
-        (path "/1f1efc58-1a2e-4658-b2ac-cf03134c8a7b/00000000-0000-0000-0000-00005ddd7833"
-          (reference "#FLG018") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/af986742-b82e-4f48-bf7e-cdfbb60b3231"
           (reference "#FLG08") (unit 1)

@@ -2560,21 +2560,6 @@
     (pin "4" (uuid b6635d17-be77-4c7f-baa4-1ba80a3b310b))
     (pin "5" (uuid abae9723-877e-4791-9bef-9707adb97ea5))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "U3") (unit 1)
-        )
-      )
-      (project "RanetkaPC_TestJig"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "U9") (unit 1)
-        )
-      )
-      (project "Power"
-        (path "/ecd93358-d394-4c7e-b496-f2c7d3a08d3b"
-          (reference "U3") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/00000000-0000-0000-0000-0000602e0fd3"
           (reference "U3") (unit 1)
@@ -2586,7 +2571,7 @@
   (symbol (lib_id "Fabmicro:CapacitorUnpolarized") (at 160.401 66.8216 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00c8c887-3d37-4b49-9a3b-b73e46fc2b47)
-    (property "Reference" "C1" (at 161.671 64.2816 90)
+    (property "Reference" "C7" (at 161.671 64.2816 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22uF/25V" (at 161.671 69.3616 90)
@@ -2610,21 +2595,6 @@
     (pin "1" (uuid 65afe90c-1404-42d4-9d35-b3507e88bd86))
     (pin "2" (uuid bfc0cbff-13cf-4943-908c-5e8263448100))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "C1") (unit 1)
-        )
-      )
-      (project "RanetkaPC_TestJig"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "C5") (unit 1)
-        )
-      )
-      (project "Power"
-        (path "/ecd93358-d394-4c7e-b496-f2c7d3a08d3b"
-          (reference "C1") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/00000000-0000-0000-0000-0000602e0fd3"
           (reference "C7") (unit 1)
@@ -2667,21 +2637,6 @@
     (pin "8" (uuid 7b670ce8-b570-4826-8704-ef9d12dea5c1))
     (pin "9" (uuid c135dbce-517f-4db4-8898-d93eb9fa31bd))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "U1") (unit 1)
-        )
-      )
-      (project "RanetkaPC_TestJig"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "U1") (unit 1)
-        )
-      )
-      (project "Power"
-        (path "/ecd93358-d394-4c7e-b496-f2c7d3a08d3b"
-          (reference "U1") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/00000000-0000-0000-0000-0000602e0fd3"
           (reference "U1") (unit 1)
@@ -2693,7 +2648,7 @@
   (symbol (lib_id "Fabmicro:CapacitorUnpolarized") (at 302.006 62.103 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 09282a36-bc33-4262-8c14-744e15e7425c)
-    (property "Reference" "C14" (at 303.276 59.563 90)
+    (property "Reference" "C4" (at 303.276 59.563 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22uF/25V" (at 303.276 64.643 90)
@@ -2717,21 +2672,6 @@
     (pin "1" (uuid f8b68fc9-8702-4234-80fa-b927cff31a1c))
     (pin "2" (uuid e503b104-27bb-49ee-80e6-2877add0bc52))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "C14") (unit 1)
-        )
-      )
-      (project "RanetkaPC_TestJig"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "C5") (unit 1)
-        )
-      )
-      (project "Power"
-        (path "/ecd93358-d394-4c7e-b496-f2c7d3a08d3b"
-          (reference "C14") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/00000000-0000-0000-0000-0000602e0fd3"
           (reference "C4") (unit 1)
@@ -2771,7 +2711,7 @@
   (symbol (lib_id "power:GND") (at 323.469 69.342 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 10a6117a-67de-433a-8e73-eddd827aa6be)
-    (property "Reference" "#PWR014" (at 323.469 75.692 0)
+    (property "Reference" "#PWR024" (at 323.469 75.692 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 323.469 73.152 0)
@@ -2785,21 +2725,6 @@
     )
     (pin "1" (uuid 256b48b3-f06c-4fdc-8373-4665b460a058))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR014") (unit 1)
-        )
-      )
-      (project "RanetkaPC_TestJig"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR048") (unit 1)
-        )
-      )
-      (project "Power"
-        (path "/ecd93358-d394-4c7e-b496-f2c7d3a08d3b"
-          (reference "#PWR014") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/00000000-0000-0000-0000-0000602e0fd3"
           (reference "#PWR024") (unit 1)
@@ -2811,7 +2736,7 @@
   (symbol (lib_id "power:+24V") (at 177.5784 59.097 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1564c3d8-3901-4db1-b2e2-3285552df9a8)
-    (property "Reference" "#PWR08" (at 177.5784 62.907 0)
+    (property "Reference" "#PWR021" (at 177.5784 62.907 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+24V" (at 177.5784 55.5299 0)
@@ -2825,16 +2750,6 @@
     )
     (pin "1" (uuid ac1b2754-7c4c-45ba-b646-8bc7927fb037))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR08") (unit 1)
-        )
-      )
-      (project "Power"
-        (path "/ecd93358-d394-4c7e-b496-f2c7d3a08d3b"
-          (reference "#PWR08") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/00000000-0000-0000-0000-0000602e0fd3"
           (reference "#PWR021") (unit 1)
@@ -2846,7 +2761,7 @@
   (symbol (lib_id "power:GND") (at 225.806 87.122 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2064262d-a762-4ae4-99d9-2050eafd072b)
-    (property "Reference" "#PWR019" (at 225.806 93.472 0)
+    (property "Reference" "#PWR031" (at 225.806 93.472 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 225.806 90.932 0)
@@ -2860,21 +2775,6 @@
     )
     (pin "1" (uuid 4b94a17f-05fa-4a03-b773-30aa9ed1b28e))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR019") (unit 1)
-        )
-      )
-      (project "RanetkaPC_TestJig"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR056") (unit 1)
-        )
-      )
-      (project "Power"
-        (path "/ecd93358-d394-4c7e-b496-f2c7d3a08d3b"
-          (reference "#PWR019") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/00000000-0000-0000-0000-0000602e0fd3"
           (reference "#PWR031") (unit 1)
@@ -2886,7 +2786,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 291.846 51.562 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 209745c6-fda6-4a48-bc89-693856af06b3)
-    (property "Reference" "#FLG02" (at 291.846 49.657 0)
+    (property "Reference" "#FLG01" (at 291.846 49.657 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 291.846 47.117 0)
@@ -2900,21 +2800,6 @@
     )
     (pin "1" (uuid e2b1a74a-3649-4827-95a8-64dd2b7bff4f))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#FLG02") (unit 1)
-        )
-      )
-      (project "RanetkaPC_TestJig"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#FLG04") (unit 1)
-        )
-      )
-      (project "Power"
-        (path "/ecd93358-d394-4c7e-b496-f2c7d3a08d3b"
-          (reference "#FLG02") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/00000000-0000-0000-0000-0000602e0fd3"
           (reference "#FLG01") (unit 1)
@@ -2926,7 +2811,7 @@
   (symbol (lib_id "power:+5V") (at 209.0982 127.2862 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 23a709f5-fe67-4409-a90f-06021e47a9f3)
-    (property "Reference" "#PWR031" (at 209.0982 131.0962 0)
+    (property "Reference" "#PWR039" (at 209.0982 131.0962 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 209.0982 123.7191 0)
@@ -2940,16 +2825,6 @@
     )
     (pin "1" (uuid 1cc40d69-0ec0-44db-b827-4da49bcdb095))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR031") (unit 1)
-        )
-      )
-      (project "Power"
-        (path "/ecd93358-d394-4c7e-b496-f2c7d3a08d3b"
-          (reference "#PWR031") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/00000000-0000-0000-0000-0000602e0fd3"
           (reference "#PWR039") (unit 1)
@@ -2982,21 +2857,6 @@
     (pin "1" (uuid 19ab3b72-8c3c-4790-b57a-6bcad4766f62))
     (pin "2" (uuid 0b751623-9192-4210-b7fc-acfa51f76072))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "C8") (unit 1)
-        )
-      )
-      (project "RanetkaPC_TestJig"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "C70") (unit 1)
-        )
-      )
-      (project "Power"
-        (path "/ecd93358-d394-4c7e-b496-f2c7d3a08d3b"
-          (reference "C8") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/00000000-0000-0000-0000-0000602e0fd3"
           (reference "C8") (unit 1)
@@ -3008,7 +2868,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 138.8599 163.1315 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 273b0916-19d1-4dc0-941c-1f35bb0295e3)
-    (property "Reference" "#FLG04" (at 138.8599 161.2265 0)
+    (property "Reference" "#FLG05" (at 138.8599 161.2265 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 138.8599 158.6865 0)
@@ -3022,21 +2882,6 @@
     )
     (pin "1" (uuid 9a406402-036e-4ff6-a04c-ac8e11652017))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#FLG04") (unit 1)
-        )
-      )
-      (project "RanetkaPC_TestJig"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#FLG0102") (unit 1)
-        )
-      )
-      (project "Power"
-        (path "/ecd93358-d394-4c7e-b496-f2c7d3a08d3b"
-          (reference "#FLG04") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/00000000-0000-0000-0000-0000602e0fd3"
           (reference "#FLG05") (unit 1)
@@ -3048,7 +2893,7 @@
   (symbol (lib_id "power:+5V") (at 302.006 51.562 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 284da7fc-0613-47e3-9cd0-dcc1c637e3d9)
-    (property "Reference" "#PWR031" (at 302.006 55.372 0)
+    (property "Reference" "#PWR020" (at 302.006 55.372 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 302.006 47.9949 0)
@@ -3062,16 +2907,6 @@
     )
     (pin "1" (uuid 6feae86a-cac9-4209-a49a-d5a8cc32beec))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR031") (unit 1)
-        )
-      )
-      (project "Power"
-        (path "/ecd93358-d394-4c7e-b496-f2c7d3a08d3b"
-          (reference "#PWR031") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/00000000-0000-0000-0000-0000602e0fd3"
           (reference "#PWR020") (unit 1)
@@ -3083,7 +2918,7 @@
   (symbol (lib_id "Fabmicro:CapacitorPolarized") (at 291.846 61.722 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2a9a160e-db85-4551-a86f-9af1cff643a8)
-    (property "Reference" "C8" (at 294.8432 60.5536 0)
+    (property "Reference" "C3" (at 294.8432 60.5536 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100uF/25V" (at 293.116 64.262 0)
@@ -3107,16 +2942,6 @@
     (pin "1" (uuid 376d30d7-cd67-42e0-895e-731a8f399065))
     (pin "2" (uuid 2ee2d8e3-6bac-4a29-b4f4-7676ef620248))
     (instances
-      (project "Power"
-        (path "/3776eee5-401c-4264-ba56-01c47a2d6498"
-          (reference "C8") (unit 1)
-        )
-      )
-      (project "RanetkaPC_TestJig"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "C8") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/00000000-0000-0000-0000-0000602e0fd3"
           (reference "C3") (unit 1)
@@ -3128,7 +2953,7 @@
   (symbol (lib_id "Fabmicro:Diode") (at 241.046 74.422 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2ada93b9-eacb-4fc6-974f-b137a8e2a2e0)
-    (property "Reference" "D5" (at 235.966 76.327 90)
+    (property "Reference" "D8" (at 235.966 76.327 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "STPS2L40AF" (at 239.141 78.867 90)
@@ -3149,21 +2974,6 @@
     (pin "1" (uuid 51bd83f2-6cbb-45a6-a38e-3831b216230e))
     (pin "2" (uuid 090c5106-05cb-460a-82aa-ac8f9f75f19f))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "D5") (unit 1)
-        )
-      )
-      (project "RanetkaPC_TestJig"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "D5") (unit 1)
-        )
-      )
-      (project "Power"
-        (path "/ecd93358-d394-4c7e-b496-f2c7d3a08d3b"
-          (reference "D5") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/00000000-0000-0000-0000-0000602e0fd3"
           (reference "D8") (unit 1)
@@ -3175,7 +2985,7 @@
   (symbol (lib_id "power:GND") (at 121.5376 178.3715 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2b1d2d9a-00c8-4df0-9be8-d9920dcc96a2)
-    (property "Reference" "#PWR027" (at 121.5376 184.7215 0)
+    (property "Reference" "#PWR053" (at 121.5376 184.7215 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 121.5376 182.1815 0)
@@ -3189,21 +2999,6 @@
     )
     (pin "1" (uuid d89183f7-d21b-4383-a4cc-4ad1521c6bca))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR027") (unit 1)
-        )
-      )
-      (project "RanetkaPC_TestJig"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR0176") (unit 1)
-        )
-      )
-      (project "Power"
-        (path "/ecd93358-d394-4c7e-b496-f2c7d3a08d3b"
-          (reference "#PWR027") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/00000000-0000-0000-0000-0000602e0fd3"
           (reference "#PWR053") (unit 1)
@@ -3215,7 +3010,7 @@
   (symbol (lib_id "power:GND") (at 291.846 69.342 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2f4894f6-a81b-45c7-a5a7-6a7347e74463)
-    (property "Reference" "#PWR028" (at 291.846 75.692 0)
+    (property "Reference" "#PWR023" (at 291.846 75.692 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 291.846 73.152 0)
@@ -3229,21 +3024,6 @@
     )
     (pin "1" (uuid f4358298-f469-43a4-bcc9-24afb92cb8d3))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR028") (unit 1)
-        )
-      )
-      (project "RanetkaPC_TestJig"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR060") (unit 1)
-        )
-      )
-      (project "Power"
-        (path "/ecd93358-d394-4c7e-b496-f2c7d3a08d3b"
-          (reference "#PWR028") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/00000000-0000-0000-0000-0000602e0fd3"
           (reference "#PWR023") (unit 1)
@@ -3255,7 +3035,7 @@
   (symbol (lib_id "Fabmicro:CapacitorUnpolarized") (at 155.2007 134.7492 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 31f9393a-49e8-4e30-b70b-f5779fcee3c3)
-    (property "Reference" "C16" (at 156.4707 132.2092 90)
+    (property "Reference" "C9" (at 156.4707 132.2092 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF/16V" (at 156.4707 137.2892 90)
@@ -3276,21 +3056,6 @@
     (pin "1" (uuid 71f76796-a22a-451b-a516-21eb482ea1dd))
     (pin "2" (uuid d2f2d7aa-f129-49ae-a36f-53154f0d774e))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "C16") (unit 1)
-        )
-      )
-      (project "RanetkaPC_TestJig"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "C68") (unit 1)
-        )
-      )
-      (project "Power"
-        (path "/ecd93358-d394-4c7e-b496-f2c7d3a08d3b"
-          (reference "C16") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/00000000-0000-0000-0000-0000602e0fd3"
           (reference "C9") (unit 1)
@@ -3302,7 +3067,7 @@
   (symbol (lib_id "power:GND") (at 302.006 69.596 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 32170b1f-1391-4c19-8d2e-6aa76bf035d0)
-    (property "Reference" "#PWR032" (at 302.006 75.946 0)
+    (property "Reference" "#PWR025" (at 302.006 75.946 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 302.006 73.406 0)
@@ -3316,21 +3081,6 @@
     )
     (pin "1" (uuid ab4b1db3-e7b0-4e63-90cc-03383d1283d0))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR032") (unit 1)
-        )
-      )
-      (project "RanetkaPC_TestJig"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR048") (unit 1)
-        )
-      )
-      (project "Power"
-        (path "/ecd93358-d394-4c7e-b496-f2c7d3a08d3b"
-          (reference "#PWR032") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/00000000-0000-0000-0000-0000602e0fd3"
           (reference "#PWR025") (unit 1)
@@ -3342,7 +3092,7 @@
   (symbol (lib_id "Fabmicro:MOSFET_P_CH") (at 127.381 69.342 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3323c241-5639-489a-8abf-9b3ab40fa383)
-    (property "Reference" "VT1" (at 127.381 55.372 90)
+    (property "Reference" "Q1" (at 127.381 55.372 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "AO3401A" (at 127.381 57.912 90)
@@ -3364,21 +3114,6 @@
     (pin "2" (uuid 8e8b4d1c-fda7-46d0-b636-3347e55ad173))
     (pin "3" (uuid 1ebedddf-0bae-4770-9f1d-709fe58bde34))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "VT1") (unit 1)
-        )
-      )
-      (project "RanetkaPC_TestJig"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "VT1") (unit 1)
-        )
-      )
-      (project "Power"
-        (path "/ecd93358-d394-4c7e-b496-f2c7d3a08d3b"
-          (reference "VT1") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/00000000-0000-0000-0000-0000602e0fd3"
           (reference "Q1") (unit 1)
@@ -3390,7 +3125,7 @@
   (symbol (lib_id "Fabmicro:CapacitorUnpolarized") (at 266.446 61.722 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3bc6777e-018f-408b-bfed-96136aa801f6)
-    (property "Reference" "C9" (at 274.066 59.182 90)
+    (property "Reference" "C2" (at 274.066 59.182 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "560pF/50V" (at 277.241 64.262 90)
@@ -3411,21 +3146,6 @@
     (pin "1" (uuid eb09b425-621f-44b2-bf1e-d2b236817634))
     (pin "2" (uuid 491c6aa9-04f6-47c4-97d2-5a45a49d2c64))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "C9") (unit 1)
-        )
-      )
-      (project "RanetkaPC_TestJig"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "C11") (unit 1)
-        )
-      )
-      (project "Power"
-        (path "/ecd93358-d394-4c7e-b496-f2c7d3a08d3b"
-          (reference "C9") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/00000000-0000-0000-0000-0000602e0fd3"
           (reference "C2") (unit 1)
@@ -3437,7 +3157,7 @@
   (symbol (lib_id "Fabmicro:Resistor") (at 256.286 61.722 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3c2ac7f3-1475-4cd3-98b8-8250a54b96b4)
-    (property "Reference" "R5" (at 249.301 60.452 90)
+    (property "Reference" "R38" (at 249.301 60.452 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "33K/1%" (at 249.301 62.992 90)
@@ -3458,21 +3178,6 @@
     (pin "1" (uuid a7e7a593-f862-45e8-90c6-1f5d0605ed7d))
     (pin "2" (uuid d7d1ded3-2946-4103-b299-6113abe4b7d5))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "R5") (unit 1)
-        )
-      )
-      (project "RanetkaPC_TestJig"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "R4") (unit 1)
-        )
-      )
-      (project "Power"
-        (path "/ecd93358-d394-4c7e-b496-f2c7d3a08d3b"
-          (reference "R5") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/00000000-0000-0000-0000-0000602e0fd3"
           (reference "R38") (unit 1)
@@ -3484,7 +3189,7 @@
   (symbol (lib_id "power:GND") (at 155.0715 178.3693 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3f2ee93e-d57f-4c9a-9f49-b9345324cfe8)
-    (property "Reference" "#PWR035" (at 155.0715 184.7193 0)
+    (property "Reference" "#PWR052" (at 155.0715 184.7193 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 155.0715 182.1793 0)
@@ -3498,21 +3203,6 @@
     )
     (pin "1" (uuid 51027e69-d901-4c35-a042-a357df149e05))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR035") (unit 1)
-        )
-      )
-      (project "RanetkaPC_TestJig"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR0135") (unit 1)
-        )
-      )
-      (project "Power"
-        (path "/ecd93358-d394-4c7e-b496-f2c7d3a08d3b"
-          (reference "#PWR035") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/00000000-0000-0000-0000-0000602e0fd3"
           (reference "#PWR052") (unit 1)
@@ -3524,7 +3214,7 @@
   (symbol (lib_id "power:GND") (at 177.6 71.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 422ca6c2-f7b4-4a0e-a399-eaa37b678fdc)
-    (property "Reference" "#PWR07" (at 177.6 78.25 0)
+    (property "Reference" "#PWR028" (at 177.6 78.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 177.6 75.71 0)
@@ -3538,21 +3228,6 @@
     )
     (pin "1" (uuid a2a06425-3b1c-4008-b941-652980100a24))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR07") (unit 1)
-        )
-      )
-      (project "RanetkaPC_TestJig"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR051") (unit 1)
-        )
-      )
-      (project "Power"
-        (path "/ecd93358-d394-4c7e-b496-f2c7d3a08d3b"
-          (reference "#PWR07") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/00000000-0000-0000-0000-0000602e0fd3"
           (reference "#PWR028") (unit 1)
@@ -3564,7 +3239,7 @@
   (symbol (lib_id "Fabmicro:ProtectiveDiodeDA") (at 112.141 79.502 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 42d9b035-f9d4-4230-bba7-8149a8cb7c72)
-    (property "Reference" "D1" (at 105.791 73.152 90)
+    (property "Reference" "D9" (at 105.791 73.152 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "SMAJ40CA" (at 100.711 75.692 90)
@@ -3585,21 +3260,6 @@
     (pin "1" (uuid 86447cd0-c8e8-41f0-82f2-4ec7cb651679))
     (pin "2" (uuid 87c2f6e1-c317-4751-a147-aeb86b342822))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "D1") (unit 1)
-        )
-      )
-      (project "RanetkaPC_TestJig"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "D1") (unit 1)
-        )
-      )
-      (project "Power"
-        (path "/ecd93358-d394-4c7e-b496-f2c7d3a08d3b"
-          (reference "D1") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/00000000-0000-0000-0000-0000602e0fd3"
           (reference "D9") (unit 1)
@@ -3611,7 +3271,7 @@
   (symbol (lib_id "Fabmicro:CapacitorUnpolarized") (at 98.9316 168.4655 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 48112220-a319-4f70-a3f0-5f05e8c192c5)
-    (property "Reference" "C8" (at 100.2016 165.9255 90)
+    (property "Reference" "C14" (at 100.2016 165.9255 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF/16V" (at 100.2016 171.0055 90)
@@ -3632,21 +3292,6 @@
     (pin "1" (uuid a9ce041b-20b4-4201-8832-c48aede4ee54))
     (pin "2" (uuid 6e913d11-c438-41f5-b6b4-c809c43fb998))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "C8") (unit 1)
-        )
-      )
-      (project "RanetkaPC_TestJig"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "C70") (unit 1)
-        )
-      )
-      (project "Power"
-        (path "/ecd93358-d394-4c7e-b496-f2c7d3a08d3b"
-          (reference "C8") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/00000000-0000-0000-0000-0000602e0fd3"
           (reference "C14") (unit 1)
@@ -3658,7 +3303,7 @@
   (symbol (lib_id "Fabmicro:CapacitorUnpolarized") (at 190.246 66.802 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 53f40a07-c256-45be-b38e-c62888fc2cd2)
-    (property "Reference" "C4" (at 194.056 66.802 90)
+    (property "Reference" "C6" (at 194.056 66.802 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF/50V" (at 191.516 69.342 90)
@@ -3679,21 +3324,6 @@
     (pin "1" (uuid 877a6778-968d-47f0-8052-91607a34a004))
     (pin "2" (uuid 12ec34c6-5eba-4983-88cd-4b12755e3121))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "C4") (unit 1)
-        )
-      )
-      (project "RanetkaPC_TestJig"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "C9") (unit 1)
-        )
-      )
-      (project "Power"
-        (path "/ecd93358-d394-4c7e-b496-f2c7d3a08d3b"
-          (reference "C4") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/00000000-0000-0000-0000-0000602e0fd3"
           (reference "C6") (unit 1)
@@ -3705,7 +3335,7 @@
   (symbol (lib_id "Fabmicro:CapacitorPolarized") (at 177.6 66.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 559260c2-8621-4e5d-91e9-de575b3ff460)
-    (property "Reference" "C8" (at 180.5972 65.6316 0)
+    (property "Reference" "C5" (at 180.5972 65.6316 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100uF/25V" (at 178.87 69.34 0)
@@ -3729,16 +3359,6 @@
     (pin "1" (uuid 93ad0192-a29a-4921-8123-eee2b1650039))
     (pin "2" (uuid 42744b57-f54b-413d-86d9-5654b675f20b))
     (instances
-      (project "Power"
-        (path "/3776eee5-401c-4264-ba56-01c47a2d6498"
-          (reference "C8") (unit 1)
-        )
-      )
-      (project "RanetkaPC_TestJig"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "C8") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/00000000-0000-0000-0000-0000602e0fd3"
           (reference "C5") (unit 1)
@@ -3750,7 +3370,7 @@
   (symbol (lib_id "Fabmicro:Resistor") (at 137.541 51.562 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5cd6a805-5dfb-4325-a29a-019a66679ef1)
-    (property "Reference" "R2" (at 139.446 50.292 90)
+    (property "Reference" "R37" (at 139.446 50.292 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "3K/1%" (at 139.446 52.197 90)
@@ -3771,21 +3391,6 @@
     (pin "1" (uuid 784ac3f8-d814-4d7c-add1-a35f4ae2b32f))
     (pin "2" (uuid d0255a31-8ca9-4b56-925c-28e379edaa00))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "R2") (unit 1)
-        )
-      )
-      (project "RanetkaPC_TestJig"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "R2") (unit 1)
-        )
-      )
-      (project "Power"
-        (path "/ecd93358-d394-4c7e-b496-f2c7d3a08d3b"
-          (reference "R2") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/00000000-0000-0000-0000-0000602e0fd3"
           (reference "R37") (unit 1)
@@ -3797,7 +3402,7 @@
   (symbol (lib_id "power:GND") (at 202.946 87.122 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5de4739a-9b99-4e93-a15e-a339186de886)
-    (property "Reference" "#PWR013" (at 202.946 93.472 0)
+    (property "Reference" "#PWR029" (at 202.946 93.472 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 202.946 90.932 0)
@@ -3811,21 +3416,6 @@
     )
     (pin "1" (uuid 3247e1a5-d020-486b-9668-6f500b4b0f18))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR013") (unit 1)
-        )
-      )
-      (project "RanetkaPC_TestJig"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR053") (unit 1)
-        )
-      )
-      (project "Power"
-        (path "/ecd93358-d394-4c7e-b496-f2c7d3a08d3b"
-          (reference "#PWR013") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/00000000-0000-0000-0000-0000602e0fd3"
           (reference "#PWR029") (unit 1)
@@ -3858,21 +3448,6 @@
     (pin "1" (uuid 79e27656-7620-40bb-ad15-66dbf98eb5f7))
     (pin "2" (uuid d2a6b8ab-1ac0-405a-b207-35ca4cde41f9))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "C13") (unit 1)
-        )
-      )
-      (project "RanetkaPC_TestJig"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "C67") (unit 1)
-        )
-      )
-      (project "Power"
-        (path "/ecd93358-d394-4c7e-b496-f2c7d3a08d3b"
-          (reference "C13") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/00000000-0000-0000-0000-0000602e0fd3"
           (reference "C13") (unit 1)
@@ -3884,7 +3459,7 @@
   (symbol (lib_id "power:GND") (at 138.9321 144.6552 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 621c8424-9d58-40f8-8c72-83577b383f6c)
-    (property "Reference" "#PWR030" (at 138.9321 151.0052 0)
+    (property "Reference" "#PWR043" (at 138.9321 151.0052 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 138.9321 148.4652 0)
@@ -3898,21 +3473,6 @@
     )
     (pin "1" (uuid b3deff67-918c-4255-b5dc-49c89a5f7c61))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR030") (unit 1)
-        )
-      )
-      (project "RanetkaPC_TestJig"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR0131") (unit 1)
-        )
-      )
-      (project "Power"
-        (path "/ecd93358-d394-4c7e-b496-f2c7d3a08d3b"
-          (reference "#PWR030") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/00000000-0000-0000-0000-0000602e0fd3"
           (reference "#PWR043") (unit 1)
@@ -3924,7 +3484,7 @@
   (symbol (lib_id "Fabmicro:RS3236") (at 121.5376 165.6715 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 673e31ff-5ed1-4f8b-b67f-488888e57102)
-    (property "Reference" "U3" (at 121.5376 157.5267 0)
+    (property "Reference" "U4" (at 121.5376 157.5267 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "RS3236-3.3YF5" (at 121.5376 160.0636 0)
@@ -3945,21 +3505,6 @@
     (pin "4" (uuid b4de3fce-da16-434c-b0d3-6d8996d4a0a7))
     (pin "5" (uuid e9095b85-f993-484f-a4e1-c41a47666dd1))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "U3") (unit 1)
-        )
-      )
-      (project "RanetkaPC_TestJig"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "U9") (unit 1)
-        )
-      )
-      (project "Power"
-        (path "/ecd93358-d394-4c7e-b496-f2c7d3a08d3b"
-          (reference "U3") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/00000000-0000-0000-0000-0000602e0fd3"
           (reference "U4") (unit 1)
@@ -3971,7 +3516,7 @@
   (symbol (lib_id "Fabmicro:CapacitorUnpolarized") (at 155.0782 168.4655 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6aa08c3b-9cb9-47bf-aacc-6fa9062ecc4f)
-    (property "Reference" "C16" (at 156.3482 165.9255 90)
+    (property "Reference" "C15" (at 156.3482 165.9255 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF/16V" (at 156.3482 171.0055 90)
@@ -3992,21 +3537,6 @@
     (pin "1" (uuid 4ab86c9e-ee1d-4736-adb7-2ece8c7f025a))
     (pin "2" (uuid bbdb971b-5bde-4e37-a6ec-534daceee8e7))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "C16") (unit 1)
-        )
-      )
-      (project "RanetkaPC_TestJig"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "C68") (unit 1)
-        )
-      )
-      (project "Power"
-        (path "/ecd93358-d394-4c7e-b496-f2c7d3a08d3b"
-          (reference "C16") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/00000000-0000-0000-0000-0000602e0fd3"
           (reference "C15") (unit 1)
@@ -4018,7 +3548,7 @@
   (symbol (lib_id "power:GND") (at 155.194 144.653 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6c26528b-0957-4db4-ab2d-7d84bf439823)
-    (property "Reference" "#PWR035" (at 155.194 151.003 0)
+    (property "Reference" "#PWR041" (at 155.194 151.003 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 155.194 148.463 0)
@@ -4032,21 +3562,6 @@
     )
     (pin "1" (uuid 99dc871f-1127-4f27-bf2e-1a4e800cd5f4))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR035") (unit 1)
-        )
-      )
-      (project "RanetkaPC_TestJig"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR0135") (unit 1)
-        )
-      )
-      (project "Power"
-        (path "/ecd93358-d394-4c7e-b496-f2c7d3a08d3b"
-          (reference "#PWR035") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/00000000-0000-0000-0000-0000602e0fd3"
           (reference "#PWR041") (unit 1)
@@ -4058,7 +3573,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 160.401 59.182 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8b40230b-573c-4846-b86b-22dde63fbf50)
-    (property "Reference" "#FLG01" (at 160.401 57.277 0)
+    (property "Reference" "#FLG02" (at 160.401 57.277 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 160.401 54.737 0)
@@ -4072,21 +3587,6 @@
     )
     (pin "1" (uuid 5abc6bba-aa07-417d-a5d0-dd98beddf654))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#FLG01") (unit 1)
-        )
-      )
-      (project "RanetkaPC_TestJig"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#FLG03") (unit 1)
-        )
-      )
-      (project "Power"
-        (path "/ecd93358-d394-4c7e-b496-f2c7d3a08d3b"
-          (reference "#FLG01") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/00000000-0000-0000-0000-0000602e0fd3"
           (reference "#FLG02") (unit 1)
@@ -4098,7 +3598,7 @@
   (symbol (lib_id "Fabmicro:LED") (at 147.701 43.942 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8b629c50-6317-4e0d-a4ed-e9574fdafa99)
-    (property "Reference" "D3" (at 143.891 37.592 0)
+    (property "Reference" "D5" (at 143.891 37.592 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "FYLS-0603PGC" (at 143.891 40.132 0)
@@ -4119,21 +3619,6 @@
     (pin "1" (uuid e474d5f9-570f-45e9-b477-af47d6756862))
     (pin "2" (uuid a3314e4e-1909-4de7-91ba-e68c4b0f8023))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "D3") (unit 1)
-        )
-      )
-      (project "RanetkaPC_TestJig"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "D3") (unit 1)
-        )
-      )
-      (project "Power"
-        (path "/ecd93358-d394-4c7e-b496-f2c7d3a08d3b"
-          (reference "D3") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/00000000-0000-0000-0000-0000602e0fd3"
           (reference "D5") (unit 1)
@@ -4166,21 +3651,6 @@
     (pin "1" (uuid 36b1a24e-cc25-45ff-9883-a4bb79a1aa64))
     (pin "2" (uuid 0f85854e-576f-472c-aa41-b861961d9e89))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "F1") (unit 1)
-        )
-      )
-      (project "RanetkaPC_TestJig"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "F3") (unit 1)
-        )
-      )
-      (project "Power"
-        (path "/ecd93358-d394-4c7e-b496-f2c7d3a08d3b"
-          (reference "F1") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/00000000-0000-0000-0000-0000602e0fd3"
           (reference "F1") (unit 1)
@@ -4192,7 +3662,7 @@
   (symbol (lib_id "Fabmicro:Resistor") (at 323.469 62.992 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8e85e87f-3daa-4042-9d24-bcb1da9c5e4d)
-    (property "Reference" "R3" (at 316.484 61.722 90)
+    (property "Reference" "R39" (at 316.484 61.722 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "330R/1%" (at 316.484 64.262 90)
@@ -4216,21 +3686,6 @@
     (pin "1" (uuid d595d00e-1d8c-4fb3-bd45-dd4a0a643d59))
     (pin "2" (uuid 5935d30f-a874-4fdf-b024-3e9b79318d18))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "R3") (unit 1)
-        )
-      )
-      (project "RanetkaPC_TestJig"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "R5") (unit 1)
-        )
-      )
-      (project "Power"
-        (path "/ecd93358-d394-4c7e-b496-f2c7d3a08d3b"
-          (reference "R3") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/00000000-0000-0000-0000-0000602e0fd3"
           (reference "R39") (unit 1)
@@ -4242,7 +3697,7 @@
   (symbol (lib_id "power:+5V") (at 93.7215 126.4307 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9dc32a09-ee62-46e6-9f0a-c6d4d89756a8)
-    (property "Reference" "#PWR023" (at 93.7215 130.2407 0)
+    (property "Reference" "#PWR035" (at 93.7215 130.2407 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 93.7215 122.8636 0)
@@ -4256,16 +3711,6 @@
     )
     (pin "1" (uuid d9c4dd9d-c82d-4f3d-8553-d51f3459b28b))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR023") (unit 1)
-        )
-      )
-      (project "Power"
-        (path "/ecd93358-d394-4c7e-b496-f2c7d3a08d3b"
-          (reference "#PWR023") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/00000000-0000-0000-0000-0000602e0fd3"
           (reference "#PWR035") (unit 1)
@@ -4277,7 +3722,7 @@
   (symbol (lib_id "Fabmicro:ZenerDiode") (at 137.541 64.262 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a80a5357-949a-4c87-a450-9f011057b700)
-    (property "Reference" "D2" (at 139.5476 66.9036 90)
+    (property "Reference" "D7" (at 139.5476 66.9036 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "BZV55-B10" (at 139.5476 69.215 90)
@@ -4298,21 +3743,6 @@
     (pin "1" (uuid 5f59b460-ffe0-4811-85b3-cebed0ea3568))
     (pin "2" (uuid 99ef5c4b-deba-424b-8961-00823e95db81))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "D2") (unit 1)
-        )
-      )
-      (project "RanetkaPC_TestJig"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "D2") (unit 1)
-        )
-      )
-      (project "Power"
-        (path "/ecd93358-d394-4c7e-b496-f2c7d3a08d3b"
-          (reference "D2") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/00000000-0000-0000-0000-0000602e0fd3"
           (reference "D7") (unit 1)
@@ -4324,7 +3754,7 @@
   (symbol (lib_id "Fabmicro:Resistor") (at 127.381 82.042 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a9234a75-091d-41ca-9813-27fd68172f44)
-    (property "Reference" "R1" (at 129.286 80.772 90)
+    (property "Reference" "R41" (at 129.286 80.772 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K/1%" (at 129.286 83.312 90)
@@ -4348,21 +3778,6 @@
     (pin "1" (uuid 0520cd2f-2ca2-4e15-bb2e-2a624637e741))
     (pin "2" (uuid b06bdee5-ff13-444e-9f9c-3b791d0f228f))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "R1") (unit 1)
-        )
-      )
-      (project "RanetkaPC_TestJig"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "R1") (unit 1)
-        )
-      )
-      (project "Power"
-        (path "/ecd93358-d394-4c7e-b496-f2c7d3a08d3b"
-          (reference "R1") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/00000000-0000-0000-0000-0000602e0fd3"
           (reference "R41") (unit 1)
@@ -4399,7 +3814,7 @@
   (symbol (lib_id "Fabmicro:Resistor") (at 274.066 89.662 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ab375021-de46-4157-a71e-a40d3654a2aa)
-    (property "Reference" "R9" (at 267.716 88.392 90)
+    (property "Reference" "R42" (at 267.716 88.392 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47K/1%" (at 267.716 90.932 90)
@@ -4420,21 +3835,6 @@
     (pin "1" (uuid 605d1178-a2fc-47a5-a86c-a2578ca287d1))
     (pin "2" (uuid 5fb04022-0826-471b-9705-eabe058e613a))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "R9") (unit 1)
-        )
-      )
-      (project "RanetkaPC_TestJig"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "R6") (unit 1)
-        )
-      )
-      (project "Power"
-        (path "/ecd93358-d394-4c7e-b496-f2c7d3a08d3b"
-          (reference "R9") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/00000000-0000-0000-0000-0000602e0fd3"
           (reference "R42") (unit 1)
@@ -4446,7 +3846,7 @@
   (symbol (lib_id "power:GND") (at 99.0541 143.3852 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ab3fed68-7c13-476e-a89b-3da809808064)
-    (property "Reference" "#PWR026" (at 99.0541 149.7352 0)
+    (property "Reference" "#PWR040" (at 99.0541 149.7352 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 99.0541 147.1952 0)
@@ -4460,21 +3860,6 @@
     )
     (pin "1" (uuid 2c649d99-d4a1-47a7-ad49-1d7b02bbedb2))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR026") (unit 1)
-        )
-      )
-      (project "RanetkaPC_TestJig"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR0168") (unit 1)
-        )
-      )
-      (project "Power"
-        (path "/ecd93358-d394-4c7e-b496-f2c7d3a08d3b"
-          (reference "#PWR026") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/00000000-0000-0000-0000-0000602e0fd3"
           (reference "#PWR040") (unit 1)
@@ -4486,7 +3871,7 @@
   (symbol (lib_id "power:GND") (at 256.286 87.122 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ac2fdf24-2603-4cf9-b2bf-c41c2aeb3bb3)
-    (property "Reference" "#PWR024" (at 256.286 93.472 0)
+    (property "Reference" "#PWR033" (at 256.286 93.472 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 256.286 90.932 0)
@@ -4500,21 +3885,6 @@
     )
     (pin "1" (uuid d8683d22-0375-4471-8e9d-b0176ca76228))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR024") (unit 1)
-        )
-      )
-      (project "RanetkaPC_TestJig"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR058") (unit 1)
-        )
-      )
-      (project "Power"
-        (path "/ecd93358-d394-4c7e-b496-f2c7d3a08d3b"
-          (reference "#PWR024") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/00000000-0000-0000-0000-0000602e0fd3"
           (reference "#PWR033") (unit 1)
@@ -4526,7 +3896,7 @@
   (symbol (lib_id "power:GND") (at 220.726 87.122 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid af2ad3e9-3352-45af-a489-6736eb1432af)
-    (property "Reference" "#PWR017" (at 220.726 93.472 0)
+    (property "Reference" "#PWR030" (at 220.726 93.472 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 220.726 90.932 0)
@@ -4540,21 +3910,6 @@
     )
     (pin "1" (uuid 0ef60da6-a81b-4266-9406-5209dbdc4524))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR017") (unit 1)
-        )
-      )
-      (project "RanetkaPC_TestJig"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR055") (unit 1)
-        )
-      )
-      (project "Power"
-        (path "/ecd93358-d394-4c7e-b496-f2c7d3a08d3b"
-          (reference "#PWR017") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/00000000-0000-0000-0000-0000602e0fd3"
           (reference "#PWR030") (unit 1)
@@ -4566,7 +3921,7 @@
   (symbol (lib_id "power:GND") (at 190.246 71.882 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b23b1b25-486f-43e7-8d36-a3b65f015bba)
-    (property "Reference" "#PWR011" (at 190.246 78.232 0)
+    (property "Reference" "#PWR027" (at 190.246 78.232 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 190.246 75.692 0)
@@ -4580,21 +3935,6 @@
     )
     (pin "1" (uuid f32b550b-5628-4f4b-88d5-16cd875a8fea))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR011") (unit 1)
-        )
-      )
-      (project "RanetkaPC_TestJig"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR052") (unit 1)
-        )
-      )
-      (project "Power"
-        (path "/ecd93358-d394-4c7e-b496-f2c7d3a08d3b"
-          (reference "#PWR011") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/00000000-0000-0000-0000-0000602e0fd3"
           (reference "#PWR027") (unit 1)
@@ -4606,7 +3946,7 @@
   (symbol (lib_id "power:GND") (at 241.046 87.122 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b51b2815-be46-4cae-b0ea-f3380edb28d4)
-    (property "Reference" "#PWR021" (at 241.046 93.472 0)
+    (property "Reference" "#PWR032" (at 241.046 93.472 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 241.046 90.932 0)
@@ -4620,21 +3960,6 @@
     )
     (pin "1" (uuid e9d61f9f-c4cd-403a-b259-7239af9588d9))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR021") (unit 1)
-        )
-      )
-      (project "RanetkaPC_TestJig"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR057") (unit 1)
-        )
-      )
-      (project "Power"
-        (path "/ecd93358-d394-4c7e-b496-f2c7d3a08d3b"
-          (reference "#PWR021") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/00000000-0000-0000-0000-0000602e0fd3"
           (reference "#PWR032") (unit 1)
@@ -4646,7 +3971,7 @@
   (symbol (lib_id "Fabmicro:Resistor") (at 256.286 79.502 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c17cc37f-5a6b-450d-bf1b-f7be25dd369c)
-    (property "Reference" "R6" (at 249.301 78.232 90)
+    (property "Reference" "R40" (at 249.301 78.232 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10.5K/1%" (at 249.301 80.772 90)
@@ -4667,21 +3992,6 @@
     (pin "1" (uuid eb4dd29e-f121-41ef-b398-a2c68c12e05a))
     (pin "2" (uuid d9f68465-f5fb-4aed-97db-c0135668cbfc))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "R6") (unit 1)
-        )
-      )
-      (project "RanetkaPC_TestJig"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "R5") (unit 1)
-        )
-      )
-      (project "Power"
-        (path "/ecd93358-d394-4c7e-b496-f2c7d3a08d3b"
-          (reference "R6") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/00000000-0000-0000-0000-0000602e0fd3"
           (reference "R40") (unit 1)
@@ -4693,7 +4003,7 @@
   (symbol (lib_id "power:GND") (at 138.8096 178.3715 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c70bf458-52cf-4188-bfee-f50b07e11c8b)
-    (property "Reference" "#PWR030" (at 138.8096 184.7215 0)
+    (property "Reference" "#PWR054" (at 138.8096 184.7215 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 138.8096 182.1815 0)
@@ -4707,21 +4017,6 @@
     )
     (pin "1" (uuid b1473870-9dce-4a11-b4c6-6610525ed974))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR030") (unit 1)
-        )
-      )
-      (project "RanetkaPC_TestJig"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR0131") (unit 1)
-        )
-      )
-      (project "Power"
-        (path "/ecd93358-d394-4c7e-b496-f2c7d3a08d3b"
-          (reference "#PWR030") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/00000000-0000-0000-0000-0000602e0fd3"
           (reference "#PWR054") (unit 1)
@@ -4754,21 +4049,6 @@
     (pin "1" (uuid f5cc5bca-426e-4ce6-bced-f96e68db89f4))
     (pin "2" (uuid e9750349-a9f1-499e-85f9-9f126716c42f))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "L1") (unit 1)
-        )
-      )
-      (project "RanetkaPC_TestJig"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "L3") (unit 1)
-        )
-      )
-      (project "Power"
-        (path "/ecd93358-d394-4c7e-b496-f2c7d3a08d3b"
-          (reference "L1") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/00000000-0000-0000-0000-0000602e0fd3"
           (reference "L1") (unit 1)
@@ -4780,7 +4060,7 @@
   (symbol (lib_id "power:GND") (at 98.9316 177.1015 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d5086049-a50d-4da7-bfc6-fe9b2b19ce11)
-    (property "Reference" "#PWR026" (at 98.9316 183.4515 0)
+    (property "Reference" "#PWR051" (at 98.9316 183.4515 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 98.9316 180.9115 0)
@@ -4794,21 +4074,6 @@
     )
     (pin "1" (uuid 2875c59b-3444-4a74-9230-5c7ce090ebcd))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR026") (unit 1)
-        )
-      )
-      (project "RanetkaPC_TestJig"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR0168") (unit 1)
-        )
-      )
-      (project "Power"
-        (path "/ecd93358-d394-4c7e-b496-f2c7d3a08d3b"
-          (reference "#PWR026") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/00000000-0000-0000-0000-0000602e0fd3"
           (reference "#PWR051") (unit 1)
@@ -4820,7 +4085,7 @@
   (symbol (lib_id "Fabmicro:LED") (at 321.056 54.102 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e1f01141-9b68-4403-9eec-3b3a057f025d)
-    (property "Reference" "D8" (at 317.246 47.752 0)
+    (property "Reference" "D6" (at 317.246 47.752 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "FYLS-0603PGC" (at 317.246 50.292 0)
@@ -4841,21 +4106,6 @@
     (pin "1" (uuid 48ce1224-8acf-4736-9ffc-8777075c4695))
     (pin "2" (uuid 8299f768-9702-4b0b-bb5d-9c56f2072f7e))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "D8") (unit 1)
-        )
-      )
-      (project "RanetkaPC_TestJig"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "D4") (unit 1)
-        )
-      )
-      (project "Power"
-        (path "/ecd93358-d394-4c7e-b496-f2c7d3a08d3b"
-          (reference "D8") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/00000000-0000-0000-0000-0000602e0fd3"
           (reference "D6") (unit 1)
@@ -4867,7 +4117,7 @@
   (symbol (lib_id "Fabmicro:CapacitorUnpolarized") (at 138.8096 173.2915 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ea904307-9fe2-40e0-b5e9-a6dcdac774e5)
-    (property "Reference" "C13" (at 140.0796 170.7515 90)
+    (property "Reference" "C16" (at 140.0796 170.7515 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.01uF/50V" (at 140.0796 175.8315 90)
@@ -4888,21 +4138,6 @@
     (pin "1" (uuid 9dfd68d1-eca9-4956-87d1-2c24f27a55d3))
     (pin "2" (uuid 62e6e495-c349-4201-9fa9-a2afc1fa28bc))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "C13") (unit 1)
-        )
-      )
-      (project "RanetkaPC_TestJig"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "C67") (unit 1)
-        )
-      )
-      (project "Power"
-        (path "/ecd93358-d394-4c7e-b496-f2c7d3a08d3b"
-          (reference "C13") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/00000000-0000-0000-0000-0000602e0fd3"
           (reference "C16") (unit 1)
@@ -4914,7 +4149,7 @@
   (symbol (lib_id "power:+5V") (at 93.599 160.147 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f0786a50-3bad-41f9-890b-56aca7aa4d61)
-    (property "Reference" "#PWR023" (at 93.599 163.957 0)
+    (property "Reference" "#PWR049" (at 93.599 163.957 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 93.599 156.5799 0)
@@ -4928,16 +4163,6 @@
     )
     (pin "1" (uuid c827fe7b-bd75-4a76-8a14-b6358591270e))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR023") (unit 1)
-        )
-      )
-      (project "Power"
-        (path "/ecd93358-d394-4c7e-b496-f2c7d3a08d3b"
-          (reference "#PWR023") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/00000000-0000-0000-0000-0000602e0fd3"
           (reference "#PWR049") (unit 1)
@@ -4949,7 +4174,7 @@
   (symbol (lib_id "power:GND") (at 121.6601 144.6552 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f2e5d42b-9b4c-4623-8957-a5f1deccf447)
-    (property "Reference" "#PWR027" (at 121.6601 151.0052 0)
+    (property "Reference" "#PWR042" (at 121.6601 151.0052 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 121.6601 148.4652 0)
@@ -4963,21 +4188,6 @@
     )
     (pin "1" (uuid b63ab89c-ea2a-4d4a-8824-3848aceafd75))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR027") (unit 1)
-        )
-      )
-      (project "RanetkaPC_TestJig"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR0176") (unit 1)
-        )
-      )
-      (project "Power"
-        (path "/ecd93358-d394-4c7e-b496-f2c7d3a08d3b"
-          (reference "#PWR027") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/00000000-0000-0000-0000-0000602e0fd3"
           (reference "#PWR042") (unit 1)
@@ -4989,7 +4199,7 @@
   (symbol (lib_id "power:GND") (at 127.381 92.202 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f3cc9dcb-1182-43c6-867e-e600127f58df)
-    (property "Reference" "#PWR05" (at 127.381 98.552 0)
+    (property "Reference" "#PWR034" (at 127.381 98.552 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 127.381 96.012 0)
@@ -5003,21 +4213,6 @@
     )
     (pin "1" (uuid f7ac441e-4e5b-46cf-8b96-1261745d8afc))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR05") (unit 1)
-        )
-      )
-      (project "RanetkaPC_TestJig"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR047") (unit 1)
-        )
-      )
-      (project "Power"
-        (path "/ecd93358-d394-4c7e-b496-f2c7d3a08d3b"
-          (reference "#PWR05") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/00000000-0000-0000-0000-0000602e0fd3"
           (reference "#PWR034") (unit 1)
@@ -5054,7 +4249,7 @@
   (symbol (lib_id "power:GND") (at 160.401 71.8374 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f6fd5ad4-405a-4427-8302-7db683d0b024)
-    (property "Reference" "#PWR06" (at 160.401 78.1874 0)
+    (property "Reference" "#PWR026" (at 160.401 78.1874 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 160.401 75.6474 0)
@@ -5068,21 +4263,6 @@
     )
     (pin "1" (uuid 70dcbb56-1c2f-4f24-adda-15b953ead0c9))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR06") (unit 1)
-        )
-      )
-      (project "RanetkaPC_TestJig"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR048") (unit 1)
-        )
-      )
-      (project "Power"
-        (path "/ecd93358-d394-4c7e-b496-f2c7d3a08d3b"
-          (reference "#PWR06") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/00000000-0000-0000-0000-0000602e0fd3"
           (reference "#PWR026") (unit 1)
@@ -5094,7 +4274,7 @@
   (symbol (lib_id "Fabmicro:CapacitorUnpolarized") (at 223.266 41.402 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f7dfc8a9-0f33-4a3b-a350-00a0573966ae)
-    (property "Reference" "C6" (at 220.726 37.592 0)
+    (property "Reference" "C1" (at 220.726 37.592 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "3.3nF/50V" (at 218.186 45.212 0)
@@ -5115,21 +4295,6 @@
     (pin "1" (uuid de8faf60-d8a5-4bdd-83d2-e65b3f8e9999))
     (pin "2" (uuid afa96eb7-18a2-44b3-a825-3e90a645ec57))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "C6") (unit 1)
-        )
-      )
-      (project "RanetkaPC_TestJig"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "C10") (unit 1)
-        )
-      )
-      (project "Power"
-        (path "/ecd93358-d394-4c7e-b496-f2c7d3a08d3b"
-          (reference "C6") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/00000000-0000-0000-0000-0000602e0fd3"
           (reference "C1") (unit 1)
@@ -5155,21 +4320,6 @@
     )
     (pin "1" (uuid 05ba7d76-1296-45d5-8503-5642901c5c48))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#FLG04") (unit 1)
-        )
-      )
-      (project "RanetkaPC_TestJig"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#FLG0102") (unit 1)
-        )
-      )
-      (project "Power"
-        (path "/ecd93358-d394-4c7e-b496-f2c7d3a08d3b"
-          (reference "#FLG04") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/00000000-0000-0000-0000-0000602e0fd3"
           (reference "#FLG04") (unit 1)

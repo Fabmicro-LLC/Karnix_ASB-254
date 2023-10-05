@@ -2274,7 +2274,7 @@
   (symbol (lib_id "Fabmicro:Ferrite_Beads") (at 151.755 113.031 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 017bf6af-61c6-4b8f-b330-660d9282b27a)
-    (property "Reference" "L5" (at 152.136 110.618 0)
+    (property "Reference" "L12" (at 152.136 110.618 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "330R/1.2A" (at 152.771 114.174 0)
@@ -2298,34 +2298,6 @@
     (pin "1" (uuid a1a4264a-a1c3-4ff8-a9f3-02dfa6fe45df))
     (pin "2" (uuid bc178501-86d2-45b1-89b7-7a2f490dc371))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061a79dda"
-          (reference "L5") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "L39") (unit 1)
-        )
-      )
-      (project "TMSController"
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-000061a79dda"
-          (reference "L11") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005e82d990"
-          (reference "L?") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005dbc80e1"
-          (reference "L?") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005d481974"
-          (reference "L?") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005ddd7833"
-          (reference "L?") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005ddd8b82"
-          (reference "L?") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "L12") (unit 1)
@@ -2337,7 +2309,7 @@
   (symbol (lib_id "power:GND") (at 300.4313 166.3134 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 02a399a6-8bba-4627-a598-0cf6d1b4ccd8)
-    (property "Reference" "#PWR031" (at 300.4313 172.6634 0)
+    (property "Reference" "#PWR0190" (at 300.4313 172.6634 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 300.4313 170.1234 0)
@@ -2351,28 +2323,6 @@
     )
     (pin "1" (uuid 2d914029-0c5a-4446-8ac1-9db52ad48912))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR031") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061a79dda"
-          (reference "#PWR066") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/aaa0c306-7c29-45af-95e1-2ada5a0bcd3a"
-          (reference "#PWR0270") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/09e88d56-8f57-46c8-ba91-b726a1be30ee"
-          (reference "#PWR0273") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00801fbe-0038-412f-be4b-3a4eb12dad06"
-          (reference "#PWR0299") (unit 1)
-        )
-      )
-      (project "RanetkaPC_TestJig"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR062") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "#PWR0190") (unit 1)
@@ -2384,7 +2334,7 @@
   (symbol (lib_id "Fabmicro:Ferrite_Beads") (at 178.044 101.22 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 03639158-a0d7-4e04-8861-0bad529bc57d)
-    (property "Reference" "L5" (at 178.044 98.045 0)
+    (property "Reference" "L8" (at 178.044 98.045 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "330R/1.2A" (at 178.044 102.236 0)
@@ -2408,34 +2358,6 @@
     (pin "1" (uuid b65cf311-1159-4a15-8346-493ab7b9bbe2))
     (pin "2" (uuid 9af541cf-18c1-4f03-8515-4dc416589239))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061a79dda"
-          (reference "L5") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "L12") (unit 1)
-        )
-      )
-      (project "TMSController"
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-000061a79dda"
-          (reference "L11") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005e82d990"
-          (reference "L?") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005dbc80e1"
-          (reference "L?") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005d481974"
-          (reference "L?") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005ddd7833"
-          (reference "L?") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005ddd8b82"
-          (reference "L?") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "L8") (unit 1)
@@ -2447,7 +2369,7 @@
   (symbol (lib_id "Device:R") (at 75.51 165.282 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0c154aa2-4e57-42c0-b357-1e6dcc01d73e)
-    (property "Reference" "R208" (at 78.685 164.012 0)
+    (property "Reference" "R145" (at 78.685 164.012 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "22K/1%" (at 80.336 165.917 0)
@@ -2468,16 +2390,6 @@
     (pin "1" (uuid ebd732f4-a7fc-4f5c-9ce3-85d18d5648da))
     (pin "2" (uuid 4b153d3f-2687-4a4a-af43-b82b30e91278))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "R208") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "R18") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "R145") (unit 1)
@@ -2489,7 +2401,7 @@
   (symbol (lib_id "Device:R") (at 171.694 147.448 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0c1df5f9-915c-45c7-af8e-cf6087a56efc)
-    (property "Reference" "R46" (at 168.9 145.543 90)
+    (property "Reference" "R136" (at 168.9 145.543 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "11K/1%" (at 174.869 145.543 90)
@@ -2510,16 +2422,6 @@
     (pin "1" (uuid af6fc5aa-3035-4e6c-be03-b2df0b940406))
     (pin "2" (uuid b70037ea-03e6-4fb7-8954-e6b6b9bc1b5d))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "R46") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "R19") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "R136") (unit 1)
@@ -2531,7 +2433,7 @@
   (symbol (lib_id "Fabmicro:ProtectiveDiodeDA") (at 392.2849 126.0267 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0f5753ae-5c58-4c2d-9b27-30b4c6ae1a15)
-    (property "Reference" "D10" (at 395.4599 127.1697 0)
+    (property "Reference" "D12" (at 395.4599 127.1697 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "PGB1010603NRHF" (at 395.8409 140.8857 0)
@@ -2552,22 +2454,6 @@
     (pin "1" (uuid fa7dc94b-cdca-442b-923a-f2b56e6af878))
     (pin "2" (uuid 8028070c-51f5-4d7a-9d75-24c67f8e131c))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005d453f81"
-          (reference "D10") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/e5e3a614-5847-4777-825c-3a33fd83f61e"
-          (reference "D56") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00801fbe-0038-412f-be4b-3a4eb12dad06"
-          (reference "D66") (unit 1)
-        )
-      )
-      (project "SIP_HomePhone"
-        (path "/1f1efc58-1a2e-4658-b2ac-cf03134c8a7b/00000000-0000-0000-0000-00005ddd7833"
-          (reference "D16") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "D12") (unit 1)
@@ -2579,7 +2465,7 @@
   (symbol (lib_id "Device:R") (at 75.764 112.069 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 124b6b55-be26-4a6b-b17b-83709639dfec)
-    (property "Reference" "R26" (at 72.97 110.164 90)
+    (property "Reference" "R123" (at 72.97 110.164 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "11K/1%" (at 78.939 110.164 90)
@@ -2600,16 +2486,6 @@
     (pin "1" (uuid 5314aebf-d855-4919-bdee-25c670c161cd))
     (pin "2" (uuid a6fcdac0-962f-4294-bb99-b6f948112418))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "R26") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "R19") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "R123") (unit 1)
@@ -2621,7 +2497,7 @@
   (symbol (lib_id "Device:C") (at 61.413 131.881 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 13e69834-416c-48f0-8054-ea501c91d3b6)
-    (property "Reference" "C48" (at 57.73 131.881 0)
+    (property "Reference" "C76" (at 57.73 131.881 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF/16V" (at 58.365 134.167 0)
@@ -2639,16 +2515,6 @@
     (pin "1" (uuid bb8d94cc-3fdf-48a8-8eed-e7e804d8f739))
     (pin "2" (uuid a6d406c3-2910-48ca-84d0-3b771b20a961))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "C48") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "C9") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "C76") (unit 1)
@@ -2660,7 +2526,7 @@
   (symbol (lib_id "power:GND") (at 243.294 69.179 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1481faff-84b1-420b-ba89-c0514fbce0a8)
-    (property "Reference" "#PWR031" (at 243.294 75.529 0)
+    (property "Reference" "#PWR0156" (at 243.294 75.529 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 243.294 72.989 0)
@@ -2674,22 +2540,6 @@
     )
     (pin "1" (uuid cf873388-9d81-479c-aab0-1ee36934e4f6))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR031") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061a79dda"
-          (reference "#PWR072") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/09e88d56-8f57-46c8-ba91-b726a1be30ee"
-          (reference "#PWR0274") (unit 1)
-        )
-      )
-      (project "RanetkaPC_TestJig"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR062") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "#PWR0156") (unit 1)
@@ -2701,7 +2551,7 @@
   (symbol (lib_id "Amplifier_Operational:LM358") (at 89.607 120.07 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 154d792c-b0b4-49be-a5a5-5493e7ec8749)
-    (property "Reference" "U14" (at 88.337 118.7999 0)
+    (property "Reference" "U12" (at 88.337 118.7999 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Value" "LM258A" (at 88.337 120.07 0)
@@ -2725,16 +2575,6 @@
     (pin "4" (uuid 328d4737-761e-40b7-a115-0f6bab33bae4))
     (pin "8" (uuid 67bcf403-2053-4bcd-8b49-3fbfc9a91936))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "U14") (unit 3)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "U7") (unit 3)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "U12") (unit 3)
@@ -2746,7 +2586,7 @@
   (symbol (lib_id "power:GND") (at 254.343 69.179 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 18cfd2aa-2255-4008-a2c6-9dacc50b9800)
-    (property "Reference" "#PWR031" (at 254.343 75.529 0)
+    (property "Reference" "#PWR0157" (at 254.343 75.529 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 254.343 72.989 0)
@@ -2760,22 +2600,6 @@
     )
     (pin "1" (uuid 16114ed2-076a-487b-b0f0-e4ed8b028c77))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR031") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061a79dda"
-          (reference "#PWR072") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/09e88d56-8f57-46c8-ba91-b726a1be30ee"
-          (reference "#PWR045") (unit 1)
-        )
-      )
-      (project "RanetkaPC_TestJig"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR062") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "#PWR0157") (unit 1)
@@ -2787,7 +2611,7 @@
   (symbol (lib_id "Device:R") (at 75.637 130.992 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1ae714a9-f942-429f-b3bb-f2462adb3cc8)
-    (property "Reference" "R42" (at 78.812 129.722 0)
+    (property "Reference" "R133" (at 78.812 129.722 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "22K/1%" (at 80.463 131.627 0)
@@ -2808,16 +2632,6 @@
     (pin "1" (uuid 1eacc6a6-b3e4-49bf-a76b-2321f13397b5))
     (pin "2" (uuid 48fdf05c-d439-43cb-b202-ce1ae8180edc))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "R42") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "R18") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "R133") (unit 1)
@@ -2829,7 +2643,7 @@
   (symbol (lib_id "Amplifier_Operational:LM358") (at 185.664 121.159 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1b7fcae2-06e6-48aa-8562-f1d0a33e1780)
-    (property "Reference" "U11" (at 189.601 117.857 0)
+    (property "Reference" "U13" (at 189.601 117.857 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LM258A" (at 184.394 121.032 0)
@@ -2853,16 +2667,6 @@
     (pin "4" (uuid ddd45d2c-a48e-4992-ae7a-5107af16b42e))
     (pin "8" (uuid 5f7be080-bf47-4e9f-a512-e84bfc3ce5e1))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "U11") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "U7") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "U13") (unit 1)
@@ -2905,7 +2709,7 @@
   (symbol (lib_id "power:GND") (at 353.9309 129.2017 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1c811733-2b3a-4333-90d8-33e68446b8be)
-    (property "Reference" "#PWR096" (at 353.9309 135.5517 0)
+    (property "Reference" "#PWR0173" (at 353.9309 135.5517 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 353.9309 133.0117 0)
@@ -2919,19 +2723,6 @@
     )
     (pin "1" (uuid e35379c8-0869-4418-bda7-1cc6ed672288))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "#PWR096") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00801fbe-0038-412f-be4b-3a4eb12dad06"
-          (reference "#PWR0296") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "#PWR016") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "#PWR0173") (unit 1)
@@ -2943,7 +2734,7 @@
   (symbol (lib_id "power:GND") (at 135.41 70.36 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1d62f8f3-4877-4980-8ef4-2823ef16d11e)
-    (property "Reference" "#PWR031" (at 135.41 76.71 0)
+    (property "Reference" "#PWR0159" (at 135.41 76.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 135.41 74.17 0)
@@ -2957,19 +2748,6 @@
     )
     (pin "1" (uuid bf499ace-8e3e-49f8-8e82-b935f1775ef7))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR031") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061a79dda"
-          (reference "#PWR069") (unit 1)
-        )
-      )
-      (project "RanetkaPC_TestJig"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR062") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "#PWR0159") (unit 1)
@@ -2981,7 +2759,7 @@
   (symbol (lib_id "Fabmicro:CapacitorUnpolarized") (at 148.11 65.28 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1edd20f1-38e0-4424-b882-bc9bc4b7f088)
-    (property "Reference" "C27" (at 149.38 62.74 90)
+    (property "Reference" "C68" (at 149.38 62.74 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF/50V" (at 149.38 67.82 90)
@@ -3002,31 +2780,6 @@
     (pin "1" (uuid bf8f4c6f-7a33-4cd7-85e0-6568ef30bec9))
     (pin "2" (uuid ec98228f-7677-43ae-b99d-8325c4aed14f))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061a79dda"
-          (reference "C27") (unit 1)
-        )
-      )
-      (project "TMSController"
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005f48bf60"
-          (reference "C?") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-000061a79dda"
-          (reference "C71") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005d453faf"
-          (reference "C?") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005d453f81"
-          (reference "C?") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-000061a79ed8"
-          (reference "C?") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005ddd786e"
-          (reference "C?") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "C68") (unit 1)
@@ -3038,7 +2791,7 @@
   (symbol (lib_id "power:GND") (at 98.679 192.913 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1f18302b-69af-4ce6-a0e5-da60d8b23462)
-    (property "Reference" "#PWR098" (at 98.679 199.263 0)
+    (property "Reference" "#PWR0207" (at 98.679 199.263 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 98.679 196.723 0)
@@ -3052,16 +2805,6 @@
     )
     (pin "1" (uuid c1b118e0-4f9e-4bda-bec8-28669797cc18))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "#PWR098") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "#PWR017") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "#PWR0207") (unit 1)
@@ -3073,7 +2816,7 @@
   (symbol (lib_id "Device:C") (at 61.286 166.171 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 23b781d8-5f2c-40f7-afb7-6e2328391ae6)
-    (property "Reference" "C56" (at 57.603 166.171 0)
+    (property "Reference" "C80" (at 57.603 166.171 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF/16V" (at 58.238 168.457 0)
@@ -3091,16 +2834,6 @@
     (pin "1" (uuid e6cc7ee8-bb36-4760-a1da-8d6fc22540e2))
     (pin "2" (uuid c13ea4db-19f7-43a5-9b77-da815a591ae1))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "C56") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "C9") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "C80") (unit 1)
@@ -3112,7 +2845,7 @@
   (symbol (lib_id "Fabmicro:Resistor") (at 386.6715 121.5817 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 24b6c688-d00e-4931-8bdc-a2c9bf2b08f8)
-    (property "Reference" "R122" (at 387.8495 119.5497 0)
+    (property "Reference" "R127" (at 387.8495 119.5497 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22R/1%" (at 389.8815 124.1217 0)
@@ -3136,22 +2869,6 @@
     (pin "1" (uuid a9bd50d9-5825-4f44-9a67-5040b8077a33))
     (pin "2" (uuid 2f6a8a16-be8c-45ef-b5fa-721545d14885))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005d453f81"
-          (reference "R122") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/e5e3a614-5847-4777-825c-3a33fd83f61e"
-          (reference "R129") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00801fbe-0038-412f-be4b-3a4eb12dad06"
-          (reference "R142") (unit 1)
-        )
-      )
-      (project "SIP_HomePhone"
-        (path "/1f1efc58-1a2e-4658-b2ac-cf03134c8a7b/00000000-0000-0000-0000-00005ddd7833"
-          (reference "R113") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "R127") (unit 1)
@@ -3163,7 +2880,7 @@
   (symbol (lib_id "Device:R") (at 101.7434 205.613 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2504e3b1-90db-4496-9510-99998e0a2762)
-    (property "Reference" "R30" (at 98.9494 203.708 90)
+    (property "Reference" "R148" (at 98.9494 203.708 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "51R/1%" (at 104.9184 203.708 90)
@@ -3184,16 +2901,6 @@
     (pin "1" (uuid 62e9e62d-eff9-494a-8bab-977db9fb9ff9))
     (pin "2" (uuid f24a3bdd-7a73-4c45-9944-d090636304a3))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "R30") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "R19") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "R148") (unit 1)
@@ -3205,7 +2912,7 @@
   (symbol (lib_id "power:GND") (at 392.2849 136.1867 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 256e16bc-f462-4ccf-acf4-a9b3396d82b3)
-    (property "Reference" "#PWR031" (at 392.2849 142.5367 0)
+    (property "Reference" "#PWR0183" (at 392.2849 142.5367 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 392.2849 139.9967 0)
@@ -3219,28 +2926,6 @@
     )
     (pin "1" (uuid 38bfc236-5a80-444d-8631-84c0117d59e2))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR031") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061a79dda"
-          (reference "#PWR066") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/aaa0c306-7c29-45af-95e1-2ada5a0bcd3a"
-          (reference "#PWR0270") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/09e88d56-8f57-46c8-ba91-b726a1be30ee"
-          (reference "#PWR0273") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00801fbe-0038-412f-be4b-3a4eb12dad06"
-          (reference "#PWR0298") (unit 1)
-        )
-      )
-      (project "RanetkaPC_TestJig"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR062") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "#PWR0183") (unit 1)
@@ -3283,7 +2968,7 @@
   (symbol (lib_id "Device:R") (at 74.041 197.612 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 28ca921a-ac8c-47f6-987b-4f6c3f83f31f)
-    (property "Reference" "R26" (at 71.247 195.707 90)
+    (property "Reference" "R147" (at 71.247 195.707 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1M/1%" (at 77.216 195.707 90)
@@ -3304,16 +2989,6 @@
     (pin "1" (uuid fae3687c-10ef-4d3e-9d32-05d69b5a2d09))
     (pin "2" (uuid be039721-f687-40d0-9b35-b25db6b670f5))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "R26") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "R19") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "R147") (unit 1)
@@ -3325,7 +3000,7 @@
   (symbol (lib_id "power:+5V") (at 76.907 100.131 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2b186c06-09fb-4e7b-a01e-010fb311204f)
-    (property "Reference" "#PWR031" (at 80.717 100.131 0)
+    (property "Reference" "#PWR0163" (at 80.717 100.131 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 73.7321 100.5508 90)
@@ -3339,14 +3014,6 @@
     )
     (pin "1" (uuid 16f6dae1-d703-45ca-b82d-17559baf1a05))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR031") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "#PWR0371") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "#PWR0163") (unit 1)
@@ -3358,7 +3025,7 @@
   (symbol (lib_id "Device:R") (at 49.657 203.327 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2bdeaa42-2e18-4be3-9a29-a73e7726f8e4)
-    (property "Reference" "R42" (at 47.371 201.168 90)
+    (property "Reference" "R157" (at 47.371 201.168 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "11K/1%" (at 53.086 201.168 90)
@@ -3379,16 +3046,6 @@
     (pin "1" (uuid 15338c4f-23b3-41ef-8abe-f1995e13620e))
     (pin "2" (uuid c796a983-a79b-4bbf-beb3-ef6aa52254cd))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "R42") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "R18") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "R157") (unit 1)
@@ -3400,7 +3057,7 @@
   (symbol (lib_id "Device:R") (at 44.958 217.297 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2ec749b3-ac4d-4d68-a6e8-f674907ba262)
-    (property "Reference" "R42" (at 48.133 216.027 0)
+    (property "Reference" "R149" (at 48.133 216.027 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "11K/1%" (at 49.784 217.932 0)
@@ -3421,16 +3078,6 @@
     (pin "1" (uuid 268066fe-0ee9-434f-9d1a-af12ea575584))
     (pin "2" (uuid 91b92296-1876-4395-b0d9-0b624a5d375e))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "R42") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "R18") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "R149") (unit 1)
@@ -3473,7 +3120,7 @@
   (symbol (lib_id "power:GND") (at 261.9622 130.2151 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 31c93de9-1c35-4144-9f37-8f4dab726835)
-    (property "Reference" "#PWR096" (at 261.9622 136.5651 0)
+    (property "Reference" "#PWR0174" (at 261.9622 136.5651 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 261.9622 134.0251 0)
@@ -3487,19 +3134,6 @@
     )
     (pin "1" (uuid c5aa4a19-8d59-49c9-9459-a6c33f492197))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "#PWR096") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00801fbe-0038-412f-be4b-3a4eb12dad06"
-          (reference "#PWR0296") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "#PWR016") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "#PWR0174") (unit 1)
@@ -3511,7 +3145,7 @@
   (symbol (lib_id "power:GND") (at 275.2972 109.8951 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3283c295-5cfa-4f6d-b3f9-11468c8c2396)
-    (property "Reference" "#PWR098" (at 275.2972 116.2451 0)
+    (property "Reference" "#PWR0170" (at 275.2972 116.2451 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 275.2972 113.7051 0)
@@ -3525,19 +3159,6 @@
     )
     (pin "1" (uuid 4802d9d8-7313-4399-8196-892e14fe0935))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "#PWR098") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00801fbe-0038-412f-be4b-3a4eb12dad06"
-          (reference "#PWR0297") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "#PWR017") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "#PWR0170") (unit 1)
@@ -3549,7 +3170,7 @@
   (symbol (lib_id "power:GND") (at 145.659 136.526 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 32ff2f42-3ef7-4a67-8021-77ae3bd24c96)
-    (property "Reference" "#PWR086" (at 145.659 142.876 0)
+    (property "Reference" "#PWR0184" (at 145.659 142.876 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 145.659 140.336 0)
@@ -3563,16 +3184,6 @@
     )
     (pin "1" (uuid d666b199-7f8e-422b-925a-19e791fae34a))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "#PWR086") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "#PWR014") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "#PWR0184") (unit 1)
@@ -3605,16 +3216,6 @@
     (pin "1" (uuid 0abb693b-86fd-4567-94d0-256b61356cec))
     (pin "2" (uuid 3d2400fe-c027-4df8-adfa-eb9e9e099279))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "D19") (unit 1)
-        )
-      )
-      (project "SIP_HomePhone"
-        (path "/1f1efc58-1a2e-4658-b2ac-cf03134c8a7b/00000000-0000-0000-0000-00005ddd7833"
-          (reference "D18") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "D19") (unit 1)
@@ -3626,7 +3227,7 @@
   (symbol (lib_id "Device:R") (at 151.247 157.989 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 34315994-90c9-445e-a902-e2b71d458360)
-    (property "Reference" "R54" (at 150.358 156.211 90)
+    (property "Reference" "R142" (at 150.358 156.211 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "22K/1%" (at 156.073 156.084 90)
@@ -3647,16 +3248,6 @@
     (pin "1" (uuid ab9e0bed-f0dc-4a15-840d-8bbfaca5a3ab))
     (pin "2" (uuid a69150d6-76a8-46a5-b6d3-f8643f6b4e0f))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "R54") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "R16") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "R142") (unit 1)
@@ -3668,7 +3259,7 @@
   (symbol (lib_id "Device:C") (at 110.943 160.837 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 348962e3-8dff-4eb1-93be-a4bd11591d73)
-    (property "Reference" "C52" (at 107.768 158.297 0)
+    (property "Reference" "C78" (at 107.768 158.297 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.01uF/50V" (at 107.768 160.837 0)
@@ -3686,16 +3277,6 @@
     (pin "1" (uuid d9d38b40-fda0-482d-a104-a460d1fb4dab))
     (pin "2" (uuid 417e1c84-eb38-4a51-b43d-f65be28990dc))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "C52") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "C6") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "C78") (unit 1)
@@ -3707,7 +3288,7 @@
   (symbol (lib_id "Fabmicro:CapacitorUnpolarized") (at 135.41 65.28 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 37d0d605-409a-421e-8b59-3878c9d90b2a)
-    (property "Reference" "C25" (at 136.68 62.74 90)
+    (property "Reference" "C67" (at 136.68 62.74 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF/50V" (at 136.68 67.82 90)
@@ -3728,31 +3309,6 @@
     (pin "1" (uuid 2623ea3b-bf5f-4a4d-8270-f7e5b1a316cb))
     (pin "2" (uuid 05c72dd7-ff68-4b1c-b420-c999d81bba84))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061a79dda"
-          (reference "C25") (unit 1)
-        )
-      )
-      (project "TMSController"
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005f48bf60"
-          (reference "C?") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-000061a79dda"
-          (reference "C70") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005d453faf"
-          (reference "C?") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005d453f81"
-          (reference "C?") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-000061a79ed8"
-          (reference "C?") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005ddd786e"
-          (reference "C?") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "C67") (unit 1)
@@ -3764,7 +3320,7 @@
   (symbol (lib_id "Device:C") (at 207.127 127.636 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3dc20e4c-e454-4a9d-ac7d-11af79138496)
-    (property "Reference" "C44" (at 203.952 125.096 0)
+    (property "Reference" "C75" (at 203.952 125.096 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.01uF/50V" (at 203.952 127.636 0)
@@ -3782,16 +3338,6 @@
     (pin "1" (uuid d8d70beb-a5a0-48da-9743-da67938f9e60))
     (pin "2" (uuid a5e55023-84b2-45b8-9e5a-0836e4b64b2f))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "C44") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "C6") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "C75") (unit 1)
@@ -3803,7 +3349,7 @@
   (symbol (lib_id "Device:R") (at 73.787 250.825 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 415480cb-0a39-44d7-8a6d-d9e59dcfb27d)
-    (property "Reference" "R208" (at 76.962 249.555 0)
+    (property "Reference" "R156" (at 76.962 249.555 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "22K/1%" (at 78.613 251.46 0)
@@ -3824,16 +3370,6 @@
     (pin "1" (uuid 1a916374-a123-4567-9056-d7fd99bedb11))
     (pin "2" (uuid 21914a72-a2f6-4299-986c-4f13a0c694e5))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "R208") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "R18") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "R156") (unit 1)
@@ -3845,7 +3381,7 @@
   (symbol (lib_id "Device:C") (at 360.2809 105.7067 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 42551d52-f183-4bda-96fd-8451205ee9e7)
-    (property "Reference" "C41" (at 361.5509 101.8967 90)
+    (property "Reference" "C72" (at 361.5509 101.8967 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF/16V" (at 365.3609 109.5167 90)
@@ -3863,19 +3399,6 @@
     (pin "1" (uuid 3d72deee-b281-4fa6-91b7-554f456bb373))
     (pin "2" (uuid 322f80bf-31f9-4ace-89fe-6e8f8cdd6381))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "C41") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00801fbe-0038-412f-be4b-3a4eb12dad06"
-          (reference "C115") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "C9") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "C72") (unit 1)
@@ -3887,7 +3410,7 @@
   (symbol (lib_id "Device:R") (at 55.317 122.61 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 455d4a15-1e46-4c98-994e-35ff0a7255db)
-    (property "Reference" "R34" (at 54.428 120.832 90)
+    (property "Reference" "R129" (at 54.428 120.832 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "22K/1%" (at 60.143 120.705 90)
@@ -3908,16 +3431,6 @@
     (pin "1" (uuid 42661c0e-53a2-45ba-8160-55bd4fd457c6))
     (pin "2" (uuid 8cc17d06-2221-4886-b4c6-8848961bf9d8))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "R34") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "R16") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "R129") (unit 1)
@@ -3929,7 +3442,7 @@
   (symbol (lib_id "Fabmicro:ProtectiveDiodeDA") (at 392.4 155.14 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 457b5f11-2b4f-4806-bd45-18448e60d467)
-    (property "Reference" "D10" (at 395.575 156.283 0)
+    (property "Reference" "D16" (at 395.575 156.283 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "PGB1010603NRHF" (at 395.956 169.999 0)
@@ -3950,22 +3463,6 @@
     (pin "1" (uuid d4936a78-3403-4f52-917b-2a23fea42e80))
     (pin "2" (uuid 1db1f656-24a9-42a5-a6e1-7a1a07ac2020))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005d453f81"
-          (reference "D10") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/e5e3a614-5847-4777-825c-3a33fd83f61e"
-          (reference "D56") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00801fbe-0038-412f-be4b-3a4eb12dad06"
-          (reference "D64") (unit 1)
-        )
-      )
-      (project "SIP_HomePhone"
-        (path "/1f1efc58-1a2e-4658-b2ac-cf03134c8a7b/00000000-0000-0000-0000-00005ddd7833"
-          (reference "D16") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "D16") (unit 1)
@@ -3977,7 +3474,7 @@
   (symbol (lib_id "Device:C") (at 268.3122 106.7201 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 45d28523-2af4-486b-aa8a-f330f1c66ae7)
-    (property "Reference" "C41" (at 269.5822 102.9101 90)
+    (property "Reference" "C73" (at 269.5822 102.9101 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF/16V" (at 273.3922 110.5301 90)
@@ -3995,19 +3492,6 @@
     (pin "1" (uuid 9d0314d5-b01e-4361-a3c7-b8bb448dbcec))
     (pin "2" (uuid f3f85179-ff60-4585-b4d8-8f21125f7ae5))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "C41") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00801fbe-0038-412f-be4b-3a4eb12dad06"
-          (reference "C115") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "C9") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "C73") (unit 1)
@@ -4019,7 +3503,7 @@
   (symbol (lib_id "Amplifier_Operational:LM358") (at 87.884 205.613 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4876a0cd-ba53-4644-883c-4bf42da3c9ad)
-    (property "Reference" "U11" (at 91.821 202.311 0)
+    (property "Reference" "U16" (at 91.821 202.311 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LM258A" (at 86.614 205.486 0)
@@ -4043,16 +3527,6 @@
     (pin "4" (uuid ddd45d2c-a48e-4992-ae7a-5107af16b42f))
     (pin "8" (uuid 5f7be080-bf47-4e9f-a512-e84bfc3ce5e2))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "U11") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "U7") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "U16") (unit 1)
@@ -4064,7 +3538,7 @@
   (symbol (lib_id "power:GND") (at 231.4084 52.3756 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 49b34fa2-8457-405c-b3c1-e6c345868018)
-    (property "Reference" "#PWR031" (at 231.4084 58.7256 0)
+    (property "Reference" "#PWR0154" (at 231.4084 58.7256 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 231.4084 56.1856 0)
@@ -4078,25 +3552,6 @@
     )
     (pin "1" (uuid 7e927013-437a-4aad-8a0e-fb89137ae2a7))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR031") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061a79dda"
-          (reference "#PWR066") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/aaa0c306-7c29-45af-95e1-2ada5a0bcd3a"
-          (reference "#PWR0270") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/09e88d56-8f57-46c8-ba91-b726a1be30ee"
-          (reference "#PWR0273") (unit 1)
-        )
-      )
-      (project "RanetkaPC_TestJig"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR062") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "#PWR0154") (unit 1)
@@ -4108,7 +3563,7 @@
   (symbol (lib_id "power:GND") (at 49.475 169.727 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4e38d4ee-23ab-4436-9ba1-3962dfa9ffd5)
-    (property "Reference" "#PWR090" (at 49.475 176.077 0)
+    (property "Reference" "#PWR0193" (at 49.475 176.077 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 49.475 173.537 0)
@@ -4122,16 +3577,6 @@
     )
     (pin "1" (uuid f555f3bf-7c34-4c0d-8959-cafdcee62c23))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "#PWR090") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "#PWR014") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "#PWR0193") (unit 1)
@@ -4143,7 +3588,7 @@
   (symbol (lib_id "power:GND") (at 61.413 135.691 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4f17d694-96e3-4f72-8982-ba97a6e2c76b)
-    (property "Reference" "#PWR0369" (at 61.413 142.041 0)
+    (property "Reference" "#PWR0180" (at 61.413 142.041 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 61.413 139.501 0)
@@ -4157,16 +3602,6 @@
     )
     (pin "1" (uuid f08a2b16-91d7-42da-9f23-96cde5bfd8f2))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "#PWR0369") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "#PWR016") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "#PWR0180") (unit 1)
@@ -4178,7 +3613,7 @@
   (symbol (lib_id "power:GND") (at 61.286 169.981 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4f29fabb-cbb0-4eab-87c5-9d12a05a9311)
-    (property "Reference" "#PWR0372" (at 61.286 176.331 0)
+    (property "Reference" "#PWR0195" (at 61.286 176.331 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 61.286 173.791 0)
@@ -4192,16 +3627,6 @@
     )
     (pin "1" (uuid 36e992e2-6a9b-49c4-bd64-62b101dda6fe))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "#PWR0372") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "#PWR016") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "#PWR0195") (unit 1)
@@ -4213,7 +3638,7 @@
   (symbol (lib_id "power:GND") (at 44.958 221.107 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4f749d64-eb18-4f3c-b224-8442c9491034)
-    (property "Reference" "#PWR0367" (at 44.958 227.457 0)
+    (property "Reference" "#PWR0209" (at 44.958 227.457 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 44.958 224.917 0)
@@ -4227,16 +3652,6 @@
     )
     (pin "1" (uuid 488abda5-cd58-43f4-b013-d9535c83226e))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "#PWR0367") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "#PWR016") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "#PWR0209") (unit 1)
@@ -4248,7 +3663,7 @@
   (symbol (lib_id "Amplifier_Operational:LM358") (at 356.4709 121.5817 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 52cc7da7-307e-4402-9882-1e3ce5e6c365)
-    (property "Reference" "U11" (at 360.9159 117.1367 0)
+    (property "Reference" "U14" (at 360.9159 117.1367 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LM258A" (at 355.1755 121.6833 0)
@@ -4272,19 +3687,6 @@
     (pin "4" (uuid 8e869c9e-0a6e-483a-853d-34622b1c8fe1))
     (pin "8" (uuid 9d3989ed-e94c-45fe-8ecc-adeb2536eeb1))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "U11") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00801fbe-0038-412f-be4b-3a4eb12dad06"
-          (reference "U32") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "U7") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "U14") (unit 1)
@@ -4296,7 +3698,7 @@
   (symbol (lib_id "Amplifier_Operational:LM358") (at 89.607 120.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 56db25ec-2951-49e6-9f79-4f1880b95c79)
-    (property "Reference" "U11" (at 93.544 116.768 0)
+    (property "Reference" "U12" (at 93.544 116.768 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LM258A" (at 88.337 119.943 0)
@@ -4320,16 +3722,6 @@
     (pin "4" (uuid ddd45d2c-a48e-4992-ae7a-5107af16b430))
     (pin "8" (uuid 5f7be080-bf47-4e9f-a512-e84bfc3ce5e3))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "U11") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "U7") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "U12") (unit 1)
@@ -4341,7 +3733,7 @@
   (symbol (lib_id "power:GND") (at 264.249 69.052 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5d9a3e56-51e4-45ca-bddf-adb99dc3b67d)
-    (property "Reference" "#PWR031" (at 264.249 75.402 0)
+    (property "Reference" "#PWR0155" (at 264.249 75.402 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 264.249 72.862 0)
@@ -4355,22 +3747,6 @@
     )
     (pin "1" (uuid 6655446d-234a-4422-958e-e35f6a561d29))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR031") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061a79dda"
-          (reference "#PWR072") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/09e88d56-8f57-46c8-ba91-b726a1be30ee"
-          (reference "#PWR0272") (unit 1)
-        )
-      )
-      (project "RanetkaPC_TestJig"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR062") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "#PWR0155") (unit 1)
@@ -4382,7 +3758,7 @@
   (symbol (lib_id "Fabmicro:Ferrite_Beads") (at 80.264 185.674 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5e97cfb9-35db-4777-b02f-f7a76e1060e3)
-    (property "Reference" "L5" (at 80.264 182.499 0)
+    (property "Reference" "L15" (at 80.264 182.499 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "330R/1.2A" (at 80.264 186.69 0)
@@ -4406,34 +3782,6 @@
     (pin "1" (uuid b99e49a0-8297-4d71-a7d2-015d79e2d21a))
     (pin "2" (uuid 163eb258-2583-46b5-b49a-c35d89efc42b))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061a79dda"
-          (reference "L5") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "L12") (unit 1)
-        )
-      )
-      (project "TMSController"
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-000061a79dda"
-          (reference "L11") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005e82d990"
-          (reference "L?") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005dbc80e1"
-          (reference "L?") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005d481974"
-          (reference "L?") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005ddd7833"
-          (reference "L?") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005ddd8b82"
-          (reference "L?") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "L15") (unit 1)
@@ -4445,7 +3793,7 @@
   (symbol (lib_id "Device:R") (at 103.4664 120.07 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 674a8796-1416-45f4-97f6-ba517e2ef546)
-    (property "Reference" "R30" (at 100.6724 118.165 90)
+    (property "Reference" "R125" (at 100.6724 118.165 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "51R/1%" (at 106.6414 118.165 90)
@@ -4466,16 +3814,6 @@
     (pin "1" (uuid 481df6f3-9c2e-495c-9de5-28d87e20c1d1))
     (pin "2" (uuid 5e738db4-8987-4547-b900-f83a8da5fc49))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "R30") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "R19") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "R125") (unit 1)
@@ -4487,7 +3825,7 @@
   (symbol (lib_id "power:GND") (at 73.914 220.345 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 68f694b8-6db8-4750-a108-bc5dd33322cb)
-    (property "Reference" "#PWR0367" (at 73.914 226.695 0)
+    (property "Reference" "#PWR0211" (at 73.914 226.695 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 73.914 224.155 0)
@@ -4501,16 +3839,6 @@
     )
     (pin "1" (uuid cdf4d046-a562-4d36-adaf-6dc7ffa895d6))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "#PWR0367") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "#PWR016") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "#PWR0211") (unit 1)
@@ -4522,7 +3850,7 @@
   (symbol (lib_id "Device:R") (at 151.374 123.699 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6988e821-7fea-43fd-95a4-359c7f6b818a)
-    (property "Reference" "R34" (at 150.485 121.921 90)
+    (property "Reference" "R130" (at 150.485 121.921 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "22K/1%" (at 156.2 121.794 90)
@@ -4543,16 +3871,6 @@
     (pin "1" (uuid 6f9c7127-1650-409b-ab0c-2f7e3b478276))
     (pin "2" (uuid d1fb9eaa-51fe-4227-a7c8-1ff4e00e28af))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "R34") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "R16") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "R130") (unit 1)
@@ -4564,7 +3882,7 @@
   (symbol (lib_id "power:+5V") (at 75.184 185.674 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6dc2d8db-6537-419f-b9c9-a219db2a3420)
-    (property "Reference" "#PWR031" (at 78.994 185.674 0)
+    (property "Reference" "#PWR0206" (at 78.994 185.674 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 72.0091 186.0938 90)
@@ -4578,14 +3896,6 @@
     )
     (pin "1" (uuid c4573c7e-7fa0-4889-b9a1-7370aecee428))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR031") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "#PWR0371") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "#PWR0206") (unit 1)
@@ -4628,7 +3938,7 @@
   (symbol (lib_id "Device:R") (at 164.455 127.001 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6e4b3d1c-9cc4-4aa5-b5ab-51856fd65cc1)
-    (property "Reference" "R38" (at 160.01 129.033 90)
+    (property "Reference" "R132" (at 160.01 129.033 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "11K/1%" (at 165.471 129.287 90)
@@ -4652,16 +3962,6 @@
     (pin "1" (uuid ba257523-fc0d-45f5-bda4-b1871f5d86b6))
     (pin "2" (uuid 7ddd7bb0-c6a3-48d8-896c-b90a6e715bfa))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "R38") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "R17") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "R132") (unit 1)
@@ -4694,16 +3994,6 @@
     (pin "1" (uuid ee8af5b3-65c4-4145-816d-a5b70ba36e59))
     (pin "2" (uuid 82a70a67-890c-4fe0-bcbb-c119a2a2348a))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "D15") (unit 1)
-        )
-      )
-      (project "SIP_HomePhone"
-        (path "/1f1efc58-1a2e-4658-b2ac-cf03134c8a7b/00000000-0000-0000-0000-00005ddd7833"
-          (reference "D18") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "D15") (unit 1)
@@ -4715,7 +4005,7 @@
   (symbol (lib_id "power:GND") (at 75.637 134.802 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6ec53ac4-9a22-4c3e-a6d0-8110b9167fdd)
-    (property "Reference" "#PWR0367" (at 75.637 141.152 0)
+    (property "Reference" "#PWR0177" (at 75.637 141.152 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 75.637 138.612 0)
@@ -4729,16 +4019,6 @@
     )
     (pin "1" (uuid 8e03d949-4b9c-4832-9c36-f241605371da))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "#PWR0367") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "#PWR016") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "#PWR0177") (unit 1)
@@ -4750,7 +4030,7 @@
   (symbol (lib_id "Device:C") (at 91.694 189.738 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6fef7b0d-b9ad-460d-b1ac-c8c6001e084c)
-    (property "Reference" "C40" (at 92.964 193.548 90)
+    (property "Reference" "C84" (at 92.964 193.548 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF/16V" (at 96.774 185.928 90)
@@ -4768,16 +4048,6 @@
     (pin "1" (uuid 92f6a332-f53d-4778-a3ff-0df69fea16da))
     (pin "2" (uuid a04055a1-29aa-4ba5-bb2c-7615e2a2e30c))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "C40") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "C9") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "C84") (unit 1)
@@ -4789,7 +4059,7 @@
   (symbol (lib_id "Device:C") (at 157.343 167.26 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 730adceb-f15b-4ced-a7b3-1d70651f0121)
-    (property "Reference" "C56" (at 153.66 167.26 0)
+    (property "Reference" "C81" (at 153.66 167.26 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF/16V" (at 154.295 169.546 0)
@@ -4807,16 +4077,6 @@
     (pin "1" (uuid 0bcb0994-0aa1-404a-8b03-e8364a3fe310))
     (pin "2" (uuid cdcb1ed1-e044-4c72-932a-a8bd6f873299))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "C56") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "C9") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "C81") (unit 1)
@@ -4828,7 +4088,7 @@
   (symbol (lib_id "Fabmicro:CapacitorUnpolarized") (at 264.249 55.082 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7687f7f6-cdb6-4502-8b6a-a89c09c8f725)
-    (property "Reference" "C?" (at 265.519 52.542 90)
+    (property "Reference" "C64" (at 265.519 52.542 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF/16V" (at 265.519 57.622 90)
@@ -4849,22 +4109,6 @@
     (pin "1" (uuid 44e7ed21-c56a-431f-a2c5-ab9d523e2c2f))
     (pin "2" (uuid dd6f1a44-7181-4993-b6ae-06ade4729c8d))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "C?") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005d453f81"
-          (reference "C22") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/09e88d56-8f57-46c8-ba91-b726a1be30ee"
-          (reference "C19") (unit 1)
-        )
-      )
-      (project "RanetkaPC_TestJig"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "C68") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "C64") (unit 1)
@@ -4876,7 +4120,7 @@
   (symbol (lib_id "Device:C") (at 93.417 104.195 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 768b4dcb-d091-4022-973d-e62b9535e55c)
-    (property "Reference" "C40" (at 94.687 108.005 90)
+    (property "Reference" "C70" (at 94.687 108.005 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF/16V" (at 98.497 100.385 90)
@@ -4894,16 +4138,6 @@
     (pin "1" (uuid 9dae4c5b-5234-4774-b8cb-a3c105380e06))
     (pin "2" (uuid 13dd5b7a-9dd4-49ac-8577-854de048792e))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "C40") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "C9") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "C70") (unit 1)
@@ -4915,7 +4149,7 @@
   (symbol (lib_id "Fabmicro:CapacitorUnpolarized") (at 243.294 55.209 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 790ce381-88d6-464a-9ef1-48ed0a4108af)
-    (property "Reference" "C35" (at 244.564 52.669 90)
+    (property "Reference" "C65" (at 244.564 52.669 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22uF/25V" (at 244.564 57.749 90)
@@ -4939,28 +4173,6 @@
     (pin "1" (uuid 535e3f1a-5a88-48a6-a287-4599dfe1209c))
     (pin "2" (uuid 4753c2b7-eac2-441a-a869-9bf53871c8d5))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061a79dda"
-          (reference "C35") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/09e88d56-8f57-46c8-ba91-b726a1be30ee"
-          (reference "C112") (unit 1)
-        )
-      )
-      (project "TMSController"
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005d453faf"
-          (reference "C?") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-000061a79dda"
-          (reference "C72") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005ddd7771"
-          (reference "C?") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005d453f81"
-          (reference "C?") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "C65") (unit 1)
@@ -4972,7 +4184,7 @@
   (symbol (lib_id "Amplifier_Operational:LM358") (at 356.6104 150.7066 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 79e36c3f-0be2-40ea-b446-ffc3330272a6)
-    (property "Reference" "U11" (at 360.9284 145.1186 0)
+    (property "Reference" "U14" (at 360.9284 145.1186 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LM258A" (at 355.0864 150.7066 0)
@@ -4996,22 +4208,6 @@
     (pin "4" (uuid f235d0cb-e377-49e0-9cb0-0e4d19e559c4))
     (pin "8" (uuid df9fe84e-aee9-4ff2-94ea-6135358d3d8f))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "U11") (unit 2)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2cb5"
-          (reference "U22") (unit 2)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00801fbe-0038-412f-be4b-3a4eb12dad06"
-          (reference "U32") (unit 2)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "U7") (unit 2)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "U14") (unit 2)
@@ -5023,7 +4219,7 @@
   (symbol (lib_id "Fabmicro:Ferrite_Beads") (at 257.0092 106.7201 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7bf005d8-03c6-45a1-aa8e-fd5c8d400a19)
-    (property "Reference" "L5" (at 257.0092 103.5451 0)
+    (property "Reference" "L10" (at 257.0092 103.5451 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "330R/1.2A" (at 257.3902 108.3711 0)
@@ -5047,37 +4243,6 @@
     (pin "1" (uuid 62b223f8-7a8f-412d-b22a-1361021351e5))
     (pin "2" (uuid 4998e950-5ae0-449a-b4de-d835b21b50bd))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061a79dda"
-          (reference "L5") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "L9") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00801fbe-0038-412f-be4b-3a4eb12dad06"
-          (reference "L26") (unit 1)
-        )
-      )
-      (project "TMSController"
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005e82d990"
-          (reference "L?") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-000061a79dda"
-          (reference "L11") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005d481974"
-          (reference "L?") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005ddd7833"
-          (reference "L?") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005ddd8b82"
-          (reference "L?") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005dbc80e1"
-          (reference "L?") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "L10") (unit 1)
@@ -5089,7 +4254,7 @@
   (symbol (lib_id "Device:R") (at 199.5234 121.159 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7d53f11b-a61a-43e3-be43-232972495dd5)
-    (property "Reference" "R30" (at 196.7294 119.254 90)
+    (property "Reference" "R126" (at 196.7294 119.254 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "51R/1%" (at 202.6984 119.254 90)
@@ -5110,16 +4275,6 @@
     (pin "1" (uuid ff0f0f96-b3d5-4c1a-a121-e730c94c3504))
     (pin "2" (uuid e9ff8eac-90cd-429a-8c43-eacdc5987a82))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "R30") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "R19") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "R126") (unit 1)
@@ -5131,7 +4286,7 @@
   (symbol (lib_id "power:GND") (at 367.2659 108.8817 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7d6c829f-f55c-4b2d-a45f-226a7b57b20d)
-    (property "Reference" "#PWR098" (at 367.2659 115.2317 0)
+    (property "Reference" "#PWR0169" (at 367.2659 115.2317 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 367.2659 112.6917 0)
@@ -5145,19 +4300,6 @@
     )
     (pin "1" (uuid 24a57f98-a9fd-4e56-9b85-97db7d3813b0))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "#PWR098") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00801fbe-0038-412f-be4b-3a4eb12dad06"
-          (reference "#PWR0297") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "#PWR017") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "#PWR0169") (unit 1)
@@ -5169,7 +4311,7 @@
   (symbol (lib_id "Device:R") (at 103.3394 154.36 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 824c718c-3f29-4451-8cf7-204f34f602cd)
-    (property "Reference" "R50" (at 100.5454 152.455 90)
+    (property "Reference" "R139" (at 100.5454 152.455 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "51R/1%" (at 106.5144 152.455 90)
@@ -5190,16 +4332,6 @@
     (pin "1" (uuid 2a33ae75-5791-4ca6-aed6-2eae5047cf27))
     (pin "2" (uuid c8eeae8e-7c11-4fa2-9b00-13497c7d5917))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "R50") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "R19") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "R139") (unit 1)
@@ -5211,7 +4343,7 @@
   (symbol (lib_id "power:GND") (at 75.51 169.092 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8509372a-7e93-4d73-9136-61a31faf1db8)
-    (property "Reference" "#PWR0373" (at 75.51 175.442 0)
+    (property "Reference" "#PWR0192" (at 75.51 175.442 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 75.51 172.902 0)
@@ -5225,16 +4357,6 @@
     )
     (pin "1" (uuid 56a71919-e68e-4c57-947d-9be02b892416))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "#PWR0373") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "#PWR016") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "#PWR0192") (unit 1)
@@ -5246,7 +4368,7 @@
   (symbol (lib_id "Amplifier_Operational:LM358") (at 356.4709 121.5817 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 875a99d4-b698-4dd8-9c43-abdb1bf7e7d6)
-    (property "Reference" "U11" (at 355.2009 120.3116 0)
+    (property "Reference" "U14" (at 355.2009 120.3116 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Value" "LM258A" (at 355.2009 121.5817 0)
@@ -5270,19 +4392,6 @@
     (pin "4" (uuid e085e6b5-a4d1-4c34-a0ac-cdb2e5b04850))
     (pin "8" (uuid 9b784f73-d6da-4269-b966-ab78d1fa9713))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "U11") (unit 3)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00801fbe-0038-412f-be4b-3a4eb12dad06"
-          (reference "U32") (unit 3)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "U7") (unit 3)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "U14") (unit 3)
@@ -5294,7 +4403,7 @@
   (symbol (lib_id "power:GND") (at 160.81 70.36 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 881d4005-ddce-404a-b21c-7148a75fb73c)
-    (property "Reference" "#PWR031" (at 160.81 76.71 0)
+    (property "Reference" "#PWR0161" (at 160.81 76.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 160.81 74.17 0)
@@ -5308,19 +4417,6 @@
     )
     (pin "1" (uuid a8ba74d6-5dbc-4d68-ad36-b3e4178e9d91))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR031") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061a79dda"
-          (reference "#PWR074") (unit 1)
-        )
-      )
-      (project "RanetkaPC_TestJig"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR062") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "#PWR0161") (unit 1)
@@ -5332,7 +4428,7 @@
   (symbol (lib_id "Fabmicro:Ferrite_Beads") (at 348.9779 105.7067 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 88f08cb2-c96c-4db2-b692-fe4ab3c64fa6)
-    (property "Reference" "L5" (at 348.9779 102.5317 0)
+    (property "Reference" "L9" (at 348.9779 102.5317 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "330R/1.2A" (at 349.3589 107.3577 0)
@@ -5356,37 +4452,6 @@
     (pin "1" (uuid 6f20227a-addc-4c39-9939-f246e93e58b1))
     (pin "2" (uuid 6b8061da-f712-4c96-b04c-257a9e806cb0))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061a79dda"
-          (reference "L5") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "L9") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00801fbe-0038-412f-be4b-3a4eb12dad06"
-          (reference "L26") (unit 1)
-        )
-      )
-      (project "TMSController"
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005e82d990"
-          (reference "L?") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-000061a79dda"
-          (reference "L11") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005d481974"
-          (reference "L?") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005ddd7833"
-          (reference "L?") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005ddd8b82"
-          (reference "L?") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005dbc80e1"
-          (reference "L?") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "L9") (unit 1)
@@ -5429,7 +4494,7 @@
   (symbol (lib_id "power:GND") (at 73.787 254.635 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8a527e3d-2537-4813-94cf-005a7f96aeae)
-    (property "Reference" "#PWR0373" (at 73.787 260.985 0)
+    (property "Reference" "#PWR0216" (at 73.787 260.985 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 73.787 258.445 0)
@@ -5443,16 +4508,6 @@
     )
     (pin "1" (uuid 86fb5bc1-56de-4ee2-b1d7-3f809a314d04))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "#PWR0373") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "#PWR016") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "#PWR0216") (unit 1)
@@ -5464,7 +4519,7 @@
   (symbol (lib_id "Fabmicro:Ferrite_Beads") (at 59.6639 196.2342 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8aba82ed-86d0-41d3-a004-e52e298643d9)
-    (property "Reference" "L5" (at 62.0769 196.6152 0)
+    (property "Reference" "L16" (at 62.0769 196.6152 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "330R/1.2A" (at 58.5209 197.2502 0)
@@ -5488,34 +4543,6 @@
     (pin "1" (uuid e1886963-9fc7-4e37-a208-e856b0f133f1))
     (pin "2" (uuid 7cde9e8f-a431-483d-ab4b-958f53acefe4))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061a79dda"
-          (reference "L5") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "L39") (unit 1)
-        )
-      )
-      (project "TMSController"
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-000061a79dda"
-          (reference "L11") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005e82d990"
-          (reference "L?") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005dbc80e1"
-          (reference "L?") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005d481974"
-          (reference "L?") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005ddd7833"
-          (reference "L?") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005ddd8b82"
-          (reference "L?") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "L16") (unit 1)
@@ -5527,7 +4554,7 @@
   (symbol (lib_id "Device:R") (at 171.821 113.158 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9147a91d-84ef-4805-bcbd-b84f649290ce)
-    (property "Reference" "R26" (at 169.027 111.253 90)
+    (property "Reference" "R124" (at 169.027 111.253 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "11K/1%" (at 174.996 111.253 90)
@@ -5548,16 +4575,6 @@
     (pin "1" (uuid 89732ac8-cd84-40fd-b241-7d5c7afd311f))
     (pin "2" (uuid 79b2717f-02d5-431d-9395-63f38823df93))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "R26") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "R19") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "R124") (unit 1)
@@ -5569,7 +4586,7 @@
   (symbol (lib_id "Fabmicro:CapacitorUnpolarized") (at 160.81 65.28 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 94e74f33-0462-4cd5-aa4d-2b206ba7448a)
-    (property "Reference" "C29" (at 162.08 62.74 90)
+    (property "Reference" "C69" (at 162.08 62.74 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22uF/25V" (at 162.08 67.82 90)
@@ -5593,25 +4610,6 @@
     (pin "1" (uuid 8975828b-3936-45cd-bf43-550d4373c525))
     (pin "2" (uuid 1e5e68f0-1a8e-45d3-aed9-6e3613959d0e))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061a79dda"
-          (reference "C29") (unit 1)
-        )
-      )
-      (project "TMSController"
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005d453faf"
-          (reference "C?") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-000061a79dda"
-          (reference "C72") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005ddd7771"
-          (reference "C?") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005d453f81"
-          (reference "C?") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "C69") (unit 1)
@@ -5623,7 +4621,7 @@
   (symbol (lib_id "Fabmicro:ProtectiveDiodeDA") (at 49.602 133.659 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9511ef87-3967-42e9-9d33-45ceb995cba5)
-    (property "Reference" "D15" (at 44.522 127.182 90)
+    (property "Reference" "D14" (at 44.522 127.182 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "PGB1010603NRHF" (at 35.251 130.611 90)
@@ -5644,16 +4642,6 @@
     (pin "1" (uuid c1ffec6f-4565-45a3-91d5-d0c0e8f5131f))
     (pin "2" (uuid e8eebf2d-66a8-4cd1-80e9-2e806909a87c))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "D15") (unit 1)
-        )
-      )
-      (project "SIP_HomePhone"
-        (path "/1f1efc58-1a2e-4658-b2ac-cf03134c8a7b/00000000-0000-0000-0000-00005ddd7833"
-          (reference "D18") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "D14") (unit 1)
@@ -5665,7 +4653,7 @@
   (symbol (lib_id "Device:R") (at 171.694 132.081 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 95e53266-6c86-402f-98f6-a4ce824e0883)
-    (property "Reference" "R42" (at 174.869 130.811 0)
+    (property "Reference" "R134" (at 174.869 130.811 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "22K/1%" (at 176.52 132.716 0)
@@ -5686,16 +4674,6 @@
     (pin "1" (uuid 6a724fae-c26a-4f46-9cc3-e2afc7d3f26c))
     (pin "2" (uuid 3b2c5cc2-2526-4aac-94ef-e0f372546077))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "R42") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "R18") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "R134") (unit 1)
@@ -5707,7 +4685,7 @@
   (symbol (lib_id "Fabmicro:Ferrite_Beads") (at 151.628 147.321 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 97a191af-530e-441e-b80b-696eccab3123)
-    (property "Reference" "L5" (at 152.009 144.908 0)
+    (property "Reference" "L14" (at 152.009 144.908 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "330R/1.2A" (at 152.644 148.464 0)
@@ -5731,34 +4709,6 @@
     (pin "1" (uuid 2c2dbf7e-9db3-4150-92e5-e04aca30e5e4))
     (pin "2" (uuid e9b93ca4-e8ee-427b-95fb-8dee4b6b6445))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061a79dda"
-          (reference "L5") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "L43") (unit 1)
-        )
-      )
-      (project "TMSController"
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-000061a79dda"
-          (reference "L11") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005e82d990"
-          (reference "L?") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005dbc80e1"
-          (reference "L?") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005d481974"
-          (reference "L?") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005ddd7833"
-          (reference "L?") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005ddd8b82"
-          (reference "L?") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "L14") (unit 1)
@@ -5770,7 +4720,7 @@
   (symbol (lib_id "Fabmicro:ProtectiveDiodeDA") (at 300.4313 156.1534 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 991167fa-bf68-478a-8ed9-5c3c0fa7470c)
-    (property "Reference" "D10" (at 303.6063 157.2964 0)
+    (property "Reference" "D17" (at 303.6063 157.2964 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "PGB1010603NRHF" (at 303.9873 171.0124 0)
@@ -5791,22 +4741,6 @@
     (pin "1" (uuid 9cb054f6-c149-4d60-b28f-b1c3de800688))
     (pin "2" (uuid 3be53c62-e17c-4ca7-a087-c253835fbd3b))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005d453f81"
-          (reference "D10") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/e5e3a614-5847-4777-825c-3a33fd83f61e"
-          (reference "D56") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00801fbe-0038-412f-be4b-3a4eb12dad06"
-          (reference "D64") (unit 1)
-        )
-      )
-      (project "SIP_HomePhone"
-        (path "/1f1efc58-1a2e-4658-b2ac-cf03134c8a7b/00000000-0000-0000-0000-00005ddd7833"
-          (reference "D16") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "D17") (unit 1)
@@ -5818,7 +4752,7 @@
   (symbol (lib_id "Fabmicro:CapacitorUnpolarized") (at 254.343 55.209 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9ccd31f7-fa79-4342-8216-15cdaaf3511a)
-    (property "Reference" "C27" (at 255.613 52.669 90)
+    (property "Reference" "C66" (at 255.613 52.669 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF/50V" (at 255.613 57.749 90)
@@ -5839,34 +4773,6 @@
     (pin "1" (uuid 3746dce5-426e-4ecb-8cf0-083901c32d7d))
     (pin "2" (uuid 0cdb37d8-747b-48a8-9c9b-14f7bb137177))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061a79dda"
-          (reference "C27") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/09e88d56-8f57-46c8-ba91-b726a1be30ee"
-          (reference "C18") (unit 1)
-        )
-      )
-      (project "TMSController"
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-000061a79dda"
-          (reference "C71") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005d453faf"
-          (reference "C?") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005f48bf60"
-          (reference "C?") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-000061a79ed8"
-          (reference "C?") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005ddd786e"
-          (reference "C?") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005d453f81"
-          (reference "C?") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "C66") (unit 1)
@@ -5878,7 +4784,7 @@
   (symbol (lib_id "Fabmicro:ProtectiveDiodeDA") (at 49.475 167.949 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9ee6f7c8-827e-42d1-8a54-c925fa7622cb)
-    (property "Reference" "D19" (at 44.395 161.472 90)
+    (property "Reference" "D18" (at 44.395 161.472 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "PGB1010603NRHF" (at 35.124 164.901 90)
@@ -5899,16 +4805,6 @@
     (pin "1" (uuid 75fde115-992a-4cc4-a4a1-98d988c2cca5))
     (pin "2" (uuid 6a944a0e-0bd6-45bb-94f0-1a29fcedbe2f))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "D19") (unit 1)
-        )
-      )
-      (project "SIP_HomePhone"
-        (path "/1f1efc58-1a2e-4658-b2ac-cf03134c8a7b/00000000-0000-0000-0000-00005ddd7833"
-          (reference "D18") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "D18") (unit 1)
@@ -5920,7 +4816,7 @@
   (symbol (lib_id "power:GND") (at 300.3162 137.2001 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a0d794fd-b9e8-471e-b20d-3025c86b194d)
-    (property "Reference" "#PWR031" (at 300.3162 143.5501 0)
+    (property "Reference" "#PWR0186" (at 300.3162 143.5501 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 300.3162 141.0101 0)
@@ -5934,28 +4830,6 @@
     )
     (pin "1" (uuid 95edaf04-51b3-4e9d-b922-cb2676b4be1a))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR031") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061a79dda"
-          (reference "#PWR066") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/aaa0c306-7c29-45af-95e1-2ada5a0bcd3a"
-          (reference "#PWR0270") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/09e88d56-8f57-46c8-ba91-b726a1be30ee"
-          (reference "#PWR0273") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00801fbe-0038-412f-be4b-3a4eb12dad06"
-          (reference "#PWR0298") (unit 1)
-        )
-      )
-      (project "RanetkaPC_TestJig"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR062") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "#PWR0186") (unit 1)
@@ -5967,7 +4841,7 @@
   (symbol (lib_id "power:GND") (at 100.402 107.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a115f60b-211b-4e78-b0a1-fc6aa7d6b482)
-    (property "Reference" "#PWR098" (at 100.402 113.72 0)
+    (property "Reference" "#PWR0167" (at 100.402 113.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 100.402 111.18 0)
@@ -5981,16 +4855,6 @@
     )
     (pin "1" (uuid de8042c2-14c8-4cd7-a5cb-129182c48eef))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "#PWR098") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "#PWR017") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "#PWR0167") (unit 1)
@@ -6002,7 +4866,7 @@
   (symbol (lib_id "Device:R") (at 66.675 211.455 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a2f0846c-2413-4d0b-8a29-38953bd46fab)
-    (property "Reference" "R38" (at 62.23 213.487 90)
+    (property "Reference" "R150" (at 62.23 213.487 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "11K/1%" (at 67.691 213.741 90)
@@ -6026,16 +4890,6 @@
     (pin "1" (uuid d399703f-e9b4-4694-8774-6b3b966952f9))
     (pin "2" (uuid e5ae800a-0dc9-4a43-a222-d50846d39ac7))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "R38") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "R17") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "R150") (unit 1)
@@ -6047,7 +4901,7 @@
   (symbol (lib_id "Fabmicro:ADC128S052CIMT") (at 102.39 42.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a7be6bda-7b1e-4a1b-8400-18051d1af4d8)
-    (property "Reference" "U7" (at 112.55 37.34 0)
+    (property "Reference" "U10" (at 112.55 37.34 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "ADC128S052CIMT" (at 112.55 39.88 0)
@@ -6079,16 +4933,6 @@
     (pin "8" (uuid 29a5fab1-ce3f-4984-8c1f-cc4c65290cac))
     (pin "9" (uuid 5cdff645-9ef9-4e4c-9b5e-358a49b8b000))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061a79dda"
-          (reference "U7") (unit 1)
-        )
-      )
-      (project "TMSController"
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-000061a79dda"
-          (reference "U12") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "U10") (unit 1)
@@ -6100,7 +4944,7 @@
   (symbol (lib_id "power:GND") (at 127.79 72.9 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid aa9d0b35-ef0c-42ed-95c7-6b5dd232e8c4)
-    (property "Reference" "#PWR031" (at 127.79 79.25 0)
+    (property "Reference" "#PWR0162" (at 127.79 79.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 127.79 76.71 0)
@@ -6114,19 +4958,6 @@
     )
     (pin "1" (uuid 5ab3fdc9-9811-4c25-9e2e-b769a8a037c5))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR031") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061a79dda"
-          (reference "#PWR066") (unit 1)
-        )
-      )
-      (project "RanetkaPC_TestJig"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR062") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "#PWR0162") (unit 1)
@@ -6138,7 +4969,7 @@
   (symbol (lib_id "Fabmicro:Resistor") (at 231.4084 47.2956 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid aaaa1320-0877-4e9e-9ebd-28b8b9fb5824)
-    (property "Reference" "R?" (at 233.3134 46.0256 90)
+    (property "Reference" "R122" (at 233.3134 46.0256 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K/1%" (at 233.3134 48.5656 90)
@@ -6162,22 +4993,6 @@
     (pin "1" (uuid eef69476-7521-41be-b137-0465d205c23b))
     (pin "2" (uuid afa92ba9-8647-4dae-a1a2-67b4fedb538a))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "R?") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005d453f81"
-          (reference "R12") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/09e88d56-8f57-46c8-ba91-b726a1be30ee"
-          (reference "R120") (unit 1)
-        )
-      )
-      (project "RanetkaPC_TestJig"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "R1") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "R122") (unit 1)
@@ -6220,7 +5035,7 @@
   (symbol (lib_id "Fabmicro:ProtectiveDiodeDA") (at 37.719 219.202 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid af4d6304-ff96-4350-9c02-355022a767a8)
-    (property "Reference" "D15" (at 32.639 212.725 90)
+    (property "Reference" "D20" (at 32.639 212.725 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "PGB1010603NRHF" (at 23.368 216.154 90)
@@ -6241,16 +5056,6 @@
     (pin "1" (uuid 651e6485-3ca6-4cfc-a7e2-477e39c1f915))
     (pin "2" (uuid 1890e507-e60c-490b-9471-d3091ff1194f))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "D15") (unit 1)
-        )
-      )
-      (project "SIP_HomePhone"
-        (path "/1f1efc58-1a2e-4658-b2ac-cf03134c8a7b/00000000-0000-0000-0000-00005ddd7833"
-          (reference "D18") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "D20") (unit 1)
@@ -6262,7 +5067,7 @@
   (symbol (lib_id "power:GND") (at 37.719 220.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b0408451-3069-4df4-8a5d-503f86823a72)
-    (property "Reference" "#PWR086" (at 37.719 227.33 0)
+    (property "Reference" "#PWR0212" (at 37.719 227.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 37.719 224.79 0)
@@ -6276,16 +5081,6 @@
     )
     (pin "1" (uuid ecb73e4d-af77-4ddc-9776-4ef793eae4b4))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "#PWR086") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "#PWR014") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "#PWR0212") (unit 1)
@@ -6297,7 +5092,7 @@
   (symbol (lib_id "Amplifier_Operational:LM358") (at 264.5022 122.5951 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b057de0f-9b90-48ae-b313-8d0f44a49b67)
-    (property "Reference" "U11" (at 268.9472 118.1501 0)
+    (property "Reference" "U15" (at 268.9472 118.1501 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LM258A" (at 263.2068 122.6967 0)
@@ -6321,19 +5116,6 @@
     (pin "4" (uuid 8e869c9e-0a6e-483a-853d-34622b1c8fe2))
     (pin "8" (uuid 9d3989ed-e94c-45fe-8ecc-adeb2536eeb2))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "U11") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00801fbe-0038-412f-be4b-3a4eb12dad06"
-          (reference "U32") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "U7") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "U15") (unit 1)
@@ -6345,7 +5127,7 @@
   (symbol (lib_id "Device:R") (at 68.398 125.912 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b2f26039-74a1-429f-9edc-8184342babda)
-    (property "Reference" "R38" (at 63.953 127.944 90)
+    (property "Reference" "R131" (at 63.953 127.944 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "11K/1%" (at 69.414 128.198 90)
@@ -6369,16 +5151,6 @@
     (pin "1" (uuid effb2aa4-cab2-4eca-972c-268abc294962))
     (pin "2" (uuid 5b2f5ed8-61d6-4dd0-b86f-e8fefd9d49c1))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "R38") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "R17") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "R131") (unit 1)
@@ -6390,7 +5162,7 @@
   (symbol (lib_id "Device:C") (at 207 161.926 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b3b537f2-5e8e-420c-808f-b79db3ba7ac6)
-    (property "Reference" "C52" (at 203.825 159.386 0)
+    (property "Reference" "C79" (at 203.825 159.386 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.01uF/50V" (at 203.825 161.926 0)
@@ -6408,16 +5180,6 @@
     (pin "1" (uuid 99165a97-12b5-48c1-9726-1f3551fd741b))
     (pin "2" (uuid adf75b19-ff36-4a08-b75c-51b4f189c43a))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "C52") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "C6") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "C79") (unit 1)
@@ -6429,7 +5191,7 @@
   (symbol (lib_id "power:GND") (at 111.07 134.421 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b5322f85-7a98-402c-81d4-ea8434b0b4c2)
-    (property "Reference" "#PWR0370" (at 111.07 140.771 0)
+    (property "Reference" "#PWR0175" (at 111.07 140.771 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 111.07 138.231 0)
@@ -6443,16 +5205,6 @@
     )
     (pin "1" (uuid 9063f12d-42ce-4291-a654-5470fe02f8ae))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "#PWR0370") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "#PWR016") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "#PWR0175") (unit 1)
@@ -6464,7 +5216,7 @@
   (symbol (lib_id "Device:R") (at 73.914 216.535 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b841b4da-89fb-4339-82e4-fed312b3e57b)
-    (property "Reference" "R42" (at 77.089 215.265 0)
+    (property "Reference" "R151" (at 77.089 215.265 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "11K/1%" (at 78.74 217.17 0)
@@ -6485,16 +5237,6 @@
     (pin "1" (uuid 2549ee2c-0bf4-44f1-8632-d382306016c4))
     (pin "2" (uuid 749dac3a-2c40-435b-abfc-92dfdae8e4e2))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "R42") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "R18") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "R151") (unit 1)
@@ -6506,7 +5248,7 @@
   (symbol (lib_id "power:GND") (at 157.343 171.07 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bac317af-1e92-45ec-a472-e7ea9f0beb36)
-    (property "Reference" "#PWR0372" (at 157.343 177.42 0)
+    (property "Reference" "#PWR0198" (at 157.343 177.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 157.343 174.88 0)
@@ -6520,16 +5262,6 @@
     )
     (pin "1" (uuid 48068d09-73ef-4aa9-b51f-226936e94698))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "#PWR0372") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "#PWR016") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "#PWR0198") (unit 1)
@@ -6572,7 +5304,7 @@
   (symbol (lib_id "Amplifier_Operational:LM358") (at 87.757 239.903 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bc551e9d-acd6-4133-9026-e389ade9ffdb)
-    (property "Reference" "U11" (at 91.948 243.078 0)
+    (property "Reference" "U16" (at 91.948 243.078 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LM258A" (at 86.487 240.03 0)
@@ -6596,16 +5328,6 @@
     (pin "4" (uuid 4cbf1da6-c922-4321-bb8e-d1af0f79088c))
     (pin "8" (uuid 749a3686-64a8-415c-9294-d49095bbd711))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "U11") (unit 2)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "U7") (unit 2)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "U16") (unit 2)
@@ -6617,7 +5339,7 @@
   (symbol (lib_id "Device:C") (at 189.474 105.284 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c0ea3fbe-4b4f-41d7-a366-da7fe3402e60)
-    (property "Reference" "C40" (at 190.744 109.094 90)
+    (property "Reference" "C71" (at 190.744 109.094 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF/16V" (at 194.554 101.474 90)
@@ -6635,16 +5357,6 @@
     (pin "1" (uuid 4abdda42-86f9-4db9-8a5c-f6a14c0eaac1))
     (pin "2" (uuid 133775ed-c506-49a3-8a68-be20e03bd3d4))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "C40") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "C9") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "C71") (unit 1)
@@ -6656,7 +5368,7 @@
   (symbol (lib_id "power:GND") (at 287.617 69.56 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c1058747-836a-46c6-b797-e89e14f7b47a)
-    (property "Reference" "#PWR031" (at 287.617 75.91 0)
+    (property "Reference" "#PWR0158" (at 287.617 75.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 287.617 73.37 0)
@@ -6670,25 +5382,6 @@
     )
     (pin "1" (uuid c048627f-22bf-4268-97eb-ccd696620229))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR031") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061a79dda"
-          (reference "#PWR066") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/aaa0c306-7c29-45af-95e1-2ada5a0bcd3a"
-          (reference "#PWR0270") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/09e88d56-8f57-46c8-ba91-b726a1be30ee"
-          (reference "#PWR0271") (unit 1)
-        )
-      )
-      (project "RanetkaPC_TestJig"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR062") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "#PWR0158") (unit 1)
@@ -6700,7 +5393,7 @@
   (symbol (lib_id "power:GND") (at 49.602 135.437 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c2f87082-ceed-4b5a-8dfe-bb7543b2fdd4)
-    (property "Reference" "#PWR086" (at 49.602 141.787 0)
+    (property "Reference" "#PWR0178" (at 49.602 141.787 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 49.602 139.247 0)
@@ -6714,16 +5407,6 @@
     )
     (pin "1" (uuid 9e80d432-7017-4eb1-8992-b36cd15547f5))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "#PWR086") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "#PWR014") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "#PWR0178") (unit 1)
@@ -6735,7 +5418,7 @@
   (symbol (lib_id "power:GND") (at 392.4 165.3 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c3750bba-9776-44ed-ad6c-1f5daa0d9c02)
-    (property "Reference" "#PWR031" (at 392.4 171.65 0)
+    (property "Reference" "#PWR0189" (at 392.4 171.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 392.4 169.11 0)
@@ -6749,28 +5432,6 @@
     )
     (pin "1" (uuid b36d4447-e46e-45a7-89f0-251674c88bdc))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR031") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061a79dda"
-          (reference "#PWR066") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/aaa0c306-7c29-45af-95e1-2ada5a0bcd3a"
-          (reference "#PWR0270") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/09e88d56-8f57-46c8-ba91-b726a1be30ee"
-          (reference "#PWR0273") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00801fbe-0038-412f-be4b-3a4eb12dad06"
-          (reference "#PWR0299") (unit 1)
-        )
-      )
-      (project "RanetkaPC_TestJig"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR062") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "#PWR0189") (unit 1)
@@ -6782,7 +5443,7 @@
   (symbol (lib_id "Fabmicro:ProtectiveDiodeDA") (at 300.3162 127.0401 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c3d1851d-abd8-4165-bde8-c4c7871a863f)
-    (property "Reference" "D10" (at 303.4912 128.1831 0)
+    (property "Reference" "D13" (at 303.4912 128.1831 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "PGB1010603NRHF" (at 303.8722 141.8991 0)
@@ -6803,22 +5464,6 @@
     (pin "1" (uuid b797873d-ead7-48fd-826c-a4034bb12478))
     (pin "2" (uuid 5c93ed43-a267-43e1-acc1-4b79f7e7fd7a))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005d453f81"
-          (reference "D10") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/e5e3a614-5847-4777-825c-3a33fd83f61e"
-          (reference "D56") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00801fbe-0038-412f-be4b-3a4eb12dad06"
-          (reference "D66") (unit 1)
-        )
-      )
-      (project "SIP_HomePhone"
-        (path "/1f1efc58-1a2e-4658-b2ac-cf03134c8a7b/00000000-0000-0000-0000-00005ddd7833"
-          (reference "D16") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "D13") (unit 1)
@@ -6830,7 +5475,7 @@
   (symbol (lib_id "Amplifier_Operational:LM358") (at 89.48 154.36 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c4b525bf-7097-415a-ae24-d5e1dd1c3d50)
-    (property "Reference" "U11" (at 93.671 157.535 0)
+    (property "Reference" "U12" (at 93.671 157.535 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LM258A" (at 88.21 154.487 0)
@@ -6854,16 +5499,6 @@
     (pin "4" (uuid 4cbf1da6-c922-4321-bb8e-d1af0f79088d))
     (pin "8" (uuid 749a3686-64a8-415c-9294-d49095bbd712))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "U11") (unit 2)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "U7") (unit 2)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "U12") (unit 2)
@@ -6875,7 +5510,7 @@
   (symbol (lib_id "Amplifier_Operational:LM358") (at 87.884 205.613 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c7a68b82-1e86-4e77-9be0-565a6f6bb885)
-    (property "Reference" "U14" (at 86.614 204.3429 0)
+    (property "Reference" "U16" (at 86.614 204.3429 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Value" "LM258A" (at 86.614 205.613 0)
@@ -6899,16 +5534,6 @@
     (pin "4" (uuid 9b0ff2dd-bce3-484c-b003-1dbc81d0bdbb))
     (pin "8" (uuid aa175381-0427-4206-ad28-72d2c1dab251))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "U14") (unit 3)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "U7") (unit 3)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "U16") (unit 3)
@@ -6920,7 +5545,7 @@
   (symbol (lib_id "Fabmicro:Ferrite_Beads") (at 55.571 146.232 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c9072af3-6012-4085-8ae1-99184cf455cf)
-    (property "Reference" "L5" (at 55.952 143.819 0)
+    (property "Reference" "L13" (at 55.952 143.819 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "330R/1.2A" (at 56.587 147.375 0)
@@ -6944,34 +5569,6 @@
     (pin "1" (uuid 46911017-162a-482f-9a7f-0609a25e6f21))
     (pin "2" (uuid af403ffb-a2fa-44f6-9a7a-872474a67abc))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061a79dda"
-          (reference "L5") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "L43") (unit 1)
-        )
-      )
-      (project "TMSController"
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-000061a79dda"
-          (reference "L11") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005e82d990"
-          (reference "L?") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005dbc80e1"
-          (reference "L?") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005d481974"
-          (reference "L?") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005ddd7833"
-          (reference "L?") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005ddd8b82"
-          (reference "L?") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "L13") (unit 1)
@@ -7014,7 +5611,7 @@
   (symbol (lib_id "power:GND") (at 87.067 134.675 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cbe3c100-6847-4db5-9175-fed2689c1fe6)
-    (property "Reference" "#PWR096" (at 87.067 141.025 0)
+    (property "Reference" "#PWR0176" (at 87.067 141.025 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 87.067 138.485 0)
@@ -7028,16 +5625,6 @@
     )
     (pin "1" (uuid 77826ef7-9a7e-4bfb-8eff-aa4da3a5f501))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "#PWR096") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "#PWR016") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "#PWR0176") (unit 1)
@@ -7049,7 +5636,7 @@
   (symbol (lib_id "power:GND") (at 196.459 108.459 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cc2d4450-57b5-487c-b29a-77fdaf4ef5f8)
-    (property "Reference" "#PWR098" (at 196.459 114.809 0)
+    (property "Reference" "#PWR0168" (at 196.459 114.809 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 196.459 112.269 0)
@@ -7063,16 +5650,6 @@
     )
     (pin "1" (uuid 3a607b96-95af-4b04-8fee-0a9c1c594835))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "#PWR098") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "#PWR017") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "#PWR0168") (unit 1)
@@ -7084,7 +5661,7 @@
   (symbol (lib_id "Device:C") (at 59.69 217.424 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ce18f818-6cc9-46c5-b9d7-58c82c1d87e1)
-    (property "Reference" "C48" (at 56.007 217.424 0)
+    (property "Reference" "C86" (at 56.007 217.424 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF/16V" (at 56.642 219.71 0)
@@ -7102,16 +5679,6 @@
     (pin "1" (uuid b05d2afa-508e-40e2-8dc5-8350bcc359e2))
     (pin "2" (uuid d5b3bf28-da93-4d05-ab96-bce94bca6e22))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "C48") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "C9") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "C86") (unit 1)
@@ -7123,7 +5690,7 @@
   (symbol (lib_id "power:+5V") (at 248.2462 105.4501 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ce1df024-7369-4811-959d-a042ecc0f877)
-    (property "Reference" "#PWR031" (at 248.2462 109.2601 0)
+    (property "Reference" "#PWR0166" (at 248.2462 109.2601 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 248.2462 101.883 0)
@@ -7137,14 +5704,6 @@
     )
     (pin "1" (uuid 2eeb98de-69fa-4f58-b2d9-725a4be3ff44))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR031") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "#PWR0371") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "#PWR0166") (unit 1)
@@ -7156,7 +5715,7 @@
   (symbol (lib_id "Amplifier_Operational:LM358") (at 264.5022 122.5951 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d2c2cb38-0eee-4a92-81c4-2c9b6ee1756c)
-    (property "Reference" "U11" (at 263.2322 121.325 0)
+    (property "Reference" "U15" (at 263.2322 121.325 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Value" "LM258A" (at 263.2322 122.5951 0)
@@ -7180,19 +5739,6 @@
     (pin "4" (uuid e606b537-67ac-4c14-94f7-5f46b53297c1))
     (pin "8" (uuid f706b41a-3012-4ea1-832e-8ce33667ea5c))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "U11") (unit 3)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00801fbe-0038-412f-be4b-3a4eb12dad06"
-          (reference "U32") (unit 3)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "U7") (unit 3)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "U15") (unit 3)
@@ -7204,7 +5750,7 @@
   (symbol (lib_id "power:GND") (at 148.11 70.36 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d3dbd3d3-dfb0-4ffc-b101-cdb8cb672b42)
-    (property "Reference" "#PWR031" (at 148.11 76.71 0)
+    (property "Reference" "#PWR0160" (at 148.11 76.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 148.11 74.17 0)
@@ -7218,19 +5764,6 @@
     )
     (pin "1" (uuid fd7984b8-df3b-4935-9cbf-38d65c31f8cb))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR031") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061a79dda"
-          (reference "#PWR072") (unit 1)
-        )
-      )
-      (project "RanetkaPC_TestJig"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR062") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "#PWR0160") (unit 1)
@@ -7242,7 +5775,7 @@
   (symbol (lib_id "power:GND") (at 157.47 136.78 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d58f4e44-da69-48c6-bba9-1e87ea316867)
-    (property "Reference" "#PWR0369" (at 157.47 143.13 0)
+    (property "Reference" "#PWR0185" (at 157.47 143.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 157.47 140.59 0)
@@ -7256,16 +5789,6 @@
     )
     (pin "1" (uuid e6a0bc36-0cf0-42ef-83b4-db1955fc77fc))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "#PWR0369") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "#PWR016") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "#PWR0185") (unit 1)
@@ -7277,7 +5800,7 @@
   (symbol (lib_id "Device:R") (at 55.19 156.9 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d673b453-6ee0-4902-b9dd-e07eea3c2f11)
-    (property "Reference" "R54" (at 54.301 155.122 90)
+    (property "Reference" "R141" (at 54.301 155.122 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "22K/1%" (at 60.016 154.995 90)
@@ -7298,16 +5821,6 @@
     (pin "1" (uuid 8f00b3f8-45df-4dea-81e0-1a222c336742))
     (pin "2" (uuid c43366f5-5fb5-4056-9bb5-ee3b4840585c))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "R54") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "R16") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "R141") (unit 1)
@@ -7319,7 +5832,7 @@
   (symbol (lib_id "Device:R") (at 68.271 160.202 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d850fdbe-b589-4ab9-a79a-fa2ad51e539e)
-    (property "Reference" "R204" (at 63.826 162.234 90)
+    (property "Reference" "R143" (at 63.826 162.234 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "11K/1%" (at 69.287 162.488 90)
@@ -7343,16 +5856,6 @@
     (pin "1" (uuid 18ee8e83-e614-4c17-bac2-04696517979d))
     (pin "2" (uuid fc8366b1-5a15-47cf-b6d4-4fef215782d1))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "R204") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "R17") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "R143") (unit 1)
@@ -7364,7 +5867,7 @@
   (symbol (lib_id "power:GND") (at 207.127 135.51 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d9686dc1-f809-4ffd-8ebf-6fb883769dce)
-    (property "Reference" "#PWR0370" (at 207.127 141.86 0)
+    (property "Reference" "#PWR0179" (at 207.127 141.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 207.127 139.32 0)
@@ -7378,16 +5881,6 @@
     )
     (pin "1" (uuid bb3d1908-cc76-41a6-946a-ec3eb8bc5804))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "#PWR0370") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "#PWR016") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "#PWR0179") (unit 1)
@@ -7399,7 +5892,7 @@
   (symbol (lib_id "Amplifier_Operational:LM358") (at 264.6417 151.72 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid da9ffed5-d30b-47c0-b275-831307a5de51)
-    (property "Reference" "U11" (at 268.9597 146.132 0)
+    (property "Reference" "U15" (at 268.9597 146.132 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LM258A" (at 263.1177 151.72 0)
@@ -7423,22 +5916,6 @@
     (pin "4" (uuid f235d0cb-e377-49e0-9cb0-0e4d19e559c5))
     (pin "8" (uuid df9fe84e-aee9-4ff2-94ea-6135358d3d90))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "U11") (unit 2)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2cb5"
-          (reference "U22") (unit 2)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00801fbe-0038-412f-be4b-3a4eb12dad06"
-          (reference "U32") (unit 2)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "U7") (unit 2)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "U15") (unit 2)
@@ -7450,7 +5927,7 @@
   (symbol (lib_id "power:GND") (at 171.694 135.891 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dba7b1e9-cdee-4b0c-ad0e-d323a4bdeda2)
-    (property "Reference" "#PWR0367" (at 171.694 142.241 0)
+    (property "Reference" "#PWR0182" (at 171.694 142.241 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 171.694 139.701 0)
@@ -7464,16 +5941,6 @@
     )
     (pin "1" (uuid 92973c30-1c0c-42ea-ba74-df24d2ab4265))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "#PWR0367") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "#PWR016") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "#PWR0182") (unit 1)
@@ -7485,7 +5952,7 @@
   (symbol (lib_id "Amplifier_Operational:LM358") (at 185.664 121.159 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e09a7d65-57b6-429d-b1e5-3eb0dac3abd2)
-    (property "Reference" "U14" (at 184.394 119.8889 0)
+    (property "Reference" "U13" (at 184.394 119.8889 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Value" "LM258A" (at 184.394 121.159 0)
@@ -7509,16 +5976,6 @@
     (pin "4" (uuid 81810964-4964-4738-ad5f-9522b0ac6839))
     (pin "8" (uuid 36b8308e-b3af-40fc-b65e-7860ae9b28be))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "U14") (unit 3)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "U7") (unit 3)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "U13") (unit 3)
@@ -7530,7 +5987,7 @@
   (symbol (lib_id "Fabmicro:Resistor") (at 386.7612 150.7204 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e1893bc9-3bc6-4738-89e5-2e32b636ed5b)
-    (property "Reference" "R122" (at 387.9392 148.6884 0)
+    (property "Reference" "R137" (at 387.9392 148.6884 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22R/1%" (at 389.9712 153.2604 0)
@@ -7554,22 +6011,6 @@
     (pin "1" (uuid e9e34b7f-2621-4927-890c-a9bf031b2d1b))
     (pin "2" (uuid d73e0b39-f944-42c2-86b2-070a3c61d824))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005d453f81"
-          (reference "R122") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/e5e3a614-5847-4777-825c-3a33fd83f61e"
-          (reference "R129") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00801fbe-0038-412f-be4b-3a4eb12dad06"
-          (reference "R141") (unit 1)
-        )
-      )
-      (project "SIP_HomePhone"
-        (path "/1f1efc58-1a2e-4658-b2ac-cf03134c8a7b/00000000-0000-0000-0000-00005ddd7833"
-          (reference "R113") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "R137") (unit 1)
@@ -7581,7 +6022,7 @@
   (symbol (lib_id "Fabmicro:Ferrite_Beads") (at 271.954 33.0281 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e1895f39-3a23-4e60-b38b-e8009b714780)
-    (property "Reference" "L4" (at 268.779 33.0281 0)
+    (property "Reference" "L5" (at 268.779 33.0281 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "330R/1.2A" (at 274.494 33.0281 0)
@@ -7605,34 +6046,6 @@
     (pin "1" (uuid 2d5b32d8-fc34-4e5f-b417-6fff0ab2f643))
     (pin "2" (uuid 48864df0-9b45-459e-9a15-939400bf396a))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061a79dda"
-          (reference "L4") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/09e88d56-8f57-46c8-ba91-b726a1be30ee"
-          (reference "L27") (unit 1)
-        )
-      )
-      (project "TMSController"
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-000061a79dda"
-          (reference "L11") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005e82d990"
-          (reference "L?") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005dbc80e1"
-          (reference "L?") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005d481974"
-          (reference "L?") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005ddd7833"
-          (reference "L?") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005ddd8b82"
-          (reference "L?") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "L5") (unit 1)
@@ -7644,7 +6057,7 @@
   (symbol (lib_id "Device:C") (at 157.47 132.97 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e20a43b8-dd0a-427b-b477-2e251b604cb6)
-    (property "Reference" "C48" (at 153.787 132.97 0)
+    (property "Reference" "C77" (at 153.787 132.97 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF/16V" (at 154.422 135.256 0)
@@ -7662,16 +6075,6 @@
     (pin "1" (uuid 43f5a541-8fd3-4df0-94e8-ab91cc8c8a12))
     (pin "2" (uuid 2789e6a4-5892-4835-aa17-55b65881e468))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "C48") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "C9") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "C77") (unit 1)
@@ -7683,7 +6086,7 @@
   (symbol (lib_id "Fabmicro:Resistor") (at 294.7028 122.5951 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e2384153-3fd0-42ce-8064-935bfb4b985c)
-    (property "Reference" "R122" (at 295.8808 120.5631 0)
+    (property "Reference" "R128" (at 295.8808 120.5631 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22R/1%" (at 297.9128 125.1351 0)
@@ -7707,22 +6110,6 @@
     (pin "1" (uuid 7f5e53ea-9563-4a57-bc69-22f6b85c556e))
     (pin "2" (uuid 1b5aa2d6-ca00-46c6-af59-381c8c0b4227))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005d453f81"
-          (reference "R122") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/e5e3a614-5847-4777-825c-3a33fd83f61e"
-          (reference "R129") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00801fbe-0038-412f-be4b-3a4eb12dad06"
-          (reference "R142") (unit 1)
-        )
-      )
-      (project "SIP_HomePhone"
-        (path "/1f1efc58-1a2e-4658-b2ac-cf03134c8a7b/00000000-0000-0000-0000-00005ddd7833"
-          (reference "R113") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "R128") (unit 1)
@@ -7734,7 +6121,7 @@
   (symbol (lib_id "Device:C") (at 111.07 126.547 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e25dd46f-f549-426d-a2ce-c1a841cbe8dd)
-    (property "Reference" "C44" (at 107.895 124.007 0)
+    (property "Reference" "C74" (at 107.895 124.007 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.01uF/50V" (at 107.895 126.547 0)
@@ -7752,16 +6139,6 @@
     (pin "1" (uuid d9adb87c-f3b5-4492-9835-50b012aafde0))
     (pin "2" (uuid 19f53ec5-4492-486e-95b5-d321c27da4b2))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "C44") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "C6") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "C74") (unit 1)
@@ -7773,7 +6150,7 @@
   (symbol (lib_id "power:GND") (at 145.532 170.816 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e29077e9-2008-4661-9096-d34758179fb7)
-    (property "Reference" "#PWR090" (at 145.532 177.166 0)
+    (property "Reference" "#PWR0197" (at 145.532 177.166 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 145.532 174.626 0)
@@ -7787,16 +6164,6 @@
     )
     (pin "1" (uuid e3222238-1424-4726-860b-eca04723f53f))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "#PWR090") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "#PWR014") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "#PWR0197") (unit 1)
@@ -7808,7 +6175,7 @@
   (symbol (lib_id "power:GND") (at 183.124 135.764 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e2adbf1a-954d-4295-af8a-4337c35f00d9)
-    (property "Reference" "#PWR096" (at 183.124 142.114 0)
+    (property "Reference" "#PWR0181" (at 183.124 142.114 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 183.124 139.574 0)
@@ -7822,16 +6189,6 @@
     )
     (pin "1" (uuid cc1a65ea-a1ad-4fd7-a2b9-bf09b176b1ff))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "#PWR096") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "#PWR016") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "#PWR0181") (unit 1)
@@ -7843,7 +6200,7 @@
   (symbol (lib_id "Device:R") (at 75.637 146.359 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e2d6eb42-38b3-4015-b4fc-e4e7ef7d6d85)
-    (property "Reference" "R46" (at 72.843 144.454 90)
+    (property "Reference" "R135" (at 72.843 144.454 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "11K/1%" (at 78.812 144.454 90)
@@ -7864,16 +6221,6 @@
     (pin "1" (uuid fcdf4f33-b205-4bff-9812-587d14393cd0))
     (pin "2" (uuid e3640e7b-d7f8-4a2b-905c-66fdd336bfe9))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "R46") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "R19") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "R135") (unit 1)
@@ -7885,7 +6232,7 @@
   (symbol (lib_id "Device:R") (at 199.3964 155.449 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e61ea192-f7f0-446b-9743-71585db44bec)
-    (property "Reference" "R50" (at 196.6024 153.544 90)
+    (property "Reference" "R140" (at 196.6024 153.544 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "51R/1%" (at 202.5714 153.544 90)
@@ -7906,16 +6253,6 @@
     (pin "1" (uuid ac097d6f-a383-4eae-8548-ac506e5a7059))
     (pin "2" (uuid 54ad069a-c4b4-4f66-89d3-f20a42fddeba))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "R50") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "R19") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "R140") (unit 1)
@@ -7927,7 +6264,7 @@
   (symbol (lib_id "Fabmicro:Resistor") (at 294.7925 151.7338 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e7fe6259-2476-4783-8338-75d598ca3c33)
-    (property "Reference" "R122" (at 295.9705 149.7018 0)
+    (property "Reference" "R138" (at 295.9705 149.7018 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22R/1%" (at 298.0025 154.2738 0)
@@ -7951,22 +6288,6 @@
     (pin "1" (uuid ae1df189-69de-4983-b401-00f371567a0f))
     (pin "2" (uuid 438f1b39-2735-43d3-aa9c-f385ae664a84))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005d453f81"
-          (reference "R122") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/e5e3a614-5847-4777-825c-3a33fd83f61e"
-          (reference "R129") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00801fbe-0038-412f-be4b-3a4eb12dad06"
-          (reference "R141") (unit 1)
-        )
-      )
-      (project "SIP_HomePhone"
-        (path "/1f1efc58-1a2e-4658-b2ac-cf03134c8a7b/00000000-0000-0000-0000-00005ddd7833"
-          (reference "R113") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "R138") (unit 1)
@@ -7978,7 +6299,7 @@
   (symbol (lib_id "Device:R") (at 171.567 166.371 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e83bd7ef-32a2-4a2f-ab6d-19b30320aea9)
-    (property "Reference" "R208" (at 174.742 165.101 0)
+    (property "Reference" "R146" (at 174.742 165.101 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "22K/1%" (at 176.393 167.006 0)
@@ -7999,16 +6320,6 @@
     (pin "1" (uuid 40a41942-74c3-4911-b567-fc358ee83b5c))
     (pin "2" (uuid cd5c4928-c048-43cc-8fcf-5b5173305c83))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "R208") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "R18") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "R146") (unit 1)
@@ -8020,7 +6331,7 @@
   (symbol (lib_id "Amplifier_Operational:LM358") (at 185.537 155.449 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e84af5a9-d4b1-4835-9e8c-61c95c91909e)
-    (property "Reference" "U11" (at 189.728 158.624 0)
+    (property "Reference" "U13" (at 189.728 158.624 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LM258A" (at 184.267 155.576 0)
@@ -8044,16 +6355,6 @@
     (pin "4" (uuid 4cbf1da6-c922-4321-bb8e-d1af0f79088e))
     (pin "8" (uuid 749a3686-64a8-415c-9294-d49095bbd713))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "U11") (unit 2)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "U7") (unit 2)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "U13") (unit 2)
@@ -8065,7 +6366,7 @@
   (symbol (lib_id "power:GND") (at 207 169.8 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e9051d50-bfc5-4f87-a171-698da52cb77f)
-    (property "Reference" "#PWR0375" (at 207 176.15 0)
+    (property "Reference" "#PWR0194" (at 207 176.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 207 173.61 0)
@@ -8079,16 +6380,6 @@
     )
     (pin "1" (uuid 7b506df9-86b8-4af0-9f10-eaed87a38c80))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "#PWR0375") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "#PWR016") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "#PWR0194") (unit 1)
@@ -8100,7 +6391,7 @@
   (symbol (lib_id "power:GND") (at 110.943 168.711 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid eb035535-8748-4af8-bb31-5b0cb2a8bd07)
-    (property "Reference" "#PWR0375" (at 110.943 175.061 0)
+    (property "Reference" "#PWR0191" (at 110.943 175.061 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 110.943 172.521 0)
@@ -8114,16 +6405,6 @@
     )
     (pin "1" (uuid 99319ae2-5777-46cf-b4e0-c92958a7d25e))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "#PWR0375") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "#PWR016") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "#PWR0191") (unit 1)
@@ -8135,7 +6416,7 @@
   (symbol (lib_id "power:+5V") (at 340.2149 104.4367 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid efb91855-fd6c-4c6e-8256-aee1d73949a7)
-    (property "Reference" "#PWR031" (at 340.2149 108.2467 0)
+    (property "Reference" "#PWR0165" (at 340.2149 108.2467 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 340.2149 100.8696 0)
@@ -8149,14 +6430,6 @@
     )
     (pin "1" (uuid 2acef0ca-5060-4da2-9d0c-016b19b4d346))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR031") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "#PWR0371") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "#PWR0165") (unit 1)
@@ -8168,7 +6441,7 @@
   (symbol (lib_id "Fabmicro:AD5328BRUZ") (at 316.7 49.24 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f001993d-2d4f-4577-a6ff-43b73a6809e6)
-    (property "Reference" "U4" (at 316.7 32.8463 0)
+    (property "Reference" "U11" (at 316.7 32.8463 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "AD5328BRUZ" (at 316.954 42.255 0)
@@ -8239,11 +6512,6 @@
     (pin "8" (uuid 633937f5-e729-4a78-a173-388c7c4382ab))
     (pin "9" (uuid 6004825f-3eab-4f36-8e7a-0a4e9a9e7344))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/09e88d56-8f57-46c8-ba91-b726a1be30ee"
-          (reference "U4") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "U11") (unit 1)
@@ -8255,7 +6523,7 @@
   (symbol (lib_id "Fabmicro:Ferrite_Beads") (at 143.03 39.88 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f114541c-3ea7-4e3c-8945-d748ddb2b0b5)
-    (property "Reference" "L4" (at 143.03 36.705 0)
+    (property "Reference" "L6" (at 143.03 36.705 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "330R/1.2A" (at 143.03 42.42 0)
@@ -8279,31 +6547,6 @@
     (pin "1" (uuid ae15e098-1b5b-480e-b313-206775e6acd7))
     (pin "2" (uuid 3b929207-ac4e-4a17-8a0f-88a0c03f0f08))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061a79dda"
-          (reference "L4") (unit 1)
-        )
-      )
-      (project "TMSController"
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005dbc80e1"
-          (reference "L?") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-000061a79dda"
-          (reference "L11") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005e82d990"
-          (reference "L?") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005ddd8b82"
-          (reference "L?") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005d481974"
-          (reference "L?") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005ddd7833"
-          (reference "L?") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "L6") (unit 1)
@@ -8315,7 +6558,7 @@
   (symbol (lib_id "power:+5V") (at 172.964 101.22 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f1a28b9d-4a84-424d-bebc-7b5088270213)
-    (property "Reference" "#PWR031" (at 176.774 101.22 0)
+    (property "Reference" "#PWR0164" (at 176.774 101.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 169.7891 101.6398 90)
@@ -8329,14 +6572,6 @@
     )
     (pin "1" (uuid 7b9da92e-c727-484d-82c2-9d81de97e017))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR031") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "#PWR0371") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "#PWR0164") (unit 1)
@@ -8386,7 +6621,7 @@
   (symbol (lib_id "power:GND") (at 85.344 220.218 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f8a4f3c7-a9e4-4196-93b6-5c893eb2f0b2)
-    (property "Reference" "#PWR096" (at 85.344 226.568 0)
+    (property "Reference" "#PWR0210" (at 85.344 226.568 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 85.344 224.028 0)
@@ -8400,16 +6635,6 @@
     )
     (pin "1" (uuid a06e7e57-5dd5-4242-8524-0537282cd4fd))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "#PWR096") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "#PWR016") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "#PWR0210") (unit 1)
@@ -8421,7 +6646,7 @@
   (symbol (lib_id "Device:R") (at 164.328 161.291 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fa450017-573a-42a4-a27a-5c88c2ab8e9d)
-    (property "Reference" "R204" (at 159.883 163.323 90)
+    (property "Reference" "R144" (at 159.883 163.323 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "11K/1%" (at 165.344 163.577 90)
@@ -8445,16 +6670,6 @@
     (pin "1" (uuid f1319eb5-ba9a-4714-ad9b-8dec6dfa4b02))
     (pin "2" (uuid 86cf1a64-c4f1-445e-bb96-6d054be6a9c1))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "R204") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "R17") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "R144") (unit 1)
@@ -8466,7 +6681,7 @@
   (symbol (lib_id "Fabmicro:Ferrite_Beads") (at 81.987 100.131 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid faf789b7-7ae7-49a1-8f16-f22d233d2165)
-    (property "Reference" "L5" (at 81.987 96.956 0)
+    (property "Reference" "L7" (at 81.987 96.956 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "330R/1.2A" (at 81.987 101.147 0)
@@ -8490,34 +6705,6 @@
     (pin "1" (uuid 9e7352d7-f4da-4963-a6d8-5d1b6e5aa652))
     (pin "2" (uuid 11b7e98f-deb9-4bc9-9cda-144270f604bc))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061a79dda"
-          (reference "L5") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "L12") (unit 1)
-        )
-      )
-      (project "TMSController"
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-000061a79dda"
-          (reference "L11") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005e82d990"
-          (reference "L?") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005dbc80e1"
-          (reference "L?") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005d481974"
-          (reference "L?") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005ddd7833"
-          (reference "L?") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005ddd8b82"
-          (reference "L?") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "L7") (unit 1)
@@ -8529,7 +6716,7 @@
   (symbol (lib_id "Fabmicro:Ferrite_Beads") (at 55.698 111.942 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fc0d1168-c260-4830-b129-09f192cb3d21)
-    (property "Reference" "L5" (at 56.079 109.529 0)
+    (property "Reference" "L11" (at 56.079 109.529 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "330R/1.2A" (at 56.714 113.085 0)
@@ -8553,34 +6740,6 @@
     (pin "1" (uuid c5cca9f2-10ec-40d0-8a62-6120c84438b0))
     (pin "2" (uuid d6e3d096-514d-4602-91c1-c9f19e552374))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061a79dda"
-          (reference "L5") (unit 1)
-        )
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "L39") (unit 1)
-        )
-      )
-      (project "TMSController"
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-000061a79dda"
-          (reference "L11") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005e82d990"
-          (reference "L?") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005dbc80e1"
-          (reference "L?") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005d481974"
-          (reference "L?") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005ddd7833"
-          (reference "L?") (unit 1)
-        )
-        (path "/cc50bfa7-14e0-4d18-a299-4bff9a959948/00000000-0000-0000-0000-00005ddd8b82"
-          (reference "L?") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "L11") (unit 1)
@@ -8592,7 +6751,7 @@
   (symbol (lib_id "power:GND") (at 59.69 221.234 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ffb00238-e01e-4179-a11e-f952930992a9)
-    (property "Reference" "#PWR0369" (at 59.69 227.584 0)
+    (property "Reference" "#PWR0213" (at 59.69 227.584 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 59.69 225.044 0)
@@ -8606,16 +6765,6 @@
     )
     (pin "1" (uuid e32fa655-6a8f-4fda-9c09-c89d448938a7))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "#PWR0369") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "#PWR016") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "#PWR0213") (unit 1)
@@ -8627,7 +6776,7 @@
   (symbol (lib_id "power:GND") (at 171.567 170.181 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ffcf6b3b-0407-491d-8d47-716ccb448a45)
-    (property "Reference" "#PWR0373" (at 171.567 176.531 0)
+    (property "Reference" "#PWR0196" (at 171.567 176.531 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 171.567 173.991 0)
@@ -8641,16 +6790,6 @@
     )
     (pin "1" (uuid 769bd22d-7885-4c3d-a851-ec3f84c14db8))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-000061af2c7e"
-          (reference "#PWR0373") (unit 1)
-        )
-      )
-      (project "Grovex_A5"
-        (path "/2b64f9be-c47b-4335-a950-bc2870f599b9"
-          (reference "#PWR016") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/ccd44b06-d860-4fe7-8789-9bd4fa56f1ad"
           (reference "#PWR0196") (unit 1)

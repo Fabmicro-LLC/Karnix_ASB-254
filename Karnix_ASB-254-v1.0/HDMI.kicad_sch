@@ -1704,7 +1704,7 @@
   (symbol (lib_id "Fabmicro:CapacitorUnpolarized") (at 217.043 140.335 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00591cc1-a576-4959-8129-26ab25b9e5a2)
-    (property "Reference" "C8" (at 218.313 137.795 90)
+    (property "Reference" "C14" (at 218.313 137.795 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF/16V" (at 218.313 142.875 90)
@@ -1725,21 +1725,6 @@
     (pin "1" (uuid 4e596f0a-30de-4b8d-8db8-6efb7f67865c))
     (pin "2" (uuid 2ebad32f-4a12-44b7-84f3-87cf9b8593d7))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "C8") (unit 1)
-        )
-      )
-      (project "RanetkaPC_TestJig"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "C70") (unit 1)
-        )
-      )
-      (project "Power"
-        (path "/ecd93358-d394-4c7e-b496-f2c7d3a08d3b"
-          (reference "C8") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/00000000-0000-0000-0000-0000602e0fd3"
           (reference "C14") (unit 1)
@@ -1754,7 +1739,7 @@
   (symbol (lib_id "Fabmicro:Resistor") (at 224.282 132.588 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 03684a6c-2084-451a-8a82-250d2ae9e0fc)
-    (property "Reference" "R94" (at 218.082 130.888 0)
+    (property "Reference" "R121" (at 218.082 130.888 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "5.1K/1%" (at 227.082 131.188 0)
@@ -1778,19 +1763,6 @@
     (pin "1" (uuid 9dc88ff8-21d8-4f8d-8c95-48c74f4fc97a))
     (pin "2" (uuid 02ef8030-9c83-47b8-8ed8-7cb8fc9886b9))
     (instances
-      (project "HDMI"
-        (path "/e7e59836-d786-4e15-8ccc-1b77425f6a26"
-          (reference "R94") (unit 1)
-        )
-      )
-      (project "RanetkaPC_SBC"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005e82d990"
-          (reference "R94") (unit 1)
-        )
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/983eaa05-5ce2-4b2d-8a56-18ccb45be8b1"
-          (reference "R72") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/25c0df33-00ba-4d9b-b094-bedba27f35c8"
           (reference "R121") (unit 1)
@@ -1802,7 +1774,7 @@
   (symbol (lib_id "Connector:HDMI_A_1.4") (at 246.58 114.8336 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 07e96c22-892e-4e21-a69a-306354f9c2ee)
-    (property "Reference" "J19" (at 257.502 114.1899 0)
+    (property "Reference" "J3" (at 257.502 114.1899 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "HDMI_A_1.4" (at 257.502 116.1109 0)
@@ -1844,16 +1816,6 @@
     (pin "9" (uuid ae216566-d568-4ac8-a6f7-918ec302fd12))
     (pin "SH" (uuid 8af5cf41-0164-4801-816e-504757cb9fbe))
     (instances
-      (project "HDMI"
-        (path "/e7e59836-d786-4e15-8ccc-1b77425f6a26"
-          (reference "J19") (unit 1)
-        )
-      )
-      (project "RanetkaPC_SBC"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/983eaa05-5ce2-4b2d-8a56-18ccb45be8b1"
-          (reference "J19") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/25c0df33-00ba-4d9b-b094-bedba27f35c8"
           (reference "J3") (unit 1)
@@ -1879,16 +1841,6 @@
     )
     (pin "1" (uuid b62c7738-2cd4-479d-a74d-650a936e5f4c))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR?") (unit 1)
-        )
-      )
-      (project "Power"
-        (path "/ecd93358-d394-4c7e-b496-f2c7d3a08d3b"
-          (reference "#PWR?") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/00000000-0000-0000-0000-0000602e0fd3"
           (reference "#PWR?") (unit 1)
@@ -2011,7 +1963,7 @@
   (symbol (lib_id "Fabmicro:Resistor") (at 65.2 79.12 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1fbe0929-2de2-448d-9c10-14dc858d878c)
-    (property "Reference" "R94" (at 63.2 77.72 90)
+    (property "Reference" "R154" (at 63.2 77.72 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "5.1K/1%" (at 63.6 79.82 90)
@@ -2035,19 +1987,6 @@
     (pin "1" (uuid 5d8c9fc2-67d5-4950-bee2-80e552dabfb5))
     (pin "2" (uuid 0a02011c-fdd0-4902-a200-ff01c73a9af7))
     (instances
-      (project "HDMI"
-        (path "/e7e59836-d786-4e15-8ccc-1b77425f6a26"
-          (reference "R94") (unit 1)
-        )
-      )
-      (project "RanetkaPC_SBC"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005e82d990"
-          (reference "R94") (unit 1)
-        )
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/983eaa05-5ce2-4b2d-8a56-18ccb45be8b1"
-          (reference "R72") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/25c0df33-00ba-4d9b-b094-bedba27f35c8"
           (reference "R154") (unit 1)
@@ -2094,7 +2033,7 @@
   (symbol (lib_id "power:GND") (at 152.273 165.608 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 22ff9e32-5f78-444b-b56a-c918ffd2f40d)
-    (property "Reference" "#PWR094" (at 152.273 171.958 0)
+    (property "Reference" "#PWR0218" (at 152.273 171.958 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 152.273 169.418 0)
@@ -2108,22 +2047,6 @@
     )
     (pin "1" (uuid 7f73f12f-0587-4e9b-b8eb-71fa37dcf948))
     (instances
-      (project "HDMI"
-        (path "/e7e59836-d786-4e15-8ccc-1b77425f6a26"
-          (reference "#PWR094") (unit 1)
-        )
-      )
-      (project "RanetkaPC_SBC"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/2472cec4-dd81-4b17-83d6-046567b0a55e"
-          (reference "#PWR094") (unit 1)
-        )
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR048") (unit 1)
-        )
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/983eaa05-5ce2-4b2d-8a56-18ccb45be8b1"
-          (reference "#PWR081") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/25c0df33-00ba-4d9b-b094-bedba27f35c8"
           (reference "#PWR0218") (unit 1)
@@ -2166,7 +2089,7 @@
   (symbol (lib_id "Fabmicro:Resistor") (at 76.08 79.12 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 26a69b9c-e1db-4473-8600-3bb59f3668ef)
-    (property "Reference" "R94" (at 74.08 77.72 90)
+    (property "Reference" "R120" (at 74.08 77.72 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1.5K/1%" (at 74.48 79.82 90)
@@ -2190,19 +2113,6 @@
     (pin "1" (uuid db296310-0e00-48a9-af72-0d4eb93e12f2))
     (pin "2" (uuid f7914801-05c1-42ff-bde9-864e25a9bf17))
     (instances
-      (project "HDMI"
-        (path "/e7e59836-d786-4e15-8ccc-1b77425f6a26"
-          (reference "R94") (unit 1)
-        )
-      )
-      (project "RanetkaPC_SBC"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005e82d990"
-          (reference "R94") (unit 1)
-        )
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/983eaa05-5ce2-4b2d-8a56-18ccb45be8b1"
-          (reference "R72") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/25c0df33-00ba-4d9b-b094-bedba27f35c8"
           (reference "R120") (unit 1)
@@ -2214,7 +2124,7 @@
   (symbol (lib_id "Fabmicro:Resistor") (at 75.8 146.5 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 30f1794f-9946-4404-a3d6-ef85421b2dce)
-    (property "Reference" "R94" (at 73.8 145.1 90)
+    (property "Reference" "R161" (at 73.8 145.1 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1.5K/1%" (at 74.2 147.2 90)
@@ -2238,19 +2148,6 @@
     (pin "1" (uuid 5f6a21c6-6ef2-4993-9b6b-4aabd85370f9))
     (pin "2" (uuid 4928104a-d5ee-4b2a-8947-449fbf53c055))
     (instances
-      (project "HDMI"
-        (path "/e7e59836-d786-4e15-8ccc-1b77425f6a26"
-          (reference "R94") (unit 1)
-        )
-      )
-      (project "RanetkaPC_SBC"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005e82d990"
-          (reference "R94") (unit 1)
-        )
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/983eaa05-5ce2-4b2d-8a56-18ccb45be8b1"
-          (reference "R72") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/25c0df33-00ba-4d9b-b094-bedba27f35c8"
           (reference "R161") (unit 1)
@@ -2300,7 +2197,7 @@
   (symbol (lib_id "Fabmicro:Polyfuse_Small") (at 246.6 84.88 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 32f0330f-a321-4eb7-8adf-3d20ed3c2c67)
-    (property "Reference" "F3" (at 249.2 82.9 90)
+    (property "Reference" "F2" (at 249.2 82.9 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0805L100WR" (at 252.7 85.1 90)
@@ -2321,19 +2218,6 @@
     (pin "1" (uuid 1f22ebb3-63f2-4179-8f31-1fa3b47d5019))
     (pin "2" (uuid 970366f3-5f22-4f9a-be5e-f2eb5ae3d8eb))
     (instances
-      (project "HDMI"
-        (path "/e7e59836-d786-4e15-8ccc-1b77425f6a26"
-          (reference "F3") (unit 1)
-        )
-      )
-      (project "RanetkaPC_SBC"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "F3") (unit 1)
-        )
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/983eaa05-5ce2-4b2d-8a56-18ccb45be8b1"
-          (reference "F2") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/25c0df33-00ba-4d9b-b094-bedba27f35c8"
           (reference "F2") (unit 1)
@@ -2415,7 +2299,7 @@
   (symbol (lib_id "Fabmicro:CapacitorUnpolarized") (at 148.844 161.544 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3ee2a72a-555c-4b9a-a66c-147fe282bd33)
-    (property "Reference" "C122" (at 145.161 159.639 90)
+    (property "Reference" "C95" (at 145.161 159.639 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF/50V" (at 140.589 163.83 90)
@@ -2436,11 +2320,6 @@
     (pin "1" (uuid 171df54b-b08a-471a-b3f9-ad4fdf285baf))
     (pin "2" (uuid 600f74ff-70c8-4381-a8ff-b3bf5419c15b))
     (instances
-      (project "SIP_HomePhone"
-        (path "/1f1efc58-1a2e-4658-b2ac-cf03134c8a7b/00000000-0000-0000-0000-00005ddd7833"
-          (reference "C122") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/af986742-b82e-4f48-bf7e-cdfbb60b3231"
           (reference "C95") (unit 1)
@@ -2493,7 +2372,7 @@
   (symbol (lib_id "power:GND") (at 211.709 152.781 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4401e328-b1d9-499e-8bd3-e6c512d22155)
-    (property "Reference" "#PWR094" (at 211.709 159.131 0)
+    (property "Reference" "#PWR0150" (at 211.709 159.131 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 211.709 156.591 0)
@@ -2507,22 +2386,6 @@
     )
     (pin "1" (uuid 2d48149e-8ad3-4666-8a47-57b934494ef4))
     (instances
-      (project "HDMI"
-        (path "/e7e59836-d786-4e15-8ccc-1b77425f6a26"
-          (reference "#PWR094") (unit 1)
-        )
-      )
-      (project "RanetkaPC_SBC"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/2472cec4-dd81-4b17-83d6-046567b0a55e"
-          (reference "#PWR094") (unit 1)
-        )
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR048") (unit 1)
-        )
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/983eaa05-5ce2-4b2d-8a56-18ccb45be8b1"
-          (reference "#PWR081") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/25c0df33-00ba-4d9b-b094-bedba27f35c8"
           (reference "#PWR0150") (unit 1)
@@ -2610,7 +2473,7 @@
   (symbol (lib_id "Fabmicro:+5V_HDMI") (at 86.233 70.993 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 51ebdabe-3a39-4c45-9657-4d4a572c5775)
-    (property "Reference" "#PWR023" (at 86.233 74.803 0)
+    (property "Reference" "#PWR049" (at 86.233 74.803 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V_HDMI" (at 86.233 67.437 0)
@@ -2624,16 +2487,6 @@
     )
     (pin "1" (uuid 6a06651a-8f59-48d9-b6f1-c2db16358d55))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR023") (unit 1)
-        )
-      )
-      (project "Power"
-        (path "/ecd93358-d394-4c7e-b496-f2c7d3a08d3b"
-          (reference "#PWR023") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/00000000-0000-0000-0000-0000602e0fd3"
           (reference "#PWR049") (unit 1)
@@ -2676,7 +2529,7 @@
   (symbol (lib_id "Fabmicro:MOSFET_N_CH_SOT23") (at 75.82 152.58 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5d36febc-beb8-44bc-aae1-5890d567d50a)
-    (property "Reference" "VT3" (at 69.8 162.3 90)
+    (property "Reference" "VT1" (at 69.8 162.3 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DMN3730" (at 69.9 164.4 90)
@@ -2698,11 +2551,6 @@
     (pin "2" (uuid 50eec2c8-2d85-424f-9658-3817405b48bb))
     (pin "3" (uuid 8baddc38-b8d7-422f-8fff-9eb1fb266583))
     (instances
-      (project "SIP_HomePhone"
-        (path "/1f1efc58-1a2e-4658-b2ac-cf03134c8a7b/00000000-0000-0000-0000-00005ddd7771"
-          (reference "VT3") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/25c0df33-00ba-4d9b-b094-bedba27f35c8"
           (reference "VT1") (unit 1)
@@ -2884,7 +2732,7 @@
   (symbol (lib_id "power:GND") (at 246.58 152.9336 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 85d333ae-c37a-4d1b-9ebe-69b43b801b67)
-    (property "Reference" "#PWR094" (at 246.58 159.2836 0)
+    (property "Reference" "#PWR0149" (at 246.58 159.2836 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 246.58 156.7436 0)
@@ -2898,22 +2746,6 @@
     )
     (pin "1" (uuid 967a1daf-f219-4e1b-9eae-f5215d655bab))
     (instances
-      (project "HDMI"
-        (path "/e7e59836-d786-4e15-8ccc-1b77425f6a26"
-          (reference "#PWR094") (unit 1)
-        )
-      )
-      (project "RanetkaPC_SBC"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/2472cec4-dd81-4b17-83d6-046567b0a55e"
-          (reference "#PWR094") (unit 1)
-        )
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR048") (unit 1)
-        )
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/983eaa05-5ce2-4b2d-8a56-18ccb45be8b1"
-          (reference "#PWR054") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/25c0df33-00ba-4d9b-b094-bedba27f35c8"
           (reference "#PWR0149") (unit 1)
@@ -2925,7 +2757,7 @@
   (symbol (lib_id "Fabmicro:Resistor") (at 202.819 132.588 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 865ed505-7c89-4445-8e8c-8063c1c63459)
-    (property "Reference" "R101" (at 199.009 130.048 0)
+    (property "Reference" "R180" (at 199.009 130.048 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22R/1%" (at 205.359 130.048 0)
@@ -2946,11 +2778,6 @@
     (pin "1" (uuid 4ce369f9-03e6-4202-9ac1-7ecd9cfbce1f))
     (pin "2" (uuid f0b5b53b-9abe-4877-87a8-9bede4203078))
     (instances
-      (project "SIP_HomePhone"
-        (path "/1f1efc58-1a2e-4658-b2ac-cf03134c8a7b/00000000-0000-0000-0000-00005ddd7833"
-          (reference "R101") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/af986742-b82e-4f48-bf7e-cdfbb60b3231"
           (reference "R180") (unit 1)
@@ -3034,7 +2861,7 @@
   (symbol (lib_id "Fabmicro:MOSFET_N_CH_SOT23") (at 76.1 85.2 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 93526156-d4ca-4194-95af-0a5526dbb99e)
-    (property "Reference" "VT3" (at 70.08 94.92 90)
+    (property "Reference" "Q2" (at 70.08 94.92 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DMN3730" (at 70.18 97.02 90)
@@ -3056,11 +2883,6 @@
     (pin "2" (uuid d547363b-4f88-452e-9c11-bd332c646fad))
     (pin "3" (uuid 2ec855b1-a9f6-4ba1-a844-743f276960a7))
     (instances
-      (project "SIP_HomePhone"
-        (path "/1f1efc58-1a2e-4658-b2ac-cf03134c8a7b/00000000-0000-0000-0000-00005ddd7771"
-          (reference "VT3") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/25c0df33-00ba-4d9b-b094-bedba27f35c8"
           (reference "Q2") (unit 1)
@@ -3072,7 +2894,7 @@
   (symbol (lib_id "Fabmicro:MOSFET_N_CH_SOT23") (at 75.82 117.88 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 98dd4ab2-944d-4b67-b804-3f3dba9a35aa)
-    (property "Reference" "VT3" (at 69.8 127.6 90)
+    (property "Reference" "Q3" (at 69.8 127.6 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DMN3730" (at 69.9 129.7 90)
@@ -3094,11 +2916,6 @@
     (pin "2" (uuid 88716aa9-461f-43ef-91ef-90e1b687f6df))
     (pin "3" (uuid 9390de28-64e2-4025-a854-b2a8369e6faa))
     (instances
-      (project "SIP_HomePhone"
-        (path "/1f1efc58-1a2e-4658-b2ac-cf03134c8a7b/00000000-0000-0000-0000-00005ddd7771"
-          (reference "VT3") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/25c0df33-00ba-4d9b-b094-bedba27f35c8"
           (reference "Q3") (unit 1)
@@ -3145,7 +2962,7 @@
   (symbol (lib_id "Fabmicro:+5V_HDMI") (at 159.893 153.924 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a11318fe-9513-4552-9e14-6f356de78db4)
-    (property "Reference" "#PWR023" (at 159.893 157.734 0)
+    (property "Reference" "#PWR049" (at 159.893 157.734 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V_HDMI" (at 159.893 150.368 0)
@@ -3159,16 +2976,6 @@
     )
     (pin "1" (uuid d6977208-7eb4-4dcb-9310-3ac4c94cb78b))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR023") (unit 1)
-        )
-      )
-      (project "Power"
-        (path "/ecd93358-d394-4c7e-b496-f2c7d3a08d3b"
-          (reference "#PWR023") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/00000000-0000-0000-0000-0000602e0fd3"
           (reference "#PWR049") (unit 1)
@@ -3183,7 +2990,7 @@
   (symbol (lib_id "Fabmicro:CapacitorUnpolarized") (at 149.225 135.89 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a4e7ad5d-aee1-46a0-9e05-9ea9be84c4ac)
-    (property "Reference" "C122" (at 145.542 133.985 90)
+    (property "Reference" "C95" (at 145.542 133.985 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF/50V" (at 140.97 138.176 90)
@@ -3204,11 +3011,6 @@
     (pin "1" (uuid 946cef5b-beb1-4885-82cd-30f1b8b4f876))
     (pin "2" (uuid 640aa27c-096e-4346-904b-d4053a9e692e))
     (instances
-      (project "SIP_HomePhone"
-        (path "/1f1efc58-1a2e-4658-b2ac-cf03134c8a7b/00000000-0000-0000-0000-00005ddd7833"
-          (reference "C122") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/af986742-b82e-4f48-bf7e-cdfbb60b3231"
           (reference "C95") (unit 1)
@@ -3223,7 +3025,7 @@
   (symbol (lib_id "Fabmicro:Resistor") (at 85.8 146.58 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ac6f5b90-09be-48e8-80b8-cbff99eb9df5)
-    (property "Reference" "R94" (at 83.8 145.18 90)
+    (property "Reference" "R162" (at 83.8 145.18 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "5.1K/1%" (at 84.2 147.28 90)
@@ -3247,19 +3049,6 @@
     (pin "1" (uuid 47a99fcd-b886-4f33-b968-6f8567daed97))
     (pin "2" (uuid 004ab297-2ce0-4004-a4f2-1a167a20588d))
     (instances
-      (project "HDMI"
-        (path "/e7e59836-d786-4e15-8ccc-1b77425f6a26"
-          (reference "R94") (unit 1)
-        )
-      )
-      (project "RanetkaPC_SBC"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005e82d990"
-          (reference "R94") (unit 1)
-        )
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/983eaa05-5ce2-4b2d-8a56-18ccb45be8b1"
-          (reference "R72") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/25c0df33-00ba-4d9b-b094-bedba27f35c8"
           (reference "R162") (unit 1)
@@ -3299,7 +3088,7 @@
   (symbol (lib_id "Fabmicro:Resistor") (at 75.8 111.8 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b1a23039-96d7-4456-807d-56a7af5e3928)
-    (property "Reference" "R94" (at 73.8 110.4 90)
+    (property "Reference" "R118" (at 73.8 110.4 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1.5K/1%" (at 74.2 112.5 90)
@@ -3323,19 +3112,6 @@
     (pin "1" (uuid 93fbe648-64fb-4976-ac0e-d5d1698737e3))
     (pin "2" (uuid aa6b43b6-3973-462b-b232-674fbb1615b8))
     (instances
-      (project "HDMI"
-        (path "/e7e59836-d786-4e15-8ccc-1b77425f6a26"
-          (reference "R94") (unit 1)
-        )
-      )
-      (project "RanetkaPC_SBC"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005e82d990"
-          (reference "R94") (unit 1)
-        )
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/983eaa05-5ce2-4b2d-8a56-18ccb45be8b1"
-          (reference "R72") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/25c0df33-00ba-4d9b-b094-bedba27f35c8"
           (reference "R118") (unit 1)
@@ -3347,7 +3123,7 @@
   (symbol (lib_id "power:GND") (at 217.043 152.781 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b41001fc-ffa8-49ee-8b6a-4835261f2f10)
-    (property "Reference" "#PWR094" (at 217.043 159.131 0)
+    (property "Reference" "#PWR093" (at 217.043 159.131 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 217.043 156.591 0)
@@ -3361,22 +3137,6 @@
     )
     (pin "1" (uuid c79a1357-c873-4c17-8006-a856f76a4595))
     (instances
-      (project "HDMI"
-        (path "/e7e59836-d786-4e15-8ccc-1b77425f6a26"
-          (reference "#PWR094") (unit 1)
-        )
-      )
-      (project "RanetkaPC_SBC"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/2472cec4-dd81-4b17-83d6-046567b0a55e"
-          (reference "#PWR094") (unit 1)
-        )
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR048") (unit 1)
-        )
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/983eaa05-5ce2-4b2d-8a56-18ccb45be8b1"
-          (reference "#PWR081") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/25c0df33-00ba-4d9b-b094-bedba27f35c8"
           (reference "#PWR093") (unit 1)
@@ -3388,7 +3148,7 @@
   (symbol (lib_id "Fabmicro:Resistor") (at 211.709 141.351 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b5f5d41b-cadc-4599-80a9-ba6a2bff1efa)
-    (property "Reference" "R94" (at 204.089 141.478 90)
+    (property "Reference" "R152" (at 204.089 141.478 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K/1%" (at 203.962 143.383 90)
@@ -3412,19 +3172,6 @@
     (pin "1" (uuid 9b2cd5cb-6e44-4403-a649-2e85bea2dbc8))
     (pin "2" (uuid 504a3d30-cb9f-49b3-8a4c-b3b85e7f2848))
     (instances
-      (project "HDMI"
-        (path "/e7e59836-d786-4e15-8ccc-1b77425f6a26"
-          (reference "R94") (unit 1)
-        )
-      )
-      (project "RanetkaPC_SBC"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005e82d990"
-          (reference "R94") (unit 1)
-        )
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/983eaa05-5ce2-4b2d-8a56-18ccb45be8b1"
-          (reference "R72") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/25c0df33-00ba-4d9b-b094-bedba27f35c8"
           (reference "R152") (unit 1)
@@ -3436,7 +3183,7 @@
   (symbol (lib_id "Fabmicro:Diode") (at 144.78 155.194 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b87d8b7e-13f4-4bc8-a119-7185dd246bba)
-    (property "Reference" "D6" (at 139.7 160.274 0)
+    (property "Reference" "D22" (at 139.7 160.274 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "CRS08" (at 142.24 157.734 0)
@@ -3457,11 +3204,6 @@
     (pin "1" (uuid a9195315-a9b1-4f7a-806b-4131005dbff5))
     (pin "2" (uuid 80bdbb2f-6a75-40a5-8754-cdf1816c2702))
     (instances
-      (project "RanetkaPC_SBC"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/56c4448b-676a-4399-be55-19336585c56f"
-          (reference "D6") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/25c0df33-00ba-4d9b-b094-bedba27f35c8"
           (reference "D22") (unit 1)
@@ -3508,7 +3250,7 @@
   (symbol (lib_id "Fabmicro:Resistor") (at 62.2 146.38 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bc50f283-a673-4b02-b941-c99537973e82)
-    (property "Reference" "R94" (at 60.2 144.98 90)
+    (property "Reference" "R119" (at 60.2 144.98 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1.5K/1%" (at 60.6 147.08 90)
@@ -3532,19 +3274,6 @@
     (pin "1" (uuid f0e69397-d71c-4f98-8c07-e66c7a875330))
     (pin "2" (uuid 86b084d5-956e-4153-ad69-2a7b19382cd8))
     (instances
-      (project "HDMI"
-        (path "/e7e59836-d786-4e15-8ccc-1b77425f6a26"
-          (reference "R94") (unit 1)
-        )
-      )
-      (project "RanetkaPC_SBC"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005e82d990"
-          (reference "R94") (unit 1)
-        )
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/983eaa05-5ce2-4b2d-8a56-18ccb45be8b1"
-          (reference "R72") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/25c0df33-00ba-4d9b-b094-bedba27f35c8"
           (reference "R119") (unit 1)
@@ -3556,7 +3285,7 @@
   (symbol (lib_id "Fabmicro:Diode") (at 145.161 129.54 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bcb9e3e8-2adf-4793-8216-e9e2ad97dfec)
-    (property "Reference" "D6" (at 140.081 134.62 0)
+    (property "Reference" "D21" (at 140.081 134.62 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "CRS08" (at 142.621 132.08 0)
@@ -3577,11 +3306,6 @@
     (pin "1" (uuid 48277082-1731-44f3-ae1a-ffae4acd9d9a))
     (pin "2" (uuid 27c9ad5b-165f-4c9b-bfdc-21e113440813))
     (instances
-      (project "RanetkaPC_SBC"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/56c4448b-676a-4399-be55-19336585c56f"
-          (reference "D6") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/25c0df33-00ba-4d9b-b094-bedba27f35c8"
           (reference "D21") (unit 1)
@@ -3593,7 +3317,7 @@
   (symbol (lib_id "Fabmicro:Resistor") (at 85.8 111.88 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bec27a2b-7679-4b93-8484-a4ea8959af5c)
-    (property "Reference" "R94" (at 83.8 110.48 90)
+    (property "Reference" "R160" (at 83.8 110.48 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "5.1K/1%" (at 84.2 112.58 90)
@@ -3617,19 +3341,6 @@
     (pin "1" (uuid 201b46c9-fae1-433b-818b-7c88086cf91e))
     (pin "2" (uuid 4607d72c-fe0c-41ff-9037-abc408319022))
     (instances
-      (project "HDMI"
-        (path "/e7e59836-d786-4e15-8ccc-1b77425f6a26"
-          (reference "R94") (unit 1)
-        )
-      )
-      (project "RanetkaPC_SBC"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005e82d990"
-          (reference "R94") (unit 1)
-        )
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/983eaa05-5ce2-4b2d-8a56-18ccb45be8b1"
-          (reference "R72") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/25c0df33-00ba-4d9b-b094-bedba27f35c8"
           (reference "R160") (unit 1)
@@ -3641,7 +3352,7 @@
   (symbol (lib_id "Fabmicro:Resistor") (at 86.233 78.867 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bf505371-d37f-42a1-a194-9993455112ec)
-    (property "Reference" "R94" (at 84.233 77.467 90)
+    (property "Reference" "R158" (at 84.233 77.467 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "27K/1%" (at 84.633 79.567 90)
@@ -3665,19 +3376,6 @@
     (pin "1" (uuid 35f0aecd-8e94-4833-a846-4e964f9dc143))
     (pin "2" (uuid 2a0d8f6d-36cd-430f-aac8-362832992e3c))
     (instances
-      (project "HDMI"
-        (path "/e7e59836-d786-4e15-8ccc-1b77425f6a26"
-          (reference "R94") (unit 1)
-        )
-      )
-      (project "RanetkaPC_SBC"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005e82d990"
-          (reference "R94") (unit 1)
-        )
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/983eaa05-5ce2-4b2d-8a56-18ccb45be8b1"
-          (reference "R72") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/25c0df33-00ba-4d9b-b094-bedba27f35c8"
           (reference "R158") (unit 1)
@@ -3689,7 +3387,7 @@
   (symbol (lib_id "Fabmicro:Resistor") (at 62.2 111.68 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c0c7dd6a-490a-4138-8484-c9fe8f5e5268)
-    (property "Reference" "R94" (at 60.2 110.28 90)
+    (property "Reference" "R159" (at 60.2 110.28 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1.5K/1%" (at 60.6 112.38 90)
@@ -3713,19 +3411,6 @@
     (pin "1" (uuid e521b3cd-e147-4a28-9308-4da7afd6cdf4))
     (pin "2" (uuid 715aaf57-f37b-4a91-8b99-10fb3cd2bf68))
     (instances
-      (project "HDMI"
-        (path "/e7e59836-d786-4e15-8ccc-1b77425f6a26"
-          (reference "R94") (unit 1)
-        )
-      )
-      (project "RanetkaPC_SBC"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005e82d990"
-          (reference "R94") (unit 1)
-        )
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/983eaa05-5ce2-4b2d-8a56-18ccb45be8b1"
-          (reference "R72") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/25c0df33-00ba-4d9b-b094-bedba27f35c8"
           (reference "R159") (unit 1)
@@ -3775,7 +3460,7 @@
   (symbol (lib_id "power:GND") (at 152.654 139.954 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cba64b12-cda3-4225-9ebf-496a427a20c8)
-    (property "Reference" "#PWR094" (at 152.654 146.304 0)
+    (property "Reference" "#PWR0214" (at 152.654 146.304 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 152.654 143.764 0)
@@ -3789,22 +3474,6 @@
     )
     (pin "1" (uuid 69e934ab-146b-42a7-9e93-40f3b02aec7c))
     (instances
-      (project "HDMI"
-        (path "/e7e59836-d786-4e15-8ccc-1b77425f6a26"
-          (reference "#PWR094") (unit 1)
-        )
-      )
-      (project "RanetkaPC_SBC"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/2472cec4-dd81-4b17-83d6-046567b0a55e"
-          (reference "#PWR094") (unit 1)
-        )
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR048") (unit 1)
-        )
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/983eaa05-5ce2-4b2d-8a56-18ccb45be8b1"
-          (reference "#PWR081") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/25c0df33-00ba-4d9b-b094-bedba27f35c8"
           (reference "#PWR0214") (unit 1)
@@ -3892,7 +3561,7 @@
   (symbol (lib_id "power:+5V") (at 132.207 153.924 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f85b6a6e-c25f-41a2-8190-ba2d76f5d326)
-    (property "Reference" "#PWR023" (at 132.207 157.734 0)
+    (property "Reference" "#PWR049" (at 132.207 157.734 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 132.207 150.3569 0)
@@ -3906,16 +3575,6 @@
     )
     (pin "1" (uuid 035b8f56-d70b-429b-b3e4-9663aa186348))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR023") (unit 1)
-        )
-      )
-      (project "Power"
-        (path "/ecd93358-d394-4c7e-b496-f2c7d3a08d3b"
-          (reference "#PWR023") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/00000000-0000-0000-0000-0000602e0fd3"
           (reference "#PWR049") (unit 1)

@@ -2152,7 +2152,7 @@
   (symbol (lib_id "Fabmicro:CONN_2Pins") (at 72.644 153.543 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 039276e9-0202-413c-ae63-ff66127b2187)
-    (property "Reference" "XS9" (at 76.962 152.273 0)
+    (property "Reference" "XS7" (at 76.962 152.273 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "S2B-PH-K-S (LF)(SN)" (at 77.47 162.687 0)
@@ -2182,16 +2182,6 @@
     (pin "1" (uuid e3e83635-5fcf-4f0a-b393-17d8a1c6ff4a))
     (pin "2" (uuid b839b40d-d7ad-452d-9685-1db36df3b6a4))
     (instances
-      (project "SIP_HomePhone"
-        (path "/1f1efc58-1a2e-4658-b2ac-cf03134c8a7b/00000000-0000-0000-0000-00005ddd780c"
-          (reference "XS9") (unit 1)
-        )
-      )
-      (project "RanetkaPC_SBC"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005e82d990"
-          (reference "XS2") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73"
           (reference "XS7") (unit 1)
@@ -2518,7 +2508,7 @@
   (symbol (lib_id "Fabmicro:CONN_2Pins") (at 73.279 202.565 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 17c62658-a04e-4daf-8d85-e9f45c3997e5)
-    (property "Reference" "XS9" (at 77.597 201.295 0)
+    (property "Reference" "XS10" (at 77.597 201.295 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "S2B-PH-K-S (LF)(SN)" (at 78.105 211.709 0)
@@ -2548,16 +2538,6 @@
     (pin "1" (uuid 01cbcc4f-895c-4f27-b21f-b0e5017dd8ed))
     (pin "2" (uuid dc58fc5e-9d62-4af7-8bf6-8669e4cb9e5b))
     (instances
-      (project "SIP_HomePhone"
-        (path "/1f1efc58-1a2e-4658-b2ac-cf03134c8a7b/00000000-0000-0000-0000-00005ddd780c"
-          (reference "XS9") (unit 1)
-        )
-      )
-      (project "RanetkaPC_SBC"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005e82d990"
-          (reference "XS2") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73"
           (reference "XS10") (unit 1)
@@ -2569,7 +2549,7 @@
   (symbol (lib_id "Fabmicro:CONN_2Pins") (at 72.771 166.624 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 18845cff-ce00-493b-a23e-b6f6106615b5)
-    (property "Reference" "XS9" (at 77.089 165.354 0)
+    (property "Reference" "XS8" (at 77.089 165.354 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "S2B-PH-K-S (LF)(SN)" (at 77.597 175.768 0)
@@ -2599,16 +2579,6 @@
     (pin "1" (uuid 88781273-f235-47a7-8332-3623739a1661))
     (pin "2" (uuid ad3b1782-8b3b-4c96-874c-41d532037e9c))
     (instances
-      (project "SIP_HomePhone"
-        (path "/1f1efc58-1a2e-4658-b2ac-cf03134c8a7b/00000000-0000-0000-0000-00005ddd780c"
-          (reference "XS9") (unit 1)
-        )
-      )
-      (project "RanetkaPC_SBC"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005e82d990"
-          (reference "XS2") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73"
           (reference "XS8") (unit 1)
@@ -2734,7 +2704,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 147.32 157.607 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1d22ae66-5f13-4b45-a4db-6dbbd60dbbfb)
-    (property "Reference" "SW1" (at 135.128 156.2927 0)
+    (property "Reference" "SW3" (at 135.128 156.2927 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 141.097 156.2927 0)
@@ -2752,11 +2722,6 @@
     (pin "1" (uuid 5d03c72d-c2bd-42af-8b63-b9bc3f662124))
     (pin "2" (uuid 1a96c7f5-28e8-4129-8fe4-c041eaecaeb3))
     (instances
-      (project "OrangeCrab"
-        (path "/4e8f832c-e89e-43c4-aa3b-05785457571c/00000000-0000-0000-0000-00005abc9a87"
-          (reference "SW1") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73"
           (reference "SW3") (unit 1)
@@ -2868,7 +2833,7 @@
   (symbol (lib_id "Fabmicro:CONN_2Pins") (at 72.771 119.253 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 24c5c449-4c50-41da-9357-c83aad84b26f)
-    (property "Reference" "XS9" (at 77.089 117.983 0)
+    (property "Reference" "XS3" (at 77.089 117.983 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "S2B-PH-K-S (LF)(SN)" (at 77.597 128.397 0)
@@ -2898,16 +2863,6 @@
     (pin "1" (uuid 27e59044-0987-4895-a3b3-d0a3031acfff))
     (pin "2" (uuid cdd7055a-78ff-4ed3-8bc4-4582e3f429e1))
     (instances
-      (project "SIP_HomePhone"
-        (path "/1f1efc58-1a2e-4658-b2ac-cf03134c8a7b/00000000-0000-0000-0000-00005ddd780c"
-          (reference "XS9") (unit 1)
-        )
-      )
-      (project "RanetkaPC_SBC"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005e82d990"
-          (reference "XS2") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73"
           (reference "XS3") (unit 1)
@@ -3389,7 +3344,7 @@
   (symbol (lib_id "Fabmicro:CONN_2Pins") (at 72.644 140.335 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4885f04d-cfbc-4424-8169-f4ad3e723cb6)
-    (property "Reference" "XS9" (at 76.962 139.065 0)
+    (property "Reference" "XS6" (at 76.962 139.065 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "S2B-PH-K-S (LF)(SN)" (at 77.47 149.479 0)
@@ -3419,16 +3374,6 @@
     (pin "1" (uuid f30fdd99-d232-45ea-a4c1-ff1abe0e838f))
     (pin "2" (uuid dc7b0a3a-2ae1-4513-ac2f-11b9741f0164))
     (instances
-      (project "SIP_HomePhone"
-        (path "/1f1efc58-1a2e-4658-b2ac-cf03134c8a7b/00000000-0000-0000-0000-00005ddd780c"
-          (reference "XS9") (unit 1)
-        )
-      )
-      (project "RanetkaPC_SBC"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005e82d990"
-          (reference "XS2") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73"
           (reference "XS6") (unit 1)
@@ -3499,7 +3444,7 @@
   (symbol (lib_id "Fabmicro:CONN_2Pins") (at 72.898 215.773 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5b21c6bb-9d04-4b53-9576-d230412c8783)
-    (property "Reference" "XS9" (at 77.216 214.503 0)
+    (property "Reference" "XS11" (at 77.216 214.503 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "S2B-PH-K-S (LF)(SN)" (at 77.724 224.917 0)
@@ -3529,16 +3474,6 @@
     (pin "1" (uuid 41d31b1c-4de7-419a-9c79-461edf08eee9))
     (pin "2" (uuid f776a1ea-17d3-4e5c-97a0-b27bed3bce20))
     (instances
-      (project "SIP_HomePhone"
-        (path "/1f1efc58-1a2e-4658-b2ac-cf03134c8a7b/00000000-0000-0000-0000-00005ddd780c"
-          (reference "XS9") (unit 1)
-        )
-      )
-      (project "RanetkaPC_SBC"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005e82d990"
-          (reference "XS2") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73"
           (reference "XS11") (unit 1)
@@ -3685,7 +3620,7 @@
   (symbol (lib_id "Fabmicro:CONN_2Pins") (at 72.136 92.075 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 72b53de1-11c7-42e2-8e94-e30789589509)
-    (property "Reference" "XS3" (at 75.692 90.678 0)
+    (property "Reference" "XS1" (at 75.692 90.678 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "KLS2-126-5.00-02" (at 75.946 101.219 0)
@@ -3709,11 +3644,6 @@
     (pin "1" (uuid be3c9624-11ea-4130-9e67-0c68a3e11439))
     (pin "2" (uuid fc4019fe-def2-4f87-b2e3-83ec0ced63e9))
     (instances
-      (project "RanetkaPC_SBC"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005ddd7771"
-          (reference "XS3") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73"
           (reference "XS1") (unit 1)
@@ -3851,7 +3781,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 147.32 164.719 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 929b6a7f-4f22-4f0a-9385-9752ec35ffa5)
-    (property "Reference" "SW1" (at 135.128 163.4047 0)
+    (property "Reference" "SW4" (at 135.128 163.4047 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 141.097 163.4047 0)
@@ -3869,11 +3799,6 @@
     (pin "1" (uuid f26e5782-258c-4d78-89b8-f8d59b71ca7d))
     (pin "2" (uuid 950adf4f-edd7-460e-a3e9-af1006aaa02c))
     (instances
-      (project "OrangeCrab"
-        (path "/4e8f832c-e89e-43c4-aa3b-05785457571c/00000000-0000-0000-0000-00005abc9a87"
-          (reference "SW1") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73"
           (reference "SW4") (unit 1)
@@ -4029,16 +3954,6 @@
     (pin "1" (uuid cbfa0ca6-e5a4-45ed-89cc-20d1583a8686))
     (pin "2" (uuid 8b0cb253-88b4-4355-b643-9540c50ad56e))
     (instances
-      (project "SIP_HomePhone"
-        (path "/1f1efc58-1a2e-4658-b2ac-cf03134c8a7b/00000000-0000-0000-0000-00005ddd780c"
-          (reference "XS9") (unit 1)
-        )
-      )
-      (project "RanetkaPC_SBC"
-        (path "/ec71f5a1-9121-4fc3-8b2f-749f8a7afeed/00000000-0000-0000-0000-00005e82d990"
-          (reference "XS2") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73"
           (reference "XS9") (unit 1)
@@ -4501,11 +4416,6 @@
     (pin "1" (uuid a15a2db4-cdab-43c0-8f27-fd63ab1fdeff))
     (pin "2" (uuid ec103ca3-1ee4-4d52-adb7-161828437f8a))
     (instances
-      (project "OrangeCrab"
-        (path "/4e8f832c-e89e-43c4-aa3b-05785457571c/00000000-0000-0000-0000-00005abc9a87"
-          (reference "SW1") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73"
           (reference "SW1") (unit 1)
@@ -4517,7 +4427,7 @@
   (symbol (lib_id "power:+5V") (at 260.8904 82.4061 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bb4002f0-7010-4937-925b-5c4b8515ef9e)
-    (property "Reference" "#PWR023" (at 260.8904 86.2161 0)
+    (property "Reference" "#PWR0146" (at 260.8904 86.2161 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 260.8904 78.839 0)
@@ -4531,16 +4441,6 @@
     )
     (pin "1" (uuid 81602101-a005-4dda-ba60-92bc6831f9ef))
     (instances
-      (project "Analog_16_8"
-        (path "/121afcc6-94a7-450a-a879-4c3eaa09954e/00000000-0000-0000-0000-00005ddd7771"
-          (reference "#PWR023") (unit 1)
-        )
-      )
-      (project "Power"
-        (path "/ecd93358-d394-4c7e-b496-f2c7d3a08d3b"
-          (reference "#PWR023") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/00000000-0000-0000-0000-0000602e0fd3"
           (reference "#PWR0146") (unit 1)
@@ -5157,7 +5057,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 147.32 150.241 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f1d71660-33ac-4cb8-817d-5d555b864452)
-    (property "Reference" "SW1" (at 135.128 148.9267 0)
+    (property "Reference" "SW2" (at 135.128 148.9267 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 141.097 148.9267 0)
@@ -5175,11 +5075,6 @@
     (pin "1" (uuid a907561a-869c-466c-a880-e7f2878f5e28))
     (pin "2" (uuid 14173d12-ecf3-46ab-8ad8-49aa3bcdb523))
     (instances
-      (project "OrangeCrab"
-        (path "/4e8f832c-e89e-43c4-aa3b-05785457571c/00000000-0000-0000-0000-00005abc9a87"
-          (reference "SW1") (unit 1)
-        )
-      )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73"
           (reference "SW2") (unit 1)
