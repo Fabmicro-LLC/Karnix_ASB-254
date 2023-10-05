@@ -3381,7 +3381,7 @@
       )
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/00000000-0000-0000-0000-0000602e0fd3"
-          (reference "VT1") (unit 1)
+          (reference "Q1") (unit 1)
         )
       )
     )
