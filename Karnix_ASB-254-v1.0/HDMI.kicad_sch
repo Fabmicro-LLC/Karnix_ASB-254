@@ -2529,7 +2529,7 @@
   (symbol (lib_id "Fabmicro:MOSFET_N_CH_SOT23") (at 75.82 152.58 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5d36febc-beb8-44bc-aae1-5890d567d50a)
-    (property "Reference" "VT1" (at 69.8 162.3 90)
+    (property "Reference" "Q4" (at 69.8 162.3 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DMN3730" (at 69.9 164.4 90)
@@ -2553,7 +2553,7 @@
     (instances
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/25c0df33-00ba-4d9b-b094-bedba27f35c8"
-          (reference "VT1") (unit 1)
+          (reference "Q4") (unit 1)
         )
       )
     )
