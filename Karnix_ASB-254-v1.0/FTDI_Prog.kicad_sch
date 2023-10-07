@@ -1709,10 +1709,10 @@
     (property "Mfr. Part Number" "ECS-060-18-20BM-JEN-TR" (at 182.245 146.177 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a36ab155-27be-48c9-8874-36a6ed971d81))
-    (pin "2" (uuid ce2ce7ff-2650-47f4-a42b-42b5957e2323))
-    (pin "3" (uuid d44ff9d2-f021-4005-a20f-b13008e89249))
-    (pin "4" (uuid c2189f96-0e41-4f1e-8f27-0bc639ca1054))
+    (pin "1" (uuid a2390fc0-8702-4f5e-a0e9-63131ac93b74))
+    (pin "2" (uuid 9b501814-9901-4ee6-ab1b-b99831b4b829))
+    (pin "3" (uuid 41351bc7-5aa3-4645-b9d1-d111fbb823ee))
+    (pin "4" (uuid f27e2727-99b2-4309-a895-46018bd7bccf))
     (instances
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/af986742-b82e-4f48-bf7e-cdfbb60b3231"
