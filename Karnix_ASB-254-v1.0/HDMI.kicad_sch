@@ -3408,8 +3408,8 @@
     (property "Field6" "" (at 62.2 111.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e521b3cd-e147-4a28-9308-4da7afd6cdf4))
-    (pin "2" (uuid 715aaf57-f37b-4a91-8b99-10fb3cd2bf68))
+    (pin "1" (uuid 62856444-438c-423d-a84c-fcbc9235964a))
+    (pin "2" (uuid 9c87cbd3-70d1-4171-84c2-f85167e13963))
     (instances
       (project "Karnix_ASB"
         (path "/fe37e245-9527-4c72-91fc-09b617a42f73/25c0df33-00ba-4d9b-b094-bedba27f35c8"
