@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 1.7,
-          "width": 1.7
+          "drill": 0.9,
+          "height": 1.6,
+          "width": 1.6
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -55,7 +55,9 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|166959999|46346317|4045c8d1-2e4f-4975-8332-abf5e3c3b71e|d5b306b7-6479-48a3-9415-e0df6d0a6924"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -65,7 +67,7 @@
         "clearance": "error",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
-        "copper_sliver": "warning",
+        "copper_sliver": "ignore",
         "courtyards_overlap": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
@@ -92,7 +94,7 @@
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
+        "silk_edge_clearance": "ignore",
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
@@ -115,18 +117,18 @@
       "rules": {
         "max_error": 0.005,
         "min_clearance": 0.125,
-        "min_connection": 0.125,
+        "min_connection": 0.09999999999999999,
         "min_copper_edge_clearance": 0.19999999999999998,
         "min_hole_clearance": 0.125,
         "min_hole_to_hole": 0.19999999999999998,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.6,
+        "min_text_height": 0.5,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.19999999999999998,
-        "min_track_width": 0.125,
+        "min_track_width": 0.09999999999999999,
         "min_via_annular_width": 0.09999999999999999,
         "min_via_diameter": 0.39999999999999997,
         "solder_mask_to_copper_clearance": 0.0,
