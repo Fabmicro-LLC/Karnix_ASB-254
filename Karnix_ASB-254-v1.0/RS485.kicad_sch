@@ -6,7 +6,7 @@
 
   (title_block
     (title "ПИР СЦХ-254 \"Карно\"\n(Karnix ASB-254)")
-    (date "2023-10-20")
+    (date "2023-10-21")
     (rev "V1.0")
     (company "ООО \"Фабмикро\"")
     (comment 1 "ФМТД.466961.029 Э3")
@@ -870,7 +870,7 @@
     (property "Reference" "L7" (at 172.466 101.981 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "BLM18PG331SN1D" (at 172.466 108.331 0)
+    (property "Value" "330R/1.2A" (at 172.466 108.331 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Inductor_SMD:L_0603_1608Metric" (at 172.466 105.791 90)
@@ -1117,7 +1117,7 @@
     (property "Поле8" "8 Pins SO8, TSSOP8 Packages" (at 154.686 133.731 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
-    (property "Mfr. Part Number" "MAX487ESA" (at 154.686 118.491 0)
+    (property "Mfr. Part Number" "MAX487ECSA+" (at 154.686 118.491 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Supplier" "Fabmicro" (at 154.686 118.491 0)
