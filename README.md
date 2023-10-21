@@ -18,7 +18,7 @@
 
 ## Board images
 
-![TOP side](Karnix_ASB-254-v1.0/Karnix_ASB-top.jpg)
+![TOP side](Karnix_ASB-254-v1.0/images/Karnix_ASB-top.jpg)
 
-![BOTTOM side](Karnix_ASB-254-v1.0/Karnix_ASB-top.jpg)
+![BOTTOM side](Karnix_ASB-254-v1.0/images/Karnix_ASB-bottom.jpg)
 
