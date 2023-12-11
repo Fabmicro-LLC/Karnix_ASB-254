@@ -2024,7 +2024,7 @@
     (property "Value" "USB_C_Receptacle_USB2.0" (at 92.4907 102.1475 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12" (at 93.5829 121.8579 0)
+    (property "Footprint" "Fabmicro:USB_C_Receptacle_HRO_TYPE-C-31-M-12" (at 93.5829 121.8579 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" (at 93.5829 121.8579 0)
