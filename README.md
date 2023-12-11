@@ -22,3 +22,9 @@
 
 ![BOTTOM side](Karnix_ASB-254-v1.0/images/Karnix_ASB-bottom.jpg)
 
+# Karnix v1.0 bugs
+
+Version 1.0 appeared to be buggy:
+- Ethernet does not work because of wrong power wiring.
+- FT2232D IOVCC was wrongly wired to +5V instead of +3V3.
+- Some issues with footprints.
