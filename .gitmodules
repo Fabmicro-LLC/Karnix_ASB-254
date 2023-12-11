@@ -1,0 +1,3 @@
+[submodule "Examples/VexRiscvWithHUB12ForKarnix"]
+	path = Examples/VexRiscvWithHUB12ForKarnix
+	url = https://github.com/Fabmicro-LLC/VexRiscvWithHUB12ForKarnix.git

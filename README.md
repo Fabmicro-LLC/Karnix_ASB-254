@@ -28,3 +28,7 @@ Version 1.0 appeared to be buggy:
 - Ethernet does not work because of wrong power wiring.
 - FT2232D IOVCC was wrongly wired to +5V instead of +3V3.
 - Some issues with footprints.
+
+## Examples
+
+- Directory Examples/VexRiscvWithHUB12ForKarnix contains complete implementation of HUB-12/HUB-75 adapter for LED matrixes written in C running on VexRiscv soft-core. It provides Modbus/UDP interface to corresponding LED matrix.
