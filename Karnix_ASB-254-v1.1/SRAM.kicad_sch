@@ -1024,7 +1024,7 @@
     (property "Reference" "U21" (at 182.753 86.1715 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "K6R4016V1D-TC10 (TSOP-44, +3.3V)" (at 182.753 88.635 0)
+    (property "Value" "K6R4016V1D-TC10 (TSOP-44/+3.3V)" (at 182.753 88.635 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Package_SO:TSOP-II-44_10.16x18.41mm_P0.8mm" (at 183.515 116.332 0)
