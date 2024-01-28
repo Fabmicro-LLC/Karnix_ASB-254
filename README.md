@@ -32,3 +32,7 @@ Version 1.0 appeared to be buggy:
 ## Examples
 
 - Directory **Examples/VexRiscvWithHUB12ForKarnix** contains complete implementation of HUB-12/HUB-75 adapter for LED matrixes written in C running on VexRiscv soft-core. It provides Modbus/UDP interface to corresponding LED matrix.
+
+## Video
+
+https://www.youtube.com/watch?v=xr0pdGuJbXQ
