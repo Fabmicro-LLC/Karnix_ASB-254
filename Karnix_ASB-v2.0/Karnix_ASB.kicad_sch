@@ -13,6 +13,483 @@
 		(comment 2 "Залата Р.Н.")
 	)
 	(lib_symbols
+		(symbol "Connector:USB_A_Stacked"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 15.875 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "USB_A_Stacked"
+				(at 0 13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 3.81 -13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "USB Type A connector, stacked"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector USB"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "USB*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "USB_A_Stacked_0_1"
+				(rectangle
+					(start -7.62 12.7)
+					(end 7.62 -12.7)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -2.159 1.905)
+					(radius 0.381)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 3.175) (xy -0.254 3.175) (xy -0.889 4.445) (xy -1.524 3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 0) (xy -0.889 0.635) (xy 0.381 1.27) (xy 0.381 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 -0.635) (xy -0.889 0) (xy -2.159 1.27) (xy -2.159 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -0.889 -1.27)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -0.254 9.906)
+					(end -3.048 10.414)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -0.254 7.366)
+					(end -3.048 7.874)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -0.127 -12.7)
+					(end 0.127 -11.938)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0 9.652)
+					(end -3.302 10.922)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0 7.112)
+					(end -3.302 8.382)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0 2.794)
+					(end 0.762 2.032)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 2.413 -12.7)
+					(end 2.667 -11.938)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 7.62 10.033)
+					(end 6.858 10.287)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 7.62 7.493)
+					(end 6.858 7.747)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 7.62 2.413)
+					(end 6.858 2.667)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 7.62 -0.127)
+					(end 6.858 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 7.62 -2.667)
+					(end 6.858 -2.413)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 7.62 -5.207)
+					(end 6.858 -4.953)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "USB_A_Stacked_1_1"
+				(polyline
+					(pts
+						(xy -0.889 0.635) (xy -0.889 3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 10.16 10.16 180)
+					(length 2.54)
+					(name "VBUS1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "D1-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "D1+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -15.24 90)
+					(length 2.54)
+					(name "GND1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 7.62 180)
+					(length 2.54)
+					(name "VBUS2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "D2-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "D2+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -15.24 90)
+					(length 2.54)
+					(name "GND2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -15.24 90)
+					(length 2.54)
+					(name "Shield"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x07"
 			(pin_names
 				(offset 1.016)
@@ -3274,6 +3751,337 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Fabmicro:Polyfuse_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "F"
+				(at 2.54 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Polyfuse_Small"
+				(at 2.54 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -2.54 -1.27 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" ""
+				(at 2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "resettable fuse PTC PPTC polyfuse polyswitch"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*polyfuse* *PTC*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Polyfuse_Small_0_1"
+				(polyline
+					(pts
+						(xy 3.81 1.016) (xy 3.302 1.016) (xy 1.778 -1.016) (xy 1.27 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 0.508)
+					(end 1.27 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Polyfuse_Small_1_1"
+				(pin passive line
+					(at 5.08 0 180)
+					(length 0.635)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 0.635)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Fabmicro:ProtectiveDiodeDA"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 5.08 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ProtectiveDiodeDA"
+				(at 6.35 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 6.35 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 6.35 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Protective Diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ProtectiveDiodeDA_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy 2.54 1.27) (xy 5.08 0) (xy 2.54 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 1.27) (xy 5.08 1.27) (xy 5.08 -1.27) (xy 5.715 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 1.27) (xy 7.62 -1.27) (xy 5.08 0) (xy 7.62 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Fabmicro:Resistor"
 			(pin_numbers
 				(hide yes)
@@ -4632,6 +5440,12 @@
 		(uuid "db28bcd8-50b8-4108-beba-7a42bde26d6c")
 	)
 	(junction
+		(at 324.739 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ba48633-dd8b-4eb4-a5ed-91fe9c3398c3")
+	)
+	(junction
 		(at 130.937 150.241)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4650,16 +5464,46 @@
 		(uuid "20414e2b-f614-4eea-99eb-9410c3a7001b")
 	)
 	(junction
+		(at 344.6145 71.8209)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22937afc-2f55-4505-820c-906519d59756")
+	)
+	(junction
+		(at 344.6145 71.8894)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "292c6f96-8258-4c60-ab77-9533eddf1e40")
+	)
+	(junction
 		(at 168.656 157.607)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2b969abc-df07-4070-b555-53569300e432")
 	)
 	(junction
+		(at 263.6582 52.0926)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35295514-1dfc-4969-a37b-a48e1459db50")
+	)
+	(junction
 		(at 130.937 157.607)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "36dfd40d-843b-4bc2-b1f3-ae30aed4e41d")
+	)
+	(junction
+		(at 299.7262 41.8691)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c4fbcc5-06a2-49b3-8efe-748cdb890ef2")
+	)
+	(junction
+		(at 263.6582 52.0925)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "452317bd-ced3-444b-a213-9116e4f9ab8d")
 	)
 	(junction
 		(at 162.687 115.316)
@@ -4674,7 +5518,7 @@
 		(uuid "544fb94d-b35b-4c4b-b755-4261a9ca11de")
 	)
 	(junction
-		(at 359.3465 131.191)
+		(at 356.616 161.2265)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "54c59765-cdfd-4054-ab6a-072e8ac34ad8")
@@ -4692,6 +5536,12 @@
 		(uuid "59a9f772-f792-4d68-a1f1-8b2d3f72a595")
 	)
 	(junction
+		(at 253.7086 49.5526)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59acca3a-4445-4e00-b0c4-243606a9f9ea")
+	)
+	(junction
 		(at 153.035 164.719)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4704,10 +5554,16 @@
 		(uuid "80b91eaa-6f33-4f85-adc6-dd7804e36b10")
 	)
 	(junction
-		(at 260.8904 87.4861)
+		(at 258.1599 117.5216)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8570d603-849c-42ee-9541-d1151aae0671")
+	)
+	(junction
+		(at 273.8817 54.6326)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86769684-72d8-4a09-8ab1-2af50e5fab93")
 	)
 	(junction
 		(at 165.227 222.758)
@@ -4734,7 +5590,19 @@
 		(uuid "a3c0ea83-b6cf-439d-8b9a-15c968010a0d")
 	)
 	(junction
-		(at 392.684 98.171)
+		(at 283.845 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a45091a9-1d7a-444b-b522-6349cfc94907")
+	)
+	(junction
+		(at 311.531 41.8691)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4339e52-3a33-4933-88f6-a012f40239b7")
+	)
+	(junction
+		(at 389.9535 128.2065)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cd2e0625-4eec-46b5-b32f-c4cf22813df0")
@@ -4753,7 +5621,7 @@
 	)
 	(wire
 		(pts
-			(xy 244.5 184.8) (xy 244.5 181.82)
+			(xy 241.7695 214.8355) (xy 241.7695 211.8555)
 		)
 		(stroke
 			(width 0)
@@ -4763,13 +5631,23 @@
 	)
 	(wire
 		(pts
-			(xy 266.0974 97.6461) (xy 255.9374 97.6461)
+			(xy 263.3669 127.6816) (xy 253.2069 127.6816)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "011cbe06-11d1-4241-8eb3-869c154ac80b")
+	)
+	(wire
+		(pts
+			(xy 311.531 41.8691) (xy 324.739 41.8691)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03ff235b-923f-406e-9355-bdf416c8c258")
 	)
 	(wire
 		(pts
@@ -4793,7 +5671,17 @@
 	)
 	(wire
 		(pts
-			(xy 222.9174 102.7515) (xy 212.7574 102.7515)
+			(xy 299.7138 76.4314) (xy 299.72 66.929)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0688abab-d509-49ec-9f8a-cce3ee5cc1a5")
+	)
+	(wire
+		(pts
+			(xy 220.1869 132.787) (xy 210.0269 132.787)
 		)
 		(stroke
 			(width 0)
@@ -4803,7 +5691,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.2844 87.4861) (xy 243.2374 87.4861)
+			(xy 235.5539 117.5216) (xy 240.5069 117.5216)
 		)
 		(stroke
 			(width 0)
@@ -4823,7 +5711,27 @@
 	)
 	(wire
 		(pts
-			(xy 326.0725 105.791) (xy 337.2485 105.791)
+			(xy 253.7086 49.5526) (xy 317.0555 49.5526)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b3e5d12-cc32-4062-831d-d552678e4b3b")
+	)
+	(wire
+		(pts
+			(xy 283.845 58.42) (xy 283.8124 58.447)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b901735-763b-48f9-9bbc-faab26e2ba7e")
+	)
+	(wire
+		(pts
+			(xy 323.342 135.8265) (xy 334.518 135.8265)
 		)
 		(stroke
 			(width 0)
@@ -4833,13 +5741,23 @@
 	)
 	(wire
 		(pts
-			(xy 222.9174 100.1861) (xy 212.7574 100.1861)
+			(xy 220.1869 130.2216) (xy 210.0269 130.2216)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0c1d76f9-269b-4fa0-81e3-6581c08a1b67")
+	)
+	(wire
+		(pts
+			(xy 324.739 41.91) (xy 324.6895 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ce75dfa-9b11-47bc-9c15-b76e7f96d40a")
 	)
 	(wire
 		(pts
@@ -4853,7 +5771,17 @@
 	)
 	(wire
 		(pts
-			(xy 276.3082 107.7807) (xy 286.4682 107.7807)
+			(xy 252.3751 49.5526) (xy 253.7086 49.5526)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f2df92f-2b9a-46a2-a201-d9e03aab7062")
+	)
+	(wire
+		(pts
+			(xy 273.5777 137.8162) (xy 283.7377 137.8162)
 		)
 		(stroke
 			(width 0)
@@ -4863,7 +5791,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.0725 113.411) (xy 337.2485 113.411)
+			(xy 323.342 143.4465) (xy 334.518 143.4465)
 		)
 		(stroke
 			(width 0)
@@ -4873,7 +5801,7 @@
 	)
 	(wire
 		(pts
-			(xy 392.684 133.731) (xy 392.684 138.811)
+			(xy 389.9535 163.7665) (xy 389.9535 168.8465)
 		)
 		(stroke
 			(width 0)
@@ -4883,7 +5811,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.3122 105.2447) (xy 286.4722 105.2447)
+			(xy 273.5817 135.2802) (xy 283.7417 135.2802)
 		)
 		(stroke
 			(width 0)
@@ -4893,7 +5821,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.2574 95.0807) (xy 286.4174 95.0807)
+			(xy 273.5269 125.1162) (xy 283.6869 125.1162)
 		)
 		(stroke
 			(width 0)
@@ -4903,7 +5831,17 @@
 	)
 	(wire
 		(pts
-			(xy 246.5 169.1) (xy 246.5 169.12)
+			(xy 283.1325 41.91) (xy 283.2595 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15b7909d-f3a2-4352-a9d4-0d7ce07018c7")
+	)
+	(wire
+		(pts
+			(xy 243.7695 199.1355) (xy 243.7695 199.1555)
 		)
 		(stroke
 			(width 0)
@@ -4913,7 +5851,7 @@
 	)
 	(wire
 		(pts
-			(xy 359.3465 126.111) (xy 359.3465 131.191)
+			(xy 356.616 156.1465) (xy 356.616 161.2265)
 		)
 		(stroke
 			(width 0)
@@ -4923,7 +5861,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.9374 125.6115) (xy 255.9374 125.5861)
+			(xy 253.2069 155.647) (xy 253.2069 155.6216)
 		)
 		(stroke
 			(width 0)
@@ -4933,7 +5871,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.225 135.763) (xy 286.385 135.763)
+			(xy 273.4945 165.7985) (xy 283.6545 165.7985)
 		)
 		(stroke
 			(width 0)
@@ -4943,7 +5881,17 @@
 	)
 	(wire
 		(pts
-			(xy 243.2374 95.1061) (xy 233.0774 95.1061)
+			(xy 299.72 41.91) (xy 299.72 61.849)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17ec687c-7e3e-498e-8e8e-c74bc8cb1f0b")
+	)
+	(wire
+		(pts
+			(xy 240.5069 125.1416) (xy 230.3469 125.1416)
 		)
 		(stroke
 			(width 0)
@@ -4953,7 +5901,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.9374 95.0807) (xy 255.9374 95.1061)
+			(xy 253.2069 125.1162) (xy 253.2069 125.1416)
 		)
 		(stroke
 			(width 0)
@@ -4973,7 +5921,17 @@
 	)
 	(wire
 		(pts
-			(xy 266.0974 95.0807) (xy 255.9374 95.0807)
+			(xy 299.7262 41.8691) (xy 311.531 41.8691)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bd586a5-444a-439b-8a42-e60ce2d539e6")
+	)
+	(wire
+		(pts
+			(xy 263.3669 125.1162) (xy 253.2069 125.1162)
 		)
 		(stroke
 			(width 0)
@@ -4993,7 +5951,7 @@
 	)
 	(wire
 		(pts
-			(xy 239.7 174.2) (xy 246.42 174.2)
+			(xy 236.9695 204.2355) (xy 243.6895 204.2355)
 		)
 		(stroke
 			(width 0)
@@ -5013,7 +5971,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.0974 125.6115) (xy 255.9374 125.6115)
+			(xy 263.3669 155.647) (xy 253.2069 155.647)
 		)
 		(stroke
 			(width 0)
@@ -5033,7 +5991,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.0774 105.2661) (xy 243.2374 105.2661)
+			(xy 230.3469 135.3016) (xy 240.5069 135.3016)
 		)
 		(stroke
 			(width 0)
@@ -5053,7 +6011,7 @@
 	)
 	(wire
 		(pts
-			(xy 327.406 118.491) (xy 337.2485 118.491)
+			(xy 324.6755 148.5265) (xy 334.518 148.5265)
 		)
 		(stroke
 			(width 0)
@@ -5063,7 +6021,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.2574 115.4261) (xy 286.4174 115.4261)
+			(xy 273.5269 145.4616) (xy 283.6869 145.4616)
 		)
 		(stroke
 			(width 0)
@@ -5083,7 +6041,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.2574 125.6115) (xy 286.4174 125.6115)
+			(xy 273.5269 155.647) (xy 283.6869 155.647)
 		)
 		(stroke
 			(width 0)
@@ -5093,7 +6051,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.2374 90.0261) (xy 233.0774 90.0261)
+			(xy 240.5069 120.0616) (xy 230.3469 120.0616)
 		)
 		(stroke
 			(width 0)
@@ -5103,7 +6061,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.2374 100.1861) (xy 233.0774 100.1861)
+			(xy 240.5069 130.2216) (xy 230.3469 130.2216)
 		)
 		(stroke
 			(width 0)
@@ -5113,7 +6071,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.0774 120.5061) (xy 243.2374 120.5061)
+			(xy 230.3469 150.5416) (xy 240.5069 150.5416)
 		)
 		(stroke
 			(width 0)
@@ -5133,7 +6091,7 @@
 	)
 	(wire
 		(pts
-			(xy 347.4085 118.491) (xy 360.3625 118.491)
+			(xy 344.678 148.5265) (xy 357.632 148.5265)
 		)
 		(stroke
 			(width 0)
@@ -5143,7 +6101,7 @@
 	)
 	(wire
 		(pts
-			(xy 347.4085 110.871) (xy 360.3625 110.871)
+			(xy 344.678 140.9065) (xy 357.632 140.9065)
 		)
 		(stroke
 			(width 0)
@@ -5153,7 +6111,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.2574 117.9661) (xy 286.4174 117.9661)
+			(xy 273.5269 148.0016) (xy 283.6869 148.0016)
 		)
 		(stroke
 			(width 0)
@@ -5173,6 +6131,26 @@
 	)
 	(wire
 		(pts
+			(xy 317.0555 49.5526) (xy 317.0555 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30055251-221f-4417-acad-8c99f78be5b4")
+	)
+	(wire
+		(pts
+			(xy 273.8817 54.6326) (xy 273.8817 58.447)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32c6a130-817e-4336-b463-654e4e2408fd")
+	)
+	(wire
+		(pts
 			(xy 162.687 115.316) (xy 162.687 121.92)
 		)
 		(stroke
@@ -5183,7 +6161,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.0974 100.1861) (xy 266.0974 100.1607)
+			(xy 263.3669 130.2216) (xy 263.3669 130.1962)
 		)
 		(stroke
 			(width 0)
@@ -5193,7 +6171,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.5 179.28) (xy 246.42 179.28)
+			(xy 243.7695 209.3155) (xy 243.6895 209.3155)
 		)
 		(stroke
 			(width 0)
@@ -5203,7 +6181,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.925 107.7995) (xy 255.9374 107.7995)
+			(xy 253.1945 137.835) (xy 253.2069 137.835)
 		)
 		(stroke
 			(width 0)
@@ -5213,7 +6191,27 @@
 	)
 	(wire
 		(pts
-			(xy 255.925 107.7807) (xy 255.925 107.7995)
+			(xy 263.6582 52.0925) (xy 263.6582 52.0926)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "377f7cb7-3ec0-4e81-b49f-0d1eb8a89872")
+	)
+	(wire
+		(pts
+			(xy 342.265 71.8209) (xy 344.6145 71.8209)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3978f320-bea6-405c-a40e-df80effcc5bb")
+	)
+	(wire
+		(pts
+			(xy 253.1945 137.8162) (xy 253.1945 137.835)
 		)
 		(stroke
 			(width 0)
@@ -5223,7 +6221,7 @@
 	)
 	(wire
 		(pts
-			(xy 402.844 110.8964) (xy 402.844 113.411)
+			(xy 400.1135 140.9319) (xy 400.1135 143.4465)
 		)
 		(stroke
 			(width 0)
@@ -5233,13 +6231,23 @@
 	)
 	(wire
 		(pts
-			(xy 266.1482 112.8861) (xy 266.1482 112.9115)
+			(xy 263.4177 142.9216) (xy 263.4177 142.947)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3a7693a9-6c3b-4df4-9057-001dd712daaf")
+	)
+	(wire
+		(pts
+			(xy 317.119 52.0926) (xy 317.119 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e648e34-17ab-4bf2-b01f-963d9fdf5197")
 	)
 	(wire
 		(pts
@@ -5253,6 +6261,16 @@
 	)
 	(wire
 		(pts
+			(xy 263.6582 68.6705) (xy 263.6393 68.6705)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f5df6b6-6ca4-48b6-b680-86748b566ff1")
+	)
+	(wire
+		(pts
 			(xy 142.24 157.607) (xy 130.937 157.607)
 		)
 		(stroke
@@ -5263,7 +6281,7 @@
 	)
 	(wire
 		(pts
-			(xy 392.684 113.411) (xy 392.684 110.871)
+			(xy 389.9535 143.4465) (xy 389.9535 140.9065)
 		)
 		(stroke
 			(width 0)
@@ -5290,6 +6308,26 @@
 			(type default)
 		)
 		(uuid "424a4d50-1290-4a58-8b1c-2d4e888318e8")
+	)
+	(wire
+		(pts
+			(xy 311.5248 41.9735) (xy 311.531 41.8691)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42ba397b-6d2f-437b-b680-076b85c088ba")
+	)
+	(wire
+		(pts
+			(xy 283.2595 41.91) (xy 283.2595 41.8691)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42f826cb-3d84-4aee-96bc-f92756153107")
 	)
 	(wire
 		(pts
@@ -5323,7 +6361,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.9174 130.6661) (xy 212.7574 130.6661)
+			(xy 220.1869 160.7016) (xy 210.0269 160.7016)
 		)
 		(stroke
 			(width 0)
@@ -5333,13 +6371,23 @@
 	)
 	(wire
 		(pts
-			(xy 255.9374 130.6661) (xy 266.0466 130.6661)
+			(xy 253.2069 160.7016) (xy 263.3161 160.7016)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "463e8c91-c95c-4aa3-8212-6f619e5e28a4")
+	)
+	(wire
+		(pts
+			(xy 327.279 54.61) (xy 334.645 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46c43822-da6c-47a9-921d-605b5fdb8686")
 	)
 	(wire
 		(pts
@@ -5353,7 +6401,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.2574 100.1607) (xy 286.4174 100.1607)
+			(xy 273.5269 130.1962) (xy 283.6869 130.1962)
 		)
 		(stroke
 			(width 0)
@@ -5363,7 +6411,17 @@
 	)
 	(wire
 		(pts
-			(xy 260.8904 87.4861) (xy 255.9374 87.4861)
+			(xy 263.6582 52.0926) (xy 263.6582 58.4426)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "485ec6a7-c8b0-4470-86d2-db1e5f4c98e5")
+	)
+	(wire
+		(pts
+			(xy 258.1599 117.5216) (xy 253.2069 117.5216)
 		)
 		(stroke
 			(width 0)
@@ -5383,7 +6441,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.7474 92.5661) (xy 255.9374 92.5661)
+			(xy 257.0169 122.6016) (xy 253.2069 122.6016)
 		)
 		(stroke
 			(width 0)
@@ -5393,7 +6451,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.5 171.7) (xy 246.5 171.66)
+			(xy 243.7695 201.7355) (xy 243.7695 201.6955)
 		)
 		(stroke
 			(width 0)
@@ -5413,7 +6471,37 @@
 	)
 	(wire
 		(pts
-			(xy 392.684 96.901) (xy 392.684 98.171)
+			(xy 273.8817 54.6326) (xy 317.119 54.6326)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dfa574e-26fc-424f-abf2-e39c3d662513")
+	)
+	(wire
+		(pts
+			(xy 327.279 57.15) (xy 334.645 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e74c3b6-57b8-425f-b887-900582c0a416")
+	)
+	(wire
+		(pts
+			(xy 283.8124 76.227) (xy 283.8124 68.607)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e8805f4-0bac-44a3-8880-4e14d32d8f73")
+	)
+	(wire
+		(pts
+			(xy 389.9535 126.9365) (xy 389.9535 128.2065)
 		)
 		(stroke
 			(width 0)
@@ -5433,7 +6521,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.0974 133.2061) (xy 266.0974 133.2315)
+			(xy 263.3669 163.2416) (xy 263.3669 163.267)
 		)
 		(stroke
 			(width 0)
@@ -5443,7 +6531,17 @@
 	)
 	(wire
 		(pts
-			(xy 239 169.1) (xy 246.5 169.1)
+			(xy 253.7086 49.5526) (xy 253.7086 58.447)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52124836-5b41-4256-a903-118be15e0e61")
+	)
+	(wire
+		(pts
+			(xy 236.2695 199.1355) (xy 243.7695 199.1355)
 		)
 		(stroke
 			(width 0)
@@ -5453,7 +6551,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.9174 112.8861) (xy 212.7574 112.8861)
+			(xy 220.1869 142.9216) (xy 210.0269 142.9216)
 		)
 		(stroke
 			(width 0)
@@ -5473,7 +6571,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.9374 105.2661) (xy 266.1522 105.2661)
+			(xy 253.2069 135.3016) (xy 263.4217 135.3016)
 		)
 		(stroke
 			(width 0)
@@ -5483,7 +6581,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.2374 102.7515) (xy 243.2374 102.7261)
+			(xy 240.5069 132.787) (xy 240.5069 132.7616)
 		)
 		(stroke
 			(width 0)
@@ -5493,7 +6591,7 @@
 	)
 	(wire
 		(pts
-			(xy 221.68 174.5) (xy 221.7 174.5)
+			(xy 218.9495 204.5355) (xy 218.9695 204.5355)
 		)
 		(stroke
 			(width 0)
@@ -5503,7 +6601,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.0466 130.6661) (xy 266.0466 130.6407)
+			(xy 263.3161 160.7016) (xy 263.3161 160.6762)
 		)
 		(stroke
 			(width 0)
@@ -5513,7 +6611,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.7574 92.5661) (xy 222.9174 92.5661)
+			(xy 210.0269 122.6016) (xy 220.1869 122.6016)
 		)
 		(stroke
 			(width 0)
@@ -5523,7 +6621,47 @@
 	)
 	(wire
 		(pts
-			(xy 347.4085 103.251) (xy 360.3625 103.251)
+			(xy 324.739 41.91) (xy 334.645 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58a6bdab-499c-46cc-bdb2-1050ecc8cdff")
+	)
+	(wire
+		(pts
+			(xy 283.845 57.15) (xy 317.119 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "594722de-7d03-4c23-b442-7645d6802afe")
+	)
+	(wire
+		(pts
+			(xy 273.8817 76.227) (xy 273.8817 68.607)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a0752f3-cc1f-44f6-8382-c2ac3e2dff8d")
+	)
+	(wire
+		(pts
+			(xy 342.265 67.31) (xy 342.265 71.8209)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c7343e3-af68-4407-855e-c1ef40d4060d")
+	)
+	(wire
+		(pts
+			(xy 344.678 133.2865) (xy 357.632 133.2865)
 		)
 		(stroke
 			(width 0)
@@ -5533,7 +6671,17 @@
 	)
 	(wire
 		(pts
-			(xy 266.1482 107.7807) (xy 255.925 107.7807)
+			(xy 263.6582 68.6705) (xy 263.6582 68.6026)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dc121e2-07c9-4de1-8387-9a0ad17b3fff")
+	)
+	(wire
+		(pts
+			(xy 263.4177 137.8162) (xy 253.1945 137.8162)
 		)
 		(stroke
 			(width 0)
@@ -5543,7 +6691,17 @@
 	)
 	(wire
 		(pts
-			(xy 359.3465 131.191) (xy 359.3465 138.3665)
+			(xy 257.7325 41.91) (xy 272.9725 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6014bffb-79d1-40a9-b0ea-1294b6e5323f")
+	)
+	(wire
+		(pts
+			(xy 356.616 161.2265) (xy 356.616 168.402)
 		)
 		(stroke
 			(width 0)
@@ -5553,7 +6711,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.0774 123.0461) (xy 243.2374 123.0461)
+			(xy 230.3469 153.0816) (xy 240.5069 153.0816)
 		)
 		(stroke
 			(width 0)
@@ -5583,7 +6741,17 @@
 	)
 	(wire
 		(pts
-			(xy 260.8904 82.4061) (xy 260.8904 87.4861)
+			(xy 324.6895 44.45) (xy 324.6895 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "625d8303-25a8-4a02-846c-8dcee7b427ee")
+	)
+	(wire
+		(pts
+			(xy 258.1599 112.4416) (xy 258.1599 117.5216)
 		)
 		(stroke
 			(width 0)
@@ -5603,7 +6771,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.0774 102.7515) (xy 243.2374 102.7515)
+			(xy 230.3469 132.787) (xy 240.5069 132.787)
 		)
 		(stroke
 			(width 0)
@@ -5613,7 +6781,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.4 179.3) (xy 246.5 179.3)
+			(xy 233.6695 209.3355) (xy 243.7695 209.3355)
 		)
 		(stroke
 			(width 0)
@@ -5643,7 +6811,17 @@
 	)
 	(wire
 		(pts
-			(xy 239.5 166.6) (xy 246.5 166.6)
+			(xy 283.845 57.15) (xy 283.845 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "666a6c49-d067-43b2-8e54-77bd13334454")
+	)
+	(wire
+		(pts
+			(xy 236.7695 196.6355) (xy 243.7695 196.6355)
 		)
 		(stroke
 			(width 0)
@@ -5653,7 +6831,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.9174 120.5061) (xy 212.7574 120.5061)
+			(xy 220.1869 150.5416) (xy 210.0269 150.5416)
 		)
 		(stroke
 			(width 0)
@@ -5663,7 +6841,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.5 166.6) (xy 246.5 166.58)
+			(xy 243.7695 196.6355) (xy 243.7695 196.6155)
 		)
 		(stroke
 			(width 0)
@@ -5673,7 +6851,17 @@
 	)
 	(wire
 		(pts
-			(xy 222.9174 105.2661) (xy 212.7574 105.2661)
+			(xy 347.345 71.8894) (xy 344.6145 71.8894)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a836503-ca59-4955-97d4-7405c3fb396d")
+	)
+	(wire
+		(pts
+			(xy 220.1869 135.3016) (xy 210.0269 135.3016)
 		)
 		(stroke
 			(width 0)
@@ -5683,7 +6871,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.5 176.74) (xy 246.42 176.74)
+			(xy 243.7695 206.7755) (xy 243.6895 206.7755)
 		)
 		(stroke
 			(width 0)
@@ -5693,7 +6881,17 @@
 	)
 	(wire
 		(pts
-			(xy 222.9174 128.1261) (xy 212.7574 128.1261)
+			(xy 347.345 67.31) (xy 347.345 71.8894)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d1baeb3-f95d-4758-8af6-5c025ada4540")
+	)
+	(wire
+		(pts
+			(xy 220.1869 158.1616) (xy 210.0269 158.1616)
 		)
 		(stroke
 			(width 0)
@@ -5713,7 +6911,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.9174 133.2061) (xy 212.7574 133.2061)
+			(xy 220.1869 163.2416) (xy 210.0269 163.2416)
 		)
 		(stroke
 			(width 0)
@@ -5753,7 +6951,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.8904 90.0261) (xy 260.8904 87.4861)
+			(xy 258.1599 120.0616) (xy 258.1599 117.5216)
 		)
 		(stroke
 			(width 0)
@@ -5763,7 +6961,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.1522 105.2661) (xy 266.1522 105.2447)
+			(xy 263.4217 135.3016) (xy 263.4217 135.2802)
 		)
 		(stroke
 			(width 0)
@@ -5783,7 +6981,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.9374 135.7461) (xy 266.065 135.7461)
+			(xy 253.2069 165.7816) (xy 263.3345 165.7816)
 		)
 		(stroke
 			(width 0)
@@ -5803,7 +7001,7 @@
 	)
 	(wire
 		(pts
-			(xy 402.844 98.171) (xy 402.844 105.8164)
+			(xy 400.1135 128.2065) (xy 400.1135 135.8519)
 		)
 		(stroke
 			(width 0)
@@ -5823,7 +7021,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.9374 133.2061) (xy 266.0974 133.2061)
+			(xy 253.2069 163.2416) (xy 263.3669 163.2416)
 		)
 		(stroke
 			(width 0)
@@ -5833,7 +7031,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.0725 108.331) (xy 337.2485 108.331)
+			(xy 323.342 138.3665) (xy 334.518 138.3665)
 		)
 		(stroke
 			(width 0)
@@ -5853,7 +7051,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.7574 123.0461) (xy 222.9174 123.0461)
+			(xy 210.0269 153.0816) (xy 220.1869 153.0816)
 		)
 		(stroke
 			(width 0)
@@ -5883,7 +7081,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.7075 123.571) (xy 337.2485 123.571)
+			(xy 323.977 153.6065) (xy 334.518 153.6065)
 		)
 		(stroke
 			(width 0)
@@ -5903,7 +7101,27 @@
 	)
 	(wire
 		(pts
-			(xy 233.0774 133.2061) (xy 243.2374 133.2061)
+			(xy 242.951 41.91) (xy 252.6525 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dad5db8-05fc-4a9b-85cb-1518eccd0aba")
+	)
+	(wire
+		(pts
+			(xy 311.531 76.327) (xy 311.531 66.802)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93674314-ecba-42b4-9d62-a46d83b39992")
+	)
+	(wire
+		(pts
+			(xy 230.3469 163.2416) (xy 240.5069 163.2416)
 		)
 		(stroke
 			(width 0)
@@ -5933,13 +7151,43 @@
 	)
 	(wire
 		(pts
-			(xy 327.3425 103.251) (xy 337.2485 103.251)
+			(xy 344.805 71.8209) (xy 344.805 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "965faab4-7691-4843-9b96-4ecae80c1bec")
+	)
+	(wire
+		(pts
+			(xy 324.612 133.2865) (xy 334.518 133.2865)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "96637f78-19df-452c-ac4e-2b8e9e151a5f")
+	)
+	(wire
+		(pts
+			(xy 344.6145 71.8894) (xy 344.6145 71.8209)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96a65d92-ff1a-402f-82f0-b3599e4a0a35")
+	)
+	(wire
+		(pts
+			(xy 327.2155 49.53) (xy 334.645 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96b06d66-a60c-4d06-854f-7a7c1e4be592")
 	)
 	(wire
 		(pts
@@ -5953,7 +7201,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.5 171.66) (xy 246.42 171.66)
+			(xy 243.7695 201.6955) (xy 243.6895 201.6955)
 		)
 		(stroke
 			(width 0)
@@ -5963,7 +7211,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.0774 112.8861) (xy 243.2374 112.8861)
+			(xy 230.3469 142.9216) (xy 240.5069 142.9216)
 		)
 		(stroke
 			(width 0)
@@ -5983,7 +7231,7 @@
 	)
 	(wire
 		(pts
-			(xy 390.8425 133.731) (xy 392.684 133.731)
+			(xy 388.112 163.7665) (xy 389.9535 163.7665)
 		)
 		(stroke
 			(width 0)
@@ -5993,7 +7241,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.0725 110.871) (xy 337.2485 110.871)
+			(xy 323.342 140.9065) (xy 334.518 140.9065)
 		)
 		(stroke
 			(width 0)
@@ -6003,7 +7251,7 @@
 	)
 	(wire
 		(pts
-			(xy 239.6 171.7) (xy 246.5 171.7)
+			(xy 236.8695 201.7355) (xy 243.7695 201.7355)
 		)
 		(stroke
 			(width 0)
@@ -6033,7 +7281,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.0774 97.6461) (xy 243.2374 97.6461)
+			(xy 230.3469 127.6816) (xy 240.5069 127.6816)
 		)
 		(stroke
 			(width 0)
@@ -6043,7 +7291,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.2374 110.3461) (xy 233.0774 110.3461)
+			(xy 240.5069 140.3816) (xy 230.3469 140.3816)
 		)
 		(stroke
 			(width 0)
@@ -6053,7 +7301,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.9374 112.8861) (xy 266.1482 112.8861)
+			(xy 253.2069 142.9216) (xy 263.4177 142.9216)
 		)
 		(stroke
 			(width 0)
@@ -6063,7 +7311,7 @@
 	)
 	(wire
 		(pts
-			(xy 347.4085 108.331) (xy 360.3625 108.331)
+			(xy 344.678 138.3665) (xy 357.632 138.3665)
 		)
 		(stroke
 			(width 0)
@@ -6073,7 +7321,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.7574 90.0261) (xy 222.9174 90.0261)
+			(xy 210.0269 120.0616) (xy 220.1869 120.0616)
 		)
 		(stroke
 			(width 0)
@@ -6083,7 +7331,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.2574 120.5061) (xy 286.4174 120.5061)
+			(xy 273.5269 150.5416) (xy 283.6869 150.5416)
 		)
 		(stroke
 			(width 0)
@@ -6103,7 +7351,7 @@
 	)
 	(wire
 		(pts
-			(xy 347.4085 113.411) (xy 360.3625 113.411)
+			(xy 344.678 143.4465) (xy 357.632 143.4465)
 		)
 		(stroke
 			(width 0)
@@ -6113,7 +7361,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.9374 107.7995) (xy 255.9374 107.8061)
+			(xy 253.2069 137.835) (xy 253.2069 137.8416)
 		)
 		(stroke
 			(width 0)
@@ -6123,7 +7371,17 @@
 	)
 	(wire
 		(pts
-			(xy 246.5 169.12) (xy 246.42 169.12)
+			(xy 324.739 41.8691) (xy 324.739 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae204d72-921d-4ce8-ac45-4b9060157bdd")
+	)
+	(wire
+		(pts
+			(xy 243.7695 199.1555) (xy 243.6895 199.1555)
 		)
 		(stroke
 			(width 0)
@@ -6143,7 +7401,17 @@
 	)
 	(wire
 		(pts
-			(xy 392.684 85.471) (xy 392.684 86.741)
+			(xy 263.6582 52.0897) (xy 263.6582 52.0925)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af1e2c08-150f-41cd-901b-69f3f5a31efc")
+	)
+	(wire
+		(pts
+			(xy 389.9535 115.5065) (xy 389.9535 116.7765)
 		)
 		(stroke
 			(width 0)
@@ -6153,7 +7421,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.5 179.3) (xy 246.5 179.28)
+			(xy 243.7695 209.3355) (xy 243.7695 209.3155)
 		)
 		(stroke
 			(width 0)
@@ -6163,7 +7431,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.0774 92.5661) (xy 243.2374 92.5661)
+			(xy 230.3469 122.6016) (xy 240.5069 122.6016)
 		)
 		(stroke
 			(width 0)
@@ -6173,7 +7441,7 @@
 	)
 	(wire
 		(pts
-			(xy 359.3465 131.191) (xy 360.3625 131.191)
+			(xy 356.616 161.2265) (xy 357.632 161.2265)
 		)
 		(stroke
 			(width 0)
@@ -6183,7 +7451,17 @@
 	)
 	(wire
 		(pts
-			(xy 392.684 98.171) (xy 402.844 98.171)
+			(xy 344.805 71.8209) (xy 344.6145 71.8209)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b35542c8-7722-4261-96a5-50a8badcf89d")
+	)
+	(wire
+		(pts
+			(xy 389.9535 128.2065) (xy 400.1135 128.2065)
 		)
 		(stroke
 			(width 0)
@@ -6203,7 +7481,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.2574 133.2315) (xy 286.4174 133.2315)
+			(xy 273.5269 163.267) (xy 283.6869 163.267)
 		)
 		(stroke
 			(width 0)
@@ -6213,7 +7491,17 @@
 	)
 	(wire
 		(pts
-			(xy 347.4085 105.791) (xy 360.3625 105.791)
+			(xy 263.6582 52.0926) (xy 317.119 52.0926)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b63e6ff7-a6c3-45ed-bf2c-5b358b164bf4")
+	)
+	(wire
+		(pts
+			(xy 344.678 135.8265) (xy 357.632 135.8265)
 		)
 		(stroke
 			(width 0)
@@ -6223,7 +7511,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.9374 90.0261) (xy 260.8904 90.0261)
+			(xy 253.2069 120.0616) (xy 258.1599 120.0616)
 		)
 		(stroke
 			(width 0)
@@ -6233,7 +7521,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.2574 97.6461) (xy 286.4174 97.6461)
+			(xy 273.5269 127.6816) (xy 283.6869 127.6816)
 		)
 		(stroke
 			(width 0)
@@ -6243,7 +7531,17 @@
 	)
 	(wire
 		(pts
-			(xy 246.5 176.7) (xy 246.5 176.74)
+			(xy 241.046 49.5935) (xy 252.3751 49.5526)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbc44c8f-3c2b-4c59-ae40-41ab6537b27c")
+	)
+	(wire
+		(pts
+			(xy 243.7695 206.7355) (xy 243.7695 206.7755)
 		)
 		(stroke
 			(width 0)
@@ -6263,7 +7561,17 @@
 	)
 	(wire
 		(pts
-			(xy 243.2374 125.5861) (xy 233.0774 125.5861)
+			(xy 242.5391 57.2135) (xy 283.845 57.1456)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bef8c5e8-7e65-40eb-86d7-94a162bcbe39")
+	)
+	(wire
+		(pts
+			(xy 240.5069 155.6216) (xy 230.3469 155.6216)
 		)
 		(stroke
 			(width 0)
@@ -6273,7 +7581,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.2844 81.1361) (xy 238.2844 87.4861)
+			(xy 235.5539 111.1716) (xy 235.5539 117.5216)
 		)
 		(stroke
 			(width 0)
@@ -6283,7 +7591,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.0974 117.9661) (xy 255.9374 117.9661)
+			(xy 263.3669 148.0016) (xy 253.2069 148.0016)
 		)
 		(stroke
 			(width 0)
@@ -6303,7 +7611,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.9174 115.4261) (xy 212.7574 115.4261)
+			(xy 220.1869 145.4616) (xy 210.0269 145.4616)
 		)
 		(stroke
 			(width 0)
@@ -6333,7 +7641,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.9374 100.1861) (xy 266.0974 100.1861)
+			(xy 253.2069 130.2216) (xy 263.3669 130.2216)
 		)
 		(stroke
 			(width 0)
@@ -6343,7 +7651,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.2066 130.6407) (xy 286.3666 130.6407)
+			(xy 273.4761 160.6762) (xy 283.6361 160.6762)
 		)
 		(stroke
 			(width 0)
@@ -6363,6 +7671,26 @@
 	)
 	(wire
 		(pts
+			(xy 263.6393 68.6705) (xy 263.6393 76.227)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8cf0f62-ffed-4436-bf42-2be0d4c86b7a")
+	)
+	(wire
+		(pts
+			(xy 241.1095 57.2135) (xy 242.5391 57.2135)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c916efc5-6ee4-4a4c-b838-f0b9ceef1fa5")
+	)
+	(wire
+		(pts
 			(xy 130.937 142.24) (xy 142.24 142.24)
 		)
 		(stroke
@@ -6373,13 +7701,33 @@
 	)
 	(wire
 		(pts
-			(xy 255.9374 115.4261) (xy 266.0974 115.4261)
+			(xy 317.119 54.6326) (xy 317.119 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd39891d-bc4c-4f16-9ad6-c458d7a34c01")
+	)
+	(wire
+		(pts
+			(xy 253.2069 145.4616) (xy 263.3669 145.4616)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ce8a5214-ed66-4daf-bfcd-c9c5e301b617")
+	)
+	(wire
+		(pts
+			(xy 253.7086 76.227) (xy 253.7086 68.607)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ceca03fb-eee6-4d6d-8676-43a2c698c5fc")
 	)
 	(wire
 		(pts
@@ -6393,13 +7741,43 @@
 	)
 	(wire
 		(pts
-			(xy 266.065 135.7461) (xy 266.065 135.763)
+			(xy 311.5248 61.595) (xy 311.5248 41.9735)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d11fbe01-27e8-4d30-bbc8-6b57d27b4452")
+	)
+	(wire
+		(pts
+			(xy 263.3345 165.7816) (xy 263.3345 165.7985)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d3589076-740b-475d-9951-9928a971f9b3")
+	)
+	(wire
+		(pts
+			(xy 299.72 41.91) (xy 299.7262 41.8691)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d38ae0cf-ed5a-4ae7-8f1f-a128f96e5f80")
+	)
+	(wire
+		(pts
+			(xy 262.3247 52.0925) (xy 263.6582 52.0925)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d42c4602-e4d4-41fa-b2ce-36b0ef761c44")
 	)
 	(wire
 		(pts
@@ -6413,7 +7791,7 @@
 	)
 	(wire
 		(pts
-			(xy 390.8425 98.171) (xy 392.684 98.171)
+			(xy 388.112 128.2065) (xy 389.9535 128.2065)
 		)
 		(stroke
 			(width 0)
@@ -6423,7 +7801,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.9174 95.1061) (xy 212.7574 95.1061)
+			(xy 220.1869 125.1416) (xy 210.0269 125.1416)
 		)
 		(stroke
 			(width 0)
@@ -6433,13 +7811,53 @@
 	)
 	(wire
 		(pts
-			(xy 233.0774 130.6661) (xy 243.2374 130.6661)
+			(xy 242.443 54.6735) (xy 273.8817 54.6326)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d79bc6c4-8f34-43da-a8f8-a4afd3d0a126")
+	)
+	(wire
+		(pts
+			(xy 241.046 54.6735) (xy 242.443 54.6735)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8032d76-cca8-42ee-af9f-318af858e228")
+	)
+	(wire
+		(pts
+			(xy 311.531 61.595) (xy 311.5248 61.595)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d91f96ef-b2d0-4136-bad3-2b693837d638")
+	)
+	(wire
+		(pts
+			(xy 230.3469 160.7016) (xy 240.5069 160.7016)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "da4f9a38-9228-4a61-a802-4c25fcff493b")
+	)
+	(wire
+		(pts
+			(xy 283.2595 41.8691) (xy 299.7262 41.8691)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de0c498a-1ac4-4104-a22c-5d22128b01cf")
 	)
 	(wire
 		(pts
@@ -6463,7 +7881,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.0974 120.5061) (xy 255.9374 120.5061)
+			(xy 263.3669 150.5416) (xy 253.2069 150.5416)
 		)
 		(stroke
 			(width 0)
@@ -6473,7 +7891,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.0774 128.1261) (xy 243.2374 128.1261)
+			(xy 230.3469 158.1616) (xy 240.5069 158.1616)
 		)
 		(stroke
 			(width 0)
@@ -6483,7 +7901,17 @@
 	)
 	(wire
 		(pts
-			(xy 276.3082 112.9115) (xy 286.4682 112.9115)
+			(xy 311.531 61.595) (xy 311.531 61.722)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e465b5ed-7e7d-4225-8e6d-99d9b7dd1c01")
+	)
+	(wire
+		(pts
+			(xy 273.5777 142.947) (xy 283.7377 142.947)
 		)
 		(stroke
 			(width 0)
@@ -6493,7 +7921,7 @@
 	)
 	(wire
 		(pts
-			(xy 347.4085 123.571) (xy 360.3625 123.571)
+			(xy 344.678 153.6065) (xy 357.632 153.6065)
 		)
 		(stroke
 			(width 0)
@@ -6513,7 +7941,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.5 166.58) (xy 246.42 166.58)
+			(xy 243.7695 196.6155) (xy 243.6895 196.6155)
 		)
 		(stroke
 			(width 0)
@@ -6523,7 +7951,17 @@
 	)
 	(wire
 		(pts
-			(xy 241.4 176.7) (xy 246.5 176.7)
+			(xy 283.845 57.15) (xy 283.845 57.1456)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e923dea5-9b1c-4327-aee1-6997d7fe245e")
+	)
+	(wire
+		(pts
+			(xy 238.6695 206.7355) (xy 243.7695 206.7355)
 		)
 		(stroke
 			(width 0)
@@ -6533,7 +7971,7 @@
 	)
 	(wire
 		(pts
-			(xy 359.3465 126.111) (xy 360.3625 126.111)
+			(xy 356.616 156.1465) (xy 357.632 156.1465)
 		)
 		(stroke
 			(width 0)
@@ -6563,7 +8001,27 @@
 	)
 	(wire
 		(pts
-			(xy 222.9174 110.3461) (xy 212.7574 110.3461)
+			(xy 334.645 44.45) (xy 324.6895 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecd9a9b6-8969-48a9-bd88-50741be6410a")
+	)
+	(wire
+		(pts
+			(xy 344.6145 74.6125) (xy 344.6145 71.8894)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1064545-92fa-4678-a16b-025e2b84ebdd")
+	)
+	(wire
+		(pts
+			(xy 220.1869 140.3816) (xy 210.0269 140.3816)
 		)
 		(stroke
 			(width 0)
@@ -6573,7 +8031,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.0774 115.4261) (xy 243.2374 115.4261)
+			(xy 230.3469 145.4616) (xy 240.5069 145.4616)
 		)
 		(stroke
 			(width 0)
@@ -6583,7 +8041,7 @@
 	)
 	(wire
 		(pts
-			(xy 244.5 181.82) (xy 246.42 181.82)
+			(xy 241.7695 211.8555) (xy 243.6895 211.8555)
 		)
 		(stroke
 			(width 0)
@@ -6613,7 +8071,17 @@
 	)
 	(wire
 		(pts
-			(xy 392.684 98.171) (xy 392.684 105.791)
+			(xy 241.046 52.1335) (xy 262.3247 52.0925)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7000469-fe4b-4fa4-bf5d-3815fd639585")
+	)
+	(wire
+		(pts
+			(xy 389.9535 128.2065) (xy 389.9535 135.8265)
 		)
 		(stroke
 			(width 0)
@@ -6623,7 +8091,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.9174 125.5861) (xy 212.7574 125.5861)
+			(xy 220.1869 155.6216) (xy 210.0269 155.6216)
 		)
 		(stroke
 			(width 0)
@@ -6661,6 +8129,16 @@
 		)
 		(uuid "fb35db1d-6ea4-464c-b346-2071c605acd4")
 	)
+	(wire
+		(pts
+			(xy 327.279 52.07) (xy 334.645 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd979e59-311b-4b4e-9790-e4460df89d5f")
+	)
 	(global_label "KEY3"
 		(shape input)
 		(at 124.8726 167.259 180)
@@ -6685,7 +8163,7 @@
 	)
 	(global_label "GPIO_14"
 		(shape input)
-		(at 286.4174 95.0807 0)
+		(at 283.6869 125.1162 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6694,7 +8172,7 @@
 		)
 		(uuid "0687047d-ef6a-4a85-8424-6fe72feb0aed")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 286.4174 95.0807 0)
+			(at 283.6869 125.1162 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6743,7 +8221,7 @@
 	)
 	(global_label "SD_DET"
 		(shape input)
-		(at 326.7075 123.571 180)
+		(at 323.977 153.6065 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6753,7 +8231,7 @@
 		)
 		(uuid "0888d41e-9bad-4337-84bf-9001450b5fe6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 317.5428 123.571 0)
+			(at 314.8123 153.6065 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6803,7 +8281,7 @@
 	)
 	(global_label "GPIO_20"
 		(shape input)
-		(at 286.4174 133.2315 0)
+		(at 283.6869 163.267 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6812,7 +8290,7 @@
 		)
 		(uuid "0b4b741f-1b87-43c4-a59e-9bd06698d407")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 286.4174 133.2315 0)
+			(at 283.6869 163.267 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6825,7 +8303,7 @@
 	)
 	(global_label "GPIO_00"
 		(shape input)
-		(at 212.7574 120.5061 180)
+		(at 210.0269 150.5416 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6834,7 +8312,7 @@
 		)
 		(uuid "0dcd7218-5cd1-49b8-9e83-b981132a59b3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.7574 120.5061 0)
+			(at 210.0269 150.5416 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6847,7 +8325,7 @@
 	)
 	(global_label "SD_D1"
 		(shape input)
-		(at 326.0725 108.331 180)
+		(at 323.342 138.3665 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6857,7 +8335,7 @@
 		)
 		(uuid "10e3c21d-cc0c-4d76-88f2-767f42393919")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 317.8149 108.331 0)
+			(at 315.0844 138.3665 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6871,7 +8349,7 @@
 	)
 	(global_label "GPIO_08"
 		(shape input)
-		(at 286.4174 115.4261 0)
+		(at 283.6869 145.4616 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6880,7 +8358,7 @@
 		)
 		(uuid "17578604-057f-4fdb-866d-f92761e8a378")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 286.4174 115.4261 0)
+			(at 283.6869 145.4616 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6893,7 +8371,7 @@
 	)
 	(global_label "FPGA_RESET"
 		(shape input)
-		(at 241.4 176.7 180)
+		(at 238.6695 206.7355 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6902,7 +8380,7 @@
 		)
 		(uuid "27f41095-7367-4489-9f07-868256c7460b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 241.4 176.7 0)
+			(at 238.6695 206.7355 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6915,7 +8393,7 @@
 	)
 	(global_label "GPIO_09"
 		(shape input)
-		(at 212.7574 112.8861 180)
+		(at 210.0269 142.9216 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6924,7 +8402,7 @@
 		)
 		(uuid "28f4cea0-dbd0-4c08-bf2c-86204a8019c9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.7574 112.8861 0)
+			(at 210.0269 142.9216 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6937,7 +8415,7 @@
 	)
 	(global_label "GPIO_02"
 		(shape input)
-		(at 212.7574 90.0261 180)
+		(at 210.0269 120.0616 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6946,7 +8424,7 @@
 		)
 		(uuid "292d2b3b-ef5f-4401-b8db-17ae84e527b9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.7574 90.0261 0)
+			(at 210.0269 120.0616 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6981,7 +8459,7 @@
 	)
 	(global_label "GPIO_10"
 		(shape input)
-		(at 212.7574 110.3461 180)
+		(at 210.0269 140.3816 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6990,7 +8468,7 @@
 		)
 		(uuid "32658211-cb40-468d-9aa2-36badb210bde")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.7574 110.3461 0)
+			(at 210.0269 140.3816 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7020,6 +8498,29 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+	)
+	(global_label "USB1_DP"
+		(shape input)
+		(at 241.046 54.6735 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3804dc61-54b4-4ac6-9f1a-fae78b9093a5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 143.1294 192.4685 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -7081,9 +8582,33 @@
 			)
 		)
 	)
+	(global_label "USB0_DM"
+		(shape input)
+		(at 241.046 52.1335 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "471da038-36fc-4eb8-8533-722896be74c7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 230.0065 52.1335 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "GPIO_03"
 		(shape input)
-		(at 212.7574 92.5661 180)
+		(at 210.0269 122.6016 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7092,7 +8617,7 @@
 		)
 		(uuid "492c247d-467e-40f0-a394-4cf7e5d36dba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.7574 92.5661 0)
+			(at 210.0269 122.6016 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7105,7 +8630,7 @@
 	)
 	(global_label "GPIO_12"
 		(shape input)
-		(at 286.4174 125.6115 0)
+		(at 283.6869 155.647 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7114,7 +8639,7 @@
 		)
 		(uuid "4c62b465-c44b-4921-a639-c8ece79d1595")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 286.4174 125.6115 0)
+			(at 283.6869 155.647 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7127,7 +8652,7 @@
 	)
 	(global_label "JTAG_TCK"
 		(shape input)
-		(at 239.5 166.6 180)
+		(at 236.7695 196.6355 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7136,7 +8661,7 @@
 		)
 		(uuid "514866c6-b51e-478e-8a0c-340f49d1085e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 239.5 166.6 0)
+			(at 236.7695 196.6355 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7147,9 +8672,33 @@
 			)
 		)
 	)
+	(global_label "USB1_DM"
+		(shape input)
+		(at 241.1095 57.2135 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "55fe2d43-5648-4066-b935-68918d1c2bac")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 230.07 57.2135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "GPIO_06"
 		(shape input)
-		(at 212.7574 125.5861 180)
+		(at 210.0269 155.6216 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7158,7 +8707,7 @@
 		)
 		(uuid "5aa8b1a7-acef-4140-97d1-92d428a5e2bf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.7574 125.5861 0)
+			(at 210.0269 155.6216 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7171,7 +8720,7 @@
 	)
 	(global_label "SD_D3"
 		(shape input)
-		(at 326.0725 113.411 180)
+		(at 323.342 143.4465 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7181,7 +8730,7 @@
 		)
 		(uuid "5e632979-e98f-495e-bf32-a7e9ec69c81a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 317.8149 113.411 0)
+			(at 315.0844 143.4465 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7195,7 +8744,7 @@
 	)
 	(global_label "GPIO_24"
 		(shape input)
-		(at 286.4682 107.7807 0)
+		(at 283.7377 137.8162 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7204,7 +8753,7 @@
 		)
 		(uuid "627f690a-1732-4060-8cd4-ce83edc65c86")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 286.4682 107.7807 0)
+			(at 283.7377 137.8162 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7253,7 +8802,7 @@
 	)
 	(global_label "JTAG_TDI"
 		(shape input)
-		(at 239 169.1 180)
+		(at 236.2695 199.1355 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7262,7 +8811,7 @@
 		)
 		(uuid "6cb816a8-4730-43b6-88fb-5a35c0101bfa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 239 169.1 0)
+			(at 236.2695 199.1355 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7297,7 +8846,7 @@
 	)
 	(global_label "JTAG_TDO"
 		(shape input)
-		(at 239.6 171.7 180)
+		(at 236.8695 201.7355 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7306,7 +8855,7 @@
 		)
 		(uuid "7a42297f-17e6-432f-9868-8f7f0626102b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 239.6 171.7 0)
+			(at 236.8695 201.7355 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7355,7 +8904,7 @@
 	)
 	(global_label "GPIO_27"
 		(shape input)
-		(at 212.7574 102.7515 180)
+		(at 210.0269 132.787 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7364,7 +8913,7 @@
 		)
 		(uuid "81e5cb47-24f1-4146-bb43-b92da8c82203")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.7574 102.7515 0)
+			(at 210.0269 132.787 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7377,7 +8926,7 @@
 	)
 	(global_label "SD_D0"
 		(shape input)
-		(at 326.0725 105.791 180)
+		(at 323.342 135.8265 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7387,7 +8936,7 @@
 		)
 		(uuid "876f20d6-2cb1-4121-b864-6cbee05e852a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 317.8149 105.791 0)
+			(at 315.0844 135.8265 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7423,7 +8972,7 @@
 	)
 	(global_label "GPIO_18"
 		(shape input)
-		(at 286.4174 100.1607 0)
+		(at 283.6869 130.1962 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7432,7 +8981,7 @@
 		)
 		(uuid "96c37abc-ca4d-4c73-b713-d0c52f9312f3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 286.4174 100.1607 0)
+			(at 283.6869 130.1962 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7445,7 +8994,7 @@
 	)
 	(global_label "GPIO_23"
 		(shape input)
-		(at 286.4722 105.2447 0)
+		(at 283.7417 135.2802 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7454,7 +9003,7 @@
 		)
 		(uuid "97001e7e-4c37-46ed-80e9-23268169659d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 286.4722 105.2447 0)
+			(at 283.7417 135.2802 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7511,7 +9060,7 @@
 	)
 	(global_label "SD_CMD"
 		(shape input)
-		(at 327.406 118.491 180)
+		(at 324.6755 148.5265 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7521,7 +9070,7 @@
 		)
 		(uuid "9f95f7a7-03eb-4bb0-94aa-39260ce6a66c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 317.6365 118.491 0)
+			(at 314.906 148.5265 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7535,7 +9084,7 @@
 	)
 	(global_label "GPIO_17"
 		(shape input)
-		(at 212.7574 100.1861 180)
+		(at 210.0269 130.2216 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7544,7 +9093,7 @@
 		)
 		(uuid "a49ae373-1698-408f-9631-6855f2f27488")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.7574 100.1861 0)
+			(at 210.0269 130.2216 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7557,7 +9106,7 @@
 	)
 	(global_label "GPIO_21"
 		(shape input)
-		(at 286.385 135.763 0)
+		(at 283.6545 165.7985 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7566,7 +9115,7 @@
 		)
 		(uuid "a6451f8b-952c-4a5b-ab50-2c9b5ecdee31")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 286.385 135.763 0)
+			(at 283.6545 165.7985 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7579,7 +9128,7 @@
 	)
 	(global_label "GPIO_16"
 		(shape input)
-		(at 286.3666 130.6407 0)
+		(at 283.6361 160.6762 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7588,7 +9137,7 @@
 		)
 		(uuid "a806b110-61f6-433a-b8aa-f27fcbd95a45")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 286.3666 130.6407 0)
+			(at 283.6361 160.6762 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7601,7 +9150,7 @@
 	)
 	(global_label "GPIO_01"
 		(shape input)
-		(at 286.4174 120.5061 0)
+		(at 283.6869 150.5416 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7610,7 +9159,7 @@
 		)
 		(uuid "a8f90d55-2cc9-42e4-994a-6486498a3055")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 286.4174 120.5061 0)
+			(at 283.6869 150.5416 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7623,7 +9172,7 @@
 	)
 	(global_label "GPIO_05"
 		(shape input)
-		(at 212.7574 123.0461 180)
+		(at 210.0269 153.0816 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7632,7 +9181,7 @@
 		)
 		(uuid "b970e26a-600e-4f70-914b-ebd31568f72a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.7574 123.0461 0)
+			(at 210.0269 153.0816 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7645,7 +9194,7 @@
 	)
 	(global_label "GPIO_07"
 		(shape input)
-		(at 286.4174 117.9661 0)
+		(at 283.6869 148.0016 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7654,7 +9203,7 @@
 		)
 		(uuid "bb0b1d06-141b-49c3-9f2c-0897cb376abb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 286.4174 117.9661 0)
+			(at 283.6869 148.0016 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7689,7 +9238,7 @@
 	)
 	(global_label "GPIO_13"
 		(shape input)
-		(at 212.7574 128.1261 180)
+		(at 210.0269 158.1616 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7698,7 +9247,7 @@
 		)
 		(uuid "be693f73-b018-4ec3-8adc-6d671f00edd4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.7574 128.1261 0)
+			(at 210.0269 158.1616 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7733,7 +9282,7 @@
 	)
 	(global_label "GPIO_11"
 		(shape input)
-		(at 212.7574 115.4261 180)
+		(at 210.0269 145.4616 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7742,7 +9291,7 @@
 		)
 		(uuid "cb924f53-0d78-491e-be9b-6adfebe4ff43")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.7574 115.4261 0)
+			(at 210.0269 145.4616 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7791,7 +9340,7 @@
 	)
 	(global_label "JTAG_TMS"
 		(shape input)
-		(at 239.7 174.2 180)
+		(at 236.9695 204.2355 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7800,7 +9349,7 @@
 		)
 		(uuid "db509bda-5aee-415f-a5af-a43b4ad6b72c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 239.7 174.2 0)
+			(at 236.9695 204.2355 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7813,7 +9362,7 @@
 	)
 	(global_label "GPIO_19"
 		(shape input)
-		(at 212.7574 130.6661 180)
+		(at 210.0269 160.7016 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7822,7 +9371,7 @@
 		)
 		(uuid "dc8e581a-5912-40bb-8e40-c967299c886d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.7574 130.6661 0)
+			(at 210.0269 160.7016 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7835,7 +9384,7 @@
 	)
 	(global_label "GPIO_26"
 		(shape input)
-		(at 212.7574 133.2061 180)
+		(at 210.0269 163.2416 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7844,7 +9393,7 @@
 		)
 		(uuid "e0d672dd-5008-4bec-b0be-dff48a8ce388")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.7574 133.2061 0)
+			(at 210.0269 163.2416 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7857,7 +9406,7 @@
 	)
 	(global_label "GPIO_15"
 		(shape input)
-		(at 286.4174 97.6461 0)
+		(at 283.6869 127.6816 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7866,7 +9415,7 @@
 		)
 		(uuid "e1cbf148-5725-43bb-b63f-1e267ff6ef95")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 286.4174 97.6461 0)
+			(at 283.6869 127.6816 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7879,7 +9428,7 @@
 	)
 	(global_label "SD_CLK"
 		(shape input)
-		(at 327.3425 103.251 180)
+		(at 324.612 133.2865 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7889,7 +9438,7 @@
 		)
 		(uuid "e5fee845-aec0-4a04-8b6a-05979c5b2bc9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 317.9963 103.251 0)
+			(at 315.2658 133.2865 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7925,7 +9474,7 @@
 	)
 	(global_label "GPIO_04"
 		(shape input)
-		(at 212.7574 95.1061 180)
+		(at 210.0269 125.1416 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7934,7 +9483,7 @@
 		)
 		(uuid "f1a9f49d-ba66-409a-835e-1b986bc02c9d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.7574 95.1061 0)
+			(at 210.0269 125.1416 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7947,7 +9496,7 @@
 	)
 	(global_label "GPIO_25"
 		(shape input)
-		(at 286.4682 112.9115 0)
+		(at 283.7377 142.947 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7956,7 +9505,7 @@
 		)
 		(uuid "f27337bc-c4a5-4b67-8fea-7cb80c998eb5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 286.4682 112.9115 0)
+			(at 283.7377 142.947 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7964,6 +9513,30 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+	)
+	(global_label "USB0_DP"
+		(shape input)
+		(at 241.046 49.5935 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f6003904-7b21-4c3d-a108-2f3ce92a105a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 230.1879 49.5935 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -8005,7 +9578,7 @@
 	)
 	(global_label "GPIO_22"
 		(shape input)
-		(at 212.7574 105.2661 180)
+		(at 210.0269 135.3016 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8014,7 +9587,7 @@
 		)
 		(uuid "f7fb688a-1b12-4c0a-94b9-38b1061d37a5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.7574 105.2661 0)
+			(at 210.0269 135.3016 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8027,7 +9600,7 @@
 	)
 	(global_label "SD_D2"
 		(shape input)
-		(at 326.0725 110.871 180)
+		(at 323.342 140.9065 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8037,7 +9610,7 @@
 		)
 		(uuid "fc1353eb-1270-42a7-b7d0-ca8ac1e6e2c7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 317.8149 110.871 0)
+			(at 315.0844 140.9065 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8051,7 +9624,7 @@
 	)
 	(symbol
 		(lib_id "Fabmicro:Resistor")
-		(at 271.1774 120.5061 180)
+		(at 268.4469 150.5416 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8061,7 +9634,7 @@
 		(dnp no)
 		(uuid "03a839bc-fc2d-4c83-8215-f38c69187ef6")
 		(property "Reference" "R27"
-			(at 267.8754 119.7441 0)
+			(at 265.1449 149.7796 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8072,7 +9645,7 @@
 			)
 		)
 		(property "Value" "51R/1%"
-			(at 280.5754 119.6171 0)
+			(at 277.8449 149.6526 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8083,7 +9656,7 @@
 			)
 		)
 		(property "Footprint" "Fabmicro:R_0402_1005Metric"
-			(at 271.1774 118.7281 0)
+			(at 268.4469 148.7636 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8094,7 +9667,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.1774 120.5061 90)
+			(at 268.4469 150.5416 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8105,7 +9678,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 271.1774 120.5061 0)
+			(at 268.4469 150.5416 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8115,7 +9688,7 @@
 			)
 		)
 		(property "Mfr. Part Number" "RC0402FR-0751RL"
-			(at 271.1774 120.5061 0)
+			(at 268.4469 150.5416 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8126,7 +9699,7 @@
 			)
 		)
 		(property "Supplier" "Fabmicro"
-			(at 271.1774 120.5061 0)
+			(at 268.4469 150.5416 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8153,7 +9726,7 @@
 	)
 	(symbol
 		(lib_id "Fabmicro:Resistor")
-		(at 227.9974 110.3461 180)
+		(at 225.2669 140.3816 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8163,7 +9736,7 @@
 		(dnp no)
 		(uuid "03d97185-8d11-403f-b50a-5d992a679945")
 		(property "Reference" "R18"
-			(at 224.5938 109.5079 0)
+			(at 221.8633 139.5434 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8174,7 +9747,7 @@
 			)
 		)
 		(property "Value" "51R/1%"
-			(at 237.744 109.347 0)
+			(at 235.0135 139.3825 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8185,7 +9758,7 @@
 			)
 		)
 		(property "Footprint" "Fabmicro:R_0402_1005Metric"
-			(at 227.9974 108.5681 0)
+			(at 225.2669 138.6036 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8196,7 +9769,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.9974 110.3461 90)
+			(at 225.2669 140.3816 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8207,7 +9780,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 227.9974 110.3461 0)
+			(at 225.2669 140.3816 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8217,7 +9790,7 @@
 			)
 		)
 		(property "Mfr. Part Number" "RC0402FR-0751RL"
-			(at 227.9974 110.3461 0)
+			(at 225.2669 140.3816 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8228,7 +9801,7 @@
 			)
 		)
 		(property "Supplier" "Fabmicro"
-			(at 227.9974 110.3461 0)
+			(at 225.2669 140.3816 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8446,7 +10019,7 @@
 	)
 	(symbol
 		(lib_id "Fabmicro:Resistor")
-		(at 227.9974 95.1061 180)
+		(at 225.2669 125.1416 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8456,7 +10029,7 @@
 		(dnp no)
 		(uuid "072bd6a3-7978-4d6a-8fe0-329061d4094f")
 		(property "Reference" "R6"
-			(at 224.6954 94.3441 0)
+			(at 221.9649 124.3796 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8467,7 +10040,7 @@
 			)
 		)
 		(property "Value" "51R/1%"
-			(at 237.9034 94.3441 0)
+			(at 235.1729 124.3796 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8478,7 +10051,7 @@
 			)
 		)
 		(property "Footprint" "Fabmicro:R_0402_1005Metric"
-			(at 227.9974 93.3281 0)
+			(at 225.2669 123.3636 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8489,7 +10062,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.9974 95.1061 90)
+			(at 225.2669 125.1416 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8500,7 +10073,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 227.9974 95.1061 0)
+			(at 225.2669 125.1416 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8510,7 +10083,7 @@
 			)
 		)
 		(property "Mfr. Part Number" "RC0402FR-0751RL"
-			(at 227.9974 95.1061 0)
+			(at 225.2669 125.1416 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8521,7 +10094,7 @@
 			)
 		)
 		(property "Supplier" "Fabmicro"
-			(at 227.9974 95.1061 0)
+			(at 225.2669 125.1416 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8548,7 +10121,7 @@
 	)
 	(symbol
 		(lib_id "Fabmicro:Resistor")
-		(at 342.3285 113.411 0)
+		(at 339.598 143.4465 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8558,7 +10131,7 @@
 		(dnp no)
 		(uuid "08f7265b-b3b0-48fb-bada-280932d1ca6b")
 		(property "Reference" "R186"
-			(at 335.9785 112.141 0)
+			(at 333.248 142.1765 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8568,7 +10141,7 @@
 			)
 		)
 		(property "Value" "22R/1%"
-			(at 349.9485 112.141 0)
+			(at 347.218 142.1765 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8578,7 +10151,7 @@
 			)
 		)
 		(property "Footprint" "Fabmicro:R_0402_1005Metric"
-			(at 342.3285 115.189 0)
+			(at 339.598 145.2245 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8589,7 +10162,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 342.3285 113.411 90)
+			(at 339.598 143.4465 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8600,7 +10173,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 342.3285 113.411 0)
+			(at 339.598 143.4465 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8610,7 +10183,7 @@
 			)
 		)
 		(property "Mfr. Part Number" "RC0402FR-0722RL"
-			(at 342.3285 113.411 0)
+			(at 339.598 143.4465 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8621,7 +10194,7 @@
 			)
 		)
 		(property "Supplier" "Fabmicro"
-			(at 342.3285 113.411 0)
+			(at 339.598 143.4465 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8632,7 +10205,7 @@
 			)
 		)
 		(property "Mfr. PartNumber" ""
-			(at 342.3285 113.411 0)
+			(at 339.598 143.4465 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8659,7 +10232,7 @@
 	)
 	(symbol
 		(lib_id "Fabmicro:Resistor")
-		(at 342.3285 103.251 0)
+		(at 339.598 133.2865 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8669,7 +10242,7 @@
 		(dnp no)
 		(uuid "0b74ca36-4885-42eb-8d0c-e7bea53b6f1e")
 		(property "Reference" "R190"
-			(at 335.9785 101.981 0)
+			(at 333.248 132.0165 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8679,7 +10252,7 @@
 			)
 		)
 		(property "Value" "22R/1%"
-			(at 349.9485 101.981 0)
+			(at 347.218 132.0165 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8689,7 +10262,7 @@
 			)
 		)
 		(property "Footprint" "Fabmicro:R_0402_1005Metric"
-			(at 342.3285 105.029 0)
+			(at 339.598 135.0645 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8700,7 +10273,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 342.3285 103.251 90)
+			(at 339.598 133.2865 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8711,7 +10284,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 342.3285 103.251 0)
+			(at 339.598 133.2865 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8721,7 +10294,7 @@
 			)
 		)
 		(property "Mfr. Part Number" "RC0402FR-0722RL"
-			(at 342.3285 103.251 0)
+			(at 339.598 133.2865 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8732,7 +10305,7 @@
 			)
 		)
 		(property "Supplier" "Fabmicro"
-			(at 342.3285 103.251 0)
+			(at 339.598 133.2865 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8743,7 +10316,7 @@
 			)
 		)
 		(property "Mfr. PartNumber" ""
-			(at 342.3285 103.251 0)
+			(at 339.598 133.2865 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8871,8 +10444,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 392.684 113.411 0)
+		(lib_id "Fabmicro:Polyfuse_Small")
+		(at 252.6525 41.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8880,10 +10453,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "1066bf16-ef7f-45c3-88d5-baa8fba0506f")
-		(property "Reference" "#PWR0182"
-			(at 392.684 119.761 0)
-			(hide yes)
+		(uuid "0f4c8ee5-e58e-4704-82c5-164799878204")
+		(property "Reference" "F3"
+			(at 255.4465 39.878 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8892,8 +10464,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 392.684 117.221 0)
+		(property "Value" "0805L100WR"
+			(at 256.7165 43.434 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8902,8 +10474,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 392.684 113.411 0)
+		(property "Footprint" "Fuse:Fuse_0805_2012Metric"
+			(at 250.1125 43.18 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8911,10 +10483,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Datasheet" ""
-			(at 392.684 113.411 0)
+			(at 255.1925 41.91 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8925,7 +10498,108 @@
 			)
 		)
 		(property "Description" ""
-			(at 392.684 113.411 0)
+			(at 252.6525 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. Part Number" "0805L100WR"
+			(at 252.6525 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "Fabmicro"
+			(at 252.6525 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0bad2508-dc2c-454a-9344-69a6dd577cfe")
+		)
+		(pin "2"
+			(uuid "9520109a-a7e2-4ad5-8696-1354b6d3778c")
+		)
+		(instances
+			(project "Karnix_ASB"
+				(path "/fe37e245-9527-4c72-91fc-09b617a42f73"
+					(reference "F3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 389.9535 143.4465 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1066bf16-ef7f-45c3-88d5-baa8fba0506f")
+		(property "Reference" "#PWR0182"
+			(at 389.9535 149.7965 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 389.9535 147.2565 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 389.9535 143.4465 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 389.9535 143.4465 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 389.9535 143.4465 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9050,7 +10724,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 229.997 64.77 0)
+		(at 199.263 273.812 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9060,7 +10734,7 @@
 		(dnp no)
 		(uuid "1433dbc5-fe2c-44e9-968c-b4415ecc84e1")
 		(property "Reference" "H4"
-			(at 232.537 63.6016 0)
+			(at 201.803 272.6436 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9071,7 +10745,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 232.537 65.913 0)
+			(at 201.803 274.955 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9082,7 +10756,7 @@
 			)
 		)
 		(property "Footprint" "Fabmicro:MountingHole_3.2mm_M3_ISO7380_NoPad"
-			(at 229.997 64.77 0)
+			(at 199.263 273.812 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9093,7 +10767,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.997 64.77 0)
+			(at 199.263 273.812 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9104,7 +10778,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 229.997 64.77 0)
+			(at 199.263 273.812 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9280,7 +10954,7 @@
 	)
 	(symbol
 		(lib_id "Fabmicro:Resistor")
-		(at 271.145 135.763 180)
+		(at 268.4145 165.7985 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9290,7 +10964,7 @@
 		(dnp no)
 		(uuid "1a9a2c92-e7cb-49ae-9b54-9a727b5f1d2c")
 		(property "Reference" "R36"
-			(at 267.843 135.001 0)
+			(at 265.1125 165.0365 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9301,7 +10975,7 @@
 			)
 		)
 		(property "Value" "51R/1%"
-			(at 280.543 134.874 0)
+			(at 277.8125 164.9095 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9312,7 +10986,7 @@
 			)
 		)
 		(property "Footprint" "Fabmicro:R_0402_1005Metric"
-			(at 271.145 133.985 0)
+			(at 268.4145 164.0205 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9323,7 +10997,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.145 135.763 90)
+			(at 268.4145 165.7985 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9334,7 +11008,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 271.145 135.763 0)
+			(at 268.4145 165.7985 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9344,7 +11018,7 @@
 			)
 		)
 		(property "Mfr. Part Number" "RC0402FR-0751RL"
-			(at 271.145 135.763 0)
+			(at 268.4145 165.7985 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9355,7 +11029,7 @@
 			)
 		)
 		(property "Supplier" "Fabmicro"
-			(at 271.145 135.763 0)
+			(at 268.4145 165.7985 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9382,7 +11056,7 @@
 	)
 	(symbol
 		(lib_id "Fabmicro:CapacitorUnpolarized")
-		(at 392.684 108.331 270)
+		(at 389.9535 138.3665 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9392,7 +11066,7 @@
 		(dnp no)
 		(uuid "1ab5c475-55f5-4216-9c87-36db406eb2ac")
 		(property "Reference" "C71"
-			(at 389.3295 105.9586 90)
+			(at 386.599 135.9941 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9403,7 +11077,7 @@
 			)
 		)
 		(property "Value" "22uF/25V"
-			(at 387.7945 111.125 90)
+			(at 385.064 141.1605 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9414,7 +11088,7 @@
 			)
 		)
 		(property "Footprint" "Fabmicro:C_0805_2012Metric_slim"
-			(at 393.6492 112.141 90)
+			(at 390.9187 142.1765 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9425,7 +11099,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 392.684 108.331 90)
+			(at 389.9535 138.3665 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9436,7 +11110,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 392.684 108.331 0)
+			(at 389.9535 138.3665 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9446,7 +11120,7 @@
 			)
 		)
 		(property "Mfr. Part Number" "GRM21BR61E226ME44L"
-			(at 392.684 108.331 0)
+			(at 389.9535 138.3665 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9457,7 +11131,7 @@
 			)
 		)
 		(property "Supplier" "Fabmicro"
-			(at 392.684 108.331 0)
+			(at 389.9535 138.3665 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9468,7 +11142,7 @@
 			)
 		)
 		(property "Mfr. PartNumber" ""
-			(at 392.684 108.331 90)
+			(at 389.9535 138.3665 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9495,7 +11169,7 @@
 	)
 	(symbol
 		(lib_id "Fabmicro:Resistor")
-		(at 227.9974 115.4261 0)
+		(at 225.2669 145.4616 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9505,7 +11179,7 @@
 		(dnp no)
 		(uuid "1b259b47-fd6e-4ff0-8a74-e574fcc4f1c2")
 		(property "Reference" "R23"
-			(at 221.7998 114.6387 0)
+			(at 219.0693 144.6742 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9516,7 +11190,7 @@
 			)
 		)
 		(property "Value" "51R/1%"
-			(at 231.909 114.5371 0)
+			(at 229.1785 144.5726 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9527,7 +11201,7 @@
 			)
 		)
 		(property "Footprint" "Fabmicro:R_0402_1005Metric"
-			(at 227.9974 117.2041 0)
+			(at 225.2669 147.2396 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9538,7 +11212,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.9974 115.4261 90)
+			(at 225.2669 145.4616 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9549,7 +11223,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 227.9974 115.4261 0)
+			(at 225.2669 145.4616 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9559,7 +11233,7 @@
 			)
 		)
 		(property "Mfr. Part Number" "RC0402FR-0751RL"
-			(at 227.9974 115.4261 0)
+			(at 225.2669 145.4616 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9570,7 +11244,7 @@
 			)
 		)
 		(property "Supplier" "Fabmicro"
-			(at 227.9974 115.4261 0)
+			(at 225.2669 145.4616 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9597,7 +11271,7 @@
 	)
 	(symbol
 		(lib_id "Fabmicro:Resistor")
-		(at 227.9974 133.2061 0)
+		(at 225.2669 163.2416 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9607,7 +11281,7 @@
 		(dnp no)
 		(uuid "1bbd409c-32a5-431a-be24-f76356fa53bc")
 		(property "Reference" "R34"
-			(at 221.6474 132.3679 0)
+			(at 218.9169 162.4034 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9618,7 +11292,7 @@
 			)
 		)
 		(property "Value" "51R/1%"
-			(at 231.655 132.3171 0)
+			(at 228.9245 162.3526 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9629,7 +11303,7 @@
 			)
 		)
 		(property "Footprint" "Fabmicro:R_0402_1005Metric"
-			(at 227.9974 134.9841 0)
+			(at 225.2669 165.0196 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9640,7 +11314,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.9974 133.2061 90)
+			(at 225.2669 163.2416 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9651,7 +11325,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 227.9974 133.2061 0)
+			(at 225.2669 163.2416 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9661,7 +11335,7 @@
 			)
 		)
 		(property "Mfr. Part Number" "RC0402FR-0751RL"
-			(at 227.9974 133.2061 0)
+			(at 225.2669 163.2416 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9672,7 +11346,7 @@
 			)
 		)
 		(property "Supplier" "Fabmicro"
-			(at 227.9974 133.2061 0)
+			(at 225.2669 163.2416 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9864,7 +11538,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 255.9374 110.3461 90)
+		(at 253.2069 140.3816 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -9875,7 +11549,7 @@
 		(dnp no)
 		(uuid "1ebd87d4-e760-44f7-bed4-e5a8807d25d2")
 		(property "Reference" "#PWR010"
-			(at 262.2874 110.3461 0)
+			(at 259.5569 140.3816 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9886,7 +11560,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 260.7634 110.3461 90)
+			(at 258.0329 140.3816 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9896,7 +11570,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 255.9374 110.3461 0)
+			(at 253.2069 140.3816 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9907,7 +11581,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 255.9374 110.3461 0)
+			(at 253.2069 140.3816 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9918,7 +11592,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 255.9374 110.3461 0)
+			(at 253.2069 140.3816 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9941,7 +11615,7 @@
 	)
 	(symbol
 		(lib_id "Fabmicro:Resistor")
-		(at 227.9974 130.6661 0)
+		(at 225.2669 160.7016 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9951,7 +11625,7 @@
 		(dnp no)
 		(uuid "200e6a9c-f737-4664-b2ce-0906e3656345")
 		(property "Reference" "R33"
-			(at 221.6474 129.8279 0)
+			(at 218.9169 159.8634 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9962,7 +11636,7 @@
 			)
 		)
 		(property "Value" "51R/1%"
-			(at 231.655 129.7771 0)
+			(at 228.9245 159.8126 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9973,7 +11647,7 @@
 			)
 		)
 		(property "Footprint" "Fabmicro:R_0402_1005Metric"
-			(at 227.9974 132.4441 0)
+			(at 225.2669 162.4796 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9984,7 +11658,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.9974 130.6661 90)
+			(at 225.2669 160.7016 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9995,7 +11669,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 227.9974 130.6661 0)
+			(at 225.2669 160.7016 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10005,7 +11679,7 @@
 			)
 		)
 		(property "Mfr. Part Number" "RC0402FR-0751RL"
-			(at 227.9974 130.6661 0)
+			(at 225.2669 160.7016 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10016,7 +11690,7 @@
 			)
 		)
 		(property "Supplier" "Fabmicro"
-			(at 227.9974 130.6661 0)
+			(at 225.2669 160.7016 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10295,7 +11969,7 @@
 	)
 	(symbol
 		(lib_id "Fabmicro:+3V3")
-		(at 238.2844 81.1361 0)
+		(at 235.5539 111.1716 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10305,7 +11979,7 @@
 		(dnp no)
 		(uuid "26ba0455-d165-44df-ae70-418b526a90b6")
 		(property "Reference" "#PWR01"
-			(at 238.2844 84.9461 0)
+			(at 235.5539 114.9816 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10316,7 +11990,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 238.2844 77.3261 0)
+			(at 235.5539 107.3616 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10326,7 +12000,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 238.2844 81.1361 0)
+			(at 235.5539 111.1716 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10337,7 +12011,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.2844 81.1361 0)
+			(at 235.5539 111.1716 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10348,7 +12022,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 238.2844 81.1361 0)
+			(at 235.5539 111.1716 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10371,7 +12045,7 @@
 	)
 	(symbol
 		(lib_id "Fabmicro:Resistor")
-		(at 342.3285 110.871 0)
+		(at 339.598 140.9065 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10381,7 +12055,7 @@
 		(dnp no)
 		(uuid "2d4e97cd-e58b-46ae-a39f-6bbddc4764c4")
 		(property "Reference" "R187"
-			(at 335.9785 109.601 0)
+			(at 333.248 139.6365 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10391,7 +12065,7 @@
 			)
 		)
 		(property "Value" "22R/1%"
-			(at 349.9485 109.601 0)
+			(at 347.218 139.6365 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10401,7 +12075,7 @@
 			)
 		)
 		(property "Footprint" "Fabmicro:R_0402_1005Metric"
-			(at 342.3285 112.649 0)
+			(at 339.598 142.6845 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10412,7 +12086,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 342.3285 110.871 90)
+			(at 339.598 140.9065 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10423,7 +12097,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 342.3285 110.871 0)
+			(at 339.598 140.9065 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10433,7 +12107,7 @@
 			)
 		)
 		(property "Mfr. Part Number" "RC0402FR-0722RL"
-			(at 342.3285 110.871 0)
+			(at 339.598 140.9065 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10444,7 +12118,7 @@
 			)
 		)
 		(property "Supplier" "Fabmicro"
-			(at 342.3285 110.871 0)
+			(at 339.598 140.9065 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10455,7 +12129,7 @@
 			)
 		)
 		(property "Mfr. PartNumber" ""
-			(at 342.3285 110.871 0)
+			(at 339.598 140.9065 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10475,6 +12149,108 @@
 			(project "Karnix_ASB"
 				(path "/fe37e245-9527-4c72-91fc-09b617a42f73"
 					(reference "R187")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Fabmicro:ProtectiveDiodeDA")
+		(at 253.7086 68.607 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "317ca17e-5d61-49a8-9978-7654a3d8b805")
+		(property "Reference" "D15"
+			(at 255.7152 62.3586 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PGB1010603NRHF"
+			(at 256.918 64.3228 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
+			(at 253.7086 62.257 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 253.7086 62.257 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 253.7086 68.607 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. Part Number" "PGB1010603NRHF"
+			(at 253.7086 68.607 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "Fabmicro"
+			(at 253.7086 68.607 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c14b70c4-3c50-4efa-a099-9f78345bbd41")
+		)
+		(pin "2"
+			(uuid "8b82323e-4010-48b7-a1c4-5f177f5931e8")
+		)
+		(instances
+			(project "Karnix_ASB"
+				(path "/fe37e245-9527-4c72-91fc-09b617a42f73"
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -10636,7 +12412,7 @@
 	)
 	(symbol
 		(lib_id "Fabmicro:Resistor")
-		(at 227.9974 128.1261 0)
+		(at 225.2669 158.1616 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10646,7 +12422,7 @@
 		(dnp no)
 		(uuid "34477ae5-f0cf-4679-ae81-a6a0b41da3b3")
 		(property "Reference" "R31"
-			(at 221.6474 127.2879 0)
+			(at 218.9169 157.3234 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10657,7 +12433,7 @@
 			)
 		)
 		(property "Value" "51R/1%"
-			(at 231.655 127.2371 0)
+			(at 228.9245 157.2726 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10668,7 +12444,7 @@
 			)
 		)
 		(property "Footprint" "Fabmicro:R_0402_1005Metric"
-			(at 227.9974 129.9041 0)
+			(at 225.2669 159.9396 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10679,7 +12455,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.9974 128.1261 90)
+			(at 225.2669 158.1616 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10690,7 +12466,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 227.9974 128.1261 0)
+			(at 225.2669 158.1616 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10700,7 +12476,7 @@
 			)
 		)
 		(property "Mfr. Part Number" "RC0402FR-0751RL"
-			(at 227.9974 128.1261 0)
+			(at 225.2669 158.1616 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10711,7 +12487,7 @@
 			)
 		)
 		(property "Supplier" "Fabmicro"
-			(at 227.9974 128.1261 0)
+			(at 225.2669 158.1616 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10738,7 +12514,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 229.997 58.039 0)
+		(at 199.263 267.081 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10748,7 +12524,7 @@
 		(dnp no)
 		(uuid "37044212-93e9-46ce-9714-375f128c70ba")
 		(property "Reference" "H3"
-			(at 232.537 56.8706 0)
+			(at 201.803 265.9126 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10759,7 +12535,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 232.537 59.182 0)
+			(at 201.803 268.224 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10770,7 +12546,7 @@
 			)
 		)
 		(property "Footprint" "Fabmicro:MountingHole_3.2mm_M3_ISO7380_NoPad"
-			(at 229.997 58.039 0)
+			(at 199.263 267.081 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10781,7 +12557,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.997 58.039 0)
+			(at 199.263 267.081 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10792,7 +12568,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 229.997 58.039 0)
+			(at 199.263 267.081 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10812,7 +12588,7 @@
 	)
 	(symbol
 		(lib_id "Fabmicro:Resistor")
-		(at 227.9974 90.0261 180)
+		(at 225.2669 120.0616 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10822,7 +12598,7 @@
 		(dnp no)
 		(uuid "39a690e8-1024-453f-a1c2-eef563fcd099")
 		(property "Reference" "R3"
-			(at 224.5684 89.2641 0)
+			(at 221.8379 119.2996 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10833,7 +12609,7 @@
 			)
 		)
 		(property "Value" "51R/1%"
-			(at 237.6494 89.2641 0)
+			(at 234.9189 119.2996 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10844,7 +12620,7 @@
 			)
 		)
 		(property "Footprint" "Fabmicro:R_0402_1005Metric"
-			(at 227.9974 88.2481 0)
+			(at 225.2669 118.2836 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10855,7 +12631,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.9974 90.0261 90)
+			(at 225.2669 120.0616 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10866,7 +12642,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 227.9974 90.0261 0)
+			(at 225.2669 120.0616 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10876,7 +12652,7 @@
 			)
 		)
 		(property "Mfr. Part Number" "RC0402FR-0751RL"
-			(at 227.9974 90.0261 0)
+			(at 225.2669 120.0616 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10887,7 +12663,7 @@
 			)
 		)
 		(property "Supplier" "Fabmicro"
-			(at 227.9974 90.0261 0)
+			(at 225.2669 120.0616 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10914,7 +12690,7 @@
 	)
 	(symbol
 		(lib_id "Fabmicro:Resistor")
-		(at 271.1266 130.6407 0)
+		(at 268.3961 160.6762 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10924,7 +12700,7 @@
 		(dnp no)
 		(uuid "3d6db1cb-9862-4d78-b427-12fc231f9e42")
 		(property "Reference" "R32"
-			(at 264.7766 129.7263 0)
+			(at 262.0461 159.7618 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10935,7 +12711,7 @@
 			)
 		)
 		(property "Value" "51R/1%"
-			(at 274.4794 129.6247 0)
+			(at 271.7489 159.6602 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10946,7 +12722,7 @@
 			)
 		)
 		(property "Footprint" "Fabmicro:R_0402_1005Metric"
-			(at 271.1266 132.4187 0)
+			(at 268.3961 162.4542 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10957,7 +12733,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.1266 130.6407 90)
+			(at 268.3961 160.6762 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10968,7 +12744,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 271.1266 130.6407 0)
+			(at 268.3961 160.6762 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10978,7 +12754,7 @@
 			)
 		)
 		(property "Mfr. Part Number" "RC0402FR-0751RL"
-			(at 271.1266 130.6407 0)
+			(at 268.3961 160.6762 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10989,7 +12765,7 @@
 			)
 		)
 		(property "Supplier" "Fabmicro"
-			(at 271.1266 130.6407 0)
+			(at 268.3961 160.6762 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11016,7 +12792,7 @@
 	)
 	(symbol
 		(lib_id "Fabmicro:Resistor")
-		(at 227.9974 92.5661 0)
+		(at 225.2669 122.6016 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11026,7 +12802,7 @@
 		(dnp no)
 		(uuid "3eb9d805-98ac-4d84-a62e-bf731307c478")
 		(property "Reference" "R4"
-			(at 222.0284 91.8041 0)
+			(at 219.2979 121.8396 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11037,7 +12813,7 @@
 			)
 		)
 		(property "Value" "51R/1%"
-			(at 231.775 91.694 0)
+			(at 229.0445 121.7295 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11048,7 +12824,7 @@
 			)
 		)
 		(property "Footprint" "Fabmicro:R_0402_1005Metric"
-			(at 227.9974 94.3441 0)
+			(at 225.2669 124.3796 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11059,7 +12835,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.9974 92.5661 90)
+			(at 225.2669 122.6016 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11070,7 +12846,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 227.9974 92.5661 0)
+			(at 225.2669 122.6016 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11080,7 +12856,7 @@
 			)
 		)
 		(property "Mfr. Part Number" "RC0402FR-0751RL"
-			(at 227.9974 92.5661 0)
+			(at 225.2669 122.6016 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11091,7 +12867,7 @@
 			)
 		)
 		(property "Supplier" "Fabmicro"
-			(at 227.9974 92.5661 0)
+			(at 225.2669 122.6016 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11118,7 +12894,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 229.997 43.942 0)
+		(at 199.263 252.984 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11128,7 +12904,7 @@
 		(dnp no)
 		(uuid "3fddc531-64f0-47f7-b2e7-24d774892f35")
 		(property "Reference" "H1"
-			(at 232.537 42.7736 0)
+			(at 201.803 251.8156 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11139,7 +12915,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 232.537 45.085 0)
+			(at 201.803 254.127 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11150,7 +12926,7 @@
 			)
 		)
 		(property "Footprint" "Fabmicro:MountingHole_3.2mm_M3_ISO7380_NoPad"
-			(at 229.997 43.942 0)
+			(at 199.263 252.984 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11161,7 +12937,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.997 43.942 0)
+			(at 199.263 252.984 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11172,7 +12948,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 229.997 43.942 0)
+			(at 199.263 252.984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11191,9 +12967,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 255.9374 123.0461 90)
-		(mirror x)
+		(lib_id "Fabmicro:ProtectiveDiodeDA")
+		(at 273.8817 68.607 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11201,30 +12976,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "42a04a70-8f28-4940-a32a-82dda74dbb3d")
-		(property "Reference" "#PWR016"
-			(at 262.2874 123.0461 0)
-			(hide yes)
+		(uuid "40249d0b-56aa-410d-9f35-64a1f9871d69")
+		(property "Reference" "D24"
+			(at 275.8883 62.3586 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "GND"
-			(at 260.7634 123.0461 90)
+		(property "Value" "PGB1010603NRHF"
+			(at 277.0911 64.3228 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 255.9374 123.0461 0)
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
+			(at 273.8817 62.257 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11235,7 +13011,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 255.9374 123.0461 0)
+			(at 273.8817 62.257 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11246,7 +13022,109 @@
 			)
 		)
 		(property "Description" ""
-			(at 255.9374 123.0461 0)
+			(at 273.8817 68.607 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. Part Number" "PGB1010603NRHF"
+			(at 273.8817 68.607 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "Fabmicro"
+			(at 273.8817 68.607 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8b70015f-95ad-4b08-b543-c0ccc6b4c12f")
+		)
+		(pin "2"
+			(uuid "74c660c9-5351-4e23-9d3c-ac0880395f95")
+		)
+		(instances
+			(project "Karnix_ASB"
+				(path "/fe37e245-9527-4c72-91fc-09b617a42f73"
+					(reference "D24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 253.2069 153.0816 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "42a04a70-8f28-4940-a32a-82dda74dbb3d")
+		(property "Reference" "#PWR016"
+			(at 259.5569 153.0816 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 258.0329 153.0816 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 253.2069 153.0816 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 253.2069 153.0816 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 253.2069 153.0816 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11358,7 +13236,7 @@
 	)
 	(symbol
 		(lib_id "Fabmicro:Resistor")
-		(at 227.9974 100.1861 180)
+		(at 225.2669 130.2216 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11368,7 +13246,7 @@
 		(dnp no)
 		(uuid "47aec917-cce3-482d-abae-cb1e4b2f7b38")
 		(property "Reference" "R11"
-			(at 224.5938 99.3479 0)
+			(at 221.8633 129.3834 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11379,7 +13257,7 @@
 			)
 		)
 		(property "Value" "51R/1%"
-			(at 238.259 99.2463 0)
+			(at 235.5285 129.2818 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11390,7 +13268,7 @@
 			)
 		)
 		(property "Footprint" "Fabmicro:R_0402_1005Metric"
-			(at 227.9974 98.4081 0)
+			(at 225.2669 128.4436 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11401,7 +13279,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.9974 100.1861 90)
+			(at 225.2669 130.2216 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11412,7 +13290,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 227.9974 100.1861 0)
+			(at 225.2669 130.2216 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11422,7 +13300,7 @@
 			)
 		)
 		(property "Mfr. Part Number" "RC0402FR-0751RL"
-			(at 227.9974 100.1861 0)
+			(at 225.2669 130.2216 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11433,7 +13311,7 @@
 			)
 		)
 		(property "Supplier" "Fabmicro"
-			(at 227.9974 100.1861 0)
+			(at 225.2669 130.2216 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11616,7 +13494,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 255.9374 128.1261 90)
+		(at 253.2069 158.1616 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -11627,7 +13505,7 @@
 		(dnp no)
 		(uuid "4a15fbcd-7292-42e5-b1c7-abc06d642a27")
 		(property "Reference" "#PWR017"
-			(at 262.2874 128.1261 0)
+			(at 259.5569 158.1616 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11638,7 +13516,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 260.7634 128.1261 90)
+			(at 258.0329 158.1616 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11648,7 +13526,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 255.9374 128.1261 0)
+			(at 253.2069 158.1616 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11659,7 +13537,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 255.9374 128.1261 0)
+			(at 253.2069 158.1616 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11670,7 +13548,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 255.9374 128.1261 0)
+			(at 253.2069 158.1616 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11846,7 +13724,7 @@
 	)
 	(symbol
 		(lib_id "Fabmicro:Resistor")
-		(at 342.3285 108.331 0)
+		(at 322.199 52.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11854,9 +13732,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "5879e255-c1f6-4ff4-9bfb-995f380a1322")
-		(property "Reference" "R188"
-			(at 335.9785 107.061 0)
+		(uuid "55568e27-8eac-4fe1-9b73-30a9ec017c9c")
+		(property "Reference" "R192"
+			(at 315.849 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11866,7 +13744,7 @@
 			)
 		)
 		(property "Value" "22R/1%"
-			(at 349.9485 107.061 0)
+			(at 329.819 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11876,7 +13754,7 @@
 			)
 		)
 		(property "Footprint" "Fabmicro:R_0402_1005Metric"
-			(at 342.3285 110.109 0)
+			(at 322.199 53.848 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11887,7 +13765,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 342.3285 108.331 90)
+			(at 322.199 52.07 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11898,7 +13776,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 342.3285 108.331 0)
+			(at 322.199 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11908,7 +13786,7 @@
 			)
 		)
 		(property "Mfr. Part Number" "RC0402FR-0722RL"
-			(at 342.3285 108.331 0)
+			(at 322.199 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11919,7 +13797,7 @@
 			)
 		)
 		(property "Supplier" "Fabmicro"
-			(at 342.3285 108.331 0)
+			(at 322.199 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11930,7 +13808,118 @@
 			)
 		)
 		(property "Mfr. PartNumber" ""
-			(at 342.3285 108.331 0)
+			(at 322.199 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5904c6ef-8cc9-4129-a48b-770b1e96c1e9")
+		)
+		(pin "2"
+			(uuid "b7ff55da-d7d7-47fb-baca-e05a784dbe5c")
+		)
+		(instances
+			(project "Karnix_ASB"
+				(path "/fe37e245-9527-4c72-91fc-09b617a42f73"
+					(reference "R192")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Fabmicro:Resistor")
+		(at 339.598 138.3665 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5879e255-c1f6-4ff4-9bfb-995f380a1322")
+		(property "Reference" "R188"
+			(at 333.248 137.0965 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22R/1%"
+			(at 347.218 137.0965 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fabmicro:R_0402_1005Metric"
+			(at 339.598 140.1445 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 339.598 138.3665 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 339.598 138.3665 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. Part Number" "RC0402FR-0722RL"
+			(at 339.598 138.3665 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "Fabmicro"
+			(at 339.598 138.3665 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. PartNumber" ""
+			(at 339.598 138.3665 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12058,6 +14047,82 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 273.8817 76.227 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5b510ca5-1190-4db5-b0f4-9ed49e97fe92")
+		(property "Reference" "#PWR0196"
+			(at 273.8817 82.577 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 273.8817 80.037 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.8817 76.227 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.8817 76.227 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 273.8817 76.227 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "175c9a34-f6f1-4ee2-93a5-e02548786f14")
+		)
+		(instances
+			(project "Karnix_ASB"
+				(path "/fe37e245-9527-4c72-91fc-09b617a42f73"
+					(reference "#PWR0196")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Fabmicro:Resistor")
 		(at 160.15 173.5 0)
 		(unit 1)
@@ -12172,7 +14237,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 402.844 113.411 0)
+		(at 400.1135 143.4465 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12182,7 +14247,7 @@
 		(dnp no)
 		(uuid "5e36c638-e720-4a34-b544-3e3ff10ecfb7")
 		(property "Reference" "#PWR0184"
-			(at 402.844 119.761 0)
+			(at 400.1135 149.7965 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12193,7 +14258,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 402.844 117.221 0)
+			(at 400.1135 147.2565 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12203,7 +14268,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 402.844 113.411 0)
+			(at 400.1135 143.4465 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12214,7 +14279,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 402.844 113.411 0)
+			(at 400.1135 143.4465 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12225,7 +14290,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 402.844 113.411 0)
+			(at 400.1135 143.4465 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12248,7 +14313,7 @@
 	)
 	(symbol
 		(lib_id "Fabmicro:Resistor")
-		(at 227.9974 102.7515 180)
+		(at 225.2669 132.787 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12258,7 +14323,7 @@
 		(dnp no)
 		(uuid "655c4130-34b2-4ed9-81bf-a5acfcb81b0b")
 		(property "Reference" "R12"
-			(at 224.5938 101.9133 0)
+			(at 221.8633 131.9488 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12269,7 +14334,7 @@
 			)
 		)
 		(property "Value" "51R/1%"
-			(at 238.259 101.8117 0)
+			(at 235.5285 131.8472 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12280,7 +14345,7 @@
 			)
 		)
 		(property "Footprint" "Fabmicro:R_0402_1005Metric"
-			(at 227.9974 100.9735 0)
+			(at 225.2669 131.009 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12291,7 +14356,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.9974 102.7515 90)
+			(at 225.2669 132.787 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12302,7 +14367,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 227.9974 102.7515 0)
+			(at 225.2669 132.787 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12312,7 +14377,7 @@
 			)
 		)
 		(property "Mfr. Part Number" "RC0402FR-0751RL"
-			(at 227.9974 102.7515 0)
+			(at 225.2669 132.787 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12323,7 +14388,7 @@
 			)
 		)
 		(property "Supplier" "Fabmicro"
-			(at 227.9974 102.7515 0)
+			(at 225.2669 132.787 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12349,9 +14414,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 243.2374 117.9661 270)
-		(mirror x)
+		(lib_id "power:+5V")
+		(at 242.951 41.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12359,9 +14423,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "67fdb9e8-6989-4f9a-9f9d-d7f3bade66d1")
-		(property "Reference" "#PWR014"
-			(at 236.8874 117.9661 0)
+		(fields_autoplaced yes)
+		(uuid "657baba7-c0b1-460d-933a-7f420e24a804")
+		(property "Reference" "#PWR0225"
+			(at 242.951 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12371,8 +14436,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 238.4114 117.9661 90)
+		(property "Value" "+5V"
+			(at 242.951 38.3429 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12382,7 +14447,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 243.2374 117.9661 0)
+			(at 242.951 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12393,7 +14458,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 243.2374 117.9661 0)
+			(at 242.951 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12404,7 +14469,84 @@
 			)
 		)
 		(property "Description" ""
-			(at 243.2374 117.9661 0)
+			(at 242.951 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d33849a1-933d-4e90-9964-60ee103eccba")
+		)
+		(instances
+			(project "Karnix_ASB"
+				(path "/fe37e245-9527-4c72-91fc-09b617a42f73"
+					(reference "#PWR0225")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 240.5069 148.0016 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "67fdb9e8-6989-4f9a-9f9d-d7f3bade66d1")
+		(property "Reference" "#PWR014"
+			(at 234.1569 148.0016 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 235.6809 148.0016 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.5069 148.0016 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.5069 148.0016 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 240.5069 148.0016 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12427,7 +14569,7 @@
 	)
 	(symbol
 		(lib_id "Fabmicro:Resistor")
-		(at 342.3285 123.571 0)
+		(at 339.598 153.6065 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12437,7 +14579,7 @@
 		(dnp no)
 		(uuid "68b660d8-b1ed-41bb-b79d-30a84bf13b03")
 		(property "Reference" "R126"
-			(at 335.9785 122.301 0)
+			(at 333.248 152.3365 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12447,7 +14589,7 @@
 			)
 		)
 		(property "Value" "22R/1%"
-			(at 349.9485 122.301 0)
+			(at 347.218 152.3365 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12457,7 +14599,7 @@
 			)
 		)
 		(property "Footprint" "Fabmicro:R_0402_1005Metric"
-			(at 342.3285 125.349 0)
+			(at 339.598 155.3845 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12468,7 +14610,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 342.3285 123.571 90)
+			(at 339.598 153.6065 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12479,7 +14621,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 342.3285 123.571 0)
+			(at 339.598 153.6065 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12489,7 +14631,7 @@
 			)
 		)
 		(property "Mfr. Part Number" "RC0402FR-0722RL"
-			(at 342.3285 123.571 0)
+			(at 339.598 153.6065 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12500,7 +14642,7 @@
 			)
 		)
 		(property "Supplier" "Fabmicro"
-			(at 342.3285 123.571 0)
+			(at 339.598 153.6065 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12511,7 +14653,7 @@
 			)
 		)
 		(property "Mfr. PartNumber" ""
-			(at 342.3285 123.571 0)
+			(at 339.598 153.6065 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12531,6 +14673,82 @@
 			(project "Karnix_ASB"
 				(path "/fe37e245-9527-4c72-91fc-09b617a42f73"
 					(reference "R126")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 299.7138 76.4314 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6c4cfe2f-dd44-4312-86bf-3d2ffe0f1844")
+		(property "Reference" "#PWR0198"
+			(at 299.7138 82.7814 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 299.7138 80.2414 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 299.7138 76.4314 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 299.7138 76.4314 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 299.7138 76.4314 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b9f22cb6-911f-4928-adda-82dd9b22d914")
+		)
+		(instances
+			(project "Karnix_ASB"
+				(path "/fe37e245-9527-4c72-91fc-09b617a42f73"
+					(reference "#PWR0198")
 					(unit 1)
 				)
 			)
@@ -12614,7 +14832,7 @@
 	)
 	(symbol
 		(lib_id "Fabmicro:Resistor")
-		(at 271.1774 117.9661 180)
+		(at 268.4469 148.0016 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12624,7 +14842,7 @@
 		(dnp no)
 		(uuid "70c48353-fe9e-4dd2-96c1-91d99d24f2e9")
 		(property "Reference" "R25"
-			(at 267.7484 117.2041 0)
+			(at 265.0179 147.2396 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12635,7 +14853,7 @@
 			)
 		)
 		(property "Value" "51R/1%"
-			(at 280.7024 116.9501 0)
+			(at 277.9719 146.9856 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12646,7 +14864,7 @@
 			)
 		)
 		(property "Footprint" "Fabmicro:R_0402_1005Metric"
-			(at 271.1774 116.1881 0)
+			(at 268.4469 146.2236 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12657,7 +14875,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.1774 117.9661 90)
+			(at 268.4469 148.0016 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12668,7 +14886,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 271.1774 117.9661 0)
+			(at 268.4469 148.0016 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12678,7 +14896,7 @@
 			)
 		)
 		(property "Mfr. Part Number" "RC0402FR-0751RL"
-			(at 271.1774 117.9661 0)
+			(at 268.4469 148.0016 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12689,7 +14907,7 @@
 			)
 		)
 		(property "Supplier" "Fabmicro"
-			(at 271.1774 117.9661 0)
+			(at 268.4469 148.0016 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12859,6 +15077,82 @@
 			(project "Karnix_ASB"
 				(path "/fe37e245-9527-4c72-91fc-09b617a42f73"
 					(reference "XS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 263.6393 76.227 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "76efbc3f-350f-4c57-a2c7-ace733e9cfc1")
+		(property "Reference" "#PWR0194"
+			(at 263.6393 82.577 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 263.6393 80.037 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 263.6393 76.227 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 263.6393 76.227 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 263.6393 76.227 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d07d993f-07b7-4d5e-9f65-3eef779c8b1e")
+		)
+		(instances
+			(project "Karnix_ASB"
+				(path "/fe37e245-9527-4c72-91fc-09b617a42f73"
+					(reference "#PWR0194")
 					(unit 1)
 				)
 			)
@@ -13043,7 +15337,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 392.684 138.811 0)
+		(at 389.9535 168.8465 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -13054,7 +15348,7 @@
 		(dnp no)
 		(uuid "89962346-f75f-42cd-afdd-d3dafd115fdf")
 		(property "Reference" "#PWR0164"
-			(at 392.684 145.161 0)
+			(at 389.9535 175.1965 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13065,7 +15359,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 392.684 142.621 0)
+			(at 389.9535 172.6565 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13075,7 +15369,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 392.684 138.811 0)
+			(at 389.9535 168.8465 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13086,7 +15380,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 392.684 138.811 0)
+			(at 389.9535 168.8465 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13097,7 +15391,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 392.684 138.811 0)
+			(at 389.9535 168.8465 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13120,7 +15414,7 @@
 	)
 	(symbol
 		(lib_id "Fabmicro:CapacitorUnpolarized")
-		(at 402.844 108.3564 270)
+		(at 400.1135 138.3919 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13130,7 +15424,7 @@
 		(dnp no)
 		(uuid "8a7168c8-f6a1-4e0a-980c-cb58d150daed")
 		(property "Reference" "C104"
-			(at 399.6295 105.9586 90)
+			(at 396.899 135.9941 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13141,7 +15435,7 @@
 			)
 		)
 		(property "Value" "0.1uF/50V"
-			(at 398.399 110.998 90)
+			(at 395.6685 141.0335 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13152,7 +15446,7 @@
 			)
 		)
 		(property "Footprint" "Fabmicro:C_0402_1005Metric"
-			(at 403.8092 112.1664 90)
+			(at 401.0787 142.2019 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13163,7 +15457,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 402.844 108.3564 90)
+			(at 400.1135 138.3919 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13174,7 +15468,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 402.844 108.3564 0)
+			(at 400.1135 138.3919 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13184,7 +15478,7 @@
 			)
 		)
 		(property "Mfr. Part Number" "CC0402KRX7R9BB104"
-			(at 402.844 108.3564 0)
+			(at 400.1135 138.3919 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13195,7 +15489,7 @@
 			)
 		)
 		(property "Supplier" "Fabmicro"
-			(at 402.844 108.3564 0)
+			(at 400.1135 138.3919 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13206,7 +15500,7 @@
 			)
 		)
 		(property "Mfr. PartNumber" ""
-			(at 402.844 108.3564 90)
+			(at 400.1135 138.3919 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13398,7 +15692,7 @@
 	)
 	(symbol
 		(lib_id "Fabmicro:Resistor")
-		(at 271.2282 107.7807 0)
+		(at 268.4977 137.8162 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13408,7 +15702,7 @@
 		(dnp no)
 		(uuid "92c92ebb-1ad5-4db7-99ef-5db27c6dd1d0")
 		(property "Reference" "R17"
-			(at 265.0052 106.7647 0)
+			(at 262.2747 136.8002 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13419,7 +15713,7 @@
 			)
 		)
 		(property "Value" "51R/1%"
-			(at 274.1492 106.7647 0)
+			(at 271.4187 136.8002 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13430,7 +15724,7 @@
 			)
 		)
 		(property "Footprint" "Fabmicro:R_0402_1005Metric"
-			(at 271.2282 109.5587 0)
+			(at 268.4977 139.5942 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13441,7 +15735,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.2282 107.7807 90)
+			(at 268.4977 137.8162 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13452,7 +15746,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 271.2282 107.7807 0)
+			(at 268.4977 137.8162 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13462,7 +15756,7 @@
 			)
 		)
 		(property "Mfr. Part Number" "RC0402FR-0751RL"
-			(at 271.2282 107.7807 0)
+			(at 268.4977 137.8162 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13473,7 +15767,7 @@
 			)
 		)
 		(property "Supplier" "Fabmicro"
-			(at 271.2282 107.7807 0)
+			(at 268.4977 137.8162 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13602,7 +15896,7 @@
 	)
 	(symbol
 		(lib_id "Fabmicro:Resistor")
-		(at 227.9974 123.0461 0)
+		(at 225.2669 153.0816 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13612,7 +15906,7 @@
 		(dnp no)
 		(uuid "98abfc36-2785-4573-94f3-56c26836411a")
 		(property "Reference" "R28"
-			(at 221.9014 122.2841 0)
+			(at 219.1709 152.3196 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13623,7 +15917,7 @@
 			)
 		)
 		(property "Value" "51R/1%"
-			(at 231.5534 122.1571 0)
+			(at 228.8229 152.1926 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13634,7 +15928,7 @@
 			)
 		)
 		(property "Footprint" "Fabmicro:R_0402_1005Metric"
-			(at 227.9974 124.8241 0)
+			(at 225.2669 154.8596 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13645,7 +15939,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.9974 123.0461 90)
+			(at 225.2669 153.0816 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13656,7 +15950,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 227.9974 123.0461 0)
+			(at 225.2669 153.0816 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13666,7 +15960,7 @@
 			)
 		)
 		(property "Mfr. Part Number" "RC0402FR-0751RL"
-			(at 227.9974 123.0461 0)
+			(at 225.2669 153.0816 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13677,7 +15971,7 @@
 			)
 		)
 		(property "Supplier" "Fabmicro"
-			(at 227.9974 123.0461 0)
+			(at 225.2669 153.0816 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13704,7 +15998,7 @@
 	)
 	(symbol
 		(lib_id "Fabmicro:Resistor")
-		(at 271.1774 125.6115 0)
+		(at 268.4469 155.647 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13714,7 +16008,7 @@
 		(dnp no)
 		(uuid "9a597b6d-52e9-444f-84a9-4c38c01229b1")
 		(property "Reference" "R30"
-			(at 265.0306 124.7987 0)
+			(at 262.3001 154.8342 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13725,7 +16019,7 @@
 			)
 		)
 		(property "Value" "51R/1%"
-			(at 274.3778 124.6971 0)
+			(at 271.6473 154.7326 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13736,7 +16030,7 @@
 			)
 		)
 		(property "Footprint" "Fabmicro:R_0402_1005Metric"
-			(at 271.1774 127.3895 0)
+			(at 268.4469 157.425 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13747,7 +16041,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.1774 125.6115 90)
+			(at 268.4469 155.647 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13758,7 +16052,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 271.1774 125.6115 0)
+			(at 268.4469 155.647 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13768,7 +16062,7 @@
 			)
 		)
 		(property "Mfr. Part Number" "RC0402FR-0751RL"
-			(at 271.1774 125.6115 0)
+			(at 268.4469 155.647 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13779,7 +16073,7 @@
 			)
 		)
 		(property "Supplier" "Fabmicro"
-			(at 271.1774 125.6115 0)
+			(at 268.4469 155.647 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13806,7 +16100,7 @@
 	)
 	(symbol
 		(lib_id "Fabmicro:Resistor")
-		(at 227.9974 125.5861 180)
+		(at 225.2669 155.6216 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13816,7 +16110,7 @@
 		(dnp no)
 		(uuid "9b175704-a1f5-4683-9a58-11aa0f7160a1")
 		(property "Reference" "R29"
-			(at 224.5684 124.8241 0)
+			(at 221.8379 154.8596 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13827,7 +16121,7 @@
 			)
 		)
 		(property "Value" "51R/1%"
-			(at 237.617 124.841 0)
+			(at 234.8865 154.8765 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13838,7 +16132,7 @@
 			)
 		)
 		(property "Footprint" "Fabmicro:R_0402_1005Metric"
-			(at 227.9974 123.8081 0)
+			(at 225.2669 153.8436 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13849,7 +16143,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.9974 125.5861 90)
+			(at 225.2669 155.6216 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13860,7 +16154,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 227.9974 125.5861 0)
+			(at 225.2669 155.6216 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13870,7 +16164,7 @@
 			)
 		)
 		(property "Mfr. Part Number" "RC0402FR-0751RL"
-			(at 227.9974 125.5861 0)
+			(at 225.2669 155.6216 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13881,7 +16175,7 @@
 			)
 		)
 		(property "Supplier" "Fabmicro"
-			(at 227.9974 125.5861 0)
+			(at 225.2669 155.6216 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13908,7 +16202,7 @@
 	)
 	(symbol
 		(lib_id "Fabmicro:Resistor")
-		(at 271.1774 95.0807 0)
+		(at 268.4469 125.1162 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13918,7 +16212,7 @@
 		(dnp no)
 		(uuid "9ceb9982-68d8-48c6-844a-f2d356ddda1c")
 		(property "Reference" "R5"
-			(at 265.183 94.2679 0)
+			(at 262.4525 124.3034 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13929,7 +16223,7 @@
 			)
 		)
 		(property "Value" "51R/1%"
-			(at 275.463 94.107 0)
+			(at 272.7325 124.1425 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13940,7 +16234,7 @@
 			)
 		)
 		(property "Footprint" "Fabmicro:R_0402_1005Metric"
-			(at 271.1774 96.8587 0)
+			(at 268.4469 126.8942 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13951,7 +16245,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.1774 95.0807 90)
+			(at 268.4469 125.1162 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13962,7 +16256,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 271.1774 95.0807 0)
+			(at 268.4469 125.1162 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13972,7 +16266,7 @@
 			)
 		)
 		(property "Mfr. Part Number" "RC0402FR-0751RL"
-			(at 271.1774 95.0807 0)
+			(at 268.4469 125.1162 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13983,7 +16277,7 @@
 			)
 		)
 		(property "Supplier" "Fabmicro"
-			(at 271.1774 95.0807 0)
+			(at 268.4469 125.1162 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14010,7 +16304,7 @@
 	)
 	(symbol
 		(lib_id "Fabmicro:Resistor")
-		(at 227.9974 112.8861 0)
+		(at 225.2669 142.9216 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14020,7 +16314,7 @@
 		(dnp no)
 		(uuid "9f44f406-7b6e-4c04-8d4d-39c07091a133")
 		(property "Reference" "R21"
-			(at 221.7744 112.1241 0)
+			(at 219.0439 142.1596 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14031,7 +16325,7 @@
 			)
 		)
 		(property "Value" "51R/1%"
-			(at 231.8074 111.9971 0)
+			(at 229.0769 142.0326 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14042,7 +16336,7 @@
 			)
 		)
 		(property "Footprint" "Fabmicro:R_0402_1005Metric"
-			(at 227.9974 114.6641 0)
+			(at 225.2669 144.6996 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14053,7 +16347,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.9974 112.8861 90)
+			(at 225.2669 142.9216 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14064,7 +16358,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 227.9974 112.8861 0)
+			(at 225.2669 142.9216 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14074,7 +16368,7 @@
 			)
 		)
 		(property "Mfr. Part Number" "RC0402FR-0751RL"
-			(at 227.9974 112.8861 0)
+			(at 225.2669 142.9216 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14085,7 +16379,7 @@
 			)
 		)
 		(property "Supplier" "Fabmicro"
-			(at 227.9974 112.8861 0)
+			(at 225.2669 142.9216 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14112,7 +16406,7 @@
 	)
 	(symbol
 		(lib_id "Fabmicro:Resistor")
-		(at 271.1774 133.2315 180)
+		(at 268.4469 163.267 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14122,7 +16416,7 @@
 		(dnp no)
 		(uuid "9f783cbc-829b-4752-8e71-239685ce47b9")
 		(property "Reference" "R35"
-			(at 267.8754 132.4695 0)
+			(at 265.1449 162.505 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14133,7 +16427,7 @@
 			)
 		)
 		(property "Value" "51R/1%"
-			(at 280.5754 132.3425 0)
+			(at 277.8449 162.378 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14144,7 +16438,7 @@
 			)
 		)
 		(property "Footprint" "Fabmicro:R_0402_1005Metric"
-			(at 271.1774 131.4535 0)
+			(at 268.4469 161.489 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14155,7 +16449,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.1774 133.2315 90)
+			(at 268.4469 163.267 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14166,7 +16460,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 271.1774 133.2315 0)
+			(at 268.4469 163.267 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14176,7 +16470,7 @@
 			)
 		)
 		(property "Mfr. Part Number" "RC0402FR-0751RL"
-			(at 271.1774 133.2315 0)
+			(at 268.4469 163.267 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14187,7 +16481,7 @@
 			)
 		)
 		(property "Supplier" "Fabmicro"
-			(at 271.1774 133.2315 0)
+			(at 268.4469 163.267 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14214,7 +16508,7 @@
 	)
 	(symbol
 		(lib_id "Fabmicro:Resistor")
-		(at 342.3285 105.791 0)
+		(at 339.598 135.8265 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14224,7 +16518,7 @@
 		(dnp no)
 		(uuid "a0992f17-93b9-44db-8ad0-8717679a43f5")
 		(property "Reference" "R189"
-			(at 335.9785 104.521 0)
+			(at 333.248 134.5565 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14234,7 +16528,7 @@
 			)
 		)
 		(property "Value" "22R/1%"
-			(at 349.9485 104.521 0)
+			(at 347.218 134.5565 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14244,7 +16538,7 @@
 			)
 		)
 		(property "Footprint" "Fabmicro:R_0402_1005Metric"
-			(at 342.3285 107.569 0)
+			(at 339.598 137.6045 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14255,7 +16549,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 342.3285 105.791 90)
+			(at 339.598 135.8265 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14266,7 +16560,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 342.3285 105.791 0)
+			(at 339.598 135.8265 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14276,7 +16570,7 @@
 			)
 		)
 		(property "Mfr. Part Number" "RC0402FR-0722RL"
-			(at 342.3285 105.791 0)
+			(at 339.598 135.8265 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14287,7 +16581,7 @@
 			)
 		)
 		(property "Supplier" "Fabmicro"
-			(at 342.3285 105.791 0)
+			(at 339.598 135.8265 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14298,7 +16592,7 @@
 			)
 		)
 		(property "Mfr. PartNumber" ""
-			(at 342.3285 105.791 0)
+			(at 339.598 135.8265 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14414,7 +16708,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x20_Odd_Even")
-		(at 248.3174 110.3461 0)
+		(at 245.5869 140.3816 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14425,7 +16719,7 @@
 		(fields_autoplaced yes)
 		(uuid "a2077950-267b-42e0-98ea-d82c0095cbc2")
 		(property "Reference" "XS5"
-			(at 249.5874 82.5986 0)
+			(at 246.8569 112.6341 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14435,7 +16729,7 @@
 			)
 		)
 		(property "Value" "Conn_02x20_Odd_Even"
-			(at 249.5874 85.0621 0)
+			(at 246.8569 115.0976 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14445,7 +16739,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical"
-			(at 248.3174 110.3461 0)
+			(at 245.5869 140.3816 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14456,7 +16750,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.3174 110.3461 0)
+			(at 245.5869 140.3816 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14467,7 +16761,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 248.3174 110.3461 0)
+			(at 245.5869 140.3816 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14477,7 +16771,7 @@
 			)
 		)
 		(property "Mfr. Part Number" "HEADER_2x20_2.54mm"
-			(at 248.3174 110.3461 0)
+			(at 245.5869 140.3816 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14488,7 +16782,7 @@
 			)
 		)
 		(property "Field5" ""
-			(at 248.3174 110.3461 0)
+			(at 245.5869 140.3816 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14629,7 +16923,7 @@
 	)
 	(symbol
 		(lib_id "Fabmicro:Resistor")
-		(at 271.2322 105.2447 0)
+		(at 268.5017 135.2802 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14639,7 +16933,7 @@
 		(dnp no)
 		(uuid "a214374e-78db-4d66-aa4a-8954c837bc64")
 		(property "Reference" "R15"
-			(at 265.0092 104.2287 0)
+			(at 262.2787 134.2642 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14650,7 +16944,7 @@
 			)
 		)
 		(property "Value" "51R/1%"
-			(at 274.1532 104.2287 0)
+			(at 271.4227 134.2642 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14661,7 +16955,7 @@
 			)
 		)
 		(property "Footprint" "Fabmicro:R_0402_1005Metric"
-			(at 271.2322 107.0227 0)
+			(at 268.5017 137.0582 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14672,7 +16966,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.2322 105.2447 90)
+			(at 268.5017 135.2802 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14683,7 +16977,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 271.2322 105.2447 0)
+			(at 268.5017 135.2802 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14693,7 +16987,7 @@
 			)
 		)
 		(property "Mfr. Part Number" "RC0402FR-0751RL"
-			(at 271.2322 105.2447 0)
+			(at 268.5017 135.2802 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14704,7 +16998,7 @@
 			)
 		)
 		(property "Supplier" "Fabmicro"
-			(at 271.2322 105.2447 0)
+			(at 268.5017 135.2802 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14731,7 +17025,7 @@
 	)
 	(symbol
 		(lib_id "Fabmicro:Resistor")
-		(at 271.1774 100.1607 180)
+		(at 268.4469 130.1962 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14741,7 +17035,7 @@
 		(dnp no)
 		(uuid "a59cb931-77a7-48a2-963e-b916e5d59490")
 		(property "Reference" "R10"
-			(at 267.8481 99.4359 0)
+			(at 265.1176 129.4714 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14752,7 +17046,7 @@
 			)
 		)
 		(property "Value" "51R/1%"
-			(at 281.4412 99.2022 0)
+			(at 278.7107 129.2377 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14763,7 +17057,7 @@
 			)
 		)
 		(property "Footprint" "Fabmicro:R_0402_1005Metric"
-			(at 271.1774 98.3827 0)
+			(at 268.4469 128.4182 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14774,7 +17068,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.1774 100.1607 90)
+			(at 268.4469 130.1962 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14785,7 +17079,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 271.1774 100.1607 0)
+			(at 268.4469 130.1962 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14795,7 +17089,7 @@
 			)
 		)
 		(property "Mfr. Part Number" "RC0402FR-0751RL"
-			(at 271.1774 100.1607 0)
+			(at 268.4469 130.1962 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14806,7 +17100,7 @@
 			)
 		)
 		(property "Supplier" "Fabmicro"
-			(at 271.1774 100.1607 0)
+			(at 268.4469 130.1962 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14935,7 +17229,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 229.997 51.181 0)
+		(at 199.263 260.223 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14945,7 +17239,7 @@
 		(dnp no)
 		(uuid "aaa06545-47e4-44e9-955f-f13e8178bcf4")
 		(property "Reference" "H2"
-			(at 232.537 50.0126 0)
+			(at 201.803 259.0546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14956,7 +17250,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 232.537 52.324 0)
+			(at 201.803 261.366 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14967,7 +17261,7 @@
 			)
 		)
 		(property "Footprint" "Fabmicro:MountingHole_3.2mm_M3_ISO7380_NoPad"
-			(at 229.997 51.181 0)
+			(at 199.263 260.223 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14978,7 +17272,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.997 51.181 0)
+			(at 199.263 260.223 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14989,7 +17283,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 229.997 51.181 0)
+			(at 199.263 260.223 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15009,7 +17303,7 @@
 	)
 	(symbol
 		(lib_id "Fabmicro:Resistor")
-		(at 342.3285 118.491 0)
+		(at 339.598 148.5265 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15019,7 +17313,7 @@
 		(dnp no)
 		(uuid "aaf4c5eb-ec2a-4f2f-938a-bbadd27320d6")
 		(property "Reference" "R185"
-			(at 335.9785 117.221 0)
+			(at 333.248 147.2565 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15029,7 +17323,7 @@
 			)
 		)
 		(property "Value" "22R/1%"
-			(at 349.9485 117.221 0)
+			(at 347.218 147.2565 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15039,7 +17333,7 @@
 			)
 		)
 		(property "Footprint" "Fabmicro:R_0402_1005Metric"
-			(at 342.3285 120.269 0)
+			(at 339.598 150.3045 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15050,7 +17344,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 342.3285 118.491 90)
+			(at 339.598 148.5265 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15061,7 +17355,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 342.3285 118.491 0)
+			(at 339.598 148.5265 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15071,7 +17365,7 @@
 			)
 		)
 		(property "Mfr. Part Number" "RC0402FR-0722RL"
-			(at 342.3285 118.491 0)
+			(at 339.598 148.5265 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15082,7 +17376,7 @@
 			)
 		)
 		(property "Supplier" "Fabmicro"
-			(at 342.3285 118.491 0)
+			(at 339.598 148.5265 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15093,7 +17387,7 @@
 			)
 		)
 		(property "Mfr. PartNumber" ""
-			(at 342.3285 118.491 0)
+			(at 339.598 148.5265 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15113,6 +17407,158 @@
 			(project "Karnix_ASB"
 				(path "/fe37e245-9527-4c72-91fc-09b617a42f73"
 					(reference "R185")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 253.7086 76.227 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b1341a55-a546-48c9-86cc-f999ba1b12d7")
+		(property "Reference" "#PWR0185"
+			(at 253.7086 82.577 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 253.7086 80.037 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 253.7086 76.227 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 253.7086 76.227 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 253.7086 76.227 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6f9a3115-89ca-4c50-a0be-fa4547d7ba03")
+		)
+		(instances
+			(project "Karnix_ASB"
+				(path "/fe37e245-9527-4c72-91fc-09b617a42f73"
+					(reference "#PWR0185")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 283.8124 76.227 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b3018896-4bea-4632-a6ef-20276f0c9cb0")
+		(property "Reference" "#PWR0197"
+			(at 283.8124 82.577 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 283.8124 80.037 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 283.8124 76.227 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 283.8124 76.227 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 283.8124 76.227 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fcf4f166-7d88-4ca5-a74a-fbf00044daba")
+		)
+		(instances
+			(project "Karnix_ASB"
+				(path "/fe37e245-9527-4c72-91fc-09b617a42f73"
+					(reference "#PWR0197")
 					(unit 1)
 				)
 			)
@@ -15298,7 +17744,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 260.8904 82.4061 0)
+		(at 258.1599 112.4416 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15309,7 +17755,7 @@
 		(fields_autoplaced yes)
 		(uuid "bb4002f0-7010-4937-925b-5c4b8515ef9e")
 		(property "Reference" "#PWR03"
-			(at 260.8904 86.2161 0)
+			(at 258.1599 116.2516 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15320,7 +17766,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 260.8904 78.839 0)
+			(at 258.1599 108.8745 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15330,7 +17776,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 260.8904 82.4061 0)
+			(at 258.1599 112.4416 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15341,7 +17787,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 260.8904 82.4061 0)
+			(at 258.1599 112.4416 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15352,7 +17798,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 260.8904 82.4061 0)
+			(at 258.1599 112.4416 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15375,7 +17821,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x07")
-		(at 251.5 174.2 0)
+		(at 248.7695 204.2355 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15386,7 +17832,7 @@
 		(fields_autoplaced yes)
 		(uuid "bbedbcd2-0780-423d-b62e-b952336644ca")
 		(property "Reference" "J4"
-			(at 253.532 173.3881 0)
+			(at 250.8015 203.4236 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15397,7 +17843,7 @@
 			)
 		)
 		(property "Value" "Conn_01x07"
-			(at 253.532 175.8516 0)
+			(at 250.8015 205.8871 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15408,7 +17854,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x07_P2.00mm_Vertical"
-			(at 251.5 174.2 0)
+			(at 248.7695 204.2355 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15419,7 +17865,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.5 174.2 0)
+			(at 248.7695 204.2355 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15430,7 +17876,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 251.5 174.2 0)
+			(at 248.7695 204.2355 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15471,7 +17917,7 @@
 	)
 	(symbol
 		(lib_id "Fabmicro:Resistor")
-		(at 271.1774 97.6461 180)
+		(at 268.4469 127.6816 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15481,7 +17927,7 @@
 		(dnp no)
 		(uuid "bc197196-3adf-4cdd-b3c6-b00e96c09166")
 		(property "Reference" "R9"
-			(at 267.8481 96.9213 0)
+			(at 265.1176 126.9568 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15492,7 +17938,7 @@
 			)
 		)
 		(property "Value" "51R/1%"
-			(at 281.4412 96.6876 0)
+			(at 278.7107 126.7231 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15503,7 +17949,7 @@
 			)
 		)
 		(property "Footprint" "Fabmicro:R_0402_1005Metric"
-			(at 271.1774 95.8681 0)
+			(at 268.4469 125.9036 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15514,7 +17960,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.1774 97.6461 90)
+			(at 268.4469 127.6816 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15525,7 +17971,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 271.1774 97.6461 0)
+			(at 268.4469 127.6816 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15535,7 +17981,7 @@
 			)
 		)
 		(property "Mfr. Part Number" "RC0402FR-0751RL"
-			(at 271.1774 97.6461 0)
+			(at 268.4469 127.6816 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15546,7 +17992,7 @@
 			)
 		)
 		(property "Supplier" "Fabmicro"
-			(at 271.1774 97.6461 0)
+			(at 268.4469 127.6816 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15573,7 +18019,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 236.4 179.3 90)
+		(at 233.6695 209.3355 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15584,7 +18030,7 @@
 		(fields_autoplaced yes)
 		(uuid "beff6b88-8f0e-444b-9da1-cdc141cb1922")
 		(property "Reference" "#PWR0221"
-			(at 240.21 179.3 0)
+			(at 237.4795 209.3355 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15595,7 +18041,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 233.2251 179.7198 90)
+			(at 230.4946 209.7553 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15606,7 +18052,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 236.4 179.3 0)
+			(at 233.6695 209.3355 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15617,7 +18063,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.4 179.3 0)
+			(at 233.6695 209.3355 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15628,7 +18074,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 236.4 179.3 0)
+			(at 233.6695 209.3355 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15651,7 +18097,7 @@
 	)
 	(symbol
 		(lib_id "Fabmicro:Resistor")
-		(at 227.9974 120.5061 180)
+		(at 225.2669 150.5416 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15661,7 +18107,7 @@
 		(dnp no)
 		(uuid "c0f5f54a-81e3-4c92-b786-d20e75a1bf26")
 		(property "Reference" "R26"
-			(at 224.5938 119.6679 0)
+			(at 221.8633 149.7034 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15672,7 +18118,7 @@
 			)
 		)
 		(property "Value" "51R/1%"
-			(at 237.617 119.507 0)
+			(at 234.8865 149.5425 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15683,7 +18129,7 @@
 			)
 		)
 		(property "Footprint" "Fabmicro:R_0402_1005Metric"
-			(at 227.9974 118.7281 0)
+			(at 225.2669 148.7636 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15694,7 +18140,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.9974 120.5061 90)
+			(at 225.2669 150.5416 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15705,7 +18151,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 227.9974 120.5061 0)
+			(at 225.2669 150.5416 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15715,7 +18161,7 @@
 			)
 		)
 		(property "Mfr. Part Number" "RC0402FR-0751RL"
-			(at 227.9974 120.5061 0)
+			(at 225.2669 150.5416 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15726,7 +18172,7 @@
 			)
 		)
 		(property "Supplier" "Fabmicro"
-			(at 227.9974 120.5061 0)
+			(at 225.2669 150.5416 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15829,9 +18275,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 233.0774 97.6461 270)
-		(mirror x)
+		(lib_id "Fabmicro:Resistor")
+		(at 322.199 54.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15839,10 +18284,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "c4e867e6-362c-44e9-a08b-ac1cf2b7e886")
-		(property "Reference" "#PWR06"
-			(at 226.7274 97.6461 0)
-			(hide yes)
+		(uuid "c103ec81-13f7-4c3e-9fb0-60737cd67ba3")
+		(property "Reference" "R193"
+			(at 315.849 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15851,8 +18295,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 228.2514 97.6461 90)
+		(property "Value" "22R/1%"
+			(at 329.819 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15861,8 +18305,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 233.0774 97.6461 0)
+		(property "Footprint" "Fabmicro:R_0402_1005Metric"
+			(at 322.199 56.388 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15873,7 +18317,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 233.0774 97.6461 0)
+			(at 322.199 54.61 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15884,7 +18328,231 @@
 			)
 		)
 		(property "Description" ""
-			(at 233.0774 97.6461 0)
+			(at 322.199 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. Part Number" "RC0402FR-0722RL"
+			(at 322.199 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "Fabmicro"
+			(at 322.199 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. PartNumber" ""
+			(at 322.199 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bbe14a60-0c77-46d7-b4f6-dfb32494b4cd")
+		)
+		(pin "2"
+			(uuid "70d3da00-f40b-4834-939f-8d9d6bc9e4e5")
+		)
+		(instances
+			(project "Karnix_ASB"
+				(path "/fe37e245-9527-4c72-91fc-09b617a42f73"
+					(reference "R193")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Fabmicro:Resistor")
+		(at 322.1355 49.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c45ff888-f78f-462e-b3af-2f39ce55018d")
+		(property "Reference" "R191"
+			(at 315.7855 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22R/1%"
+			(at 329.7555 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fabmicro:R_0402_1005Metric"
+			(at 322.1355 51.308 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 322.1355 49.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 322.1355 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. Part Number" "RC0402FR-0722RL"
+			(at 322.1355 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "Fabmicro"
+			(at 322.1355 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. PartNumber" ""
+			(at 322.1355 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "22aa61e6-84d8-48ee-98a1-f316938823f2")
+		)
+		(pin "2"
+			(uuid "4df81298-9fa0-4667-a250-f7f355fe4f87")
+		)
+		(instances
+			(project "Karnix_ASB"
+				(path "/fe37e245-9527-4c72-91fc-09b617a42f73"
+					(reference "R191")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 230.3469 127.6816 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c4e867e6-362c-44e9-a08b-ac1cf2b7e886")
+		(property "Reference" "#PWR06"
+			(at 223.9969 127.6816 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 225.5209 127.6816 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 230.3469 127.6816 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 230.3469 127.6816 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 230.3469 127.6816 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15907,7 +18575,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 259.7474 92.5661 90)
+		(at 257.0169 122.6016 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -15918,7 +18586,7 @@
 		(dnp no)
 		(uuid "c61d9ec8-551c-4464-9a56-2e01abe8fe7a")
 		(property "Reference" "#PWR05"
-			(at 266.0974 92.5661 0)
+			(at 263.3669 122.6016 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15929,7 +18597,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 264.5734 92.5661 90)
+			(at 261.8429 122.6016 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15939,7 +18607,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 259.7474 92.5661 0)
+			(at 257.0169 122.6016 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15950,7 +18618,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.7474 92.5661 0)
+			(at 257.0169 122.6016 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15961,7 +18629,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 259.7474 92.5661 0)
+			(at 257.0169 122.6016 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15984,7 +18652,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 359.3465 138.3665 0)
+		(at 356.616 168.402 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -15995,7 +18663,7 @@
 		(dnp no)
 		(uuid "c6474d1b-0d08-4aaf-bfc3-e1d85b9b6225")
 		(property "Reference" "#PWR0179"
-			(at 359.3465 144.7165 0)
+			(at 356.616 174.752 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16006,7 +18674,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 359.3465 142.1765 0)
+			(at 356.616 172.212 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16016,7 +18684,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 359.3465 138.3665 0)
+			(at 356.616 168.402 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16027,7 +18695,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 359.3465 138.3665 0)
+			(at 356.616 168.402 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16038,7 +18706,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 359.3465 138.3665 0)
+			(at 356.616 168.402 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16298,7 +18966,7 @@
 	)
 	(symbol
 		(lib_id "Fabmicro:Resistor")
-		(at 271.1774 115.4261 0)
+		(at 268.4469 145.4616 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16308,7 +18976,7 @@
 		(dnp no)
 		(uuid "ce46eee6-3fd3-45e9-ab90-89df619c1c09")
 		(property "Reference" "R24"
-			(at 264.9544 114.4101 0)
+			(at 262.2239 144.4456 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16319,7 +18987,7 @@
 			)
 		)
 		(property "Value" "51R/1%"
-			(at 274.5232 114.4016 0)
+			(at 271.7927 144.4371 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16330,7 +18998,7 @@
 			)
 		)
 		(property "Footprint" "Fabmicro:R_0402_1005Metric"
-			(at 271.1774 117.2041 0)
+			(at 268.4469 147.2396 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16341,7 +19009,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.1774 115.4261 90)
+			(at 268.4469 145.4616 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16352,7 +19020,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 271.1774 115.4261 0)
+			(at 268.4469 145.4616 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16362,7 +19030,7 @@
 			)
 		)
 		(property "Mfr. Part Number" "RC0402FR-0751RL"
-			(at 271.1774 115.4261 0)
+			(at 268.4469 145.4616 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16373,7 +19041,7 @@
 			)
 		)
 		(property "Supplier" "Fabmicro"
-			(at 271.1774 115.4261 0)
+			(at 268.4469 145.4616 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16393,6 +19061,108 @@
 			(project "Karnix_ASB"
 				(path "/fe37e245-9527-4c72-91fc-09b617a42f73"
 					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Fabmicro:CapacitorUnpolarized")
+		(at 299.72 64.389 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cf55ddc7-ac7c-4df6-9c8c-630541dbca76")
+		(property "Reference" "C75"
+			(at 303.0066 76.5811 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF/50V"
+			(at 310.3788 61.9987 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fabmicro:C_0402_1005Metric"
+			(at 298.7548 60.579 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 299.72 64.389 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 299.72 64.389 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. Part Number" "CC0402KRX7R9BB104"
+			(at 299.72 64.389 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "Fabmicro"
+			(at 299.72 64.389 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "84d6de68-2256-4d7a-aff1-129d25b63a22")
+		)
+		(pin "2"
+			(uuid "edaa77bd-cd0b-458c-b836-de4f37ac3277")
+		)
+		(instances
+			(project "Karnix_ASB"
+				(path "/fe37e245-9527-4c72-91fc-09b617a42f73"
+					(reference "C75")
 					(unit 1)
 				)
 			)
@@ -16501,8 +19271,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Fabmicro:+3V3")
-		(at 243.2374 107.8061 90)
+		(lib_id "Fabmicro:Ferrite_Beads")
+		(at 278.0525 41.91 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16510,10 +19281,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "d33b70fa-8e96-4625-aa0a-97d0b2ffa490")
-		(property "Reference" "#PWR09"
-			(at 247.0474 107.8061 0)
-			(hide yes)
+		(uuid "d15149ca-bd26-40ab-ac6c-c54818fe096d")
+		(property "Reference" "L12"
+			(at 276.7825 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16522,8 +19292,8 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 238.2082 107.6791 90)
+		(property "Value" "330R/1.2A"
+			(at 277.7985 42.926 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16532,8 +19302,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 243.2374 107.8061 0)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+			(at 278.0525 41.91 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16544,7 +19314,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 243.2374 107.8061 0)
+			(at 278.0525 41.91 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16555,7 +19325,119 @@
 			)
 		)
 		(property "Description" ""
-			(at 243.2374 107.8061 0)
+			(at 278.0525 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 278.0525 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. Part Number" "BLM18PG331SN1D"
+			(at 278.0525 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "Fabmicro"
+			(at 278.0525 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f3533ca4-5c2f-45bb-a7b5-d88dd0106c58")
+		)
+		(pin "2"
+			(uuid "be6787b3-3389-4fc1-81a9-cb9fb2b81daa")
+		)
+		(instances
+			(project "Karnix_ASB"
+				(path "/fe37e245-9527-4c72-91fc-09b617a42f73"
+					(reference "L12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Fabmicro:+3V3")
+		(at 240.5069 137.8416 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d33b70fa-8e96-4625-aa0a-97d0b2ffa490")
+		(property "Reference" "#PWR09"
+			(at 244.3169 137.8416 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 235.4777 137.7146 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.5069 137.8416 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.5069 137.8416 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 240.5069 137.8416 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16578,7 +19460,7 @@
 	)
 	(symbol
 		(lib_id "Fabmicro:Resistor")
-		(at 227.9974 105.2661 180)
+		(at 225.2669 135.3016 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16588,7 +19470,7 @@
 		(dnp no)
 		(uuid "d5708d13-73f9-4880-8a6d-45fc86401fbf")
 		(property "Reference" "R16"
-			(at 224.5938 104.4279 0)
+			(at 221.8633 134.4634 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16599,7 +19481,7 @@
 			)
 		)
 		(property "Value" "51R/1%"
-			(at 238.259 104.3263 0)
+			(at 235.5285 134.3618 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16610,7 +19492,7 @@
 			)
 		)
 		(property "Footprint" "Fabmicro:R_0402_1005Metric"
-			(at 227.9974 103.4881 0)
+			(at 225.2669 133.5236 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16621,7 +19503,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.9974 105.2661 90)
+			(at 225.2669 135.3016 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16632,7 +19514,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 227.9974 105.2661 0)
+			(at 225.2669 135.3016 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16642,7 +19524,7 @@
 			)
 		)
 		(property "Mfr. Part Number" "RC0402FR-0751RL"
-			(at 227.9974 105.2661 0)
+			(at 225.2669 135.3016 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16653,7 +19535,7 @@
 			)
 		)
 		(property "Supplier" "Fabmicro"
-			(at 227.9974 105.2661 0)
+			(at 225.2669 135.3016 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16680,7 +19562,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 243.2374 135.7461 270)
+		(at 240.5069 165.7816 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -16691,7 +19573,7 @@
 		(dnp no)
 		(uuid "d59fb66c-f873-433d-8072-ca445001dd51")
 		(property "Reference" "#PWR018"
-			(at 236.8874 135.7461 0)
+			(at 234.1569 165.7816 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16702,7 +19584,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 238.4114 135.7461 90)
+			(at 235.6809 165.7816 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16712,7 +19594,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 243.2374 135.7461 0)
+			(at 240.5069 165.7816 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16723,7 +19605,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 243.2374 135.7461 0)
+			(at 240.5069 165.7816 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16734,7 +19616,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 243.2374 135.7461 0)
+			(at 240.5069 165.7816 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16756,8 +19638,186 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 344.6145 74.6125 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d6bff554-8b5f-4333-a97a-1abfa3530f9f")
+		(property "Reference" "#PWR0224"
+			(at 344.6145 80.9625 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 344.6145 78.4225 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 344.6145 74.6125 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 344.6145 74.6125 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 344.6145 74.6125 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "46ea2903-934a-4409-81b0-6c3585896305")
+		)
+		(instances
+			(project "Karnix_ASB"
+				(path "/fe37e245-9527-4c72-91fc-09b617a42f73"
+					(reference "#PWR0224")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Fabmicro:CapacitorUnpolarized")
+		(at 311.531 64.262 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d7ef60cf-77d0-4706-bb8b-21d0f50f43a6")
+		(property "Reference" "C77"
+			(at 315.0778 76.2862 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF/25V"
+			(at 321.434 61.9578 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 310.5658 60.452 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 311.531 64.262 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 311.531 64.262 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. Part Number" "C2220C226J3RACTU"
+			(at 311.531 64.262 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "Fabmicro"
+			(at 311.531 64.262 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "364d8375-9189-4f0b-8ebb-d940b2d968b1")
+		)
+		(pin "2"
+			(uuid "afa0a072-0e6a-45e3-96ce-614b68deadaa")
+		)
+		(instances
+			(project "Karnix_ASB"
+				(path "/fe37e245-9527-4c72-91fc-09b617a42f73"
+					(reference "C77")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Fabmicro:DM3AT-SF-PEJM5")
-		(at 375.6025 115.951 0)
+		(at 372.872 145.9865 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16768,7 +19828,7 @@
 		(fields_autoplaced yes)
 		(uuid "d940e228-70c1-4472-86f3-5a938d73139f")
 		(property "Reference" "XS2"
-			(at 375.6025 91.2945 0)
+			(at 372.872 121.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16778,7 +19838,7 @@
 			)
 		)
 		(property "Value" "DM3AT-SF-PEJM5"
-			(at 375.6025 93.8345 0)
+			(at 372.872 123.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16788,7 +19848,7 @@
 			)
 		)
 		(property "Footprint" "Fabmicro:HRS_DM3AT-SF-PEJM5"
-			(at 375.6025 115.951 0)
+			(at 372.872 145.9865 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16800,7 +19860,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 375.6025 115.951 0)
+			(at 372.872 145.9865 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16811,7 +19871,7 @@
 			)
 		)
 		(property "Description" "10 (8 + 2) Position Card Connector Secure Digital - microSD™ Surface Mount, Right Angle Gold"
-			(at 375.6025 115.951 0)
+			(at 372.872 145.9865 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16823,7 +19883,7 @@
 			)
 		)
 		(property "MF" "Hirose"
-			(at 375.6025 115.951 0)
+			(at 372.872 145.9865 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16835,7 +19895,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.83 mm"
-			(at 375.6025 115.951 0)
+			(at 372.872 145.9865 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16847,7 +19907,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 375.6025 115.951 0)
+			(at 372.872 145.9865 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16859,7 +19919,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 375.6025 115.951 0)
+			(at 372.872 145.9865 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16871,7 +19931,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/DM3AT-SF-PEJM5/Hirose+Electric+Co+Ltd/view-part/?ref=eda"
-			(at 375.6025 115.951 0)
+			(at 372.872 145.9865 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16883,7 +19943,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 375.6025 115.951 0)
+			(at 372.872 145.9865 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16895,7 +19955,7 @@
 			)
 		)
 		(property "PARTREV" "20200913"
-			(at 375.6025 115.951 0)
+			(at 372.872 145.9865 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16907,7 +19967,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/DM3AT-SF-PEJM5/Hirose+Electric+Co+Ltd/view-part/?ref=snap"
-			(at 375.6025 115.951 0)
+			(at 372.872 145.9865 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16919,7 +19979,7 @@
 			)
 		)
 		(property "MP" "DM3AT-SF-PEJM5"
-			(at 375.6025 115.951 0)
+			(at 372.872 145.9865 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16931,7 +19991,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 375.6025 115.951 0)
+			(at 372.872 145.9865 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16943,7 +20003,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Hirose Electric Co Ltd"
-			(at 375.6025 115.951 0)
+			(at 372.872 145.9865 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16955,7 +20015,7 @@
 			)
 		)
 		(property "Mfr. Part Number" "DM3AT-SF-PEJM5"
-			(at 375.6025 115.951 0)
+			(at 372.872 145.9865 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17195,8 +20255,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Fabmicro:Ferrite_Beads")
-		(at 392.684 91.821 90)
+		(lib_id "power:GND")
+		(at 311.531 76.327 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17204,9 +20264,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "e8031646-1de4-4dc2-86f4-750449eaad94")
-		(property "Reference" "L8"
-			(at 389.509 91.821 0)
+		(uuid "e7ef1df4-3e4f-427c-8492-baf7a5bf2d3d")
+		(property "Reference" "#PWR0200"
+			(at 311.531 82.677 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17215,8 +20276,8 @@
 				)
 			)
 		)
-		(property "Value" "330R/1.2A"
-			(at 394.462 92.1385 0)
+		(property "Value" "GND"
+			(at 311.531 80.137 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17225,8 +20286,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 392.684 91.821 90)
+		(property "Footprint" ""
+			(at 311.531 76.327 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17237,7 +20298,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 392.684 91.821 90)
+			(at 311.531 76.327 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17248,7 +20309,82 @@
 			)
 		)
 		(property "Description" ""
-			(at 392.684 91.821 0)
+			(at 311.531 76.327 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "31c97c33-26f4-4e70-8e89-21f0929d4571")
+		)
+		(instances
+			(project "Karnix_ASB"
+				(path "/fe37e245-9527-4c72-91fc-09b617a42f73"
+					(reference "#PWR0200")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Fabmicro:Ferrite_Beads")
+		(at 389.9535 121.8565 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e8031646-1de4-4dc2-86f4-750449eaad94")
+		(property "Reference" "L8"
+			(at 386.7785 121.8565 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330R/1.2A"
+			(at 391.7315 122.174 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+			(at 389.9535 121.8565 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 389.9535 121.8565 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 389.9535 121.8565 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17258,7 +20394,7 @@
 			)
 		)
 		(property "PN" ""
-			(at 392.684 91.821 0)
+			(at 389.9535 121.8565 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17269,7 +20405,7 @@
 			)
 		)
 		(property "Mfr. Part Number" "BLM18PG331SN1D"
-			(at 392.684 91.821 0)
+			(at 389.9535 121.8565 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17280,7 +20416,7 @@
 			)
 		)
 		(property "Supplier" "Fabmicro"
-			(at 392.684 91.821 0)
+			(at 389.9535 121.8565 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17291,7 +20427,7 @@
 			)
 		)
 		(property "Mfr. PartNumber" ""
-			(at 392.684 91.821 0)
+			(at 389.9535 121.8565 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17394,9 +20530,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 255.9374 102.7261 90)
-		(mirror x)
+		(lib_id "Fabmicro:Resistor")
+		(at 322.199 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17404,10 +20539,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "ecb4d1f1-9f1d-4884-9679-d966368d0cac")
-		(property "Reference" "#PWR08"
-			(at 262.2874 102.7261 0)
-			(hide yes)
+		(uuid "eba8f79a-be05-4384-893d-8cfee282a000")
+		(property "Reference" "R194"
+			(at 315.849 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17416,8 +20550,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 260.7634 102.7261 90)
+		(property "Value" "22R/1%"
+			(at 329.819 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17426,8 +20560,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 255.9374 102.7261 0)
+		(property "Footprint" "Fabmicro:R_0402_1005Metric"
+			(at 322.199 58.928 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17438,7 +20572,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 255.9374 102.7261 0)
+			(at 322.199 57.15 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17449,7 +20583,120 @@
 			)
 		)
 		(property "Description" ""
-			(at 255.9374 102.7261 0)
+			(at 322.199 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. Part Number" "RC0402FR-0722RL"
+			(at 322.199 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "Fabmicro"
+			(at 322.199 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. PartNumber" ""
+			(at 322.199 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "28e23ef3-fa1c-449c-9335-12d65f65a5f9")
+		)
+		(pin "2"
+			(uuid "ada38a24-828a-4301-bc98-7d72c8b56646")
+		)
+		(instances
+			(project "Karnix_ASB"
+				(path "/fe37e245-9527-4c72-91fc-09b617a42f73"
+					(reference "R194")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 253.2069 132.7616 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ecb4d1f1-9f1d-4884-9679-d966368d0cac")
+		(property "Reference" "#PWR08"
+			(at 259.5569 132.7616 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 258.0329 132.7616 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 253.2069 132.7616 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 253.2069 132.7616 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 253.2069 132.7616 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17471,8 +20718,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 244.5 184.8 0)
+		(lib_id "Connector:USB_A_Stacked")
+		(at 344.805 52.07 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -17481,9 +20728,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "ed93c575-9bb9-45c3-bdf8-2960ef34a60e")
-		(property "Reference" "#PWR0137"
-			(at 244.5 191.15 0)
+		(uuid "ed8bc394-b9fc-4c37-b6c3-fb7e4247cf6c")
+		(property "Reference" "XS7"
+			(at 339.725 35.814 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "USBA-2J"
+			(at 339.725 37.846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB_A_Wuerth_61400826021_Horizontal_Stacked"
+			(at 340.995 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17491,31 +20760,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 244.5 188.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 244.5 184.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 244.5 184.8 0)
+		(property "Datasheet" "~"
+			(at 339.725 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17526,7 +20775,119 @@
 			)
 		)
 		(property "Description" ""
-			(at 244.5 184.8 0)
+			(at 344.805 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. Part Number" "USBA-2J"
+			(at 344.805 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "997a06fc-f1ce-49bd-8dc4-e0ba41cdc1d3")
+		)
+		(pin "2"
+			(uuid "6fe1950a-50ca-4c5d-b7f0-99c5d6b42193")
+		)
+		(pin "3"
+			(uuid "93c61b24-261e-4223-b208-6432f715724f")
+		)
+		(pin "4"
+			(uuid "6d3741f6-1fa9-433d-b942-7078306a8986")
+		)
+		(pin "5"
+			(uuid "1921a1f7-f85a-4449-8a0d-3a8f2c16d44b")
+		)
+		(pin "6"
+			(uuid "05285621-8972-4e9b-840e-acc67b4228a9")
+		)
+		(pin "7"
+			(uuid "7de50f19-4350-4bfb-916c-c049d52b4773")
+		)
+		(pin "8"
+			(uuid "43306956-96a5-47b1-a24c-87d6b9ae3bfb")
+		)
+		(pin "9"
+			(uuid "3ff71958-0989-4f0e-9230-658cefb68438")
+		)
+		(instances
+			(project "Karnix_ASB"
+				(path "/fe37e245-9527-4c72-91fc-09b617a42f73"
+					(reference "XS7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 241.7695 214.8355 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ed93c575-9bb9-45c3-bdf8-2960ef34a60e")
+		(property "Reference" "#PWR0137"
+			(at 241.7695 221.1855 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 241.7695 218.6455 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.7695 214.8355 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.7695 214.8355 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 241.7695 214.8355 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17548,8 +20909,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Fabmicro:Resistor")
-		(at 271.2282 112.9115 0)
+		(lib_id "Fabmicro:ProtectiveDiodeDA")
+		(at 263.6582 68.6026 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17557,31 +20918,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "ef86af82-e1b0-4c66-9e16-6311e7042fa2")
-		(property "Reference" "R22"
-			(at 265.0052 111.8955 0)
+		(uuid "eec623da-5b7f-424d-8d77-799321cfcabc")
+		(property "Reference" "D19"
+			(at 265.6648 62.3542 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "51R/1%"
-			(at 274.574 111.887 0)
+		(property "Value" "PGB1010603NRHF"
+			(at 267.011 64.6148 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Fabmicro:R_0402_1005Metric"
-			(at 271.2282 114.6895 0)
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
+			(at 263.6582 62.2526 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17592,7 +20953,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.2282 112.9115 90)
+			(at 263.6582 62.2526 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17603,7 +20964,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 271.2282 112.9115 0)
+			(at 263.6582 68.6026 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17612,8 +20973,8 @@
 				)
 			)
 		)
-		(property "Mfr. Part Number" "RC0402FR-0751RL"
-			(at 271.2282 112.9115 0)
+		(property "Mfr. Part Number" "PGB1010603NRHF"
+			(at 263.6582 68.6026 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17624,7 +20985,109 @@
 			)
 		)
 		(property "Supplier" "Fabmicro"
-			(at 271.2282 112.9115 0)
+			(at 263.6582 68.6026 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b779182d-a061-419e-a6cb-c720adee3b88")
+		)
+		(pin "2"
+			(uuid "dab46b29-9988-44fe-99bd-95d151a36257")
+		)
+		(instances
+			(project "Karnix_ASB"
+				(path "/fe37e245-9527-4c72-91fc-09b617a42f73"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Fabmicro:Resistor")
+		(at 268.4977 142.947 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ef86af82-e1b0-4c66-9e16-6311e7042fa2")
+		(property "Reference" "R22"
+			(at 262.2747 141.931 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "51R/1%"
+			(at 271.8435 141.9225 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fabmicro:R_0402_1005Metric"
+			(at 268.4977 144.725 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 268.4977 142.947 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 268.4977 142.947 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. Part Number" "RC0402FR-0751RL"
+			(at 268.4977 142.947 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "Fabmicro"
+			(at 268.4977 142.947 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17740,7 +21203,7 @@
 	)
 	(symbol
 		(lib_id "Fabmicro:+3V3")
-		(at 392.684 85.471 0)
+		(at 389.9535 115.5065 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17750,7 +21213,7 @@
 		(dnp no)
 		(uuid "fd4bb0da-04ef-4210-b2f1-4d98ca892fc1")
 		(property "Reference" "#PWR0188"
-			(at 392.684 89.281 0)
+			(at 389.9535 119.3165 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17761,7 +21224,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 392.303 81.661 0)
+			(at 389.5725 111.6965 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17771,7 +21234,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 392.684 85.471 0)
+			(at 389.9535 115.5065 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17782,7 +21245,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 392.684 85.471 0)
+			(at 389.9535 115.5065 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17793,7 +21256,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 392.684 85.471 0)
+			(at 389.9535 115.5065 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17809,6 +21272,108 @@
 			(project "Karnix_ASB"
 				(path "/fe37e245-9527-4c72-91fc-09b617a42f73"
 					(reference "#PWR0188")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Fabmicro:ProtectiveDiodeDA")
+		(at 283.8124 68.607 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ffd8c840-7153-47a7-858c-834f242b9b33")
+		(property "Reference" "D25"
+			(at 285.819 62.3586 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PGB1010603NRHF"
+			(at 287.1652 64.6192 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
+			(at 283.8124 62.257 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 283.8124 62.257 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 283.8124 68.607 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. Part Number" "PGB1010603NRHF"
+			(at 283.8124 68.607 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "Fabmicro"
+			(at 283.8124 68.607 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "50895d3c-f2f1-4b3b-95b3-6af00185ac7f")
+		)
+		(pin "2"
+			(uuid "5760d737-26ef-47d0-873f-e095d93b872e")
+		)
+		(instances
+			(project "Karnix_ASB"
+				(path "/fe37e245-9527-4c72-91fc-09b617a42f73"
+					(reference "D25")
 					(unit 1)
 				)
 			)
