@@ -1853,7 +1853,7 @@
         "uuid": "fe37e245-9527-4c72-91fc-09b617a42f73"
       }
     ],
-    "used_designators": "SW1,XS7,R124,R130,R132,R134,R191-194,L12,F3,D15,D19,D24-25,C75,C77,C79,C81,C93,C105,#PWR181,#PWR185,#PWR194,#PWR196-198,#PWR200-202,#PWR204,#PWR223-225",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -1890,12 +1890,12 @@
       "FDTI Programmer"
     ],
     [
-      "771a2f8e-8b1f-4827-b0b6-ff5ddf1233b7",
-      "SRAM"
-    ],
-    [
       "2d9a9b0e-634c-4e37-98be-eac552f0fdca",
       "EEPROM"
+    ],
+    [
+      "f518ff51-5015-42ef-aac4-bf4c2da2b077",
+      "SDRAM"
     ]
   ],
   "text_variables": {},

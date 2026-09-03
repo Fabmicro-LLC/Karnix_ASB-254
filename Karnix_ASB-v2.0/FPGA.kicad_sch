@@ -6178,12 +6178,6 @@
 		(uuid "feef2914-a9a2-4c0f-b8a7-22499d3b40eb")
 	)
 	(junction
-		(at 106.045 132.715)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0356b6c4-eb7f-4c58-9b0c-03b0a188ad80")
-	)
-	(junction
 		(at 286.385 102.235)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6218,6 +6212,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "141a9e1e-31c6-44ba-abba-99826957c866")
+	)
+	(junction
+		(at 106.045 132.715)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "146547b2-d0d1-4633-b777-78a8a56b5411")
 	)
 	(junction
 		(at 339.725 153.035)
@@ -6478,12 +6478,6 @@
 		(uuid "931498c0-c675-4bb4-82d9-bf00609a3b7f")
 	)
 	(junction
-		(at 116.205 135.255)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9590d49e-41b3-46dc-8a06-96ed58b4f2cd")
-	)
-	(junction
 		(at 339.725 180.975)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6524,6 +6518,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a43f9dd7-82fa-4ca8-a6bd-714d2912a74c")
+	)
+	(junction
+		(at 116.205 135.255)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad8f6969-d456-416e-a7e0-2541b4c37866")
 	)
 	(junction
 		(at 393.065 140.335)
@@ -6757,7 +6757,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.2 175.94) (xy 159 175.94)
+			(xy 163.576 175.9585) (xy 157.376 175.9585)
 		)
 		(stroke
 			(width 0)
@@ -7047,7 +7047,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.9 203.88) (xy 157.9 203.835)
+			(xy 156.276 203.8985) (xy 156.276 203.835)
 		)
 		(stroke
 			(width 0)
@@ -7077,7 +7077,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.8 181.02) (xy 158.8 180.975)
+			(xy 157.176 181.0385) (xy 157.176 180.975)
 		)
 		(stroke
 			(width 0)
@@ -7117,7 +7117,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.2 203.88) (xy 157.9 203.88)
+			(xy 163.576 203.8985) (xy 156.276 203.8985)
 		)
 		(stroke
 			(width 0)
@@ -7307,7 +7307,7 @@
 	)
 	(wire
 		(pts
-			(xy 159.1 173.355) (xy 156.845 173.355)
+			(xy 157.476 173.355) (xy 156.845 173.355)
 		)
 		(stroke
 			(width 0)
@@ -7317,7 +7317,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.3 193.675) (xy 156.845 193.675)
+			(xy 156.676 193.675) (xy 156.845 193.675)
 		)
 		(stroke
 			(width 0)
@@ -7347,7 +7347,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.4 191.18) (xy 158.4 191.135)
+			(xy 156.776 191.1985) (xy 156.776 191.135)
 		)
 		(stroke
 			(width 0)
@@ -7387,7 +7387,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.2 178.48) (xy 158.9 178.48)
+			(xy 163.576 178.4985) (xy 157.276 178.4985)
 		)
 		(stroke
 			(width 0)
@@ -7587,7 +7587,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.3 193.72) (xy 158.3 193.675)
+			(xy 156.676 193.7385) (xy 156.676 193.675)
 		)
 		(stroke
 			(width 0)
@@ -7637,16 +7637,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.6 211.5) (xy 157.6 211.455)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30bc3bfb-667e-42da-a02a-76c3460d7700")
-	)
-	(wire
-		(pts
 			(xy 327.025 81.915) (xy 342.265 81.915)
 		)
 		(stroke
@@ -7684,16 +7674,6 @@
 			(type default)
 		)
 		(uuid "35869e37-0c27-473d-99a0-1402b3ea50f0")
-	)
-	(wire
-		(pts
-			(xy 157.7 208.915) (xy 156.845 208.915)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35b27ad3-63ed-4c5f-8df2-e3e7d70c0460")
 	)
 	(wire
 		(pts
@@ -7767,7 +7747,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.2 173.4) (xy 159.1 173.4)
+			(xy 163.576 173.4185) (xy 157.476 173.4185)
 		)
 		(stroke
 			(width 0)
@@ -7927,7 +7907,7 @@
 	)
 	(wire
 		(pts
-			(xy 158 201.295) (xy 156.845 201.295)
+			(xy 156.376 201.295) (xy 156.845 201.295)
 		)
 		(stroke
 			(width 0)
@@ -8027,16 +8007,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.7 208.96) (xy 157.7 208.915)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48edb5c3-2bbc-4fe6-82b0-01a9c75959eb")
-	)
-	(wire
-		(pts
 			(xy 78.2574 175.9204) (xy 78.105 175.9204)
 		)
 		(stroke
@@ -8077,6 +8047,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 206.375) (xy 156.845 206.375)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d9ed631-7058-4a9a-b216-c4917960fb70")
+	)
+	(wire
+		(pts
 			(xy 67.945 267.335) (xy 45.085 267.335)
 		)
 		(stroke
@@ -8104,6 +8084,16 @@
 			(type default)
 		)
 		(uuid "4ebbf422-c022-4399-baf0-9e306eabb041")
+	)
+	(wire
+		(pts
+			(xy 163.83 208.915) (xy 156.845 208.915)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4edd5e5a-79e8-4228-b638-edc7496c7125")
 	)
 	(wire
 		(pts
@@ -8307,7 +8297,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.2 196.26) (xy 158.2 196.215)
+			(xy 156.576 196.2785) (xy 156.576 196.215)
 		)
 		(stroke
 			(width 0)
@@ -8357,7 +8347,7 @@
 	)
 	(wire
 		(pts
-			(xy 159 175.94) (xy 159 175.895)
+			(xy 157.376 175.9585) (xy 157.376 175.895)
 		)
 		(stroke
 			(width 0)
@@ -8477,7 +8467,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.6 186.055) (xy 156.845 186.055)
+			(xy 156.976 186.055) (xy 156.845 186.055)
 		)
 		(stroke
 			(width 0)
@@ -8497,7 +8487,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.2 196.215) (xy 156.845 196.215)
+			(xy 156.576 196.215) (xy 156.845 196.215)
 		)
 		(stroke
 			(width 0)
@@ -8527,7 +8517,7 @@
 	)
 	(wire
 		(pts
-			(xy 158 201.34) (xy 158 201.295)
+			(xy 156.376 201.3585) (xy 156.376 201.295)
 		)
 		(stroke
 			(width 0)
@@ -8887,17 +8877,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.8 206.375) (xy 156.845 206.375)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75fdf02a-b517-4f88-96f4-7d79ed238194")
-	)
-	(wire
-		(pts
-			(xy 165.2 181.02) (xy 158.8 181.02)
+			(xy 163.576 181.0385) (xy 157.176 181.0385)
 		)
 		(stroke
 			(width 0)
@@ -8927,7 +8907,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.9 203.835) (xy 156.845 203.835)
+			(xy 156.276 203.835) (xy 156.845 203.835)
 		)
 		(stroke
 			(width 0)
@@ -9177,7 +9157,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.2 188.64) (xy 158.5 188.64)
+			(xy 163.576 188.6585) (xy 156.876 188.6585)
 		)
 		(stroke
 			(width 0)
@@ -9207,7 +9187,7 @@
 	)
 	(wire
 		(pts
-			(xy 159.1 173.4) (xy 159.1 173.355)
+			(xy 157.476 173.4185) (xy 157.476 173.355)
 		)
 		(stroke
 			(width 0)
@@ -9217,7 +9197,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.9 178.48) (xy 158.9 178.435)
+			(xy 157.276 178.4985) (xy 157.276 178.435)
 		)
 		(stroke
 			(width 0)
@@ -9357,7 +9337,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.1 198.8) (xy 158.1 198.755)
+			(xy 156.476 198.8185) (xy 156.476 198.755)
 		)
 		(stroke
 			(width 0)
@@ -9477,7 +9457,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.2 193.72) (xy 158.3 193.72)
+			(xy 163.576 193.7385) (xy 156.676 193.7385)
 		)
 		(stroke
 			(width 0)
@@ -9527,7 +9507,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.2 191.18) (xy 158.4 191.18)
+			(xy 163.576 191.1985) (xy 156.776 191.1985)
 		)
 		(stroke
 			(width 0)
@@ -9717,17 +9697,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.2 208.96) (xy 157.7 208.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7a2a3fe-7466-4073-83ae-3830bce8a983")
-	)
-	(wire
-		(pts
-			(xy 165.2 201.34) (xy 158 201.34)
+			(xy 163.576 201.3585) (xy 156.376 201.3585)
 		)
 		(stroke
 			(width 0)
@@ -9797,7 +9767,7 @@
 	)
 	(wire
 		(pts
-			(xy 159 175.895) (xy 156.845 175.895)
+			(xy 157.376 175.895) (xy 156.845 175.895)
 		)
 		(stroke
 			(width 0)
@@ -9837,7 +9807,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.8 180.975) (xy 156.845 180.975)
+			(xy 157.176 180.975) (xy 156.845 180.975)
 		)
 		(stroke
 			(width 0)
@@ -9847,7 +9817,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.2 196.26) (xy 158.2 196.26)
+			(xy 163.576 196.2785) (xy 156.576 196.2785)
 		)
 		(stroke
 			(width 0)
@@ -9857,7 +9827,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.7 183.56) (xy 158.7 183.515)
+			(xy 157.076 183.5785) (xy 157.076 183.515)
 		)
 		(stroke
 			(width 0)
@@ -9874,6 +9844,16 @@
 			(type default)
 		)
 		(uuid "b02f3133-de6c-480e-922b-95b984d2987e")
+	)
+	(wire
+		(pts
+			(xy 163.83 211.455) (xy 156.845 211.455)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b05df5d2-5241-45fb-9cb1-c8537c3be779")
 	)
 	(wire
 		(pts
@@ -9937,7 +9917,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.9 178.435) (xy 156.845 178.435)
+			(xy 157.276 178.435) (xy 156.845 178.435)
 		)
 		(stroke
 			(width 0)
@@ -10077,7 +10057,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.2 198.8) (xy 158.1 198.8)
+			(xy 163.576 198.8185) (xy 156.476 198.8185)
 		)
 		(stroke
 			(width 0)
@@ -10567,7 +10547,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.5 188.595) (xy 156.845 188.595)
+			(xy 156.876 188.595) (xy 156.845 188.595)
 		)
 		(stroke
 			(width 0)
@@ -10707,16 +10687,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.6 211.455) (xy 156.845 211.455)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da37b5b8-8799-4100-aba7-7c4fc2d27fcd")
-	)
-	(wire
-		(pts
 			(xy 382.905 178.435) (xy 382.905 180.975)
 		)
 		(stroke
@@ -10827,7 +10797,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.4 191.135) (xy 156.845 191.135)
+			(xy 156.776 191.135) (xy 156.845 191.135)
 		)
 		(stroke
 			(width 0)
@@ -10847,7 +10817,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.6 186.1) (xy 158.6 186.055)
+			(xy 156.976 186.1185) (xy 156.976 186.055)
 		)
 		(stroke
 			(width 0)
@@ -10887,7 +10857,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.5 188.64) (xy 158.5 188.595)
+			(xy 156.876 188.6585) (xy 156.876 188.595)
 		)
 		(stroke
 			(width 0)
@@ -10917,17 +10887,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.2 211.5) (xy 157.6 211.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8ddaff1-f946-4f8f-bfa3-cec3470ad0b7")
-	)
-	(wire
-		(pts
-			(xy 158.7 183.515) (xy 156.845 183.515)
+			(xy 157.076 183.515) (xy 156.845 183.515)
 		)
 		(stroke
 			(width 0)
@@ -10944,16 +10904,6 @@
 			(type default)
 		)
 		(uuid "ea38cc9e-2031-48ab-ad01-c054e70ca9d0")
-	)
-	(wire
-		(pts
-			(xy 165.2 206.42) (xy 157.8 206.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea9658a3-6a76-41ac-ab8b-08edc92fea00")
 	)
 	(wire
 		(pts
@@ -11097,7 +11047,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.1 198.755) (xy 156.845 198.755)
+			(xy 156.476 198.755) (xy 156.845 198.755)
 		)
 		(stroke
 			(width 0)
@@ -11157,7 +11107,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.2 186.1) (xy 158.6 186.1)
+			(xy 163.576 186.1185) (xy 156.976 186.1185)
 		)
 		(stroke
 			(width 0)
@@ -11187,7 +11137,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.2 183.56) (xy 158.7 183.56)
+			(xy 163.576 183.5785) (xy 157.076 183.5785)
 		)
 		(stroke
 			(width 0)
@@ -11294,16 +11244,6 @@
 			(type default)
 		)
 		(uuid "f9fcac9b-400d-4bcd-a965-17c9784482ed")
-	)
-	(wire
-		(pts
-			(xy 157.8 206.42) (xy 157.8 206.375)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa09d8fc-8dcd-4589-9c13-fb56821913e3")
 	)
 	(wire
 		(pts
@@ -11425,7 +11365,7 @@
 		)
 		(uuid "ffb7bb72-c42b-41a0-ac55-695fed576dcd")
 	)
-	(global_label "SRAM_D04"
+	(global_label "SDRAM_DQ04"
 		(shape input)
 		(at 161.925 142.875 0)
 		(effects
@@ -11493,7 +11433,7 @@
 			)
 		)
 	)
-	(global_label "SRAM_D02"
+	(global_label "SDRAM_DQ02"
 		(shape input)
 		(at 161.925 137.795 0)
 		(effects
@@ -11505,6 +11445,28 @@
 		(uuid "03e6ca34-3822-4849-babe-64d53f3eed6b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 161.925 137.795 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "SDRAM_WE#"
+		(shape input)
+		(at 156.845 102.235 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "059f6441-37a7-43b4-a805-a32d67c3d3ae")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 156.845 102.235 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11643,6 +11605,28 @@
 		(uuid "14db3988-1f85-4b40-bd1a-c19865f402e5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 240.157 69.215 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "SDRAM_CKE"
+		(shape input)
+		(at 156.845 99.695 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "156e0628-c51a-4bf8-a6ef-e5ed1c40b58b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 156.845 99.695 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11809,7 +11793,7 @@
 			)
 		)
 	)
-	(global_label "SRAM_D15"
+	(global_label "SDRAM_DQ15"
 		(shape input)
 		(at 161.925 170.815 0)
 		(effects
@@ -11831,9 +11815,9 @@
 			)
 		)
 	)
-	(global_label "SRAM_A12"
+	(global_label "SDRAM_A12"
 		(shape input)
-		(at 165.2 203.88 0)
+		(at 163.576 203.8985 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11842,7 +11826,7 @@
 		)
 		(uuid "21e5cb0f-3435-4745-924d-77f614bfb219")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.2 203.88 0)
+			(at 163.576 203.8985 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11875,9 +11859,9 @@
 			)
 		)
 	)
-	(global_label "SRAM_A07"
+	(global_label "SDRAM_A07"
 		(shape input)
-		(at 165.2 191.18 0)
+		(at 163.576 191.1985 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11886,7 +11870,7 @@
 		)
 		(uuid "265a1dc2-d222-46ad-95c5-d47722d9bad4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.2 191.18 0)
+			(at 163.576 191.1985 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11919,28 +11903,6 @@
 			)
 		)
 	)
-	(global_label "SRAM_#WE"
-		(shape input)
-		(at 156.845 102.235 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "29e5c25e-7c19-407a-b0e3-15b8d59f68f3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.845 102.235 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
 	(global_label "GPIO_07"
 		(shape input)
 		(at 240.157 51.435 0)
@@ -11953,6 +11915,28 @@
 		(uuid "2a40478e-03df-4712-a99c-13252abc4b20")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 240.157 51.435 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "SDRAM_CS#"
+		(shape input)
+		(at 156.845 97.155 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2ac30b5a-fb1f-4517-a546-68eb72ea69a3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 156.845 97.155 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12078,6 +12062,28 @@
 			)
 		)
 	)
+	(global_label "SDRAM_DQML"
+		(shape input)
+		(at 156.845 107.315 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2d1e3e82-97d2-47fe-9c71-6bc8f5c3e560")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 156.845 107.315 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
 	(global_label "DAC_SPI_MOSI"
 		(shape input)
 		(at 156.845 36.195 0)
@@ -12146,9 +12152,9 @@
 			)
 		)
 	)
-	(global_label "SRAM_A10"
+	(global_label "SDRAM_A10"
 		(shape input)
-		(at 165.2 198.8 0)
+		(at 163.576 198.8185 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12157,7 +12163,7 @@
 		)
 		(uuid "31188fac-7f90-4a8b-834d-326edcccbf6d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.2 198.8 0)
+			(at 163.576 198.8185 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12234,9 +12240,9 @@
 			)
 		)
 	)
-	(global_label "SRAM_A03"
+	(global_label "SDRAM_A03"
 		(shape input)
-		(at 165.2 181.02 0)
+		(at 163.576 181.0385 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12245,7 +12251,7 @@
 		)
 		(uuid "38621d1b-5c2e-4f19-881d-ed3924da4c4c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.2 181.02 0)
+			(at 163.576 181.0385 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12300,9 +12306,9 @@
 			)
 		)
 	)
-	(global_label "SRAM_A02"
+	(global_label "SDRAM_A02"
 		(shape input)
-		(at 165.2 178.48 0)
+		(at 163.576 178.4985 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12311,7 +12317,7 @@
 		)
 		(uuid "3c60ebf5-0ebc-4067-85cf-b89155625af8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.2 178.48 0)
+			(at 163.576 178.4985 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12434,7 +12440,7 @@
 			)
 		)
 	)
-	(global_label "SRAM_D12"
+	(global_label "SDRAM_DQ12"
 		(shape input)
 		(at 161.925 163.195 0)
 		(effects
@@ -12446,28 +12452,6 @@
 		(uuid "4ba6fa4a-2ee6-446d-a202-82b154b48eb4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 161.925 163.195 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
-	(global_label "SRAM_#BLE"
-		(shape input)
-		(at 156.845 107.315 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4c4110e0-f8f0-436a-bac1-49739c34015f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.845 107.315 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12612,28 +12596,6 @@
 			)
 		)
 	)
-	(global_label "SRAM_#BHE"
-		(shape input)
-		(at 156.845 104.775 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "50744b2f-9e4b-47bd-bc32-463d5f63c668")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.845 104.775 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
 	(global_label "SD_DET"
 		(shape input)
 		(at 163.3855 51.435 0)
@@ -12680,9 +12642,9 @@
 			)
 		)
 	)
-	(global_label "SRAM_A05"
+	(global_label "SDRAM_A05"
 		(shape input)
-		(at 165.2 186.1 0)
+		(at 163.576 186.1185 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12691,7 +12653,7 @@
 		)
 		(uuid "5d8b3c21-978c-4efa-9d3a-4105a68c88ca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.2 186.1 0)
+			(at 163.576 186.1185 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12770,7 +12732,7 @@
 			)
 		)
 	)
-	(global_label "SRAM_D00"
+	(global_label "SDRAM_DQ00"
 		(shape input)
 		(at 161.925 132.715 0)
 		(effects
@@ -12836,9 +12798,9 @@
 			)
 		)
 	)
-	(global_label "SRAM_A06"
+	(global_label "SDRAM_A06"
 		(shape input)
-		(at 165.2 188.64 0)
+		(at 163.576 188.6585 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12847,7 +12809,7 @@
 		)
 		(uuid "64203498-1f11-45bf-89c0-697adc8b4263")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.2 188.64 0)
+			(at 163.576 188.6585 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12926,7 +12888,7 @@
 			)
 		)
 	)
-	(global_label "SRAM_D05"
+	(global_label "SDRAM_DQ05"
 		(shape input)
 		(at 161.925 145.415 0)
 		(effects
@@ -13236,6 +13198,28 @@
 			)
 		)
 	)
+	(global_label "SDRAM_BA1"
+		(shape input)
+		(at 163.83 208.915 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "84578b3d-b92b-46b0-a123-a3ef9d615fc3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 163.83 208.915 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
 	(global_label "GPIO_17"
 		(shape input)
 		(at 156.845 53.975 0)
@@ -13258,7 +13242,7 @@
 			)
 		)
 	)
-	(global_label "SRAM_D07"
+	(global_label "SDRAM_DQ07"
 		(shape input)
 		(at 161.925 150.495 0)
 		(effects
@@ -13392,28 +13376,6 @@
 			)
 		)
 	)
-	(global_label "SRAM_A13"
-		(shape input)
-		(at 165.2 206.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9032d2f6-326a-4d7d-ab94-84ec1ca3a7fe")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.2 206.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
 	(global_label "HDMI_TX2+"
 		(shape input)
 		(at 84.5 148 0)
@@ -13482,7 +13444,7 @@
 			)
 		)
 	)
-	(global_label "SRAM_D11"
+	(global_label "SDRAM_DQ11"
 		(shape input)
 		(at 161.925 160.655 0)
 		(effects
@@ -13504,7 +13466,7 @@
 			)
 		)
 	)
-	(global_label "SRAM_D06"
+	(global_label "SDRAM_DQ06"
 		(shape input)
 		(at 161.925 147.955 0)
 		(effects
@@ -13526,18 +13488,18 @@
 			)
 		)
 	)
-	(global_label "SRAM_#CS"
+	(global_label "SDRAM_CLK"
 		(shape input)
-		(at 156.845 97.155 0)
+		(at 163.83 211.455 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "9cfe410f-fe0d-4ed0-8f15-d5e402b38ffa")
+		(uuid "9acb0a69-25ec-439a-bd26-1dc3f411e979")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.845 97.155 0)
+			(at 163.83 211.455 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13592,29 +13554,7 @@
 			)
 		)
 	)
-	(global_label "SRAM_A15"
-		(shape input)
-		(at 165.2 211.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a0fe950d-2e2e-4a7d-9b98-407437599326")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.2 211.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
-	(global_label "SRAM_D01"
+	(global_label "SDRAM_DQ01"
 		(shape input)
 		(at 161.925 135.255 0)
 		(effects
@@ -13680,7 +13620,7 @@
 			)
 		)
 	)
-	(global_label "SRAM_D03"
+	(global_label "SDRAM_DQ03"
 		(shape input)
 		(at 161.925 140.335 0)
 		(effects
@@ -13692,28 +13632,6 @@
 		(uuid "a720119d-5707-4a05-a614-ef68bf65aa2a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 161.925 140.335 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
-	(global_label "SRAM_A14"
-		(shape input)
-		(at 165.2 208.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a895ebe6-a7b8-41f8-9313-b8ece4a51086")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.2 208.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13748,6 +13666,28 @@
 			)
 		)
 	)
+	(global_label "SDRAM_BA0"
+		(shape input)
+		(at 163.83 206.375 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a94a1add-3955-4458-83d6-8ca2d8fed717")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 163.83 206.375 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
 	(global_label "SD_D3"
 		(shape input)
 		(at 164.5285 66.675 0)
@@ -13772,9 +13712,9 @@
 			)
 		)
 	)
-	(global_label "SRAM_A09"
+	(global_label "SDRAM_A09"
 		(shape input)
-		(at 165.2 196.26 0)
+		(at 163.576 196.2785 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13783,7 +13723,7 @@
 		)
 		(uuid "ae281832-2d3f-422a-8795-0dbce949d346")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.2 196.26 0)
+			(at 163.576 196.2785 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13932,9 +13872,9 @@
 			)
 		)
 	)
-	(global_label "SRAM_A01"
+	(global_label "SDRAM_A01"
 		(shape input)
-		(at 165.2 175.94 0)
+		(at 163.576 175.9585 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13943,7 +13883,7 @@
 		)
 		(uuid "ba57a936-67d4-4bc5-bf42-fc912a34977f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.2 175.94 0)
+			(at 163.576 175.9585 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13954,7 +13894,7 @@
 			)
 		)
 	)
-	(global_label "SRAM_D13"
+	(global_label "SDRAM_DQ13"
 		(shape input)
 		(at 161.925 165.735 0)
 		(effects
@@ -14024,7 +13964,7 @@
 			)
 		)
 	)
-	(global_label "SRAM_D14"
+	(global_label "SDRAM_DQ14"
 		(shape input)
 		(at 161.925 168.275 0)
 		(effects
@@ -14068,6 +14008,28 @@
 			)
 		)
 	)
+	(global_label "SDRAM_RAS#"
+		(shape input)
+		(at 156.845 112.395 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c13066c2-045f-46a5-862c-2de8f302df96")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 156.845 112.395 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
 	(global_label "LAN_RXD3"
 		(shape input)
 		(at 250.825 168.275 0)
@@ -14090,31 +14052,9 @@
 			)
 		)
 	)
-	(global_label "SRAM_A16"
+	(global_label "SDRAM_A08"
 		(shape input)
-		(at 156.845 109.855 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c64abe65-f3fc-4fc4-bad4-d765829d6724")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.845 109.855 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
-	(global_label "SRAM_A08"
-		(shape input)
-		(at 165.2 193.72 0)
+		(at 163.576 193.7385 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14123,7 +14063,7 @@
 		)
 		(uuid "c7d439ee-e854-4457-9be1-55d7e53fc916")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.2 193.72 0)
+			(at 163.576 193.7385 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14192,6 +14132,28 @@
 		(uuid "ca1922c1-0dcd-46f2-85d2-351fda501f56")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 240.157 59.055 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "SDRAM_CAS#"
+		(shape input)
+		(at 156.845 109.855 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cb5bd1fc-a444-4adf-b9f0-623dadd3d784")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 156.845 109.855 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14382,7 +14344,7 @@
 			)
 		)
 	)
-	(global_label "SRAM_D08"
+	(global_label "SDRAM_DQ08"
 		(shape input)
 		(at 161.925 153.035 0)
 		(effects
@@ -14394,28 +14356,6 @@
 		(uuid "daa0bfc3-102e-45ea-bfdd-dd28d2d95edd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 161.925 153.035 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
-	(global_label "SRAM_A17"
-		(shape input)
-		(at 156.845 112.395 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "dcde7e01-89a0-42dd-b588-cc934c8d1a92")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.845 112.395 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14562,7 +14502,7 @@
 			)
 		)
 	)
-	(global_label "SRAM_D10"
+	(global_label "SDRAM_DQ10"
 		(shape input)
 		(at 161.925 158.115 0)
 		(effects
@@ -14606,9 +14546,9 @@
 			)
 		)
 	)
-	(global_label "SRAM_A00"
+	(global_label "SDRAM_A00"
 		(shape input)
-		(at 165.2 173.4 0)
+		(at 163.576 173.4185 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14617,7 +14557,7 @@
 		)
 		(uuid "efba52a4-a0ef-4e17-b086-e8c318bbcf1f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.2 173.4 0)
+			(at 163.576 173.4185 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14652,9 +14592,9 @@
 			)
 		)
 	)
-	(global_label "SRAM_A11"
+	(global_label "SDRAM_A11"
 		(shape input)
-		(at 165.2 201.34 0)
+		(at 163.576 201.3585 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14663,7 +14603,7 @@
 		)
 		(uuid "f23f8227-b299-428a-86d5-c1758f0ea9d9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.2 201.34 0)
+			(at 163.576 201.3585 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14718,18 +14658,18 @@
 			)
 		)
 	)
-	(global_label "SRAM_#OE"
+	(global_label "SDRAM_DQMH"
 		(shape input)
-		(at 156.845 99.695 0)
+		(at 156.845 104.775 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "f6f6d79e-bb3d-4599-899a-9cd90d8df8c2")
+		(uuid "f6dff479-918d-4b63-b275-7efc9d365cc6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.845 99.695 0)
+			(at 156.845 104.775 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14762,9 +14702,9 @@
 			)
 		)
 	)
-	(global_label "SRAM_A04"
+	(global_label "SDRAM_A04"
 		(shape input)
-		(at 165.2 183.56 0)
+		(at 163.576 183.5785 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14773,7 +14713,7 @@
 		)
 		(uuid "f9454658-ef89-4080-9d96-03024bc92333")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.2 183.56 0)
+			(at 163.576 183.5785 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14896,7 +14836,7 @@
 			)
 		)
 	)
-	(global_label "SRAM_D09"
+	(global_label "SDRAM_DQ09"
 		(shape input)
 		(at 161.925 155.575 0)
 		(effects

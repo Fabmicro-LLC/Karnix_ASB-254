@@ -21503,7 +21503,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 47.244 43.18 0)
+			(at 44.7675 43.815 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21548,7 +21548,7 @@
 			)
 		)
 		(property "Sheetfile" "FPGA.kicad_sch"
-			(at 74.676 43.053 0)
+			(at 73.4695 43.561 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21593,7 +21593,7 @@
 			)
 		)
 		(property "Sheetfile" "Ethernet.kicad_sch"
-			(at 104.013 43.434 0)
+			(at 101.346 44.069 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21638,7 +21638,7 @@
 			)
 		)
 		(property "Sheetfile" "HDMI.kicad_sch"
-			(at 77.055 54.931 0)
+			(at 73.8505 55.3085 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21683,7 +21683,7 @@
 			)
 		)
 		(property "Sheetfile" "EEPROM.kicad_sch"
-			(at 45.085 65.405 0)
+			(at 42.799 65.7225 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21695,62 +21695,6 @@
 		)
 		(property "Field2" ""
 			(at 43.18 62.865 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "Karnix_ASB"
-				(path "/fe37e245-9527-4c72-91fc-09b617a42f73"
-					(page "10")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 129.032 52.197)
-		(size 22.733 4.953)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "771a2f8e-8b1f-4827-b0b6-ff5ddf1233b7")
-		(property "Sheetname" "SRAM"
-			(at 137.541 54.229 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "SRAM.kicad_sch"
-			(at 132.08 54.991 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Field2" ""
-			(at 129.032 52.197 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21795,7 +21739,7 @@
 			)
 		)
 		(property "Sheetfile" "RS485.kicad_sch"
-			(at 47.972 54.931 0)
+			(at 44.069 55.6895 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21851,7 +21795,7 @@
 			)
 		)
 		(property "Sheetfile" "FTDI_Prog.kicad_sch"
-			(at 131.318 43.053 0)
+			(at 128.143 43.8785 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21907,7 +21851,7 @@
 			)
 		)
 		(property "Sheetfile" "DACnADC.kicad_sch"
-			(at 103.392 55.124 0)
+			(at 100.838 55.4355 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21932,6 +21876,51 @@
 			(project "Karnix_ASB"
 				(path "/fe37e245-9527-4c72-91fc-09b617a42f73"
 					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 71.501 62.5475)
+		(size 24.9555 4.7625)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f518ff51-5015-42ef-aac4-bf4c2da2b077")
+		(property "Sheetname" "SDRAM"
+			(at 80.772 64.4525 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SDRAM.kicad_sch"
+			(at 72.1995 65.532 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Karnix_ASB"
+				(path "/fe37e245-9527-4c72-91fc-09b617a42f73"
+					(page "10")
 				)
 			)
 		)
