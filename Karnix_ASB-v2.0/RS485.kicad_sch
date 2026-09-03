@@ -1460,7 +1460,7 @@
 		(at 218.186 126.111)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6c7a6059-9363-46ed-8f3c-03471ddb1673")
+		(uuid "6863b183-ff44-498a-afb0-9a3a4e9bd37e")
 	)
 	(junction
 		(at 213.106 123.571)
@@ -1554,7 +1554,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.026 108.331) (xy 208.026 105.791)
+			(xy 208.026 108.331) (xy 208.026 105.8143)
 		)
 		(stroke
 			(width 0)
@@ -1664,7 +1664,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.186 118.8487) (xy 218.186 126.111)
+			(xy 218.186 105.8143) (xy 218.186 126.111)
 		)
 		(stroke
 			(width 0)
@@ -1784,7 +1784,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.026 105.791) (xy 218.186 105.791)
+			(xy 208.026 105.8143) (xy 218.186 105.8143)
 		)
 		(stroke
 			(width 0)
@@ -1861,16 +1861,6 @@
 			(type default)
 		)
 		(uuid "f00edb77-0ba7-4999-b3ac-a8359dcbd3e7")
-	)
-	(wire
-		(pts
-			(xy 218.186 105.791) (xy 218.186 108.6887)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1ca5aad-4046-45af-9428-d6cb86923d2b")
 	)
 	(wire
 		(pts
@@ -2315,7 +2305,7 @@
 		(dnp no)
 		(uuid "1927e8df-4872-4f57-833a-8bd7a7178a45")
 		(property "Reference" "R106"
-			(at 223.139 113.03 90)
+			(at 214.376 113.157 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2326,7 +2316,7 @@
 			)
 		)
 		(property "Value" "120R/1%"
-			(at 214.376 114.681 90)
+			(at 218.2495 115.1255 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3442,119 +3432,6 @@
 			(project "Karnix_ASB"
 				(path "/fe37e245-9527-4c72-91fc-09b617a42f73/837bd409-d02c-43f6-9938-fa1825fbf100"
 					(reference "R104")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Fabmicro:Resistor")
-		(at 218.186 113.7687 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d2c79762-8868-497c-8af8-2c74fdc4255d")
-		(property "Reference" "R107"
-			(at 211.836 112.4987 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DNM"
-			(at 220.472 115.443 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 216.408 113.7687 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 218.186 113.7687 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 218.186 113.7687 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mfr. Part Number" "DNM"
-			(at 218.186 113.7687 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "Fabmicro"
-			(at 218.186 113.7687 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field6" ""
-			(at 218.186 113.7687 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2df5648d-e0b1-4354-b6a1-8ff4f9a38c89")
-		)
-		(pin "2"
-			(uuid "2d00e4ad-448c-48b5-9b06-a7e155e7b1b6")
-		)
-		(instances
-			(project "Karnix_ASB"
-				(path "/fe37e245-9527-4c72-91fc-09b617a42f73/837bd409-d02c-43f6-9938-fa1825fbf100"
-					(reference "R107")
 					(unit 1)
 				)
 			)

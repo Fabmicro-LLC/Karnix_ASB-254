@@ -64,6 +64,14 @@
         [
           "courtyards_overlap|166935000|46142136|4045c8d1-2e4f-4975-8332-abf5e3c3b71e|d5b306b7-6479-48a3-9415-e0df6d0a6924",
           ""
+        ],
+        [
+          "courtyards_overlap|182930000|62317072|036992b2-9072-47d0-8ba4-34ef3ee82b5a|b5af38b7-30f4-4d2a-99ff-697938d67515",
+          ""
+        ],
+        [
+          "courtyards_overlap|188332072|78205000|b327032f-4b3d-4ea0-bda1-a80d13b9a1b4|b5af38b7-30f4-4d2a-99ff-697938d67515",
+          ""
         ]
       ],
       "meta": {
@@ -1845,7 +1853,7 @@
         "uuid": "fe37e245-9527-4c72-91fc-09b617a42f73"
       }
     ],
-    "used_designators": "",
+    "used_designators": "SW1,XS7,R124,R130,R132,R134,R191-194,L12,F3,D15,D19,D24-25,C75,C77,C79,C81,C93,C105,#PWR181,#PWR185,#PWR194,#PWR196-198,#PWR200-202,#PWR204,#PWR223-225",
     "variants": []
   },
   "sheets": [

@@ -11327,7 +11327,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.105 92.075) (xy 93.345 92.075)
+			(xy 78.105 92.075) (xy 93.98 92.075)
 		)
 		(stroke
 			(width 0)
@@ -12124,7 +12124,7 @@
 			)
 		)
 	)
-	(global_label "LED1"
+	(global_label "LED2"
 		(shape input)
 		(at 84.455 186.055 0)
 		(effects
@@ -12478,7 +12478,7 @@
 			)
 		)
 	)
-	(global_label "LED3"
+	(global_label "LED0"
 		(shape input)
 		(at 84.455 188.595 0)
 		(effects
@@ -13302,7 +13302,7 @@
 			)
 		)
 	)
-	(global_label "LED2"
+	(global_label "LED1"
 		(shape input)
 		(at 84.455 191.135 0)
 		(effects
@@ -13350,7 +13350,7 @@
 	)
 	(global_label "RS485_DI"
 		(shape input)
-		(at 93.345 92.075 0)
+		(at 93.98 92.075 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13359,7 +13359,7 @@
 		)
 		(uuid "8d9a9e06-d1a4-4daa-a104-8793a0f53b6d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.345 92.075 0)
+			(at 93.98 92.075 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14584,7 +14584,7 @@
 			)
 		)
 	)
-	(global_label "LED0"
+	(global_label "LED3"
 		(shape input)
 		(at 84.455 183.515 0)
 		(effects
