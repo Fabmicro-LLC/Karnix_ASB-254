@@ -2271,7 +2271,7 @@
 			)
 		)
 	)
-	(global_label "SQRAM_DQ04"
+	(global_label "SDRAM_DQ04"
 		(shape input)
 		(at 161.544 71.1835 0)
 		(effects

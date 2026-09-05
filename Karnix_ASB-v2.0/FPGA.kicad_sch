@@ -8297,6 +8297,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 107.315) (xy 235.585 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58ca02f1-f31c-4c06-80b4-039fad6ea0cb")
+	)
+	(wire
+		(pts
 			(xy 156.576 196.2785) (xy 156.576 196.215)
 		)
 		(stroke
@@ -11457,7 +11467,7 @@
 	)
 	(global_label "SDRAM_WE#"
 		(shape input)
-		(at 156.845 102.235 0)
+		(at 156.845 107.315 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11466,7 +11476,7 @@
 		)
 		(uuid "059f6441-37a7-43b4-a805-a32d67c3d3ae")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.845 102.235 0)
+			(at 156.845 107.315 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11617,7 +11627,7 @@
 	)
 	(global_label "SDRAM_CKE"
 		(shape input)
-		(at 156.845 99.695 0)
+		(at 237.49 107.315 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11626,7 +11636,7 @@
 		)
 		(uuid "156e0628-c51a-4bf8-a6ef-e5ed1c40b58b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.845 99.695 0)
+			(at 237.49 107.315 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11773,7 +11783,7 @@
 	)
 	(global_label "GPIO_15"
 		(shape input)
-		(at 240.157 71.755 0)
+		(at 240.157 102.235 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11782,7 +11792,7 @@
 		)
 		(uuid "1de32a49-8377-41b3-9e4f-31219fe5b921")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 240.157 71.755 0)
+			(at 240.157 102.235 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11795,7 +11805,7 @@
 	)
 	(global_label "SDRAM_DQ15"
 		(shape input)
-		(at 161.925 170.815 0)
+		(at 161.925 168.275 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11804,7 +11814,7 @@
 		)
 		(uuid "1ff6baa5-34fa-4638-bb3d-0355abae7d6d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.925 170.815 0)
+			(at 161.925 168.275 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12064,7 +12074,7 @@
 	)
 	(global_label "SDRAM_DQML"
 		(shape input)
-		(at 156.845 107.315 0)
+		(at 156.845 112.395 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12073,7 +12083,7 @@
 		)
 		(uuid "2d1e3e82-97d2-47fe-9c71-6bc8f5c3e560")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.845 107.315 0)
+			(at 156.845 112.395 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12154,7 +12164,7 @@
 	)
 	(global_label "SDRAM_A10"
 		(shape input)
-		(at 163.576 198.8185 0)
+		(at 163.576 201.3585 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12163,7 +12173,7 @@
 		)
 		(uuid "31188fac-7f90-4a8b-834d-326edcccbf6d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.576 198.8185 0)
+			(at 163.576 201.3585 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12308,7 +12318,7 @@
 	)
 	(global_label "SDRAM_A02"
 		(shape input)
-		(at 163.576 178.4985 0)
+		(at 163.576 186.1185 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12317,7 +12327,7 @@
 		)
 		(uuid "3c60ebf5-0ebc-4067-85cf-b89155625af8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.576 178.4985 0)
+			(at 163.576 186.1185 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12442,7 +12452,7 @@
 	)
 	(global_label "SDRAM_DQ12"
 		(shape input)
-		(at 161.925 163.195 0)
+		(at 161.925 170.815 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12451,7 +12461,7 @@
 		)
 		(uuid "4ba6fa4a-2ee6-446d-a202-82b154b48eb4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.925 163.195 0)
+			(at 161.925 170.815 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12644,7 +12654,7 @@
 	)
 	(global_label "SDRAM_A05"
 		(shape input)
-		(at 163.576 186.1185 0)
+		(at 163.576 178.4985 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12653,7 +12663,7 @@
 		)
 		(uuid "5d8b3c21-978c-4efa-9d3a-4105a68c88ca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.576 186.1185 0)
+			(at 163.576 178.4985 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12800,7 +12810,7 @@
 	)
 	(global_label "SDRAM_A06"
 		(shape input)
-		(at 163.576 188.6585 0)
+		(at 163.576 183.5785 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12809,7 +12819,7 @@
 		)
 		(uuid "64203498-1f11-45bf-89c0-697adc8b4263")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.576 188.6585 0)
+			(at 163.576 183.5785 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12890,7 +12900,7 @@
 	)
 	(global_label "SDRAM_DQ05"
 		(shape input)
-		(at 161.925 145.415 0)
+		(at 161.925 153.035 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12899,7 +12909,7 @@
 		)
 		(uuid "6851a05c-ca6e-4305-9078-8d2b6e40e5e1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.925 145.415 0)
+			(at 161.925 153.035 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13244,7 +13254,7 @@
 	)
 	(global_label "SDRAM_DQ07"
 		(shape input)
-		(at 161.925 150.495 0)
+		(at 161.925 160.655 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13253,7 +13263,7 @@
 		)
 		(uuid "8684c2ca-218f-4cef-925c-489b613486a0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.925 150.495 0)
+			(at 161.925 160.655 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13446,7 +13456,7 @@
 	)
 	(global_label "SDRAM_DQ11"
 		(shape input)
-		(at 161.925 160.655 0)
+		(at 161.925 155.575 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13455,7 +13465,7 @@
 		)
 		(uuid "9443517e-1ed4-41cc-93b1-271195084b47")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.925 160.655 0)
+			(at 161.925 155.575 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13490,7 +13500,7 @@
 	)
 	(global_label "SDRAM_CLK"
 		(shape input)
-		(at 163.83 211.455 0)
+		(at 156.845 104.775 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13499,7 +13509,7 @@
 		)
 		(uuid "9acb0a69-25ec-439a-bd26-1dc3f411e979")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.83 211.455 0)
+			(at 156.845 104.775 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13512,7 +13522,7 @@
 	)
 	(global_label "GPIO_27"
 		(shape input)
-		(at 240.157 102.235 0)
+		(at 240.157 71.755 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13521,7 +13531,7 @@
 		)
 		(uuid "9d0630f3-1393-414b-840d-ff438bcd1926")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 240.157 102.235 0)
+			(at 240.157 71.755 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13736,7 +13746,7 @@
 	)
 	(global_label "KEY3"
 		(shape input)
-		(at 84.455 180.975 0)
+		(at 84.328 173.355 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13745,7 +13755,7 @@
 		)
 		(uuid "af934476-bdb1-4d86-980e-645496095cdc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 84.455 180.975 0)
+			(at 84.328 173.355 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13966,7 +13976,7 @@
 	)
 	(global_label "SDRAM_DQ14"
 		(shape input)
-		(at 161.925 168.275 0)
+		(at 161.925 163.195 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13975,7 +13985,7 @@
 		)
 		(uuid "c03e1e00-378d-47c6-b8dc-df4be7695ba6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.925 168.275 0)
+			(at 161.925 163.195 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13988,7 +13998,7 @@
 	)
 	(global_label "KEY0"
 		(shape input)
-		(at 84.328 173.355 0)
+		(at 84.455 180.975 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13997,7 +14007,7 @@
 		)
 		(uuid "c10498f2-6ced-4822-9981-364c5ab06e57")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 84.328 173.355 0)
+			(at 84.455 180.975 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14010,7 +14020,7 @@
 	)
 	(global_label "SDRAM_RAS#"
 		(shape input)
-		(at 156.845 112.395 0)
+		(at 156.845 102.235 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14019,7 +14029,7 @@
 		)
 		(uuid "c13066c2-045f-46a5-862c-2de8f302df96")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.845 112.395 0)
+			(at 156.845 102.235 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14100,7 +14110,7 @@
 	)
 	(global_label "KEY2"
 		(shape input)
-		(at 84.328 178.435 0)
+		(at 84.328 175.895 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14109,7 +14119,7 @@
 		)
 		(uuid "c946759d-6a4e-46cc-b5c5-1dd89c920bec")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 84.328 178.435 0)
+			(at 84.328 175.895 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14346,7 +14356,7 @@
 	)
 	(global_label "SDRAM_DQ08"
 		(shape input)
-		(at 161.925 153.035 0)
+		(at 161.925 145.415 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14355,7 +14365,7 @@
 		)
 		(uuid "daa0bfc3-102e-45ea-bfdd-dd28d2d95edd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.925 153.035 0)
+			(at 161.925 145.415 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14548,7 +14558,7 @@
 	)
 	(global_label "SDRAM_A00"
 		(shape input)
-		(at 163.576 173.4185 0)
+		(at 163.576 198.8185 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14557,7 +14567,7 @@
 		)
 		(uuid "efba52a4-a0ef-4e17-b086-e8c318bbcf1f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.576 173.4185 0)
+			(at 163.576 198.8185 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14594,7 +14604,7 @@
 	)
 	(global_label "SDRAM_A11"
 		(shape input)
-		(at 163.576 201.3585 0)
+		(at 163.576 173.4185 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14603,7 +14613,7 @@
 		)
 		(uuid "f23f8227-b299-428a-86d5-c1758f0ea9d9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.576 201.3585 0)
+			(at 163.576 173.4185 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14616,7 +14626,7 @@
 	)
 	(global_label "KEY1"
 		(shape input)
-		(at 84.328 175.895 0)
+		(at 84.328 178.435 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14625,7 +14635,7 @@
 		)
 		(uuid "f31b6f28-4567-4d23-8508-75739140df84")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 84.328 175.895 0)
+			(at 84.328 178.435 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14660,7 +14670,7 @@
 	)
 	(global_label "SDRAM_DQMH"
 		(shape input)
-		(at 156.845 104.775 0)
+		(at 163.83 211.455 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14669,7 +14679,7 @@
 		)
 		(uuid "f6dff479-918d-4b63-b275-7efc9d365cc6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.845 104.775 0)
+			(at 163.83 211.455 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14704,7 +14714,7 @@
 	)
 	(global_label "SDRAM_A04"
 		(shape input)
-		(at 163.576 183.5785 0)
+		(at 163.576 188.6585 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14713,7 +14723,7 @@
 		)
 		(uuid "f9454658-ef89-4080-9d96-03024bc92333")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.576 183.5785 0)
+			(at 163.576 188.6585 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14838,7 +14848,7 @@
 	)
 	(global_label "SDRAM_DQ09"
 		(shape input)
-		(at 161.925 155.575 0)
+		(at 161.925 150.495 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14847,7 +14857,7 @@
 		)
 		(uuid "fd634c05-1455-4929-919b-2044ddb31eb2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.925 155.575 0)
+			(at 161.925 150.495 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
