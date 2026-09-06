@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "ПИР СЦХ \"Карно\"\\n(Karnix ASB)\\nV2.0")
-		(date "2026-09-01")
+		(date "2026-07-22")
 		(rev "V2.0")
 		(company "ООО \"Фабмикро\"")
 		(comment 1 "ФМТД.466961.029 Э3")
@@ -3031,7 +3031,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF/50V"
+		(property "Value" "4.7uF/6.3V"
 			(at 213.5505 56.3245 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3074,7 +3074,7 @@
 				)
 			)
 		)
-		(property "Mfr. Part Number" "CC0402KRX7R9BB104"
+		(property "Mfr. Part Number" "CC0402KRX5R5BB475"
 			(at 202.9057 54.4803 0)
 			(hide yes)
 			(show_name no)
@@ -3601,7 +3601,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF/50V"
+		(property "Value" "4.7uF/6.3V"
 			(at 195.2625 57.0865 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3644,7 +3644,7 @@
 				)
 			)
 		)
-		(property "Mfr. Part Number" "CC0402KRX7R9BB104"
+		(property "Mfr. Part Number" "CC0402KRX5R5BB475"
 			(at 196.5325 54.5465 0)
 			(hide yes)
 			(show_name no)

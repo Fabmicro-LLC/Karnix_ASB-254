@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "ПИР СЦХ \"Карно\"\\n(Karnix ASB)\\nV2.0")
-		(date "2026-09-01")
+		(date "2026-07-22")
 		(rev "V2.0")
 		(company "ООО \"Фабмикро\"")
 		(comment 1 "ФМТД.466961.029 Э3")
@@ -24465,7 +24465,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF/50V"
+		(property "Value" "4.7uF/6.3V"
 			(at 292.735 160.655 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24508,7 +24508,7 @@
 				)
 			)
 		)
-		(property "Mfr. Part Number" "CC0402KRX7R9BB104"
+		(property "Mfr. Part Number" "CC0402KRX5R5BB475"
 			(at 291.465 158.115 0)
 			(hide yes)
 			(show_name no)
@@ -25078,7 +25078,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF/50V"
+		(property "Value" "4.7uF/6.3V"
 			(at 323.215 160.655 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25121,7 +25121,7 @@
 				)
 			)
 		)
-		(property "Mfr. Part Number" "CC0402KRX7R9BB104"
+		(property "Mfr. Part Number" "CC0402KRX5R5BB475"
 			(at 321.945 158.115 0)
 			(hide yes)
 			(show_name no)
@@ -25436,7 +25436,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF/50V"
+		(property "Value" "4.7uF/6.3V"
 			(at 384.175 48.895 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25479,7 +25479,7 @@
 				)
 			)
 		)
-		(property "Mfr. Part Number" "CC0402KRX7R9BB104"
+		(property "Mfr. Part Number" "CC0402KRX5R5BB475"
 			(at 382.905 46.355 0)
 			(hide yes)
 			(show_name no)
@@ -25615,7 +25615,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF/50V"
+		(property "Value" "4.7uF/6.3V"
 			(at 384.175 150.495 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25658,7 +25658,7 @@
 				)
 			)
 		)
-		(property "Mfr. Part Number" "CC0402KRX7R9BB104"
+		(property "Mfr. Part Number" "CC0402KRX5R5BB475"
 			(at 382.905 147.955 0)
 			(hide yes)
 			(show_name no)
@@ -25794,7 +25794,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF/50V"
+		(property "Value" "4.7uF/6.3V"
 			(at 394.335 150.495 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25837,7 +25837,7 @@
 				)
 			)
 		)
-		(property "Mfr. Part Number" "CC0402KRX7R9BB104"
+		(property "Mfr. Part Number" "CC0402KRX5R5BB475"
 			(at 393.065 147.955 0)
 			(hide yes)
 			(show_name no)
@@ -27527,7 +27527,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF/50V"
+		(property "Value" "4.7uF/6.3V"
 			(at 107.315 43.815 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27570,7 +27570,7 @@
 				)
 			)
 		)
-		(property "Mfr. Part Number" "CC0402KRX7R9BB104"
+		(property "Mfr. Part Number" "CC0402KRX5R5BB475"
 			(at 106.045 41.275 0)
 			(hide yes)
 			(show_name no)
@@ -27706,7 +27706,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF/50V"
+		(property "Value" "4.7uF/6.3V"
 			(at 117.475 43.815 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27749,7 +27749,7 @@
 				)
 			)
 		)
-		(property "Mfr. Part Number" "CC0402KRX7R9BB104"
+		(property "Mfr. Part Number" "CC0402KRX5R5BB475"
 			(at 116.205 41.275 0)
 			(hide yes)
 			(show_name no)
@@ -27885,7 +27885,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF/50V"
+		(property "Value" "4.7uF/6.3V"
 			(at 107.315 142.875 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27928,7 +27928,7 @@
 				)
 			)
 		)
-		(property "Mfr. Part Number" "CC0402KRX7R9BB104"
+		(property "Mfr. Part Number" "CC0402KRX5R5BB475"
 			(at 106.045 140.335 0)
 			(hide yes)
 			(show_name no)
@@ -28064,7 +28064,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF/50V"
+		(property "Value" "4.7uF/6.3V"
 			(at 117.475 142.875 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28107,7 +28107,7 @@
 				)
 			)
 		)
-		(property "Mfr. Part Number" "CC0402KRX7R9BB104"
+		(property "Mfr. Part Number" "CC0402KRX5R5BB475"
 			(at 116.205 140.335 0)
 			(hide yes)
 			(show_name no)
@@ -28243,7 +28243,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF/50V"
+		(property "Value" "4.7uF/6.3V"
 			(at 186.055 43.815 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28286,7 +28286,7 @@
 				)
 			)
 		)
-		(property "Mfr. Part Number" "CC0402KRX7R9BB104"
+		(property "Mfr. Part Number" "CC0402KRX5R5BB475"
 			(at 184.785 41.275 0)
 			(hide yes)
 			(show_name no)
@@ -28422,7 +28422,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF/50V"
+		(property "Value" "4.7uF/6.3V"
 			(at 196.215 43.815 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28465,7 +28465,7 @@
 				)
 			)
 		)
-		(property "Mfr. Part Number" "CC0402KRX7R9BB104"
+		(property "Mfr. Part Number" "CC0402KRX5R5BB475"
 			(at 194.945 41.275 0)
 			(hide yes)
 			(show_name no)
@@ -28678,7 +28678,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF/50V"
+		(property "Value" "4.7uF/6.3V"
 			(at 186.055 142.875 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28721,7 +28721,7 @@
 				)
 			)
 		)
-		(property "Mfr. Part Number" "CC0402KRX7R9BB104"
+		(property "Mfr. Part Number" "CC0402KRX5R5BB475"
 			(at 184.785 140.335 0)
 			(hide yes)
 			(show_name no)
@@ -28857,7 +28857,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF/50V"
+		(property "Value" "4.7uF/6.3V"
 			(at 196.215 142.875 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28900,7 +28900,7 @@
 				)
 			)
 		)
-		(property "Mfr. Part Number" "CC0402KRX7R9BB104"
+		(property "Mfr. Part Number" "CC0402KRX5R5BB475"
 			(at 194.945 140.335 0)
 			(hide yes)
 			(show_name no)
@@ -29036,7 +29036,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF/50V"
+		(property "Value" "4.7uF/6.3V"
 			(at 28.575 43.815 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29079,7 +29079,7 @@
 				)
 			)
 		)
-		(property "Mfr. Part Number" "CC0402KRX7R9BB104"
+		(property "Mfr. Part Number" "CC0402KRX5R5BB475"
 			(at 27.305 41.275 0)
 			(hide yes)
 			(show_name no)
@@ -29215,7 +29215,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF/50V"
+		(property "Value" "4.7uF/6.3V"
 			(at 38.735 43.815 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29258,7 +29258,7 @@
 				)
 			)
 		)
-		(property "Mfr. Part Number" "CC0402KRX7R9BB104"
+		(property "Mfr. Part Number" "CC0402KRX5R5BB475"
 			(at 37.465 41.275 0)
 			(hide yes)
 			(show_name no)
@@ -29394,7 +29394,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF/50V"
+		(property "Value" "4.7uF/6.3V"
 			(at 28.575 122.555 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29437,7 +29437,7 @@
 				)
 			)
 		)
-		(property "Mfr. Part Number" "CC0402KRX7R9BB104"
+		(property "Mfr. Part Number" "CC0402KRX5R5BB475"
 			(at 27.305 120.015 0)
 			(hide yes)
 			(show_name no)
@@ -29573,7 +29573,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF/50V"
+		(property "Value" "4.7uF/6.3V"
 			(at 38.735 122.555 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29616,7 +29616,7 @@
 				)
 			)
 		)
-		(property "Mfr. Part Number" "CC0402KRX7R9BB104"
+		(property "Mfr. Part Number" "CC0402KRX5R5BB475"
 			(at 37.465 120.015 0)
 			(hide yes)
 			(show_name no)
