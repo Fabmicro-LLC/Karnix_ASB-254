@@ -1712,12 +1712,12 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gerber/",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "kicad-embed://gost_landscape.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
